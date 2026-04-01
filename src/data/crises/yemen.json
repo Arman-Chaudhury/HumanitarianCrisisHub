@@ -1,0 +1,63 @@
+{
+  "slug": "yemen",
+  "name": "Yemen",
+  "region": "Nationwide — Sana'a, Aden, Taiz, Hodeidah",
+  "status": "active",
+  "color": "#E76F51",
+  "accent": "#F4A261",
+  "coordinates": { "lat": 15.37, "lng": 44.19 },
+  "summary": "Yemen remains one of the world's worst humanitarian disasters after nearly a decade of civil war. Over 21 million people need humanitarian assistance, with millions facing famine and a collapsed healthcare system battling cholera and other preventable diseases.",
+  "context": "Yemen's civil war began in 2014 when Houthi forces seized the capital Sana'a, leading to a Saudi-led military coalition intervention in 2015. The conflict has since devastated the country's infrastructure, economy, and civilian population.\n\nThe Saudi-led coalition's aerial bombing campaign has been widely condemned for striking hospitals, schools, markets, and wedding parties. At the same time, Houthi forces have been accused of indiscriminate shelling, child recruitment, and obstructing humanitarian aid delivery.\n\nYemen was already the poorest country in the Middle East before the war. The conflict has pushed it into catastrophe. The healthcare system has largely collapsed, with fewer than half of health facilities fully functional. Cholera outbreaks have infected over 2.5 million people since 2016 — one of the largest epidemics in modern history.\n\nThe port of Hodeidah, through which the majority of Yemen's food and fuel imports pass, has been a flashpoint of the conflict. Blockades and restrictions on imports have directly contributed to famine conditions affecting millions.\n\nChildren bear a disproportionate burden of the crisis. UNICEF has called Yemen the worst place on earth to be a child. Malnutrition rates among children under five are among the highest in the world, and an estimated 11 million children need humanitarian assistance.\n\nDespite a fragile truce that began in 2022, the underlying conflict remains unresolved. Peace talks have stalled, and the humanitarian situation continues to deteriorate as international attention and funding decline.",
+  "stats": [
+    { "label": "Need Aid", "value": "21M+", "source": "OCHA Yemen Response Plan, 2025" },
+    { "label": "Food Insecure", "value": "17M", "source": "WFP Yemen Situation Report" },
+    { "label": "Children Malnourished", "value": "2.2M", "source": "UNICEF Yemen" },
+    { "label": "Cholera Cases", "value": "2.5M+", "source": "WHO Yemen Health Update" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNICEF — Yemen",
+        "url": "https://www.unicef.org/yemen/",
+        "description": "Treating malnourished children, providing clean water, and running vaccination campaigns across Yemen."
+      },
+      {
+        "name": "World Food Programme — Yemen",
+        "url": "https://www.wfp.org/emergencies/yemen-emergency",
+        "description": "Delivering emergency food assistance to over 13 million people monthly in Yemen."
+      },
+      {
+        "name": "Doctors Without Borders (MSF)",
+        "url": "https://www.msf.org/yemen",
+        "description": "Operating hospitals, treating war-wounded patients, and responding to cholera outbreaks across Yemen."
+      },
+      {
+        "name": "Yemen Relief and Reconstruction Foundation",
+        "url": "https://www.yemenfoundation.org",
+        "description": "Yemeni-American organization providing food packages, medical supplies, and education support to communities across Yemen."
+      }
+    ],
+    "awareness": [
+      "Share the reality that Yemen has been called the world's worst humanitarian crisis by the UN for multiple years running",
+      "Highlight the connection between arms sales to Saudi Arabia and the coalition's bombing campaign in Yemen",
+      "Follow and amplify Yemeni journalists, photographers, and aid workers sharing first-hand accounts of the crisis",
+      "Organize educational events about Yemen's humanitarian situation — it remains one of the most under-covered crises globally",
+      "Share resources about the cholera epidemic and child malnutrition crisis to put a human face on the statistics"
+    ],
+    "political": [
+      "Demand that your representatives support ending U.S. logistical and intelligence support for the Saudi-led coalition",
+      "Advocate for a permanent ceasefire and a resumption of inclusive peace negotiations under UN auspices",
+      "Push for an end to the blockade on Yemeni ports that restricts food, fuel, and medical supply imports",
+      "Support legislation requiring congressional approval for future arms sales to parties involved in the Yemen conflict",
+      "Urge increased funding for the UN humanitarian appeal for Yemen, which has been dramatically underfunded"
+    ]
+  },
+  "sources": [
+    { "title": "OCHA Yemen Response", "url": "https://www.unocha.org/yemen", "org": "OCHA" },
+    { "title": "WFP Yemen Emergency", "url": "https://www.wfp.org/emergencies/yemen-emergency", "org": "WFP" },
+    { "title": "UNICEF Yemen", "url": "https://www.unicef.org/yemen/", "org": "UNICEF" },
+    { "title": "WHO Yemen Update", "url": "https://www.who.int/emergencies/situations/yemen-crisis", "org": "WHO" },
+    { "title": "HRW — Yemen", "url": "https://www.hrw.org/middle-east/north-africa/yemen", "org": "Human Rights Watch" }
+  ],
+  "lastUpdated": "2026-03-18"
+}

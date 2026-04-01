@@ -1,0 +1,171 @@
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import type { Metadata } from "next";
+import { getCrisisBySlug, getAllCrisisSlugs, getAllCrises } from "@/lib/crises";
+import StatsBar from "@/components/StatsBar";
+import ActionTabs from "@/components/ActionTabs";
+
+interface CrisisPageProps {
+  params: { slug: string };
+}
+
+/* ── Static params for build-time generation ── */
+export async function generateStaticParams() {
+  const slugs = getAllCrisisSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+/* ── Dynamic metadata per crisis ── */
+export async function generateMetadata({
+  params,
+}: CrisisPageProps): Promise<Metadata> {
+  const crisis = getCrisisBySlug(params.slug);
+  if (!crisis) return { title: "Crisis Not Found" };
+
+  return {
+    title: `${crisis.name} — How to Help`,
+    description: crisis.summary,
+    openGraph: {
+      title: `${crisis.name} Crisis — How to Help | Crisis Hub`,
+      description: crisis.summary,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${crisis.name} Crisis — How to Help | Crisis Hub`,
+      description: crisis.summary,
+    },
+  };
+}
+
+/* ── Status labels ── */
+const STATUS_LABELS: Record<string, string> = {
+  active: "Active Crisis",
+  escalating: "Escalating",
+  underreported: "Underreported",
+};
+
+export default function CrisisPage({ params }: CrisisPageProps) {
+  const crisis = getCrisisBySlug(params.slug);
+  if (!crisis) notFound();
+
+  const allCrises = getAllCrises();
+
+  return (
+    <>
+      {/* Crisis quick-nav pills */}
+      <div className="flex gap-2.5 flex-wrap mb-11 animate-fade-up-1">
+        {allCrises.map((c) => (
+          <Link
+            key={c.slug}
+            href={`/crises/${c.slug}`}
+            className={`px-[18px] py-2 rounded font-sans text-[13px] font-medium tracking-tight border transition-all duration-300 ${
+              c.slug === crisis.slug
+                ? "text-text-bright border-crisis-red bg-crisis-red-dim shadow-[0_0_16px_rgba(230,57,70,0.09)]"
+                : "text-text-dim border-border hover:text-text-muted hover:border-border-hard"
+            }`}
+          >
+            {c.name}
+          </Link>
+        ))}
+      </div>
+
+      {/* Crisis header */}
+      <header className="mb-11 animate-fade-up-2">
+        <div className="inline-flex items-center gap-2 mb-3.5">
+          <span
+            className="w-2 h-2 rounded-sm animate-pulse"
+            style={{
+              backgroundColor: crisis.color,
+              boxShadow: `0 0 10px ${crisis.color}40`,
+            }}
+          />
+          <span
+            className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase"
+            style={{ color: crisis.color }}
+          >
+            {STATUS_LABELS[crisis.status] || crisis.status}
+          </span>
+        </div>
+
+        <h1 className="font-display text-[clamp(56px,10vw,110px)] text-text-bright tracking-[0.05em] leading-[0.92] mb-2">
+          {crisis.name.toUpperCase()}
+        </h1>
+
+        <p className="font-serif italic text-base text-text-muted tracking-wide mb-6">
+          {crisis.region}
+        </p>
+
+        <p className="font-sans text-[17px] font-light leading-[1.75] text-text-body max-w-[600px] pl-5 border-l-[3px] border-crisis-red">
+          {crisis.summary}
+        </p>
+      </header>
+
+      {/* Stats */}
+      <StatsBar stats={crisis.stats} />
+
+      {/* Action Tabs */}
+      <ActionTabs actions={crisis.actions} />
+
+      {/* Background Context */}
+      <section className="mt-12 pt-9 border-t-2 border-text-bright animate-fade-up-5">
+        <h2 className="font-display text-4xl text-text-muted tracking-[0.08em] mb-5">
+          BACKGROUND
+        </h2>
+        {crisis.context.split("\n\n").map((paragraph, i) => (
+          <p
+            key={i}
+            className="font-sans text-base font-light leading-[1.8] text-text-body mb-4 max-w-[680px]"
+          >
+            {paragraph}
+          </p>
+        ))}
+      </section>
+
+      {/* Sources */}
+      <section className="mt-12 pt-7 border-t border-border-hard animate-fade-up-6">
+        <h4 className="font-display text-[22px] text-text-dim tracking-[0.1em] mb-3.5">
+          SOURCES
+        </h4>
+        <div className="flex flex-wrap">
+          {crisis.sources.map((source) => (
+            <a
+              key={source.title}
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block font-sans text-[13px] text-text-muted mr-5 mb-2 border-b border-border pb-0.5 transition-all duration-200 hover:text-text-bright hover:border-text-bright"
+            >
+              {source.title}
+            </a>
+          ))}
+        </div>
+        <p className="mt-4 font-sans text-[11px] font-medium text-text-faint uppercase tracking-[0.1em]">
+          Last updated: {new Date(crisis.lastUpdated).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
+      </section>
+
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: `${crisis.name} Humanitarian Crisis`,
+            description: crisis.summary,
+            dateModified: crisis.lastUpdated,
+            author: {
+              "@type": "Organization",
+              name: "Crisis Hub",
+            },
+          }),
+        }}
+      />
+    </>
+  );
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "myanmar",
+  "name": "Myanmar",
+  "region": "Rakhine State, Chin, Sagaing & Nationwide",
+  "status": "active",
+  "color": "#9B59B6",
+  "accent": "#BB8FCE",
+  "coordinates": { "lat": 21.91, "lng": 95.96 },
+  "summary": "Myanmar is engulfed in a multi-front civil war following the 2021 military coup. The Rohingya face ongoing persecution, and over 3 million people are displaced across the country as the military junta conducts airstrikes on civilian areas.",
+  "context": "Myanmar's crisis has deepened dramatically since the military coup of February 2021, which overthrew the democratically elected government. The junta, known as the Tatmadaw, has responded to widespread civilian resistance with brutal force — including airstrikes on villages, mass arbitrary detention, torture, and extrajudicial killings.\n\nA nationwide civil disobedience movement and dozens of armed resistance groups, including ethnic armed organizations and newly formed People's Defence Forces, are fighting the military regime. The conflict has spread across the country, with particularly intense fighting in Sagaing, Chin, Kayah, and Shan states.\n\nThe Rohingya, a Muslim minority group in Rakhine State, continue to face what the UN has called a genocide. The military's 2017 campaign of mass killings, sexual violence, and village burnings drove over 700,000 Rohingya to refugee camps in Bangladesh. Those who remain in Myanmar face severe restrictions on movement, denial of citizenship, and ongoing violence from both the military and the Arakan Army.\n\nThe humanitarian situation is dire. Over 18 million people — one-third of the population — need humanitarian assistance. The economy has collapsed, the healthcare system is in ruins, and access for international aid organizations is severely restricted by the junta.\n\nCyclone Mocha in 2023 devastated Rakhine State, compounding the suffering of Rohingya communities. The international response has been widely criticized as insufficient, with the UN humanitarian appeal for Myanmar consistently underfunded.",
+  "stats": [
+    { "label": "Displaced", "value": "3M+", "source": "UNHCR Myanmar Update, 2025" },
+    { "label": "Need Aid", "value": "18M", "source": "OCHA Myanmar Response Plan" },
+    { "label": "Rohingya Refugees", "value": "960K+", "source": "UNHCR Bangladesh" },
+    { "label": "Political Prisoners", "value": "20K+", "source": "Assistance Association for Political Prisoners" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Doctors Without Borders (MSF)",
+        "url": "https://www.msf.org/myanmar",
+        "description": "Providing medical care across Myanmar and in Rohingya refugee camps in Bangladesh, including maternal health and trauma surgery."
+      },
+      {
+        "name": "UNHCR — Rohingya Emergency",
+        "url": "https://donate.unhcr.org/int/rohingya-emergency/",
+        "description": "Supporting Rohingya refugees in Bangladesh and displaced communities inside Myanmar with shelter, protection, and essential services."
+      },
+      {
+        "name": "International Rescue Committee",
+        "url": "https://www.rescue.org/country/myanmar",
+        "description": "Delivering healthcare, education, and protection services in conflict-affected areas of Myanmar."
+      },
+      {
+        "name": "Mutual Aid Myanmar",
+        "url": "https://www.mutualaidmyanmar.org",
+        "description": "Community-led mutual aid connecting donors directly with local resistance and humanitarian networks inside Myanmar."
+      }
+    ],
+    "awareness": [
+      "Follow and share updates from Myanmar Now, The Irrawaddy, and Frontier Myanmar — independent outlets reporting from inside the country",
+      "Amplify the voices of Rohingya activists and advocates, including those in refugee camps who are documenting their experience",
+      "Share information about the civil disobedience movement and the democratic resistance against the military junta",
+      "Educate your community about the Rohingya genocide — many people are still unaware of its scale and ongoing nature",
+      "Challenge brands that continue to do business with Myanmar's military or its affiliated companies"
+    ],
+    "political": [
+      "Urge your representatives to support stronger targeted sanctions against Myanmar's military junta and its revenue sources",
+      "Advocate for formal recognition of the National Unity Government (NUG) as the legitimate democratic government of Myanmar",
+      "Push for an international arms embargo to cut off weapons supplies to the Tatmadaw",
+      "Support calls for the International Criminal Court to expand its investigation of crimes against the Rohingya",
+      "Demand increased funding for the UN humanitarian appeal for Myanmar, which has been critically underfunded"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Myanmar Situation", "url": "https://www.unhcr.org/emergencies/myanmar-emergency", "org": "UNHCR" },
+    { "title": "OCHA Myanmar Response Plan", "url": "https://www.unocha.org/myanmar", "org": "OCHA" },
+    { "title": "UN Fact-Finding Mission", "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index", "org": "OHCHR" },
+    { "title": "AAPP Political Prisoners", "url": "https://aappb.org", "org": "Assistance Association for Political Prisoners" },
+    { "title": "Fortify Rights Reports", "url": "https://www.fortifyrights.org/mya", "org": "Fortify Rights" }
+  ],
+  "lastUpdated": "2026-03-18"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "palestine",
+  "name": "Palestine",
+  "region": "Gaza Strip & West Bank",
+  "status": "escalating",
+  "color": "#E63946",
+  "accent": "#F4A261",
+  "coordinates": { "lat": 31.35, "lng": 34.31 },
+  "summary": "Ongoing military operations have caused massive civilian casualties, displacement, and a humanitarian catastrophe in Gaza. Over 2 million people face severe food insecurity and lack access to adequate medical care.",
+  "context": "The current crisis in Gaza is the culmination of over 75 years of displacement, occupation, and blockade. Since 2007, Gaza has been under a land, air, and sea blockade that has restricted the movement of over 2 million people and devastated the local economy.\n\nThe escalation that began in October 2023 has resulted in unprecedented destruction of civilian infrastructure — hospitals, schools, refugee camps, and residential areas. International humanitarian organizations have described the situation as a catastrophe without parallel in recent history.\n\nThe United Nations has repeatedly called for unimpeded humanitarian access and the protection of civilians. Health facilities have been severely impacted, with the majority of hospitals either destroyed or only partially functional. The World Health Organization has warned of cascading health crises, including the spread of infectious diseases due to overcrowding and lack of sanitation.\n\nUnderstanding this context is essential. This is not a conflict that started on a single date — it is rooted in decades of policies that human rights organizations, including Amnesty International and Human Rights Watch, have documented extensively. The International Court of Justice has also weighed in on the legal dimensions of the situation.\n\nMillions of Palestinians in Gaza have been displaced multiple times, with nowhere safe to go. The humanitarian community continues to call for a ceasefire, the release of all hostages, and sustained humanitarian access to all affected populations.",
+  "stats": [
+    { "label": "Displaced", "value": "2M+", "source": "UNRWA Situation Report, 2025" },
+    { "label": "Killed", "value": "45,000+", "source": "Gaza Ministry of Health / WHO" },
+    { "label": "Food Insecure", "value": "96%", "source": "IPC Famine Review, 2024" },
+    { "label": "Infrastructure Destroyed", "value": "80%", "source": "UNOSAT Damage Assessment" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNRWA",
+        "url": "https://www.unrwa.org/donate",
+        "description": "UN agency for Palestine refugees — food, shelter, healthcare, and education across Gaza and the West Bank."
+      },
+      {
+        "name": "Palestine Children's Relief Fund",
+        "url": "https://www.pcrf.net",
+        "description": "Medical and humanitarian aid for children. Surgical missions, long-term medical care, and mental health programs."
+      },
+      {
+        "name": "Medical Aid for Palestinians",
+        "url": "https://www.map.org.uk",
+        "description": "UK-based charity delivering emergency health and medical care to those affected by conflict and displacement."
+      },
+      {
+        "name": "Anera",
+        "url": "https://www.anera.org",
+        "description": "Delivers humanitarian aid and development programs across Palestine and Lebanon. Active in Gaza since 1968."
+      }
+    ],
+    "awareness": [
+      "Share verified reporting from Al Jazeera, Middle East Eye, +972 Magazine, and The Electronic Intifada with your networks",
+      "Amplify Palestinian journalists and photographers on social media — they are the primary witnesses documenting events on the ground",
+      "Organize or attend community vigils, teach-ins, and educational events at your campus or community center",
+      "Create and distribute infographics about the historical timeline, the blockade, and the current humanitarian crisis",
+      "Counter misinformation by sharing verified facts — use resources from Visualizing Palestine and the Institute for Middle East Understanding"
+    ],
+    "political": [
+      "Call your congressional representatives to demand a permanent ceasefire and an end to the siege on Gaza",
+      "Write to your senators about conditioning U.S. military aid on compliance with international humanitarian law",
+      "Attend city council meetings to push for local ceasefire resolutions — over 100 U.S. cities have passed them",
+      "Support the BDS movement to apply economic pressure — learn more at BDSmovement.net",
+      "Join or donate to legal advocacy organizations like the Center for Constitutional Rights pushing for accountability"
+    ]
+  },
+  "sources": [
+    { "title": "UNRWA Situation Report", "url": "https://www.unrwa.org/resources/reports", "org": "UNRWA" },
+    { "title": "WHO Gaza Health Update", "url": "https://www.who.int/emergencies/situations/occupied-palestinian-territory", "org": "WHO" },
+    { "title": "OCHA Flash Appeal", "url": "https://www.unocha.org/occupied-palestinian-territory", "org": "OCHA" },
+    { "title": "ICRC Statement on Gaza", "url": "https://www.icrc.org/en/where-we-work/middle-east/israel-and-occupied-territories", "org": "ICRC" },
+    { "title": "HRW Documentation", "url": "https://www.hrw.org/middle-east/north-africa/israel/palestine", "org": "Human Rights Watch" },
+    { "title": "Amnesty International — Gaza", "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/israel-and-occupied-palestinian-territories/", "org": "Amnesty International" }
+  ],
+  "lastUpdated": "2026-03-18"
+}
