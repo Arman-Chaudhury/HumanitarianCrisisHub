@@ -1,0 +1,58 @@
+{
+  "slug": "burkina-faso",
+  "name": "Burkina Faso",
+  "region": "Nationwide — Sahel, Nord, Est, Boucle du Mouhoun regions",
+  "status": "escalating",
+  "color": "#7D3C00",
+  "accent": "#A85200",
+  "coordinates": { "lat": 12.37, "lng": -1.53 },
+  "summary": "Burkina Faso is the epicenter of the Sahel's humanitarian catastrophe. Armed groups control 40–50% of national territory, over 2 million people are internally displaced (10% of the population), 5,000+ schools have been closed by insecurity, and 800,000 people are entirely cut off from aid. The country topped the NRC's most neglected crises list in 2023 and 2024.",
+  "context": "Burkina Faso has undergone a catastrophic deterioration since jihadist groups affiliated with al-Qaeda (JNIM) and the Islamic State Sahel Province began expanding from Mali in 2015. By 2026, armed groups control or contest 40–50% of Burkinabè territory — an almost unthinkable loss of state authority in a country of 22 million people.\n\nThe military junta that seized power in 2022 expelled French forces and UN peacekeepers, severing partnerships that — while imperfect — provided some check on armed group expansion. Russian Wagner Group mercenaries have been brought in as replacements, but documented atrocities against civilians attributed to Wagner-backed operations have compounded rather than resolved the security crisis.\n\nOver 2 million Burkinabè are internally displaced — approximately 10% of the entire population — making this one of the highest displacement rates in the world. Entire towns have been besieged for years, with residents cut off from food, healthcare, and communication. 800,000 people are estimated to be entirely beyond the reach of humanitarian organizations.\n\nThe educational system has effectively collapsed in conflict-affected regions. Over 5,000 schools have been closed due to insecurity — teachers killed, schools burned, and children effectively barred from education across vast swaths of the country. A generation of Burkinabè children is growing up without schooling.\n\nBurkina Faso topped the Norwegian Refugee Council's annual list of most neglected displacement crises in 2023 and 2024, ranking 4th in 2025. Despite the scale of suffering, global media coverage remains minimal and funding for the humanitarian response is severely inadequate.",
+  "stats": [
+    { "label": "Internally Displaced", "value": "2M+", "source": "UNHCR Burkina Faso" },
+    { "label": "In Need", "value": "5.9M", "source": "OCHA Sahel" },
+    { "label": "Schools Closed", "value": "5,000+", "source": "UNICEF Burkina Faso" },
+    { "label": "Cut Off from Aid", "value": "800,000", "source": "NRC, 2025" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "MSF — Burkina Faso",
+        "url": "https://www.msf.org/burkina-faso",
+        "description": "Delivering emergency medical care in besieged towns and displacement sites, navigating extreme access constraints to reach isolated communities."
+      },
+      {
+        "name": "WFP — Burkina Faso",
+        "url": "https://www.wfp.org/countries/burkina-faso",
+        "description": "Providing emergency food assistance to displaced populations, including airlifts to communities completely cut off by armed group sieges."
+      },
+      {
+        "name": "UNHCR — Burkina Faso",
+        "url": "https://reporting.unhcr.org/operational/operations/burkina-faso",
+        "description": "Supporting over 2 million internally displaced Burkinabè with protection, emergency shelter, and essential services in overcrowded displacement sites."
+      }
+    ],
+    "awareness": [
+      "Share that armed groups control up to half of Burkina Faso's territory — this is one of the most extreme losses of state authority anywhere in the world",
+      "Highlight the 5,000+ school closures: an entire generation is growing up without education in Burkina Faso's conflict zones",
+      "Amplify reporting on Burkina Faso from organizations like NRC, MSF, and local journalists documenting what is happening despite limited media access",
+      "Raise awareness about the 800,000 people entirely cut off from humanitarian aid — inaccessibility due to armed group control is an active driver of mass death",
+      "Challenge the dismissal of Sahel crises as 'too complicated' — the basic facts of displacement, hunger, and blocked aid are clear and demand response"
+    ],
+    "political": [
+      "Urge your government to engage with Burkina Faso's junta on the primary condition of restoring humanitarian access to besieged populations",
+      "Push for increased international humanitarian funding for Burkina Faso — the response is critically underfunded for the scale of need",
+      "Advocate for independent investigations into Wagner Group atrocities in Burkina Faso and demand accountability through targeted sanctions",
+      "Support regional initiatives that address the structural drivers of Sahel instability: poverty, governance failure, and climate change",
+      "Demand that all parties to the conflict respect international humanitarian law and allow unconditional access to civilians"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Burkina Faso Operations", "url": "https://reporting.unhcr.org/operational/operations/burkina-faso", "org": "UNHCR" },
+    { "title": "NRC Most Neglected Crises", "url": "https://www.nrc.no/", "org": "Norwegian Refugee Council" },
+    { "title": "WFP Burkina Faso", "url": "https://www.wfp.org/countries/burkina-faso", "org": "WFP" },
+    { "title": "OCHA Sahel", "url": "https://www.unocha.org/sahel", "org": "OCHA" },
+    { "title": "MSF Burkina Faso", "url": "https://www.msf.org/burkina-faso", "org": "MSF" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

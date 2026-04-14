@@ -1,0 +1,58 @@
+{
+  "slug": "west-papua",
+  "name": "Papuans in Indonesia",
+  "region": "Papua, Central Papua, Highland Papua, South Papua provinces",
+  "status": "escalating",
+  "color": "#1F7A5C",
+  "accent": "#2E9E78",
+  "coordinates": { "lat": -3.97, "lng": 136.06 },
+  "summary": "105,000+ Indigenous Papuans are internally displaced as of December 2025. President Prabowo plans up to 500 new military battalions in West Papua — the most significant peacetime military expansion in Indonesia's modern history — to secure resource extraction. Extrajudicial killings, drone warfare near civilian settlements, and land grabbing are documented. Indonesia restricts all independent media access.",
+  "context": "West Papua has been under Indonesian control since 1969 following a deeply contested 'Act of Free Choice' in which only 1,025 hand-picked representatives voted for integration — earning it the nickname 'Act of No Choice' from critics. Since then, Indigenous Papuans have faced systematic discrimination, land dispossession, and military repression.\n\nThe resource factor is central to understanding the crisis. West Papua holds some of the world's largest deposits of gold, copper, nickel, and timber, plus significant oil and gas reserves. The Grasberg mine — one of the world's largest gold and copper mines — sits in Papuan highland territory. The Indonesian government has prioritized extraction over Indigenous rights, resulting in environmental destruction and economic exclusion of the populations on whose land these resources sit.\n\nThe security situation has escalated significantly under President Prabowo. Plans for up to 500 new military battalions represent the most significant peacetime military expansion in modern Indonesian history, with the explicit purpose of securing resource extraction zones in Papua. Military operations have generated extrajudicial killings, torture, and reports of drone strikes near civilian settlements.\n\nOver 105,000 Indigenous Papuans are internally displaced — a significant increase from previous years — as military operations, land grabbing, and infrastructure projects push communities from their ancestral lands. Indonesia maintains strict restrictions on independent media, researchers, and foreign diplomats visiting Papua, making independent verification of conditions extremely difficult.\n\nPapuan civil society organizations, students, and diaspora communities have maintained persistent advocacy for self-determination despite the extreme risks of doing so within Indonesia.",
+  "stats": [
+    { "label": "Internally Displaced", "value": "105,000+", "source": "Human Rights Monitor, Dec 2025" },
+    { "label": "New Military Battalions Planned", "value": "500", "source": "Indonesian Govt / HRW" },
+    { "label": "Years Under Indonesian Control", "value": "55+", "source": "Since 1969" },
+    { "label": "Media Access", "value": "None (restricted)", "source": "RSF / Human Rights Monitor" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Human Rights Monitor",
+        "url": "https://humanrightsmonitor.org/",
+        "description": "Documenting and reporting human rights violations in West Papua, including extrajudicial killings, displacement, and military operations against civilians."
+      },
+      {
+        "name": "Human Rights Watch — Indonesia",
+        "url": "https://www.hrw.org/asia/indonesia",
+        "description": "Investigating and reporting on military abuses, restrictions on media access, and Indigenous rights violations in Papua."
+      },
+      {
+        "name": "UNPO — West Papua",
+        "url": "https://unpo.org/west-papua-a-call-for-action/",
+        "description": "Representing the Papuan people's call for self-determination at international forums and connecting Papuan advocacy to global human rights mechanisms."
+      }
+    ],
+    "awareness": [
+      "Share that Indonesia is planning 500 new military battalions in West Papua explicitly to secure resource extraction — this is militarization for profit at Indigenous peoples' expense",
+      "Highlight the media blackout: independent journalists, researchers, and foreign diplomats are banned from Papua — ask why a government prohibits witnesses if it has nothing to hide",
+      "Amplify Papuan voices in exile and diaspora communities that document what is happening despite extreme risks",
+      "Raise awareness about the resource dimension: the Grasberg mine generates billions in profit while the Papuan population faces military repression and dispossession",
+      "Challenge the framing of Papuan resistance as 'separatism' — it is a rights movement by Indigenous peoples whose land was taken by an internationally contested process in 1969"
+    ],
+    "political": [
+      "Urge your government to raise West Papua in all bilateral meetings with Indonesia — continued silence enables impunity for documented abuses",
+      "Push for a UN Special Rapporteur visit to West Papua and demand Indonesia restore independent media access to the region",
+      "Advocate for meaningful consultation with Papuan communities on all resource extraction projects on their lands, consistent with FPIC (Free, Prior and Informed Consent)",
+      "Support Papuan civil society representatives in accessing UN forums and international advocacy platforms",
+      "Demand that your government condition arms sales and security cooperation with Indonesia on demonstrated improvement in Papua's human rights situation"
+    ]
+  },
+  "sources": [
+    { "title": "Human Rights Monitor Papua", "url": "https://humanrightsmonitor.org/", "org": "Human Rights Monitor" },
+    { "title": "HRW Indonesia", "url": "https://www.hrw.org/asia/indonesia", "org": "Human Rights Watch" },
+    { "title": "UNPO West Papua", "url": "https://unpo.org/west-papua-a-call-for-action/", "org": "UNPO" },
+    { "title": "Amnesty International Indonesia", "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-east-asia-and-the-pacific/indonesia/", "org": "Amnesty International" },
+    { "title": "RSF Press Freedom Indonesia", "url": "https://rsf.org/en/country/indonesia", "org": "Reporters Without Borders" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

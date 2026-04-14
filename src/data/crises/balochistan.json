@@ -1,0 +1,53 @@
+{
+  "slug": "balochistan",
+  "name": "Baloch in Pakistan",
+  "region": "Balochistan province — Quetta, Turbat, Khuzdar, Panjgur",
+  "status": "escalating",
+  "color": "#5C4A1E",
+  "accent": "#8A6E35",
+  "coordinates": { "lat": 28.00, "lng": 65.00 },
+  "summary": "1,223 Baloch were forcibly disappeared in 2025 alone — a doubling from the prior period. Pakistan's security forces systematically abduct civilians from their homes, courts, and checkpoints. Bodies are frequently found with signs of torture. 106 disappearances and 42 killings were recorded in November 2025 alone, in a crisis that receives almost no international attention.",
+  "context": "The enforced disappearance of Baloch civilians by Pakistan's military and intelligence agencies is one of the most severe ongoing human rights crises in South Asia, yet it receives almost no international media coverage or political attention.\n\nBalochistan is Pakistan's largest but least developed province. It holds vast natural resources — coal, gas, copper, gold — that are extracted with minimal benefit to the Baloch population. Resentment over resource extraction without development, combined with the state's brutal suppression of Baloch political movements, has fueled an insurgency that Pakistan's security forces have responded to with systematic enforced disappearances, extrajudicial killings, and what human rights organizations describe as a 'kill-and-dump' campaign.\n\nThe scale is alarming and accelerating. 1,223 Baloch were forcibly disappeared in 2025 alone — double the rate of the previous period. Bodies of disappeared persons are regularly found showing signs of torture: drill holes, burn marks, signs of prolonged abuse before death. 106 people were disappeared and 42 killed in November 2025 alone. Victims include students, teachers, journalists, lawyers, and political activists — anyone perceived as sympathetic to Baloch rights or independence.\n\nThe Baloch Yakjehti Committee, led by prominent activist Mahrang Baloch, has organized mass protests demanding accountability. These have been met with arrests, including the temporary detention of Mahrang Baloch herself. Pakistan's courts have issued habeas corpus orders that security forces routinely ignore.\n\nChina's CPEC (China-Pakistan Economic Corridor), which runs through Balochistan, adds a geopolitical dimension that has made Western governments reluctant to pressure Pakistan on human rights grounds. The Baloch crisis exemplifies how strategic interests produce silence about systematic human rights violations.",
+  "stats": [
+    { "label": "Disappeared in 2025", "value": "1,223", "source": "Paank, 2025" },
+    { "label": "Disappeared (Nov 2025)", "value": "106", "source": "VBMP / Paank" },
+    { "label": "Killed (Nov 2025)", "value": "42", "source": "Paank, 2025" },
+    { "label": "Disappearance Rate Increase", "value": "2x (2024–25)", "source": "Amnesty International" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Paank — Baloch Human Rights",
+        "url": "https://paank.org/",
+        "description": "The primary Baloch human rights organization documenting enforced disappearances, extrajudicial killings, and the families left behind."
+      },
+      {
+        "name": "Amnesty International — Pakistan",
+        "url": "https://www.amnesty.org.uk/blogs/country-specialists/forced-disappearances-pakistan-case-mahrang-baloch",
+        "description": "Campaigning for the release of disappeared persons and accountability for Pakistan's security forces through urgent action campaigns."
+      }
+    ],
+    "awareness": [
+      "Share the 1,223 disappearances figure from 2025 alone — a doubling from the previous period — and ask why this is not front-page news",
+      "Highlight the 'kill-and-dump' pattern: disappeared persons found with signs of prolonged torture — this is a systematic state policy, not isolated incidents",
+      "Amplify the work of Mahrang Baloch and the Baloch Yakjehti Committee, who risk their lives to document and protest disappearances",
+      "Raise awareness about the CPEC factor: Western silence on Balochistan is partly driven by strategic interests related to China-Pakistan infrastructure projects",
+      "Support Baloch diaspora journalists and activists working to document what is happening in a region with extremely restricted media access"
+    ],
+    "political": [
+      "Urge your government to raise enforced disappearances in Pakistan in all bilateral diplomatic meetings — silence enables impunity",
+      "Push for UN Special Rapporteur on enforced disappearances to conduct an official country visit to Pakistan and specifically Balochistan",
+      "Advocate for targeted sanctions against Pakistani intelligence officials documented in enforced disappearance cases",
+      "Demand that your government condition security cooperation with Pakistan on measurable improvements in the enforced disappearances situation",
+      "Support calls for Pakistan to ratify the International Convention for the Protection of All Persons from Enforced Disappearances"
+    ]
+  },
+  "sources": [
+    { "title": "Paank Baloch HR Organization", "url": "https://paank.org/", "org": "Paank" },
+    { "title": "Amnesty — Forced Disappearances Pakistan", "url": "https://www.amnesty.org/en/latest/news/topic/pakistan/", "org": "Amnesty International" },
+    { "title": "Voice for Baloch Missing Persons", "url": "https://vbmp.org.pk/", "org": "VBMP" },
+    { "title": "HRW Pakistan", "url": "https://www.hrw.org/asia/pakistan", "org": "Human Rights Watch" },
+    { "title": "UN Special Rapporteur — Enforced Disappearances", "url": "https://www.ohchr.org/en/special-procedures/wg-disappearances", "org": "OHCHR" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

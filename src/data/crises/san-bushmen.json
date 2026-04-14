@@ -1,0 +1,58 @@
+{
+  "slug": "san-bushmen",
+  "name": "San / Bushmen in Southern Africa",
+  "region": "Botswana, Namibia, South Africa, Zimbabwe, Zambia",
+  "status": "active",
+  "color": "#A07828",
+  "accent": "#C09040",
+  "coordinates": { "lat": -22.33, "lng": 24.68 },
+  "summary": "Over 80% of San in Namibia have been dispossessed of ancestral lands. Only about 300 San remain full-time hunter-gatherers. In Botswana's Central Kalahari Game Reserve, the government evicted San communities, cemented over their water borehole, and allowed luxury tourist lodges while nearby communities struggled for water. Approximately 100,000–130,000 San remain across Southern Africa — the world's oldest surviving culture is facing extinction.",
+  "context": "The San (also called Bushmen) represent the world's oldest surviving genetic and cultural lineage — genetic studies show they diverged from other human populations 100,000–150,000 years ago. Their knowledge of the Kalahari ecosystem, encoded in languages and practices developed over millennia, is irreplaceable. Yet they are among the most marginalized peoples in Southern Africa, having been dispossessed of nearly all their traditional lands.\n\nThe most documented case of San dispossession involves Botswana's Central Kalahari Game Reserve (CKGR). In 2002 and 2005, the Botswana government evicted San communities from the CKGR — the largest game reserve in Africa, created specifically to protect their lifestyle. The government cemented over the communities' water borehole, effectively denying them access to water on their own ancestral lands. Luxury tourist lodges operate in the reserve while the San cannot legally enter without permits. A 2006 High Court ruling affirmed their right to return, but implementation has been contested.\n\nIn Namibia, over 80% of San have been dispossessed of ancestral lands through colonial and post-independence policies. Those who remain on communal lands face discrimination and marginalization. Access to education, healthcare, and justice is severely limited. San children face bullying and discrimination in schools that conduct education in languages other than their own.\n\nAcross Southern Africa, the San face extreme poverty, alcoholism (often connected to exploitation by neighboring ethnic groups), and the collapse of traditional livelihoods. Only approximately 300 individuals worldwide still live primarily as hunter-gatherers — a way of life that has persisted for 100,000 years is effectively ending within a generation.",
+  "stats": [
+    { "label": "Total San Population", "value": "100,000–130,000", "source": "Survival International" },
+    { "label": "Namibian San Dispossessed", "value": "80%+", "source": "IWGIA" },
+    { "label": "Full-Time Hunter-Gatherers Remaining", "value": "~300", "source": "Survival International" },
+    { "label": "Years of Cultural Continuity", "value": "100,000+", "source": "Genetic Studies" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Survival International — San/Bushmen",
+        "url": "https://www.survivalinternational.org/peoples/bushmen",
+        "description": "Campaigning for San land rights, including legal battles over the Central Kalahari Game Reserve and access to their water boreholes."
+      },
+      {
+        "name": "IWGIA — Botswana",
+        "url": "https://iwgia.org/en/botswana.html",
+        "description": "Supporting San advocacy and documenting rights violations through the International Work Group for Indigenous Affairs."
+      },
+      {
+        "name": "Cultural Survival",
+        "url": "https://www.culturalsurvival.org/",
+        "description": "Supporting San communities in maintaining their languages, cultures, and land rights through advocacy and community programs."
+      }
+    ],
+    "awareness": [
+      "Share the Central Kalahari story: Botswana's government cemented over the San's water borehole and allows luxury tourist lodges where San cannot legally enter — this is the face of 'conservation' without Indigenous rights",
+      "Highlight that we are witnessing the end of 100,000 years of cultural continuity — the San represent humanity's oldest living cultural tradition, and it is being erased in our lifetimes",
+      "Amplify San voices, including those organized through First Peoples Worldwide and the Working Group of Indigenous Minorities in Southern Africa (WIMSA)",
+      "Raise awareness about the exploitation dynamic: San traditional knowledge of plants and hunting has been commercially exploited without benefit-sharing",
+      "Challenge safari tourism and game reserves that operate on former San lands without San participation or benefit"
+    ],
+    "political": [
+      "Urge Botswana to fully implement the 2006 High Court ruling restoring San rights in the Central Kalahari Game Reserve, including restoration of their water access",
+      "Push for Southern African governments to recognize San land rights in law and practice, consistent with UNDRIP and African human rights standards",
+      "Advocate for San participation in the management of game reserves and national parks on their traditional territories",
+      "Support benefit-sharing agreements for commercial use of San traditional knowledge, including the Hoodia plant",
+      "Demand that conservation organizations operating in Southern Africa adopt rights-based approaches that center San communities rather than exclude them"
+    ]
+  },
+  "sources": [
+    { "title": "Survival International — Bushmen", "url": "https://www.survivalinternational.org/peoples/bushmen", "org": "Survival International" },
+    { "title": "IWGIA Botswana", "url": "https://iwgia.org/en/botswana.html", "org": "IWGIA" },
+    { "title": "Cultural Survival — San", "url": "https://www.culturalsurvival.org/", "org": "Cultural Survival" },
+    { "title": "First Peoples Worldwide", "url": "https://www.firstpeoples.org/", "org": "First Peoples Worldwide" },
+    { "title": "WIMSA Southern Africa", "url": "https://wimsa.net/", "org": "WIMSA" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

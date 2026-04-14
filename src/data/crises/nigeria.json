@@ -1,0 +1,58 @@
+{
+  "slug": "nigeria",
+  "name": "Nigeria",
+  "region": "Northeast BAY States, Northwest — Zamfara, Kaduna, Sokoto",
+  "status": "escalating",
+  "color": "#E85D04",
+  "accent": "#F48C42",
+  "coordinates": { "lat": 12.00, "lng": 8.50 },
+  "summary": "Nigeria is fighting a multi-front war that the world largely ignores. ISWAP leads all Islamic State branches globally with 445 claimed attacks in one year. At least 2,266 people were killed in H1 2025 alone — surpassing all 2024 casualties. 33.1 million people are projected food insecure during the lean season, and the $910 million Humanitarian Response Plan was only 31% funded.",
+  "context": "Nigeria's northeast faces the longest-running active jihadist insurgency in Africa. The Islamic State West Africa Province (ISWAP) — which split from Boko Haram in 2016 — now leads all Islamic State branches globally in claimed attacks, with 445 recorded between July 2024 and July 2025. Violence surged dramatically in 2025, with at least 2,266 killed in the first half of the year alone, surpassing the entire casualty toll for 2024.\n\nThe humanitarian consequences are severe but receive little international attention. In the Borno, Adamawa, and Yobe (BAY) states of the northeast, 7.8 million people need humanitarian assistance and 2.3 million are internally displaced. Entire communities have been abandoned after repeated attacks. The Lake Chad Basin's environment, already devastated by the 90% shrinkage of Lake Chad, provides fertile ground for armed group recruitment among communities with no livelihoods.\n\nIn the northwest, large-scale banditry — mass kidnapping, cattle rustling, and armed attacks on farming communities — displaces millions and drives acute food insecurity. The northwest crisis involves different armed actors than the northeast but produces similarly devastating humanitarian consequences.\n\nNigeria's 2025 Humanitarian Response Plan required $910 million but received only 31%. Many of the 7.8 million people in need in the northeast receive no assistance at all. The food security situation is compounded by the broader economic crisis: Nigeria experienced its worst inflation in decades in 2024–2025, devastating purchasing power across the country.\n\nThe scale of Nigeria's crises — in a country of 220 million people with Africa's largest economy — makes the relative invisibility of these emergencies all the more striking.",
+  "stats": [
+    { "label": "Food Insecure", "value": "33.1M", "source": "OCHA Nigeria, 2025" },
+    { "label": "Need Aid (NE Nigeria)", "value": "7.8M", "source": "OCHA Nigeria" },
+    { "label": "IDPs (Northeast)", "value": "2.3M", "source": "UNHCR Nigeria" },
+    { "label": "ISWAP Attacks (1 year)", "value": "445", "source": "ACLED / Long War Journal" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "OCHA Nigeria",
+        "url": "https://www.unocha.org/nigeria",
+        "description": "Coordinating humanitarian response in northeast Nigeria, supporting organizations delivering food, shelter, and healthcare to millions in need."
+      },
+      {
+        "name": "Action Against Hunger",
+        "url": "https://www.actionagainsthunger.org",
+        "description": "Treating severe acute malnutrition in Nigerian children and delivering food security and WASH programs in the northeast and northwest."
+      },
+      {
+        "name": "UNHCR Nigeria",
+        "url": "https://www.unhcr.org/countries/nigeria",
+        "description": "Protecting and supporting 2.3 million IDPs in northeast Nigeria and supporting refugees and returnees in the Lake Chad Basin."
+      }
+    ],
+    "awareness": [
+      "Share that ISWAP is now the world's most active Islamic State branch — Nigeria's insurgency is not a contained local problem but a growing global threat",
+      "Highlight that 2,266 people were killed in northeast Nigeria in just the first half of 2025 — this is a war, not sporadic violence",
+      "Raise awareness about the Lake Chad Basin environmental crisis as a driver of conflict and displacement — climate and security are inseparable here",
+      "Amplify reporting from Nigerian journalists and civil society organizations documenting both the northeast insurgency and northwest banditry",
+      "Challenge the narrative that Nigeria is 'too big' or 'too complex' to address — targeted humanitarian and political responses do work"
+    ],
+    "political": [
+      "Urge your government to increase contributions to Nigeria's Humanitarian Response Plan — at 31% funded, life-saving programs are shutting down",
+      "Push for increased international support for Nigeria's counter-insurgency efforts, including intelligence sharing and capacity building",
+      "Advocate for a Lake Chad Basin regional strategy that addresses both the humanitarian crisis and the environmental drivers of conflict",
+      "Support calls for accountability for human rights abuses committed by all parties — including Nigerian security forces — in the northeast",
+      "Demand that international partners pressure Nigeria to allow unimpeded humanitarian access to all areas of need"
+    ]
+  },
+  "sources": [
+    { "title": "OCHA Nigeria Response Plan", "url": "https://www.unocha.org/nigeria", "org": "OCHA" },
+    { "title": "UNHCR Nigeria", "url": "https://www.unhcr.org/countries/nigeria", "org": "UNHCR" },
+    { "title": "Action Against Hunger Nigeria", "url": "https://www.actionagainsthunger.org", "org": "Action Against Hunger" },
+    { "title": "ACLED Nigeria Conflict Data", "url": "https://acleddata.com/", "org": "ACLED" },
+    { "title": "FEWS NET Nigeria", "url": "https://fews.net/west-africa/nigeria", "org": "FEWS NET" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

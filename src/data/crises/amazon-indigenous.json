@@ -1,0 +1,63 @@
+{
+  "slug": "amazon-indigenous",
+  "name": "Amazon Indigenous Peoples",
+  "region": "Brazilian Amazon, Colombian Amazon, Peruvian Amazon, Ecuador",
+  "status": "active",
+  "color": "#1A7A2E",
+  "accent": "#2A9E3E",
+  "coordinates": { "lat": -3.47, "lng": -62.22 },
+  "summary": "Amazon deforestation surged 92% in May 2025 compared to the previous year. Approximately 100 uncontacted Indigenous groups face existential threats from illegal miners, loggers, and ranchers. Violence against Indigenous land defenders is alarming — Colombia is among the most lethal countries for environmental activists. Between 1985–2020, 90% of Amazon deforestation occurred outside Indigenous lands, proving they are the most effective conservation barrier.",
+  "context": "The Amazon rainforest — home to approximately 10% of all species on Earth and a critical global carbon sink — is being destroyed at an accelerating rate despite years of international commitments. Indigenous territories are the single most effective conservation tool: between 1985 and 2020, 90% of Amazon deforestation occurred outside Indigenous-held lands, demonstrating that where Indigenous peoples control their territory, the forest survives.\n\nYet those protecting the Amazon face lethal violence. Colombia consistently ranks among the world's most dangerous countries for environmental and land defenders. Brazil's indigenous land defenders, Amazonian activists in Peru, and Indigenous communities across the Amazon basin face assassination, death threats, illegal invasion of their territories, and systematic failure of state protection.\n\nApproximately 100 'uncontacted' or 'isolated' Indigenous groups remain in the Amazon — peoples who have chosen or been forced to avoid contact with the outside world. Their territories are under pressure from illegal miners (garimpeiros), loggers, drug traffickers, and evangelical missionaries. The intrusion of outsiders into their territories — often carrying diseases against which these groups have no immunity — poses an existential threat.\n\nDeforestation surged 92% in May 2025 compared to the same period the previous year, driven by agricultural expansion, illegal mining, and infrastructure projects. This surge followed a period of significant progress under Brazil's previous environmental policies, demonstrating how quickly gains can be reversed.\n\nThe Amazon's destruction is not just a local or regional tragedy — it is a planetary emergency. The Amazon stores an estimated 150–200 billion tons of carbon. Its continued deforestation would push global temperatures beyond any possibility of control.",
+  "stats": [
+    { "label": "Deforestation Surge (May 2025)", "value": "+92%", "source": "INPE / Climate Rights International" },
+    { "label": "Uncontacted Indigenous Groups", "value": "~100", "source": "Survival International" },
+    { "label": "Amazon Deforestation Outside Indigenous Lands", "value": "90% (1985–2020)", "source": "Science / EDF" },
+    { "label": "Defenders Killed (Colombia, 2024)", "value": "Top 5 globally", "source": "Global Witness" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Survival International",
+        "url": "https://www.survivalinternational.org/",
+        "description": "Defending the rights of uncontacted and endangered Indigenous peoples, including legal campaigns against illegal intrusion into their territories."
+      },
+      {
+        "name": "Amazon Watch",
+        "url": "https://amazonwatch.org/",
+        "description": "Working with Indigenous and frontline communities to protect the Amazon from oil, mining, and infrastructure projects."
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "url": "https://www.edf.org/",
+        "description": "Supporting Indigenous land rights through science-based advocacy and legal mechanisms to protect Amazon territories."
+      },
+      {
+        "name": "Climate Rights International",
+        "url": "https://cri.org/",
+        "description": "Documenting the human rights dimensions of climate change and deforestation, including violence against Amazon Indigenous defenders."
+      }
+    ],
+    "awareness": [
+      "Share the 90% statistic: nearly all Amazon deforestation between 1985 and 2020 occurred outside Indigenous territories — Indigenous peoples are the most effective forest guardians on Earth",
+      "Highlight that deforestation surged 92% in May 2025 — gains from years of conservation policy can be erased in months",
+      "Amplify the voices of Indigenous Amazonian leaders like Txai Suruí, Sônia Guajajara, and others who are fighting for their forests and their lives",
+      "Raise awareness about uncontacted peoples: intrusion into their territories is not just a rights violation, it can be a death sentence due to disease vulnerability",
+      "Challenge companies whose supply chains drive deforestation — cattle, soy, palm oil, and timber industries are the primary drivers"
+    ],
+    "political": [
+      "Urge your government to support international Amazon protection funds that pay Amazon countries to preserve forests rather than destroy them",
+      "Push for legislation requiring supply chain due diligence on deforestation — the EU Deforestation Regulation is a model to advocate for globally",
+      "Demand that your government condition trade deals with Brazil, Colombia, and Peru on measurable Indigenous rights protections and deforestation reductions",
+      "Support Indigenous land titling programs — legal land rights are the single most effective tool for long-term forest protection",
+      "Advocate for penalties for companies financing or benefiting from illegal deforestation on Indigenous lands"
+    ]
+  },
+  "sources": [
+    { "title": "Survival International — Amazon", "url": "https://www.survivalinternational.org/", "org": "Survival International" },
+    { "title": "Climate Rights International", "url": "https://cri.org/", "org": "Climate Rights International" },
+    { "title": "Amazon Watch", "url": "https://amazonwatch.org/", "org": "Amazon Watch" },
+    { "title": "Global Witness Land Defenders", "url": "https://www.globalwitness.org/", "org": "Global Witness" },
+    { "title": "INPE Deforestation Data", "url": "https://www.gov.br/inpe/", "org": "INPE Brazil" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "aboriginal-australians",
+  "name": "Aboriginal Australians",
+  "region": "Nationwide — NT, WA, Queensland, NSW remote communities",
+  "status": "active",
+  "color": "#8B3A3A",
+  "accent": "#B85050",
+  "coordinates": { "lat": -25.27, "lng": 133.78 },
+  "summary": "17,432 Indigenous Australians are behind bars — 35% of the prison population while being 3.8% of the general population. Indigenous women are 25 times more likely to be incarcerated. The Closing the Gap target for a 15% reduction in incarceration by 2031 is moving in the wrong direction — rates increased 30% since 2019. The 2023 Voice referendum failure was a significant setback for recognition.",
+  "context": "Aboriginal and Torres Strait Islander peoples are the world's oldest continuous cultures, with evidence of continuous habitation of Australia stretching back at least 65,000 years. They face structural disadvantage, systemic racism, and government policy failures that produce some of the most extreme disparities of any Indigenous group in a wealthy Western country.\n\nThe incarceration crisis is the most acute manifestation of systemic failure. With 17,432 Indigenous Australians imprisoned, they represent 35% of the total prison population despite being only 3.8% of the general population — a rate of over-representation almost without parallel globally. Indigenous women are incarcerated at 25 times the rate of non-Indigenous women. Children as young as 10 can be imprisoned in Australian jurisdictions that have not raised the age of criminal responsibility.\n\nLife expectancy for Indigenous Australians remains 8–9 years lower than for non-Indigenous Australians despite decades of 'Closing the Gap' commitments. Rates of preventable chronic disease, suicide, and infant mortality are dramatically higher. Access to culturally appropriate healthcare, adequate housing, and quality education in remote communities remains profoundly inadequate.\n\nThe October 2023 referendum to establish a First Nations Voice to Parliament — which would have created a constitutionally recognized body to advise Parliament on matters affecting Indigenous peoples — failed, with 60% of Australians voting No. The defeat was a significant setback, reflecting and reinforcing a political environment in which Indigenous recognition remains contested.\n\nThe Northern Territory 'Intervention' launched in 2007 — a federal government takeover of Aboriginal communities under emergency measures — created lasting trauma, suspended the Racial Discrimination Act, and has been widely criticized by Indigenous leaders as paternalistic and counterproductive. Its legacy continues to shape federal-state-community relationships.",
+  "stats": [
+    { "label": "Indigenous Australians Imprisoned", "value": "17,432", "source": "ABS / AIHW 2025" },
+    { "label": "Share of Prison Population", "value": "35%", "source": "ABS Corrective Services" },
+    { "label": "Over-incarceration of Women", "value": "25x", "source": "ALRC Report" },
+    { "label": "Incarceration Increase Since 2019", "value": "+30%", "source": "AIHW Closing the Gap 2025" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Australian Human Rights Commission",
+        "url": "https://humanrights.gov.au/",
+        "description": "Advocating for Indigenous rights through policy reform, legal mechanisms, and public education about structural discrimination."
+      },
+      {
+        "name": "Human Rights Law Centre",
+        "url": "https://www.hrlc.org.au/",
+        "description": "Providing legal support for Indigenous communities and campaigning for structural reforms including raising the age of criminal responsibility."
+      },
+      {
+        "name": "IWGIA Australia",
+        "url": "https://iwgia.org/en/australia/5764-iw-2025-australia.html",
+        "description": "Supporting Indigenous Australian advocacy at international forums and documenting systemic rights violations for UN treaty bodies."
+      }
+    ],
+    "awareness": [
+      "Share that Indigenous Australians are imprisoned at 10 times the rate of the general population — higher than the apartheid-era rate for Black South Africans",
+      "Highlight that the Closing the Gap incarceration target is moving backwards — despite government commitments, the rate increased 30% since 2019",
+      "Amplify Indigenous Australian voices: activists, community leaders, journalists, and writers who are leading their own advocacy",
+      "Raise awareness about the need to raise the age of criminal responsibility — children as young as 10 can be imprisoned in some Australian states and territories",
+      "Challenge the narrative that the 2023 Voice referendum failure was a 'settled question' — structural Indigenous rights recognition remains a live and urgent issue"
+    ],
+    "political": [
+      "Urge Australian legislators to raise the minimum age of criminal responsibility to at least 14 in all states and territories",
+      "Push for serious investment in alternatives to incarceration for Indigenous Australians — community-controlled programs, bail houses, and justice reinvestment work",
+      "Advocate for Treaty processes with First Nations peoples — structural constitutional recognition remains unfinished business",
+      "Support community-controlled Indigenous health, housing, and education services — self-determination produces better outcomes than top-down government programs",
+      "Demand independent review and reform of Northern Territory policies affecting Aboriginal communities, centering Indigenous community voices in the process"
+    ]
+  },
+  "sources": [
+    { "title": "Australian Human Rights Commission", "url": "https://humanrights.gov.au/", "org": "AHRC" },
+    { "title": "IWGIA Australia 2025", "url": "https://iwgia.org/en/australia/5764-iw-2025-australia.html", "org": "IWGIA" },
+    { "title": "AIHW Closing the Gap", "url": "https://www.aihw.gov.au/reports-data/australias-welfare/closing-the-gap", "org": "AIHW" },
+    { "title": "Human Rights Law Centre", "url": "https://www.hrlc.org.au/", "org": "HRLC" },
+    { "title": "Change the Record Coalition", "url": "https://changetherecord.org.au/", "org": "Change the Record" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

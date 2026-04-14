@@ -1,0 +1,58 @@
+{
+  "slug": "niger",
+  "name": "Niger",
+  "region": "Diffa, Tillabéri, Tahoua — and nationwide post-coup",
+  "status": "active",
+  "color": "#B85C00",
+  "accent": "#D47520",
+  "coordinates": { "lat": 17.61, "lng": 8.08 },
+  "summary": "Following the July 2023 coup, Niger withdrew from ECOWAS and closed its southern border with Benin, disrupting critical supply routes. Armed violence increased 39% in 2024, killing 1,392 people. 2.6 million people need humanitarian assistance and approximately 985,000 are forcibly displaced across a country ranked among the world's poorest.",
+  "context": "Niger occupies the intersection of multiple crises: it is one of the world's poorest countries by every measure, sits at the heart of the Sahel jihadist insurgency, and since the July 2023 military coup has been navigating severe diplomatic isolation and disrupted supply chains.\n\nThe coup — which deposed democratically elected President Bazoum — triggered sanctions from ECOWAS and the closure of borders with Benin, Côte d'Ivoire, and other neighbors. While some sanctions have since been modified, the disruption to trade routes has had lasting effects on food and fuel availability. Niger's suspension from ECOWAS eliminated access to regional diplomatic mechanisms and development funds.\n\nThe security situation has deteriorated significantly. Jihadist groups affiliated with both JNIM (al-Qaeda) and ISGS (Islamic State) operate across the western Tillabéri and Diffa regions, conducting attacks on civilians, military posts, and aid workers. The expulsion of French forces and the departure of US special operations trainers have created security vacuums in key regions.\n\nNiger is also the primary transit country for migrants and refugees crossing the Sahara toward North Africa and Europe. The 2023 EU deal with Niger — intended to stop migration — collapsed with the coup, and Libya-bound migration has resumed through the country despite extreme dangers.\n\nWith 2.6 million people in need and approximately 985,000 forcibly displaced, Niger's crisis is substantial. It is also deeply connected to the broader Sahel dynamics: what happens in Niger shapes security and displacement across a region affecting tens of millions.",
+  "stats": [
+    { "label": "In Need", "value": "2.6M", "source": "OCHA Niger" },
+    { "label": "Forcibly Displaced", "value": "985,000", "source": "UNHCR Niger" },
+    { "label": "Killed in Violence (2024)", "value": "1,392", "source": "ACLED, 2025" },
+    { "label": "Violence Increase (2024)", "value": "+39%", "source": "ACLED over 2023" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR Niger",
+        "url": "https://data.unhcr.org/en/situations/sahelcrisis",
+        "description": "Protecting refugees and displaced Nigeriens, including those fleeing jihadist violence in Tillabéri and Diffa regions."
+      },
+      {
+        "name": "UNICEF Niger",
+        "url": "https://www.unicef.org/appeals/niger",
+        "description": "Providing nutrition, healthcare, and child protection services to vulnerable children across Niger, one of the world's youngest and poorest populations."
+      },
+      {
+        "name": "IOM Niger",
+        "url": "https://crisisresponse.iom.int/response/niger-crisis-response-plan-2025",
+        "description": "Supporting internally displaced Nigeriens, migrants, and refugees with emergency assistance and transit support across this migration crossroads country."
+      }
+    ],
+    "awareness": [
+      "Share that Niger's coup disrupted supply routes and diplomatic mechanisms for millions of people in one of the world's poorest countries — geopolitics has direct humanitarian costs",
+      "Highlight the 39% increase in armed violence in 2024 — Niger is not becoming more stable after the coup, it is becoming less safe",
+      "Raise awareness about Niger as a hub for Sahel-wide dynamics: what happens here affects security and displacement across a vast region",
+      "Amplify Nigerien civil society voices calling for a return to civilian governance and protection of humanitarian space",
+      "Challenge simplistic 'anti-France' or 'pro-Russia' framings of Niger's coup — the primary victims of instability are Niger's civilian population"
+    ],
+    "political": [
+      "Urge your government to engage constructively with Niger's junta on restoring humanitarian access and civilian protection mechanisms",
+      "Push for the resumption of international development support for Niger contingent on civilian protection and a path to elections",
+      "Advocate for sustained humanitarian funding despite diplomatic difficulties — the people of Niger should not be punished for their government's choices",
+      "Support regional mechanisms to address Sahel security in ways that don't require abandoning civilian protection to military juntas",
+      "Demand accountability for armed groups targeting civilians and aid workers in Niger's conflict zones"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Niger / Sahel Crisis", "url": "https://data.unhcr.org/en/situations/sahelcrisis", "org": "UNHCR" },
+    { "title": "OCHA Niger", "url": "https://www.unocha.org/niger", "org": "OCHA" },
+    { "title": "IOM Niger Crisis Response", "url": "https://crisisresponse.iom.int/response/niger-crisis-response-plan-2025", "org": "IOM" },
+    { "title": "UNICEF Niger", "url": "https://www.unicef.org/appeals/niger", "org": "UNICEF" },
+    { "title": "ACLED Niger Data", "url": "https://acleddata.com/", "org": "ACLED" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

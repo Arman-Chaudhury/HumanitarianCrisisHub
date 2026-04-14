@@ -1,0 +1,58 @@
+{
+  "slug": "south-sudan",
+  "name": "South Sudan",
+  "region": "Nationwide — Unity, Upper Nile, Jonglei, Greater Equatoria",
+  "status": "escalating",
+  "color": "#2E8B57",
+  "accent": "#52B788",
+  "coordinates": { "lat": 6.88, "lng": 31.31 },
+  "summary": "South Sudan is teetering on the brink of renewed civil war and famine. President Kiir's suspension of VP Machar has destabilized the fragile 2018 peace deal, the economy shrank 30% in 2025, and 7.55 million people face food insecurity. Over 28,000 are in catastrophic IPC Phase 5 conditions — the threshold of famine.",
+  "context": "South Sudan has been in a state of near-continuous crisis since its independence in 2011. The 2018 peace agreement between President Salva Kiir and former rebel leader Riek Machar brought a fragile halt to the worst of the civil war, but President Kiir's suspension of Machar in 2025 has destabilized that arrangement and raised fears of a return to full-scale conflict.\n\nThe economic collapse is severe. The economy shrank 30% in 2025, driven by oil revenue disruptions due to Sudan's civil war blocking the pipeline route, currency collapse, and the withdrawal of international investment. The cost of essential food has quadrupled. In a country where the majority of the population depends on subsistence agriculture, this economic catastrophe translates directly into mass hunger.\n\nSouth Sudan is also experiencing a sixth consecutive year of catastrophic flooding, devastating crops and infrastructure across vast stretches of the country. Over 900,000 Sudanese refugees have crossed into South Sudan since April 2023, adding to an already overwhelmed system with among the world's lowest per-capita infrastructure.\n\nThe cholera situation is alarming: South Sudan hosts the world's longest-running cholera outbreak, with over 95,000 cases and 1,581 deaths. Water and sanitation systems, already inadequate, have been further destroyed by flooding.\n\n28,000 people are currently in Catastrophe-level IPC Phase 5 — the internationally recognized threshold of famine conditions. Without urgent action on both the political and humanitarian fronts, South Sudan risks sliding into famine and renewed mass atrocity.",
+  "stats": [
+    { "label": "Food Insecure", "value": "7.55M", "source": "IPC, Nov 2025" },
+    { "label": "In Catastrophe (IPC 5)", "value": "28,000", "source": "OCHA South Sudan" },
+    { "label": "Cholera Cases", "value": "95,423", "source": "OCHA, Oct 2025" },
+    { "label": "Sudan Refugee Arrivals", "value": "904,000+", "source": "IOM South Sudan" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "IRC — South Sudan",
+        "url": "https://www.rescue.org/article/whats-happening-south-sudan",
+        "description": "Providing emergency healthcare, nutrition, and protection services to displaced South Sudanese and Sudanese refugees across the country."
+      },
+      {
+        "name": "WFP — South Sudan",
+        "url": "https://www.wfp.org/countries/south-sudan",
+        "description": "Delivering life-saving food assistance to millions on the brink of famine, using airlifts and river transport to reach flooded communities."
+      },
+      {
+        "name": "IOM — South Sudan",
+        "url": "https://crisisresponse.iom.int/response/south-sudan-crisis-response-plan-2026",
+        "description": "Supporting displaced communities with shelter, water, sanitation, and assistance to Sudanese refugees arriving across the border."
+      }
+    ],
+    "awareness": [
+      "Share that South Sudan hosts the world's longest-running cholera outbreak — 95,000+ cases that are entirely preventable with adequate funding",
+      "Highlight that the economy shrank 30% in 2025 and food costs have quadrupled — this is economic collapse, not just food insecurity",
+      "Amplify the voices of South Sudanese civil society organizations working to preserve the peace deal and protect civilians",
+      "Raise awareness about the 900,000+ Sudanese refugees hosted by one of the world's poorest countries — a double crisis that is almost invisible to the world",
+      "Challenge the framing that South Sudan's problems are purely internal — external actors, oil companies, and arms traders have shaped this crisis"
+    ],
+    "political": [
+      "Urge your government to support robust international pressure to prevent the collapse of South Sudan's 2018 peace agreement",
+      "Demand that your representatives increase humanitarian funding to South Sudan, which faces some of the most severe needs on Earth",
+      "Push for targeted sanctions against South Sudanese officials diverting oil revenues while citizens starve",
+      "Advocate for climate adaptation funding to address the worsening annual flooding that is destroying crops and displacing millions",
+      "Support independent monitoring of South Sudan's peace process and demand accountability for ceasefire violations"
+    ]
+  },
+  "sources": [
+    { "title": "IPC South Sudan Food Security", "url": "https://www.ipcinfo.org/", "org": "IPC" },
+    { "title": "OCHA South Sudan", "url": "https://www.unocha.org/south-sudan", "org": "OCHA" },
+    { "title": "WFP South Sudan", "url": "https://www.wfp.org/countries/south-sudan", "org": "WFP" },
+    { "title": "IRC South Sudan", "url": "https://www.rescue.org/article/whats-happening-south-sudan", "org": "IRC" },
+    { "title": "IOM South Sudan Crisis Response", "url": "https://crisisresponse.iom.int/response/south-sudan-crisis-response-plan-2026", "org": "IOM" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

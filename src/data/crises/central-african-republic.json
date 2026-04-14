@@ -1,0 +1,58 @@
+{
+  "slug": "central-african-republic",
+  "name": "Central African Republic",
+  "region": "Nationwide — Bangui, Bambari, Bangassou, Bria",
+  "status": "underreported",
+  "color": "#8B1A1A",
+  "accent": "#B52020",
+  "coordinates": { "lat": 6.61, "lng": 20.94 },
+  "summary": "The Central African Republic ranks 191st out of 193 countries on the Human Development Index and has appeared on every CARE forgotten crises report since 2016. 2.4 million people — 38% of the population — need humanitarian assistance. In April 2025, UNICEF's Rapid Response Mechanism was discontinued after 10 years due to funding cuts, eliminating a critical safety net for children.",
+  "context": "The Central African Republic has been in a state of protracted armed conflict for over a decade. Multiple armed groups control vast swaths of territory, with the government — backed by Russian Wagner Group forces — controlling primarily the capital Bangui and some major towns. Despite Wagner's presence, the security situation has not meaningfully improved for civilians.\n\nCAR ranks 191st out of 193 countries on the Human Development Index — virtually the bottom of every global development measure. Per capita income is among the world's lowest. Access to healthcare, clean water, and education is among the worst anywhere. Years of conflict have systematically destroyed what limited infrastructure existed.\n\nThe scale of the crisis is staggering in proportion to the population: 2.4 million people — 38% of CAR's 6.3 million people — need humanitarian assistance. This is one of the highest need-to-population ratios of any crisis in the world. Yet CAR generates almost no media coverage: only 1,532 media articles in all of 2025 — the lowest of any crisis tracked in global monitoring systems.\n\nA devastating blow came in April 2025 when UNICEF discontinued its Rapid Response Mechanism after 10 years of operation, due to funding cuts. This mechanism was the primary tool for rapidly responding to new waves of displacement and attacks — its elimination removes a critical layer of protection for children in one of the most dangerous places on Earth for civilians.\n\nCAR's crisis has appeared on every CARE forgotten crises report since 2016. It is a textbook example of a protracted emergency trapped in a cycle of violence, underdevelopment, and invisibility.",
+  "stats": [
+    { "label": "In Need", "value": "2.4M", "source": "OCHA CAR" },
+    { "label": "HDI Rank", "value": "191/193", "source": "UNDP 2025" },
+    { "label": "Population in Need", "value": "38%", "source": "OCHA CAR, 2025" },
+    { "label": "Media Articles (2025)", "value": "1,532", "source": "CARE Forgotten Crises" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "OCHA CAR",
+        "url": "https://www.unocha.org/central-african-republic",
+        "description": "Coordinating humanitarian response in CAR and channeling funding to organizations working in the most inaccessible conflict-affected areas."
+      },
+      {
+        "name": "UNICEF CAR",
+        "url": "https://www.unicef.org/appeals/car",
+        "description": "Providing vaccines, nutrition, education, and child protection services to children in CAR, despite the loss of rapid response funding in 2025."
+      },
+      {
+        "name": "MSF — Central African Republic",
+        "url": "https://www.msf.org/central-african-republic",
+        "description": "Running emergency surgical and medical programs in CAR's most conflict-affected regions, where no other medical care exists."
+      }
+    ],
+    "awareness": [
+      "Share that CAR has appeared on every CARE forgotten crises report since 2016 — this is not a new emergency but one the world has systematically chosen to ignore",
+      "Highlight the HDI ranking: 191 out of 193 — virtually every development indicator places CAR at the bottom of the world",
+      "Raise awareness about UNICEF's Rapid Response Mechanism closure — a decade-long safety net for children was eliminated by funding cuts in 2025",
+      "Amplify the 38% of population in need statistic — nearly 4 in 10 people in CAR need humanitarian help right now",
+      "Challenge the media blackout: 1,532 articles in a year about a crisis affecting 2.4 million people is a journalistic failure with life-and-death consequences"
+    ],
+    "political": [
+      "Demand that your government restore and increase funding to CAR's humanitarian response — the elimination of UNICEF's rapid response tool is a direct result of donor withdrawal",
+      "Push for independent accountability mechanisms for Wagner Group operations in CAR, which have been documented committing atrocities",
+      "Advocate for a sustainable peace process in CAR that addresses the root causes of conflict rather than relying on Russian mercenaries",
+      "Support increased international engagement with CAR's long-term development — breaking the cycle of crisis requires investment, not just emergency response",
+      "Urge your representative to highlight CAR in parliamentary debates on humanitarian funding — invisibility is the primary obstacle to response"
+    ]
+  },
+  "sources": [
+    { "title": "OCHA Central African Republic", "url": "https://www.unocha.org/central-african-republic", "org": "OCHA" },
+    { "title": "UNICEF CAR", "url": "https://www.unicef.org/appeals/car", "org": "UNICEF" },
+    { "title": "CARE Forgotten Crises Report", "url": "https://www.care.org/", "org": "CARE" },
+    { "title": "HRW CAR", "url": "https://www.hrw.org/africa/central-african-republic", "org": "Human Rights Watch" },
+    { "title": "MSF Central African Republic", "url": "https://www.msf.org/central-african-republic", "org": "MSF" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

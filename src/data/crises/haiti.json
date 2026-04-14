@@ -1,0 +1,63 @@
+{
+  "slug": "haiti",
+  "name": "Haiti",
+  "region": "Port-au-Prince, Artibonite, Centre — expanding nationwide",
+  "status": "escalating",
+  "color": "#8B2FC9",
+  "accent": "#AB4FE8",
+  "coordinates": { "lat": 18.97, "lng": -72.28 },
+  "summary": "Haiti has descended into one of the worst humanitarian crises in the Western Hemisphere. The Viv Ansanm gang coalition controls approximately 90% of Port-au-Prince, at least 5,519 people were killed between March 2025 and January 2026, and 5.7 million face acute food insecurity. Sexual violence against children has increased 1,000% since 2023.",
+  "context": "Haiti's state has effectively collapsed. The Viv Ansanm gang coalition — a historic alliance of formerly rival gangs — controls approximately 90% of Port-au-Prince and is expanding its reach into northern and central departments that were previously insulated from the violence. The government has lost the ability to govern most of the country.\n\nThe scale of violence is staggering. Between March 2025 and January 2026, at least 5,519 people were killed and 2,608 injured. Homicide rates in the Artibonite and Centre departments have surged 210%. Sexual violence against children has increased by 1,000% since 2023 — a figure that represents a deliberate weaponization of gender-based violence by armed groups to consolidate control.\n\nThe humanitarian consequences are severe. Over 1.4 million people are displaced — a 40% increase since the end of 2024, and the fastest-growing displacement crisis in the hemisphere. 5.7 million people face acute food insecurity, including 1.9 million at emergency levels. Gang blockades of ports and roads have disrupted food imports and aid delivery.\n\n1,600 schools have closed, leaving 1.5 million children without education. Child gang recruitment has surged 70%. The Kenyan-led Multinational Security Support Mission (MSS), authorized in 2023, has had limited impact on gang control due to chronic underfunding and logistical constraints.\n\nThe 2025 Humanitarian Response Plan was only 24% funded. Haiti's crisis is both a direct humanitarian emergency and a cautionary tale about what happens when international attention fades from a country in protracted collapse.",
+  "stats": [
+    { "label": "Facing Food Crisis", "value": "5.7M", "source": "IPC, Oct 2025" },
+    { "label": "Displaced", "value": "1.4M+", "source": "IOM, March 2026" },
+    { "label": "Killed (2025–2026)", "value": "5,519+", "source": "OHCHR / BINUH" },
+    { "label": "Children Out of School", "value": "1.5M", "source": "UN News, 2025" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "WFP — Haiti",
+        "url": "https://www.wfp.org/emergencies/haiti",
+        "description": "Providing emergency food assistance to millions of Haitians facing acute hunger, navigating gang-controlled territory to reach the most vulnerable."
+      },
+      {
+        "name": "MSF — Haiti",
+        "url": "https://www.msf.org/haiti",
+        "description": "Running emergency trauma and surgical care in Port-au-Prince, treating victims of gang violence in one of the most dangerous operating environments in the world."
+      },
+      {
+        "name": "IRC — Haiti",
+        "url": "https://www.rescue.org/country/haiti",
+        "description": "Delivering emergency health, nutrition, and protection services to displaced Haitians, including survivors of gender-based violence."
+      },
+      {
+        "name": "UNICEF — Haiti",
+        "url": "https://www.unicef.org/haiti/",
+        "description": "Protecting children from gang recruitment, providing emergency education, and treating acute malnutrition across Haiti."
+      }
+    ],
+    "awareness": [
+      "Share that gangs now control 90% of Port-au-Prince — this is not petty crime but a full state collapse affecting millions of civilians",
+      "Highlight the 1,000% increase in sexual violence against children — a deliberate strategy of terror that demands urgent international attention",
+      "Challenge the narrative that Haiti's crisis is intractable or self-inflicted — it has deep roots in colonial debt, US policy, and international neglect",
+      "Amplify Haitian civil society voices and local organizations working on the ground despite extraordinary danger",
+      "Share that only 24% of the 2025 Humanitarian Response Plan was funded — a completely inadequate international response"
+    ],
+    "political": [
+      "Demand that your government provide sustained, substantial funding to the Kenyan-led Multinational Security Support Mission in Haiti",
+      "Urge representatives to increase humanitarian funding to Haiti's response plan — current levels are grossly insufficient for the scale of need",
+      "Push for a concrete international strategy to support Haitian-led state rebuilding, not just security responses",
+      "Advocate for debt cancellation for Haiti — the historical burden of colonial reparations to France has permanently stunted the country's development",
+      "Support independent investigations into gang financing networks and demand accountability for international actors enabling the arms trade into Haiti"
+    ]
+  },
+  "sources": [
+    { "title": "OCHA Haiti", "url": "https://www.unocha.org/haiti", "org": "OCHA" },
+    { "title": "IPC Haiti Food Security", "url": "https://www.ipcinfo.org/", "org": "IPC" },
+    { "title": "BINUH Haiti Reports", "url": "https://binuh.unmissions.org/", "org": "BINUH" },
+    { "title": "IOM Haiti Displacement", "url": "https://dtm.iom.int/haiti", "org": "IOM" },
+    { "title": "IRC Haiti Crisis", "url": "https://www.rescue.org/country/haiti", "org": "IRC" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

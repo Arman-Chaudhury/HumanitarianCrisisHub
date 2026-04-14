@@ -1,0 +1,63 @@
+{
+  "slug": "ukraine",
+  "name": "Ukraine",
+  "region": "Nationwide — Kharkiv, Zaporizhzhia, Kherson, Donetsk",
+  "status": "escalating",
+  "color": "#1A6FB0",
+  "accent": "#4A9FD5",
+  "coordinates": { "lat": 49.00, "lng": 32.00 },
+  "summary": "Now in its fifth year of full-scale war, Ukraine experienced its deadliest civilian year since 2022 in 2025 — with a 31% increase in casualties driven by intensified drone attacks. 10.8 million people need humanitarian assistance, and over 9.3 million Ukrainians remain displaced inside the country or as refugees abroad.",
+  "context": "Russia's full-scale invasion of Ukraine in February 2022 triggered Europe's largest displacement crisis since World War II and has caused massive civilian suffering. After nearly four years of war, 2025 proved to be the deadliest for civilians since the initial invasion, with a 31% increase in casualties over 2024. Drone attacks surged 120%, targeting residential areas and energy infrastructure far from the front lines.\n\nRepeated strikes on Ukraine's energy grid created a 'crisis within a crisis' during the 2024–2025 winter. Power blackouts lasting 12–18 hours per day became routine in many regions, forcing millions to survive without heat, light, or running water at temperatures well below freezing. The healthcare system has been a deliberate target, with hundreds of hospitals and medical facilities damaged or destroyed.\n\nThe human toll is staggering: at least 15,172 civilians confirmed killed and 41,378 injured since February 2022, with the actual figures likely significantly higher due to access constraints. Over 2.5 million homes have been damaged or destroyed, and 8 million people have been pushed into poverty. Direct damages are estimated at over $176 billion.\n\nAbout 3.7 million Ukrainians are internally displaced, while 5.6 million are registered as refugees abroad — primarily in Poland, Germany, and other EU countries. Despite high media coverage relative to other crises, the 2026 humanitarian appeal of $2.3 billion remains underfunded.\n\nUkraine's cultural and infrastructure destruction is also a deliberate strategy: museums, archives, monuments, and historical sites have been targeted, representing an assault not just on people but on Ukrainian identity itself.",
+  "stats": [
+    { "label": "Need Aid", "value": "10.8M", "source": "OCHA 2026" },
+    { "label": "Total Displaced", "value": "9.3M+", "source": "IOM, Dec 2025" },
+    { "label": "Civilians Killed", "value": "15,172+", "source": "OHCHR, Jan 2026" },
+    { "label": "Homes Destroyed", "value": "2.5M+", "source": "World Bank RDNA4" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR — Ukraine Emergency",
+        "url": "https://www.unhcr.org/emergencies/ukraine-emergency",
+        "description": "Providing emergency shelter, legal aid, and protection to displaced Ukrainians both inside the country and as refugees in Europe."
+      },
+      {
+        "name": "ICRC — Ukraine",
+        "url": "https://www.icrc.org/en/where-we-work/ukraine",
+        "description": "Delivering emergency aid to conflict-affected communities, supporting prisoners of war, and tracing missing persons."
+      },
+      {
+        "name": "World Food Programme — Ukraine",
+        "url": "https://www.wfp.org/emergencies/ukraine-emergency",
+        "description": "Providing food assistance and cash transfers to vulnerable Ukrainians, including the elderly and those near the front lines."
+      },
+      {
+        "name": "WHO — Ukraine",
+        "url": "https://www.who.int/emergencies/situations/ukraine-emergency",
+        "description": "Restoring health services, supplying medicines, and coordinating the humanitarian health response across Ukraine."
+      }
+    ],
+    "awareness": [
+      "Share the reality that 2025 was the deadliest year for Ukrainian civilians since 2022 — escalation is ongoing, not winding down",
+      "Highlight the targeting of Ukrainian energy infrastructure and what it means for millions of civilians facing winter without heat or electricity",
+      "Amplify documentation of attacks on hospitals, schools, and cultural heritage sites — these are war crimes",
+      "Support Ukrainian journalists and media outlets that provide independent, on-the-ground reporting",
+      "Counter war fatigue narratives — this crisis has not ended, and sustained attention is critical for political will"
+    ],
+    "political": [
+      "Urge your representatives to maintain and increase military and humanitarian aid to Ukraine",
+      "Support calls to use frozen Russian sovereign assets to fund Ukraine's reconstruction and reparations",
+      "Advocate for continued and expanded EU refugee support for the 5.6 million Ukrainians abroad",
+      "Push for full accountability at the International Criminal Court for war crimes and crimes against humanity documented in Ukraine",
+      "Demand that any peace process include full restoration of Ukrainian sovereignty and accountability for Russian aggression"
+    ]
+  },
+  "sources": [
+    { "title": "OCHA Ukraine 2026 Response", "url": "https://www.unocha.org/ukraine", "org": "OCHA" },
+    { "title": "OHCHR Ukraine Civilian Casualties", "url": "https://www.ohchr.org/en/ukraine", "org": "OHCHR" },
+    { "title": "IOM Ukraine Displacement", "url": "https://www.iom.int/countries/ukraine", "org": "IOM" },
+    { "title": "World Bank — Ukraine RDNA", "url": "https://www.worldbank.org/en/country/ukraine", "org": "World Bank" },
+    { "title": "UNHCR Ukraine Emergency", "url": "https://www.unhcr.org/emergencies/ukraine-emergency", "org": "UNHCR" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

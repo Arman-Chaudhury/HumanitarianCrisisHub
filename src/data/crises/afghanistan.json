@@ -1,0 +1,63 @@
+{
+  "slug": "afghanistan",
+  "name": "Afghanistan",
+  "region": "Nationwide — Kabul, Kandahar, Herat, Nangarhar",
+  "status": "escalating",
+  "color": "#C1440E",
+  "accent": "#E07B54",
+  "coordinates": { "lat": 33.93, "lng": 67.71 },
+  "summary": "Under Taliban rule, Afghanistan has become the world's most severe women's rights crisis. Girls are banned from secondary education, women are barred from most employment and public life, and over 22 million people — including nearly 5 million children — face acute hunger after mass aid cuts and the forced expulsion of millions of Afghans from neighboring countries.",
+  "context": "Since the Taliban's return to power in August 2021, Afghanistan has undergone a systematic dismantling of women's and girls' rights unprecedented in the modern era. Girls have been banned from attending secondary school and university for over four years — the only country in the world with such a prohibition. Women are barred from working in most sectors, prohibited from appearing in public without a male guardian, and banned from raising their voices in public spaces.\n\nThe economic and humanitarian consequences are catastrophic. Over 22 million people need humanitarian assistance, and 17.4 million face acute food insecurity. Nearly 5 million children are acutely malnourished. The Taliban's restrictions have also devastated the healthcare system: women cannot be treated by male doctors in many areas, yet female healthcare workers have been dismissed, causing maternal mortality to rise sharply.\n\nMassive US aid cuts and the subsequent collapse of humanitarian funding have compounded the crisis. In 2025, 422 health facilities closed due to funding shortfalls. Simultaneously, Iran and Pakistan have forcibly expelled over 2 million Afghan refugees, adding to an already overwhelmed population.\n\nThe UN has described Afghanistan's situation as 'gender apartheid' — a crime against humanity. UN Women projects that the education bans will increase child marriage by 25%, adolescent childbearing by 45%, and maternal mortality by at least 50%. A full generation of Afghan girls is being systematically denied the right to an education and a future.\n\nDespite calls from the international community, the Taliban has shown no signs of reversing its policies. Afghanistan remains largely inaccessible for independent human rights monitoring.",
+  "stats": [
+    { "label": "Need Aid", "value": "22M+", "source": "UN Security Council, Dec 2025" },
+    { "label": "Food Insecure", "value": "17.4M", "source": "WFP Afghanistan, 2025" },
+    { "label": "Children Malnourished", "value": "5M", "source": "UNICEF Afghanistan" },
+    { "label": "Refugees Worldwide", "value": "5.8M", "source": "HRW World Report 2026" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNICEF Afghanistan",
+        "url": "https://www.unicef.org/afghanistan/",
+        "description": "Delivering nutrition support, vaccines, and limited education programs to Afghan children despite Taliban restrictions."
+      },
+      {
+        "name": "World Food Programme — Afghanistan",
+        "url": "https://www.wfp.org/emergencies/afghanistan",
+        "description": "Providing emergency food assistance to millions facing starvation as economic collapse and aid cuts drive famine conditions."
+      },
+      {
+        "name": "UN Women — Afghanistan",
+        "url": "https://www.unwomen.org/en/where-we-are/asia-and-the-pacific/afghanistan",
+        "description": "Advocating for Afghan women's rights and supporting livelihood programs that provide a lifeline under Taliban restrictions."
+      },
+      {
+        "name": "ICRC — Afghanistan",
+        "url": "https://www.icrc.org/en/where-we-work/asia-pacific/afghanistan",
+        "description": "Providing emergency healthcare, clean water, and support for families of detained people across Afghanistan."
+      }
+    ],
+    "awareness": [
+      "Share the reality that Afghanistan is the only country on Earth where girls are banned from secondary school and university — a policy in effect for over four years",
+      "Amplify the voices of Afghan women activists, journalists, and scholars who have fled and continue to speak out from abroad",
+      "Highlight that the aid funding collapse — not just Taliban policy — is killing Afghan children through preventable malnutrition and disease",
+      "Challenge the framing that Afghanistan is a 'solved' problem — it is the world's most severe ongoing women's rights emergency",
+      "Support organizations providing education to Afghan girls via online and underground programs"
+    ],
+    "political": [
+      "Demand that your government condition any diplomatic engagement with the Taliban on tangible progress for girls' education and women's rights",
+      "Urge representatives to restore and increase humanitarian aid to Afghanistan through neutral organizations, with strict safeguards against Taliban diversion",
+      "Support calls for the UN to formally recognize gender apartheid as a crime against humanity — Afghanistan is the defining case",
+      "Push for expanded refugee resettlement quotas for Afghan women, girls, journalists, and human rights defenders",
+      "Demand accountability for countries forcibly expelling Afghan refugees who face persecution upon return"
+    ]
+  },
+  "sources": [
+    { "title": "WFP Afghanistan Emergency", "url": "https://www.wfp.org/emergencies/afghanistan", "org": "WFP" },
+    { "title": "UN Women — Afghanistan Crisis", "url": "https://www.unwomen.org/en/where-we-are/asia-and-the-pacific/afghanistan", "org": "UN Women" },
+    { "title": "HRW World Report 2026 — Afghanistan", "url": "https://www.hrw.org/asia/afghanistan", "org": "Human Rights Watch" },
+    { "title": "UNICEF Afghanistan Appeals", "url": "https://www.unicef.org/appeals/afghanistan", "org": "UNICEF" },
+    { "title": "ICRC Afghanistan", "url": "https://www.icrc.org/en/where-we-work/asia-pacific/afghanistan", "org": "ICRC" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

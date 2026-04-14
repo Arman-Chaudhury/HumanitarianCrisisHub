@@ -1,0 +1,58 @@
+{
+  "slug": "mozambique",
+  "name": "Mozambique",
+  "region": "Cabo Delgado — Mocímboa da Praia, Macomia, Quissanga",
+  "status": "escalating",
+  "color": "#1C5985",
+  "accent": "#2E7DB5",
+  "coordinates": { "lat": -12.97, "lng": 40.53 },
+  "summary": "Violence against civilians in Cabo Delgado hit record levels in 2025 following the withdrawal of SADC forces. 230,000 people were newly displaced, the humanitarian response is only 19% funded, and response targets were cut by 70%. Over 6,100 people have been killed since the insurgency began in 2017. NRC ranked Mozambique 3rd on its neglected crises list for the first time.",
+  "context": "Cabo Delgado, Mozambique's northernmost province, has been devastated by an Islamist insurgency since 2017. The insurgents — linked to the Islamic State and locally known as 'Al-Shabaab' (no relation to the Somali group) — have conducted horrific attacks on villages, including mass beheadings. Since 2017, over 6,100 people have been killed and hundreds of thousands displaced.\n\nA regional military intervention led by the Southern African Development Community (SADC) mission made partial progress in 2022–2024, clearing insurgents from major towns and enabling some displaced people to return. However, the SADC mission was withdrawn in 2025, and violence immediately surged to record levels. Villages that had been resettled were attacked again. 230,000 people were newly displaced in the period following the withdrawal.\n\nThe humanitarian response has been drastically scaled back. The 2025 response plan was only 19% funded — $66 million of the $352 million required — and response targets were cut by 70% due to the funding gap. This means organizations have essentially stopped trying to meet the full scale of need and are triaging severely.\n\nCabo Delgado also sits atop one of Africa's largest natural gas reserves. Multinational companies including Total Energies (which suspended operations after an attack on its compound in 2021) are invested in the region. The juxtaposition of enormous extractive wealth and humanitarian catastrophe has prompted questions about the relationship between resource extraction, local exclusion, and the conditions that gave rise to the insurgency.\n\nNRC ranked Mozambique's crisis 3rd on its list of most neglected crises in 2025 — the first time the country has appeared in the top five.",
+  "stats": [
+    { "label": "Newly Displaced (2025)", "value": "230,000", "source": "IOM Mozambique" },
+    { "label": "Killed Since 2017", "value": "6,100+", "source": "ACLED/NRC" },
+    { "label": "Response Funded", "value": "19%", "source": "OCHA Mozambique, 2025" },
+    { "label": "NRC Neglect Ranking", "value": "#3 (2025)", "source": "Norwegian Refugee Council" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "IOM — Mozambique",
+        "url": "https://crisisresponse.iom.int/response/mozambique",
+        "description": "Providing emergency shelter, water, sanitation, and support to newly displaced Mozambicans in Cabo Delgado following insurgent attacks."
+      },
+      {
+        "name": "WFP — Mozambique",
+        "url": "https://www.wfp.org/countries/mozambique",
+        "description": "Delivering emergency food assistance to displaced communities in Cabo Delgado and supporting recovery in areas where returns are possible."
+      },
+      {
+        "name": "Save the Children — Mozambique",
+        "url": "https://www.savethechildren.org/",
+        "description": "Protecting children from violence and recruitment, providing psychosocial support, and delivering emergency education in displacement sites."
+      }
+    ],
+    "awareness": [
+      "Share that violence in Cabo Delgado returned to record levels immediately after SADC forces withdrew — without sustained security, humanitarian gains evaporate",
+      "Highlight the funding collapse: 19% funded with 70% response target cuts means organizations have given up trying to meet the scale of need",
+      "Raise awareness about the connection between Mozambique's natural gas wealth and the insurgency — local communities were excluded from benefits while bearing all the risks",
+      "Amplify reporting from Mozambican journalists and human rights organizations documenting what is happening in Cabo Delgado",
+      "Challenge the invisibility of this crisis — 6,100+ killed and hundreds of thousands displaced since 2017 with almost no international attention"
+    ],
+    "political": [
+      "Urge your government to increase humanitarian funding to Mozambique's response plan — 19% funding is effectively abandoning civilians",
+      "Push for renewed regional security engagement in Cabo Delgado, including support for a sustainable, rights-respecting security framework",
+      "Advocate for international pressure on companies operating in Cabo Delgado to invest in community development and conflict prevention",
+      "Demand accountability for human rights abuses documented by all parties — insurgents and security forces alike",
+      "Support a Mozambique peace process that addresses the underlying grievances — exclusion, poverty, and marginalization — that enabled insurgent recruitment"
+    ]
+  },
+  "sources": [
+    { "title": "IOM Mozambique Crisis", "url": "https://crisisresponse.iom.int/response/mozambique", "org": "IOM" },
+    { "title": "WFP Mozambique", "url": "https://www.wfp.org/countries/mozambique", "org": "WFP" },
+    { "title": "NRC Neglected Crises 2025", "url": "https://www.nrc.no/", "org": "Norwegian Refugee Council" },
+    { "title": "OCHA Mozambique", "url": "https://www.unocha.org/mozambique", "org": "OCHA" },
+    { "title": "ACLED Mozambique", "url": "https://acleddata.com/", "org": "ACLED" }
+  ],
+  "lastUpdated": "2026-04-13"
+}
