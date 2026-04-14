@@ -1,0 +1,53 @@
+{
+  "slug": "sahrawi-refugees",
+  "name": "Sahrawi Refugees",
+  "region": "Tindouf, Algeria — five refugee camps near the Western Sahara border",
+  "status": "underreported",
+  "color": "#C4862E",
+  "accent": "#E0A848",
+  "coordinates": { "lat": 27.15, "lng": -13.20 },
+  "summary": "The world's second-longest refugee situation: ~173,600 Sahrawi refugees have lived in desert camps near Tindouf, Algeria, entirely dependent on humanitarian aid since 1975 — 50 years. 90% of households cannot access adequate food. Food rations have been cut 30% due to declining donor support. The UN did not issue its first consolidated response plan until 2024.",
+  "context": "The Sahrawi refugees represent one of the world's most forgotten protracted refugee situations — people who have lived in desert refugee camps for 50 years with no resolution in sight and declining international support.\n\nWestern Sahara, a former Spanish colony, was divided between Morocco and Mauritania in 1975 following Spain's withdrawal. The Sahrawi people — led by the Polisario Front — launched a resistance movement, and hundreds of thousands fled or were expelled from their homeland into the Algerian desert near Tindouf. Morocco subsequently occupied the territory and constructed the world's longest minefield-walled military barrier — the 'berm' — separating Moroccan-controlled Western Sahara from the Polisario-administered zone.\n\nThe five camps near Tindouf have housed between 90,000 and 200,000 Sahrawi since 1975 — estimates vary due to census difficulties, but approximately 173,600 are currently recognized. The camps are located in one of Earth's harshest desert environments, with extreme temperatures and no local resources. All food, water, and supplies must be delivered as aid.\n\n90% of households cannot access adequate food. Malnutrition — particularly among women and children — is chronic. The humanitarian situation has worsened significantly as donor support has declined. Food rations have been cut by 30% as the WFP struggles to fund its operations.\n\nThe political situation is deadlocked. UN-sponsored negotiations between Morocco and the Polisario Front have made no progress toward a referendum on self-determination that was promised decades ago. Morocco's normalization agreements with the US and Israel (2020) — which included US recognition of Moroccan sovereignty over Western Sahara — further reduced pressure on Morocco to negotiate. The refugees remain in limbo, with no mechanism for return and no prospect of resolution on the horizon.",
+  "stats": [
+    { "label": "Years in Camps", "value": "50+ (since 1975)", "source": "UNHCR" },
+    { "label": "Registered Refugees", "value": "~173,600", "source": "UNHCR Algeria" },
+    { "label": "Cannot Access Adequate Food", "value": "90% of households", "source": "WFP Tindouf" },
+    { "label": "Food Ration Cuts", "value": "30%", "source": "WFP, 2025" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR Algeria — Sahrawi Refugees",
+        "url": "https://www.unhcr.org/where-we-work/countries/algeria",
+        "description": "Supporting Sahrawi refugees in the Tindouf camps with protection, shelter, education, and documentation services in the world's second-longest refugee situation."
+      },
+      {
+        "name": "WFP — Tindouf Operations",
+        "url": "https://www.wfp.org/countries/algeria",
+        "description": "Providing food assistance to 173,600 Sahrawi refugees in Algeria's remote Tindouf camps — rations that are the sole food source for most families."
+      }
+    ],
+    "awareness": [
+      "Share that Sahrawi refugees have been in desert camps for 50 years — longer than most living refugees have been alive — with no resolution in sight",
+      "Highlight that 90% of Sahrawi families cannot access adequate food, and rations have been cut 30% — this is a nutrition crisis in one of the world's most forgotten situations",
+      "Amplify Sahrawi voices — poets, activists, filmmakers, and community leaders who preserve culture and advocate for rights from the desert camps",
+      "Raise awareness that the UN never issued a consolidated response plan for Sahrawi refugees until 2024 — 50 years of systematic neglect by the international humanitarian system",
+      "Challenge the invisibility: Western Sahara's story is simple — a people were displaced from their homeland 50 years ago and the world has not helped them return or rebuilt their lives"
+    ],
+    "political": [
+      "Urge your government to support UN Security Council pressure on Morocco to engage meaningfully in self-determination negotiations",
+      "Demand that donor governments increase funding for WFP Tindouf operations — 90% of families going without adequate food is an emergency, not a stable situation",
+      "Push your government to reverse or condition US recognition of Moroccan sovereignty in Western Sahara on progress toward a referendum",
+      "Advocate for independent monitoring of Western Sahara — Morocco restricts access, but the territory's political status remains contested and unresolved",
+      "Support the Sahrawi refugees' right to self-determination through the promised UN-supervised referendum"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Algeria — Sahrawi", "url": "https://www.unhcr.org/where-we-work/countries/algeria", "org": "UNHCR" },
+    { "title": "WFP Algeria / Tindouf", "url": "https://www.wfp.org/countries/algeria", "org": "WFP" },
+    { "title": "UN Western Sahara Response Plan", "url": "https://algeria.un.org/", "org": "UN Algeria" },
+    { "title": "Human Rights Watch Western Sahara", "url": "https://www.hrw.org/middle-east/n-africa/western-sahara", "org": "Human Rights Watch" },
+    { "title": "MINURSO UN Mission", "url": "https://minurso.unmissions.org/", "org": "MINURSO" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

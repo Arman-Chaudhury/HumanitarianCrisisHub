@@ -1,0 +1,58 @@
+{
+  "slug": "pacific-islands",
+  "name": "Pacific Island Nations",
+  "region": "Tuvalu, Kiribati, Marshall Islands, Palau, Maldives — Pacific and Indian Ocean",
+  "status": "escalating",
+  "color": "#006B99",
+  "accent": "#0099CC",
+  "coordinates": { "lat": -8.97, "lng": 172.11 },
+  "summary": "NASA projects at least 15 cm of irreversible sea-level rise within 30 years regardless of emissions changes. 95% of Tuvalu could be underwater during high tide by 2100; over 80% of Tuvaluans have applied for Australia's Falepili immigration visa. Kiribati has purchased land in Fiji as a contingency. 65 million people across 39 Small Island Developing States face an existential threat to their nations.",
+  "context": "Pacific and Indian Ocean island nations face the most literally existential humanitarian crisis in human history: the disappearance of their countries beneath rising seas. Unlike most humanitarian crises, this one is inevitable given already-locked-in warming — the question is only when, and whether these communities will be able to adapt or will be displaced.\n\nTuvalu's situation is the most acute. A Pacific atoll nation of 11,000 people spread across nine islands, Tuvalu's highest point is approximately 4.5 meters above sea level. NASA projections indicate that 95% of Tuvalu could be regularly inundated during high tide events by 2100. Saltwater intrusion is already contaminating fresh groundwater and destroying agricultural plots. Storm surges that once occurred every 50 years are occurring every 5 years. Over 80% of Tuvaluans have already applied for Australia's Falepili Union visa — an extraordinary statistic reflecting a population preparing to abandon its homeland.\n\nKiribati has taken the unprecedented step of purchasing land in Fiji — approximately 6,000 acres — as a contingency for the possible relocation of its 120,000 citizens. The Marshall Islands faces similar threats. The Maldives — an Indian Ocean archipelago of 1,200 islands, most less than 1 meter above sea level — is constructing a floating city as a potential adaptation measure.\n\nThese are not future problems. Coastal erosion is accelerating, freshwater supplies are contaminated, and king tides regularly flood communities. At the same time, these nations — which contribute virtually nothing to global greenhouse gas emissions — are fighting for survival while high-emitting countries move slowly on climate action.\n\nThe combined population of 39 Small Island Developing States is approximately 65 million people. They are united in demanding climate justice — adequate Loss and Damage finance, ambitious emissions reductions, and recognition of their unique vulnerability.",
+  "stats": [
+    { "label": "SIDS Population Affected", "value": "65M (39 countries)", "source": "UN SIDS Framework" },
+    { "label": "Tuvaluans Applied for Falepili Visa", "value": "80%+", "source": "Australian Government" },
+    { "label": "Irreversible Sea Rise (30 years)", "value": "15cm minimum", "source": "NASA / IPCC" },
+    { "label": "Tuvalu Potentially Inundated by 2100", "value": "95%", "source": "NASA Sea Level Change" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UN Rising Nations Initiative",
+        "url": "https://www.un.org/en/climatechange/rising-nations-initiative",
+        "description": "Supporting Pacific and other Small Island Developing States in their advocacy for climate justice, loss and damage, and adaptation financing."
+      },
+      {
+        "name": "Amnesty International — Pacific",
+        "url": "https://www.amnesty.org/en/documents/asa05/0343/2025/en/",
+        "description": "Documenting the human rights dimensions of climate change for Pacific Islanders and advocating for climate justice at international forums."
+      },
+      {
+        "name": "Pacific Islands Forum",
+        "url": "https://www.forumsec.org/",
+        "description": "Supporting the regional body representing Pacific Island nations in their united advocacy for climate action and survival."
+      }
+    ],
+    "awareness": [
+      "Share that over 80% of Tuvaluans have applied for Australian immigration visas — this is a population preparing to abandon their country, not by choice but necessity",
+      "Highlight that Kiribati bought land in Fiji as a contingency: nations are purchasing lifeboats for their populations, not because they want to leave but because they may have no choice",
+      "Amplify Pacific Island leaders — Tuvalu's Prime Minister, Kiribati's President, and others — who have spoken with extraordinary moral clarity about climate justice at international forums",
+      "Raise awareness about the legal vacuum: there is no international protection for people whose country disappears under water — this gap must be filled",
+      "Connect Pacific Island plight to climate negotiations: when rich countries reject ambitious Loss and Damage commitments, they are choosing the elimination of Pacific cultures"
+    ],
+    "political": [
+      "Demand that your government commit to ambitious contributions to the Loss and Damage Fund specifically citing Pacific Island vulnerability",
+      "Urge your government to meet and exceed its NDC commitments under the Paris Agreement — every 0.1°C of additional warming worsens Pacific inundation",
+      "Push for recognition of climate displaced people as a protected category under international law before Pacific populations are forced to migrate",
+      "Support Pacific Island nations' leadership in climate negotiations — their voice must be amplified, not marginalized by wealthy country interests",
+      "Advocate for sustainable development support for Pacific Island nations to enable in-place adaptation where possible, and dignified relocation where necessary"
+    ]
+  },
+  "sources": [
+    { "title": "UN Rising Nations Initiative", "url": "https://www.un.org/en/climatechange/rising-nations-initiative", "org": "UN" },
+    { "title": "Pacific Islands Forum", "url": "https://www.forumsec.org/", "org": "PIF" },
+    { "title": "NASA Sea Level Change", "url": "https://sealevel.nasa.gov/", "org": "NASA" },
+    { "title": "Amnesty Pacific Climate Report", "url": "https://www.amnesty.org/en/documents/asa05/0343/2025/en/", "org": "Amnesty International" },
+    { "title": "IPCC AR6 Small Islands", "url": "https://www.ipcc.ch/report/ar6/wg2/", "org": "IPCC" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

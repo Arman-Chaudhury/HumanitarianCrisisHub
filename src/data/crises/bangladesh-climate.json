@@ -1,0 +1,58 @@
+{
+  "slug": "bangladesh-climate",
+  "name": "Bangladesh",
+  "region": "Nationwide — Coastal districts, Sylhet, Chittagong Hill Tracts",
+  "status": "escalating",
+  "color": "#0B6E4F",
+  "accent": "#12956A",
+  "coordinates": { "lat": 23.69, "lng": 90.36 },
+  "summary": "2.4 million Bangladeshis were internally displaced by disasters in 2024 — 5th globally. 18 million were affected by the 2024 monsoon floods alone. The World Bank projects up to 19.9 million climate-displaced Bangladeshis by 2050. A low-lying delta nation with 170 million people, Bangladesh faces an existential climate threat while contributing minimally to global emissions.",
+  "context": "Bangladesh is among the world's most climate-vulnerable countries. A low-lying delta nation built on the confluence of the Ganges, Brahmaputra, and Meghna rivers, much of its densely populated land sits barely above sea level. With 170 million people in an area the size of Iowa, Bangladesh has almost no margin for climate disruption — yet it faces some of the world's most severe climate impacts.\n\nAnnual monsoon flooding is a natural part of Bangladesh's ecology, but climate change is intensifying it beyond what communities can manage. The 2024 monsoon floods were extraordinary in scale, affecting 18 million people across multiple divisions. 2.4 million were internally displaced — placing Bangladesh 5th globally in disaster displacement. IDMC has recorded 123 distinct disaster events causing displacement in Bangladesh between 2008 and 2024.\n\nSea level rise is an existential threat. The World Bank projects that without significant adaptation, up to 19.9 million Bangladeshis could be climate-displaced by 2050 as coastal areas become uninhabitable through saltwater intrusion, flooding, and loss of agricultural land. The Sundarbans — the world's largest mangrove forest, a crucial storm buffer — is shrinking. Cyclones are intensifying. Salinity is spreading inland, destroying agricultural land that millions depend on.\n\nBangladesh also hosts 1.1 million Rohingya refugees in Cox's Bazar — the world's largest refugee camp — adding additional pressure on an already stretched country. Climate displacement is expected to dramatically exceed refugee displacement in coming decades, raising profound questions about international legal frameworks that do not recognize climate displacement as a category for protection.\n\nDespite contributing less than 0.5% of cumulative global greenhouse gas emissions, Bangladesh faces climate costs that will dwarf anything the international community has committed to providing.",
+  "stats": [
+    { "label": "Displaced by Disasters (2024)", "value": "2.4M", "source": "IDMC 2025" },
+    { "label": "Affected by 2024 Floods", "value": "18M", "source": "IFRC / OCHA" },
+    { "label": "Projected Climate Displaced by 2050", "value": "Up to 19.9M", "source": "World Bank 2021" },
+    { "label": "Disaster Events (2008–2024)", "value": "123", "source": "IDMC" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "IOM Bangladesh",
+        "url": "https://crisisresponse.iom.int/response/bangladesh-crisis-response-plan-2025",
+        "description": "Supporting disaster-displaced Bangladeshis and Rohingya refugees with emergency assistance and climate displacement responses."
+      },
+      {
+        "name": "Bangladesh Red Crescent Society",
+        "url": "https://bdrcs.org/",
+        "description": "Providing disaster relief and community-based preparedness across Bangladesh, including in coastal areas most exposed to cyclones and flooding."
+      },
+      {
+        "name": "IDMC — Bangladesh",
+        "url": "https://www.internal-displacement.org/countries/bangladesh/",
+        "description": "Documenting internal displacement and informing policy responses to Bangladesh's growing climate displacement crisis."
+      }
+    ],
+    "awareness": [
+      "Share that up to 19.9 million Bangladeshis could be climate-displaced by 2050 — this will be the largest internal displacement event in history, and it is preventable only by cutting global emissions",
+      "Highlight that Bangladesh contributes less than 0.5% of global emissions but faces climate costs that will reshape the country — this is climate injustice",
+      "Amplify Bangladeshi climate scientists, activists, and community voices documenting what is already happening in coastal and flood-affected communities",
+      "Raise awareness about the gap in international law: there is no legal protection for 'climate refugees' — the category doesn't exist, yet millions will need it",
+      "Connect Bangladesh's story to COP negotiations on loss and damage: this is not an abstract financial debate but a question of who pays when coastlines disappear"
+    ],
+    "political": [
+      "Demand that your government champion the operationalization of the Loss and Damage Fund with substantial contributions — Bangladesh exemplifies who the fund is for",
+      "Push for recognition of climate displacement as a protection category under international refugee law or equivalent",
+      "Advocate for dramatically scaled-up climate adaptation finance for Bangladesh — mangrove restoration, embankment upgrades, and early warning systems save lives",
+      "Support Bangladesh's leadership in climate diplomacy — it represents the most vulnerable countries in international negotiations",
+      "Urge your government to commit to net-zero pathways consistent with limiting warming to 1.5°C — every fraction of a degree matters to Bangladesh"
+    ]
+  },
+  "sources": [
+    { "title": "IDMC Bangladesh", "url": "https://www.internal-displacement.org/countries/bangladesh/", "org": "IDMC" },
+    { "title": "IOM Bangladesh Crisis Response", "url": "https://crisisresponse.iom.int/response/bangladesh-crisis-response-plan-2025", "org": "IOM" },
+    { "title": "World Bank Climate Displacement Report", "url": "https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050", "org": "World Bank" },
+    { "title": "Bangladesh Red Crescent", "url": "https://bdrcs.org/", "org": "BDRCS" },
+    { "title": "OCHA Bangladesh", "url": "https://www.unocha.org/bangladesh", "org": "OCHA" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "libya",
+  "name": "Libya",
+  "region": "Nationwide — Tripoli, Benghazi, Sabha — and detention centers",
+  "status": "active",
+  "color": "#5E5E8E",
+  "accent": "#7878B0",
+  "coordinates": { "lat": 26.34, "lng": 17.23 },
+  "summary": "~700,000 migrants and refugees are trapped in Libya, thousands held in detention centers subject to systematic torture, extortion, forced labor, and sexual violence. 581 extrajudicial killings were documented in detention facilities (2020–2022). Libya expelled 10 international aid organizations in 2025. Political fragmentation continues between rival governments with no functioning state able to protect civilians.",
+  "context": "Libya has been in a state of political fragmentation and near-continuous conflict since the 2011 NATO-backed uprising that toppled Muammar Gaddafi. Competing governments in Tripoli and Benghazi, backed by different armed factions and foreign powers, have divided the country and created a governance vacuum that has allowed systematic abuses to flourish.\n\nThe most severe and internationally documented abuses involve migrants and refugees. Libya has become the primary transit country for people attempting to reach Europe across the Mediterranean. European countries — particularly Italy — have funded and equipped the Libyan Coast Guard to intercept people at sea and return them to Libya, despite knowing the conditions that await them.\n\nApproximately 700,000 migrants and refugees are in Libya at any time. Those intercepted at sea are returned to detention centers where conditions have been extensively documented by UNHCR, IOM, and human rights organizations as constituting systematic torture. Beatings, electric shock, sexual violence including rape, forced labor without pay, extortion, and starvation are reported as routine. 581 extrajudicial killings in detention facilities were documented between 2020 and 2022 alone.\n\nLibya expelled 10 international aid organizations in 2025, including several that had operated inside detention centers — eliminating the limited protection presence that existed. The current situation is largely without independent witnesses.\n\nThe political situation remains fragmented between the UN-recognized Government of National Unity in Tripoli and the eastern-based Government of National Stability backed by General Haftar. Multiple armed factions operate with impunity. The EU's policy of funding Libyan coastguard interception while knowing what happens in the detention centers is the subject of growing legal challenges.",
+  "stats": [
+    { "label": "Migrants/Refugees in Libya", "value": "~700,000", "source": "IOM / UNHCR" },
+    { "label": "Detention Deaths Documented (2020–22)", "value": "581", "source": "HRW / UNHCR" },
+    { "label": "Aid Organizations Expelled (2025)", "value": "10", "source": "OCHA, 2025" },
+    { "label": "Mediterranean Crossings Attempted (2024)", "value": "165,000+", "source": "UNHCR" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "IOM Libya",
+        "url": "https://crisisresponse.iom.int/response/libya-crisis-response-plan-2025-2026",
+        "description": "Supporting migrants and refugees in Libya with emergency assistance, voluntary return programs, and limited protection services."
+      },
+      {
+        "name": "MSF Libya",
+        "url": "https://www.msf.org/libya",
+        "description": "Providing emergency medical care to migrants and refugees in Libya and advocating for an end to detention and interception policies."
+      },
+      {
+        "name": "Human Rights Watch — Libya",
+        "url": "https://www.hrw.org/news/2025/06/02/libya-barriers-justice",
+        "description": "Documenting abuses in Libyan detention centers, extrajudicial killings, and the complicity of European funding in these violations."
+      }
+    ],
+    "awareness": [
+      "Share that European countries fund the Libyan coastguard to return migrants to detention centers where torture, rape, and killing are documented — European policy is directly complicit",
+      "Highlight that Libya expelled 10 aid organizations in 2025 — the people in its detention centers now have no independent witnesses and no protection",
+      "Amplify the voices of survivors of Libyan detention who have reached Europe and are documenting what they experienced",
+      "Raise awareness that 'stopping the boats' in European political debate means returning people to documented torture — this is the actual policy choice",
+      "Challenge EU member states to confront the human cost of their migration policies rather than outsourcing abuse to third countries"
+    ],
+    "political": [
+      "Demand that your government end all funding to the Libyan coastguard until Libya creates a functional, humane, monitored alternative to indefinite detention",
+      "Push for EU-level accountability for migration policies that knowingly enable torture and death — the legal foundation for challenging these policies in European courts exists",
+      "Advocate for humanitarian visa pathways and legal migration routes as alternatives to policies that push people toward more dangerous routes",
+      "Support calls for an independent UN investigation into deaths in Libyan detention centers and complicity of European governments",
+      "Urge your government to accept more migrants and asylum seekers directly, reducing the demand for dangerous routes through Libya"
+    ]
+  },
+  "sources": [
+    { "title": "HRW Libya Justice Barriers", "url": "https://www.hrw.org/news/2025/06/02/libya-barriers-justice", "org": "Human Rights Watch" },
+    { "title": "IOM Libya Crisis Response", "url": "https://crisisresponse.iom.int/response/libya-crisis-response-plan-2025-2026", "org": "IOM" },
+    { "title": "MSF Libya", "url": "https://www.msf.org/libya", "org": "MSF" },
+    { "title": "UNHCR Libya", "url": "https://www.unhcr.org/countries/libya", "org": "UNHCR" },
+    { "title": "Amnesty Libya", "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/north-africa/libya/", "org": "Amnesty International" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

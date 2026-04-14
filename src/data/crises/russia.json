@@ -1,0 +1,58 @@
+{
+  "slug": "russia",
+  "name": "Russia",
+  "region": "Nationwide — Moscow, St. Petersburg, Chechnya, LGBTQ+ communities",
+  "status": "escalating",
+  "color": "#8B1C2C",
+  "accent": "#B52840",
+  "coordinates": { "lat": 61.52, "lng": 105.32 },
+  "summary": "The 2023 designation of the 'international LGBT movement' as extremist has led to 101 extremism-related convictions for acts as innocuous as displaying rainbow colors. Political opposition is effectively criminalized. Independent media is virtually eliminated. Russia's invasion of Ukraine has accelerated authoritarian consolidation domestically, creating a society under pervasive state control.",
+  "context": "Russia's domestic political repression has accelerated sharply since the 2022 full-scale invasion of Ukraine. The war has served as a pretext for eliminating virtually all remaining space for dissent, independent journalism, and civil society activity.\n\nThe criminalization of LGBTQ+ people has reached an extraordinary level. In November 2023, the Russian Supreme Court designated the 'international LGBT movement' as extremist — a designation with no precedent in international law and no coherent definition of what it targets. By 2025, 101 people had been convicted on extremism charges for acts as innocuous as posting rainbow flags online, displaying pride symbols, or using LGBTQ+-affirming language. The potential punishment is up to 10 years in prison.\n\nAlexei Navalny, Russia's most prominent opposition leader, was killed in an Arctic penal colony in February 2024. Thousands of anti-war protesters have been sentenced to years in prison. Protest has become functionally impossible — participants face immediate arrest, criminal charges, and multi-year sentences. Hundreds of thousands of Russians who could afford to have left the country to avoid conscription, persecution, or simply to preserve their ability to speak freely.\n\nIndependent media inside Russia has been virtually eliminated. Novaya Gazeta, Echo of Moscow, TV Rain, Meduza, and other outlets have been blocked, shut down, or forced into exile. Journalists who remain in Russia face prosecution under laws criminalizing 'discrediting' the armed forces or 'spreading false information' about military operations — effectively banning any truthful reporting on the war.\n\nSocial media platforms that have not complied with state demands to remove content have been blocked. Russians who try to access independent news through VPNs face increasing restrictions. The information environment inside Russia has been dramatically narrowed.",
+  "stats": [
+    { "label": "LGBT Extremism Convictions", "value": "101+", "source": "HRW / OVD-Info, 2025" },
+    { "label": "Anti-War Protesters Jailed", "value": "Thousands", "source": "OVD-Info" },
+    { "label": "Russians Who Left Since 2022", "value": "700,000–1M+", "source": "Various estimates" },
+    { "label": "Independent Media Remaining", "value": "Virtually none", "source": "RSF / CPJ" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "OVD-Info",
+        "url": "https://ovd.info/",
+        "description": "Russia's primary civil rights media project tracking political arrests and providing legal assistance to detained protesters and activists."
+      },
+      {
+        "name": "Human Rights Watch — Russia",
+        "url": "https://www.hrw.org/news/2025/06/30/russia-rising-toll-of-lgbt-extremism-designation",
+        "description": "Documenting the impact of Russia's LGBTQ+ extremism designation, anti-war persecution, and the elimination of civil society."
+      },
+      {
+        "name": "Amnesty International Russia",
+        "url": "https://www.amnesty.org/en/latest/news/2026/02/",
+        "description": "Running urgent action campaigns for Russian political prisoners and those imprisoned for LGBTQ+ identity or anti-war expression."
+      }
+    ],
+    "awareness": [
+      "Share that displaying a rainbow flag is now an extremist act under Russian law — 101 people have already been convicted, with sentences up to 10 years",
+      "Highlight the information blackout inside Russia: independent media has been virtually eliminated, leaving Russians with state propaganda as their primary news source",
+      "Amplify exiled Russian journalists from Meduza, TV Rain, and Novaya Gazeta who continue reporting despite enormous personal risk",
+      "Raise awareness about the hundreds of thousands of Russians who fled — they include many who opposed the war and the authoritarian turn",
+      "Challenge the conflation of 'Russia' with 'Putin's government' — millions of Russians oppose the war and the repression and have been silenced or forced to flee"
+    ],
+    "political": [
+      "Support Russian exile journalists and civil society organizations through grants and diplomatic protection — they are fighting for Russia's future",
+      "Push for expanded support for Russians seeking asylum from persecution for anti-war activism, LGBTQ+ identity, or journalism",
+      "Advocate for sustained sanctions targeting individuals responsible for persecution, not blanket measures that harm ordinary Russians",
+      "Demand that international platforms ensure Russians can access independent news through VPNs and circumvention tools",
+      "Support accountability mechanisms for crimes committed in Ukraine — accountability abroad often creates accountability conditions at home"
+    ]
+  },
+  "sources": [
+    { "title": "OVD-Info Political Arrests", "url": "https://ovd.info/", "org": "OVD-Info" },
+    { "title": "HRW Russia LGBT Extremism", "url": "https://www.hrw.org/news/2025/06/30/russia-rising-toll-of-lgbt-extremism-designation", "org": "Human Rights Watch" },
+    { "title": "Amnesty Russia 2026", "url": "https://www.amnesty.org/en/latest/news/2026/02/", "org": "Amnesty International" },
+    { "title": "Meduza — Independent Russian Media", "url": "https://meduza.io/en", "org": "Meduza" },
+    { "title": "RSF Russia Press Freedom", "url": "https://rsf.org/en/country/russia", "org": "Reporters Without Borders" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

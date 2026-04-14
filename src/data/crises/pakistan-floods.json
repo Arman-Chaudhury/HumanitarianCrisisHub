@@ -1,0 +1,53 @@
+{
+  "slug": "pakistan-floods",
+  "name": "Pakistan",
+  "region": "Khyber Pakhtunkhwa, Balochistan, Sindh, Punjab — flood-prone regions",
+  "status": "escalating",
+  "color": "#15528C",
+  "accent": "#2070B5",
+  "coordinates": { "lat": 30.38, "lng": 69.35 },
+  "summary": "Pakistan is the world's most climate-vulnerable nation despite contributing less than 1% of global emissions. Catastrophic monsoon flooding has become virtually annual: the 2022 floods affected 33 million people with $30 billion in damage, 2024 displaced 1.5 million, and 2025 killed 972 people and displaced over 2 million. Pakistan's crisis illustrates climate injustice on an epic scale.",
+  "context": "Pakistan's climate crisis is perhaps the world's starkest illustration of climate injustice: a country responsible for less than 1% of global greenhouse gas emissions is experiencing some of the planet's most catastrophic climate impacts. A 2025 global climate vulnerability assessment ranked Pakistan the most climate-vulnerable country on Earth.\n\nThe monsoon flooding has become a nearly annual catastrophe. The 2022 mega-floods — driven by glacial melting combined with extraordinary monsoon rains — submerged one-third of Pakistan's land area. 33 million people were directly affected, 1,700 killed, and damages exceeded $30 billion — equal to roughly 9% of Pakistan's entire GDP. The economic blow to an already struggling economy was devastating.\n\nThe pattern has continued. In 2024, monsoon flooding displaced 1.5 million people. In 2025, floods killed 972 people and displaced over 2 million more. Each year, millions of rural Pakistanis — disproportionately women, children, landless laborers, and smallholder farmers — lose their homes, crops, and livelihoods. Recovery is incomplete before the next season begins.\n\nPakistan's vulnerability is driven by multiple converging factors. It is home to more glaciers than anywhere outside the polar regions — approximately 7,000 glaciers in the Himalaya, Karakoram, and Hindu Kush ranges — and glacial lake outburst floods are increasing in frequency and severity. Climate change is simultaneously intensifying monsoon rains, accelerating glacial melt, and extending heat waves that kill crops and livestock.\n\nThe economic costs compound pre-existing debt and instability. Pakistan regularly requires IMF assistance, and climate disasters repeatedly devastate hard-won development gains. The country is locked in a cycle where it cannot afford the adaptation investments it needs because it is spending recovery resources from the last disaster.",
+  "stats": [
+    { "label": "Killed in 2025 Floods", "value": "972", "source": "NDMA Pakistan, 2025" },
+    { "label": "Displaced in 2025 Floods", "value": "2M+", "source": "IOM / OCHA" },
+    { "label": "Affected by 2022 Floods", "value": "33M", "source": "PDMA / OCHA" },
+    { "label": "Climate Vulnerability Rank", "value": "#1 globally", "source": "Global Climate Risk Index 2025" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "IFRC Pakistan Floods",
+        "url": "https://www.ifrc.org/press-release/pakistan-floods-escalating-humanitarian-crisis-amid-climate-extremes",
+        "description": "Providing emergency shelter, clean water, and healthcare to flood-affected communities across Pakistan through the Red Crescent Society network."
+      },
+      {
+        "name": "Amnesty International — Pakistan Climate",
+        "url": "https://www.amnesty.org/en/projects/pakistan-climate-impact/",
+        "description": "Documenting the human rights dimensions of Pakistan's climate crisis and advocating for loss and damage compensation from high-emitting countries."
+      }
+    ],
+    "awareness": [
+      "Share that Pakistan contributes less than 1% of global emissions but is ranked the world's most climate-vulnerable country — this is climate injustice, not bad luck",
+      "Highlight the scale of the 2022 floods: one-third of Pakistan underwater, 33 million affected, $30 billion in damage — and recovery was incomplete before 2024's floods hit",
+      "Raise awareness about Pakistan's glaciers: it has more glaciers than anywhere outside the poles, and they are melting faster than anywhere else, releasing floods downstream",
+      "Amplify Pakistani climate activists and scientists who are documenting what is happening and demanding international accountability",
+      "Connect Pakistan's climate crisis to the 'loss and damage' debate at international climate negotiations — real reparations are overdue"
+    ],
+    "political": [
+      "Demand that your government champion loss and damage financing for climate-vulnerable countries like Pakistan at COP negotiations and bilateral meetings",
+      "Push for substantial increases in climate adaptation funding — not just pledges but delivered, accessible funds",
+      "Advocate for debt relief for Pakistan linked to climate vulnerability — a country losing 9% of GDP to climate disasters cannot service normal debt burdens",
+      "Support Pakistan's calls for binding commitments from high-emitting countries to rapidly reduce emissions — the source of Pakistan's climate crisis",
+      "Urge your government to include climate considerations in all international financial assistance to Pakistan, building resilience rather than just rebuilding"
+    ]
+  },
+  "sources": [
+    { "title": "IFRC Pakistan Floods", "url": "https://www.ifrc.org/press-release/pakistan-floods-escalating-humanitarian-crisis-amid-climate-extremes", "org": "IFRC" },
+    { "title": "Amnesty Pakistan Climate", "url": "https://www.amnesty.org/en/projects/pakistan-climate-impact/", "org": "Amnesty International" },
+    { "title": "OCHA Pakistan", "url": "https://www.unocha.org/pakistan", "org": "OCHA" },
+    { "title": "NDMA Pakistan", "url": "https://ndma.gov.pk/", "org": "NDMA Pakistan" },
+    { "title": "Global Climate Risk Index", "url": "https://www.germanwatch.org/en/cri", "org": "Germanwatch" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

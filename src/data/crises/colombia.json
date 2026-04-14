@@ -1,0 +1,58 @@
+{
+  "slug": "colombia",
+  "name": "Colombia",
+  "region": "Chocó, Cauca, Nariño, Meta, Arauca — conflict-affected regions",
+  "status": "escalating",
+  "color": "#2060A0",
+  "accent": "#3080C0",
+  "coordinates": { "lat": 4.57, "lng": -74.30 },
+  "summary": "Colombia has 8.8 million registered IDPs — one of the world's largest. Q1 2025 displacement quadrupled versus Q1 2024. Violence is the worst since the 2016 peace agreement. Between 121,768 and 210,000 enforced disappearances are estimated (UN CED). 80% of mass displacement events occur in Indigenous and Afro-Colombian territories, continuing to disproportionately burden these communities.",
+  "context": "Colombia's civil conflict is one of the longest-running in the world, beginning in the 1960s. While the 2016 peace agreement with the FARC offered a historic opportunity for ending the conflict, implementation has been deeply inadequate and a proliferation of armed groups — FARC dissidents, ELN, Gulf Clan, and others — has driven violence to its worst levels since the peace deal was signed.\n\nQ1 2025 displacement quadrupled compared to Q1 2024 — an extraordinary deterioration suggesting a qualitative shift in conflict dynamics. Multiple armed groups are competing for territorial control, particularly in Chocó, Cauca, and Nariño — regions rich in gold, coca, and strategic corridors for trafficking. In these zones, civilians are caught between armed groups that restrict movement, recruit youth, and massacre communities perceived as sympathetic to rivals.\n\nColombia holds 8.8 million registered internally displaced persons — one of the world's largest IDP populations and the largest in the Americas. The actual figure is likely higher, as many displacements go unregistered. An estimated 121,768 to 210,000 people have been subjected to enforced disappearances — a range that reflects both the uncertainty of measurement and the extraordinary scale of the practice.\n\n80% of mass displacement events occur in Indigenous and Afro-Colombian territories. These communities — which constitute Colombia's most environmentally sensitive areas, including primary rainforest and Pacific coast biodiversity hotspots — are disproportionately affected by a conflict driven primarily by their land's extractive value.\n\nColombia is also among the world's most dangerous countries for environmental and human rights defenders. Land defenders, Indigenous leaders, and former FARC combatants who demobilized under the peace deal are killed at alarming rates.",
+  "stats": [
+    { "label": "Registered IDPs", "value": "8.8M", "source": "UNHCR Colombia / UARIV" },
+    { "label": "Displacement Increase Q1 2025", "value": "4x vs Q1 2024", "source": "OCHA Colombia" },
+    { "label": "Enforced Disappearances Estimated", "value": "121,768–210,000", "source": "UN CED" },
+    { "label": "Mass Displacement in Indigenous/Afro Areas", "value": "80%", "source": "OCHA Colombia" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR Colombia",
+        "url": "https://www.unhcr.org/where-we-work/countries/colombia",
+        "description": "Protecting 8.8 million IDPs and supporting Colombia's historically displaced communities with legal assistance, shelter, and protection."
+      },
+      {
+        "name": "IOM Colombia",
+        "url": "https://crisisresponse.iom.int/response/colombia-crisis-response-plan-2025",
+        "description": "Supporting displaced communities and migrants in Colombia with emergency assistance and durable solutions."
+      },
+      {
+        "name": "INDEPAZ",
+        "url": "https://indepaz.org.co/",
+        "description": "A Colombian civil society organization documenting armed group violence, killings of social leaders, and human rights violations."
+      }
+    ],
+    "awareness": [
+      "Share that Q1 2025 displacement quadrupled compared to Q1 2024 — Colombia's peace process is failing and the situation is getting dramatically worse",
+      "Highlight that 80% of mass displacements occur in Indigenous and Afro-Colombian territories — structural racism shapes who bears the costs of conflict",
+      "Amplify Colombian human rights defenders, particularly those working in conflict zones — they face assassination and are among the most at-risk anywhere in the world",
+      "Raise awareness about the connection between coca eradication policy, armed groups, and civilian displacement — forced eradication without alternative livelihoods drives conflict",
+      "Challenge simplistic narratives about Colombia's peace process — implementation has been so inadequate that armed groups have filled the vacuum in most conflict regions"
+    ],
+    "political": [
+      "Urge your government to increase support for full implementation of Colombia's 2016 peace agreement, including rural reform, truth commission, and transitional justice",
+      "Push for increased international pressure on armed groups and the governments — Venezuela, Ecuador — that provide sanctuary to some of them",
+      "Advocate for targeted support for Indigenous and Afro-Colombian communities that bear disproportionate displacement burdens",
+      "Support Colombia's transitional justice mechanisms — the JEP (Special Jurisdiction for Peace) — as models for accountability without impunity",
+      "Demand that international companies operating in Colombia's conflict zones conduct human rights due diligence and address complicity in armed group financing"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Colombia", "url": "https://www.unhcr.org/where-we-work/countries/colombia", "org": "UNHCR" },
+    { "title": "IOM Colombia Crisis Response", "url": "https://crisisresponse.iom.int/response/colombia-crisis-response-plan-2025", "org": "IOM" },
+    { "title": "INDEPAZ Colombia", "url": "https://indepaz.org.co/", "org": "INDEPAZ" },
+    { "title": "OCHA Colombia", "url": "https://www.unocha.org/colombia", "org": "OCHA" },
+    { "title": "HRW Colombia", "url": "https://www.hrw.org/americas/colombia", "org": "Human Rights Watch" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

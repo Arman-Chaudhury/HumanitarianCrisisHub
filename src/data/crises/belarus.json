@@ -1,0 +1,58 @@
+{
+  "slug": "belarus",
+  "name": "Belarus",
+  "region": "Nationwide — Minsk, Brest, Grodno, Vitebsk regions",
+  "status": "active",
+  "color": "#5B2C8B",
+  "accent": "#7A48B0",
+  "coordinates": { "lat": 53.71, "lng": 27.95 },
+  "summary": "Belarus holds over 1,110 political prisoners as of December 2025. Since the fraudulent 2020 election and subsequent crackdown, 9,044+ people have faced politically motivated criminal prosecutions. Routine torture and ill-treatment in detention are documented. Nobel laureate Ales Bialiatski was released in December 2025, but new arrests continue unabated under Lukashenko's regime.",
+  "context": "Belarus has been ruled by Alexander Lukashenko since 1994. Following the August 2020 presidential election — which independent observers and the EU consider fraudulent — Lukashenko launched the largest crackdown in Belarusian history against a mass protest movement that had mobilized millions. Over five years later, the repression has not abated.\n\nThe scale of political repression is extraordinary for a European country. Over 9,044 people have faced politically motivated criminal prosecutions since 2020. At least 1,110 remain imprisoned as political prisoners as of December 2025. Prisoners include journalists, lawyers, doctors, teachers, factory workers, athletes, and ordinary citizens who attended protests or expressed opposition online. Charges are typically fabricated or grossly disproportionate — organizing 'mass disturbances,' spreading 'false information,' or acting against state security.\n\nTorture and ill-treatment in detention facilities is systematic and extensively documented. The Viasna Human Rights Centre — the primary organization tracking political prisoners — has collected thousands of testimonies describing beatings, sleep deprivation, stress positions, and sexual violence in facilities following the 2020 crackdown.\n\nThe Nobel Peace Prize was awarded to Ales Bialiatski, founder of Viasna, in 2022 while he was in prison. He was released in December 2025, but many other prisoners remain, and new arrests continue at a sustained pace. Over 200,000 Belarusians have fled abroad since 2020, creating one of the largest exile communities in European history.\n\nBelarus's alignment with Russia — which has used Belarusian territory as a staging ground for attacks on Ukraine — has deepened since 2020, making international pressure more politically complex.",
+  "stats": [
+    { "label": "Political Prisoners", "value": "1,110+", "source": "Viasna, Dec 2025" },
+    { "label": "Politically Motivated Prosecutions", "value": "9,044+", "source": "Viasna / Amnesty" },
+    { "label": "Belarusians in Exile", "value": "200,000+", "source": "EU / UNHCR" },
+    { "label": "Years in Power — Lukashenko", "value": "30+", "source": "Since 1994" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Viasna Human Rights Centre",
+        "url": "https://spring96.org/en",
+        "description": "The leading Belarusian human rights organization tracking political prisoners and documenting torture and prosecutions — founded by Nobel laureate Ales Bialiatski."
+      },
+      {
+        "name": "Human Rights Watch — Belarus",
+        "url": "https://www.hrw.org/world-report/2026/country-chapters/belarus",
+        "description": "Documenting political repression, torture in detention, and forced exile of Belarusians opposing Lukashenko's regime."
+      },
+      {
+        "name": "Amnesty International Belarus",
+        "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/belarus/",
+        "description": "Running urgent action campaigns for Belarusian political prisoners and advocating for accountability for torture in detention."
+      }
+    ],
+    "awareness": [
+      "Share that Belarus has 1,110+ political prisoners including journalists, doctors, teachers, and athletes — ordinary people criminalized for political speech and protest",
+      "Highlight the systematic torture documented in Belarusian prisons since 2020 — this is not exceptional but policy",
+      "Amplify the Belarusian exile community — 200,000 people forced to leave their country, many of whom continue to document and resist from abroad",
+      "Raise awareness about the ongoing solidarity of Belarusian civil society, which continues to organize despite extreme repression",
+      "Challenge the sense that Belarus is a 'solved' issue or secondary to the Ukraine war — it is an ongoing political repression emergency"
+    ],
+    "political": [
+      "Urge your government to maintain and expand targeted sanctions against Lukashenko and officials responsible for political repression and torture",
+      "Push for recognition of Sviatlana Tsikhanouskaya and the democratic opposition as the legitimate representatives of the Belarusian people",
+      "Demand that any negotiations involving Belarus include accountability for crimes committed against peaceful protesters",
+      "Support Belarusian exile civil society organizations and independent media — Nexta, Zerkalo, and others — that keep Belarusians informed",
+      "Advocate for fast-track visa and asylum procedures for Belarusians fleeing persecution, and push for their rapid resettlement"
+    ]
+  },
+  "sources": [
+    { "title": "Viasna Human Rights Centre", "url": "https://spring96.org/en", "org": "Viasna" },
+    { "title": "HRW Belarus 2026", "url": "https://www.hrw.org/world-report/2026/country-chapters/belarus", "org": "Human Rights Watch" },
+    { "title": "Amnesty Belarus", "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/belarus/", "org": "Amnesty International" },
+    { "title": "UN SR on Belarus", "url": "https://www.ohchr.org/en/countries/belarus", "org": "OHCHR" },
+    { "title": "Zerkalo — Belarusian Media", "url": "https://zerkalo.io/", "org": "Zerkalo" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "nagorno-karabakh",
+  "name": "Nagorno-Karabakh Armenians",
+  "region": "Armenia — Syunik, Gegharkunik; forcibly displaced from Nagorno-Karabakh",
+  "status": "active",
+  "color": "#8B6B2E",
+  "accent": "#B08C4A",
+  "coordinates": { "lat": 39.82, "lng": 46.75 },
+  "summary": "Following Azerbaijan's September 2023 military offensive, virtually the entire ethnic Armenian population — 100,000+ people — fled Nagorno-Karabakh in days. The March 2025 peace agreement forecloses any right of return. 23 Armenians remain detained in Azerbaijan. Freedom House documented systematic destruction of Armenian cultural and religious sites.",
+  "context": "The September 2023 Azerbaijani military offensive on Nagorno-Karabakh — a 24-hour operation following a nine-month blockade that created catastrophic humanitarian conditions — triggered one of the fastest mass displacements in recent history. Within days, virtually the entire ethnic Armenian population of approximately 100,000–120,000 people fled to Armenia, effectively ending 3,000 years of continuous Armenian presence in the region.\n\nThe Armenian community of Nagorno-Karabakh — who called their homeland Artsakh — had maintained a de facto independent republic since the 1994 ceasefire following the first Karabakh war. The 2020 Second Karabakh War saw Azerbaijan retake significant territory. The 2023 offensive completed the process, overwhelming the lightly armed local forces within hours and forcing the de facto republic to agree to dissolution.\n\nThe nine-month blockade preceding the offensive had created humanitarian catastrophe: food shortages, medicine shortages, and fuel cutoffs left the population in acute distress. International calls for Azerbaijan to open the Lachin corridor — the only road connecting the enclave to Armenia — went largely unheeded.\n\nThe March 2025 peace agreement between Armenia and Azerbaijan formally forecloses the displaced Armenians' right of return. 23 ethnic Armenians, including former political and military leaders, remain detained in Azerbaijan — their legal status and treatment have been a persistent concern for human rights organizations.\n\nFreedom House and other organizations have documented the destruction of Armenian cultural heritage in areas under Azerbaijani control, including churches, khachkars (stone crosses), and medieval monasteries. The 30-year-old community infrastructure, homes, and institutions of Nagorno-Karabakh's Armenians have been effectively erased.",
+  "stats": [
+    { "label": "Armenians Displaced", "value": "100,000+", "source": "UNHCR Armenia, 2023" },
+    { "label": "Days for Full Displacement", "value": "~3 days", "source": "UNHCR / Press" },
+    { "label": "Armenian Detainees in Azerbaijan", "value": "23", "source": "HRW / ICG, 2025" },
+    { "label": "Years of Armenian Presence in Region", "value": "3,000+", "source": "Historical record" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR Armenia",
+        "url": "https://www.unhcr.org/countries/armenia",
+        "description": "Supporting the integration of 100,000+ displaced Nagorno-Karabakh Armenians in Armenia with shelter, legal assistance, and essential services."
+      },
+      {
+        "name": "International Crisis Group",
+        "url": "https://www.crisisgroup.org/europe-central-asia/armenian-azerbaijani-conflict-armenia",
+        "description": "Analyzing the Armenia-Azerbaijan conflict and advocating for sustainable peace that addresses the rights of displaced Armenians."
+      }
+    ],
+    "awareness": [
+      "Share that 100,000+ people were displaced from their ancestral homeland in three days in September 2023 — one of the fastest ethnic displacements in modern history",
+      "Highlight that the March 2025 peace agreement forecloses any right of return — a people with 3,000 years of presence in a region have been permanently removed",
+      "Amplify the voices of displaced Karabakh Armenians in Armenia who are documenting their experiences and working to preserve their cultural identity in exile",
+      "Raise awareness about the 23 detainees held in Azerbaijan — their fate is a humanitarian issue that international pressure could influence",
+      "Challenge the framing that the Karabakh situation is 'resolved' — displacement without right of return and ongoing cultural heritage destruction are not resolution"
+    ],
+    "political": [
+      "Urge your government to advocate for the release of all ethnic Armenian detainees held in Azerbaijan and independent monitoring of their treatment",
+      "Push for international protection of Armenian cultural heritage sites in Nagorno-Karabakh and accountability for documented heritage destruction",
+      "Advocate for sustainable integration support for 100,000+ displaced Armenians in Armenia — they need housing, employment, and social services",
+      "Demand that any international recognition of the peace agreement include binding commitments on detainee releases and heritage protection",
+      "Support Armenia's stabilization through economic assistance and diplomatic partnerships that reduce its vulnerability to future coercion"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Armenia", "url": "https://www.unhcr.org/countries/armenia", "org": "UNHCR" },
+    { "title": "ICG Armenia-Azerbaijan Conflict", "url": "https://www.crisisgroup.org/europe-central-asia/armenian-azerbaijani-conflict-armenia", "org": "ICG" },
+    { "title": "HRW Nagorno-Karabakh", "url": "https://www.hrw.org/europe/central-asia/azerbaijan", "org": "Human Rights Watch" },
+    { "title": "Freedom House Armenia", "url": "https://freedomhouse.org/country/armenia", "org": "Freedom House" },
+    { "title": "Amnesty Nagorno-Karabakh", "url": "https://www.amnesty.org/en/latest/news/2023/09/nagorno-karabakh/", "org": "Amnesty International" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

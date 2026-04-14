@@ -1,0 +1,58 @@
+{
+  "slug": "iraq",
+  "name": "Iraq",
+  "region": "Sinjar, Anbar, Kirkuk, Diyala — post-ISIS and climate-displaced communities",
+  "status": "active",
+  "color": "#A0601A",
+  "accent": "#C07A28",
+  "coordinates": { "lat": 33.22, "lng": 43.68 },
+  "summary": "1+ million Iraqis remain internally displaced 7+ years after ISIS's defeat. 172,200 are displaced specifically by climate change and water scarcity. Iraq is experiencing its driest year since 1933, with Tigris and Euphrates water levels dropping 27%. A classic 'forgotten crisis' — massive need with minimal international attention or funding.",
+  "context": "Iraq has been in a state of compounding crisis for over two decades. The 2003 US invasion, subsequent sectarian civil war, and the rise and fall of ISIS have displaced millions and left deep scars on Iraq's social fabric and infrastructure. Seven years after ISIS's territorial defeat, over 1 million Iraqis remain internally displaced — unable or unwilling to return to communities where their homes are destroyed, their neighbors displaced, and the social conditions that caused conflict remain unaddressed.\n\nThe Yazidi community — subjected to what the UN formally recognized as genocide by ISIS — faces particular challenges. Sinjar, the historical Yazidi homeland, remains contested between Kurdish forces, Iraqi central government forces, and armed factions. Thousands of Yazidis remain missing, believed to be held as slaves by ISIS members who have dispersed. Displaced Yazidis in camps near Duhok and Zakho are reluctant to return to a Sinjar that remains insecure and whose infrastructure was destroyed.\n\nA new and growing dimension of Iraq's displacement crisis is climate-driven. 172,200 Iraqis have been specifically displaced by water scarcity and extreme heat — people whose farming and pastoral livelihoods have been destroyed by drought, salinization, and water shortage. Iraq is experiencing its driest year since records began in 1933. The Tigris and Euphrates — the rivers that gave rise to the world's first civilizations in Mesopotamia — have seen water levels drop 27% due to upstream dams in Turkey and Iran combined with reduced rainfall.\n\nIn southern Iraq, entire villages are being abandoned as the land becomes too saline and dry to farm. The marshes of southern Iraq — the homeland of the Marsh Arabs, drained by Saddam Hussein and partially restored after 2003 — are again shrinking. An environmental catastrophe is unfolding in slow motion.\n\nIraq exemplifies the 'forgotten crisis' category: a country with massive humanitarian needs, complex political dynamics, and almost no international attention. The 2026 Humanitarian Response Plan targets significant populations but receives a small fraction of requirements.",
+  "stats": [
+    { "label": "IDPs Remaining", "value": "1M+", "source": "IOM DTM Iraq" },
+    { "label": "Climate-Displaced", "value": "172,200", "source": "IOM Iraq, 2025" },
+    { "label": "Tigris/Euphrates Water Level Drop", "value": "27%", "source": "World Bank / UNEP" },
+    { "label": "Driest Year on Record", "value": "Since 1933", "source": "FAO / WMO Iraq" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "IOM Iraq",
+        "url": "https://crisisresponse.iom.int/response/iraq-crisis-response-plan-2026",
+        "description": "Supporting internally displaced Iraqis and those displaced by climate change with emergency assistance and durable solutions."
+      },
+      {
+        "name": "UNHCR Iraq",
+        "url": "https://www.unhcr.org/emergencies/iraq-situation",
+        "description": "Providing protection and assistance to 1 million+ displaced Iraqis and supporting conditions for voluntary, safe return."
+      },
+      {
+        "name": "IRC Iraq",
+        "url": "https://www.rescue.org/country/iraq",
+        "description": "Delivering healthcare, mental health, and economic recovery services to displaced Iraqis and returnees across the country."
+      }
+    ],
+    "awareness": [
+      "Share that 1 million Iraqis are still displaced 7 years after ISIS's defeat — the conflict is over but displacement has not ended because the conditions were never addressed",
+      "Highlight Iraq's climate crisis: the Tigris and Euphrates — the rivers of the world's first civilization — are at their lowest level since 1933",
+      "Amplify Yazidi survivors and advocates — their genocide by ISIS has been formally recognized but justice, return, and accountability remain incomplete",
+      "Raise awareness about climate displacement in Iraq: 172,200 people have left their land not because of bombs but because the land has become too dry and saline to survive on",
+      "Challenge the 'problem solved' narrative about Iraq: the absence of active war headlines does not mean the humanitarian crisis has ended"
+    ],
+    "political": [
+      "Urge your government to increase humanitarian funding for Iraq's response plan — 1 million IDPs years after a conflict should not be forgotten",
+      "Push for international diplomatic engagement on Iraq's water crisis — upstream dams in Turkey and Iran require multilateral water-sharing agreements",
+      "Advocate for full accountability for ISIS's genocide against Yazidis, including prosecution of ISIS members in custody in your country's courts",
+      "Support Iraq's climate adaptation needs — water infrastructure, drought-resistant agriculture, and managed relocation where land has become uninhabitable",
+      "Demand that companies involved in Iraq's oil sector invest in climate adaptation for the communities displaced by the oil economy's effects on water and land"
+    ]
+  },
+  "sources": [
+    { "title": "IOM Iraq Crisis Response", "url": "https://crisisresponse.iom.int/response/iraq-crisis-response-plan-2026", "org": "IOM" },
+    { "title": "UNHCR Iraq Situation", "url": "https://www.unhcr.org/emergencies/iraq-situation", "org": "UNHCR" },
+    { "title": "IRC Iraq", "url": "https://www.rescue.org/country/iraq", "org": "IRC" },
+    { "title": "HRW Iraq", "url": "https://www.hrw.org/middle-east/n-africa/iraq", "org": "Human Rights Watch" },
+    { "title": "FAO Iraq Water Crisis", "url": "https://www.fao.org/iraq/en/", "org": "FAO" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

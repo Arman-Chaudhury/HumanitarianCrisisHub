@@ -1,0 +1,53 @@
+{
+  "slug": "horn-of-africa-drought",
+  "name": "Horn of Africa Drought",
+  "region": "Somalia, Kenya, Ethiopia — Somali Region, Turkana, Afar, Bay, Bakool",
+  "status": "escalating",
+  "color": "#C08000",
+  "accent": "#E0A020",
+  "coordinates": { "lat": 8.00, "lng": 42.00 },
+  "summary": "After the worst drought in 40+ years (2021–2023) that pushed millions to the brink of famine, renewed drought began in September 2025 with historically poor rains. 20–25 million people need food assistance across Kenya, Ethiopia, and Somalia. In Somalia's Bay and Bakool regions, non-irrigated harvests are projected at less than 10% of average — near-total crop failure.",
+  "context": "The Horn of Africa has faced compounding climate shocks that have devastated the region's food systems and pastoralist communities. The 2021–2023 drought — described by meteorologists as the worst in 40 years — was driven by five consecutive failed rainy seasons in the October–December Deyr and March–May Gu seasons. At its peak, over 36 million people required humanitarian assistance across Somalia, Kenya, and Ethiopia.\n\nThis drought pushed Somalia perilously close to famine in 2022–2023. Emergency humanitarian intervention — ultimately totaling over $2 billion — prevented the worst-case scenario but did not restore the underlying resilience of pastoral communities. Millions of livestock — the primary asset of pastoral communities — died during the drought, representing generational wealth destruction. Families that lost their herds did not recover them when rains returned.\n\nRenewed drought began in September 2025, with historically poor short rains (October–December 2025). Early assessments from the Famine Early Warning Systems Network (FEWS NET) projected catastrophic food security conditions. In Somalia's Bay and Bakool regions — the country's agricultural heartland — non-irrigated harvests are projected at less than 10% of average. This is effectively a total crop failure for communities that have no other food source.\n\n20–25 million people across the three countries require food assistance as of early 2026. The funding situation is dire: humanitarian response plans remain chronically underfunded, and the record USAID cuts of 2025 have devastated the early warning and response systems that prevented the worst outcomes during the previous drought.\n\nClimate scientists project that without ambitious global emissions reductions, the frequency and severity of droughts in the Horn of Africa will continue to increase, making each successive drought harder to recover from.",
+  "stats": [
+    { "label": "Need Food Assistance", "value": "20–25M", "source": "FEWS NET / OCHA, 2026" },
+    { "label": "Bay/Bakool Harvest Projection", "value": "<10% of average", "source": "FEWS NET Somalia" },
+    { "label": "Consecutive Failed Rainy Seasons", "value": "4 (2024–2025)", "source": "WFP / FAO" },
+    { "label": "Previous Drought Severity", "value": "Worst in 40 years", "source": "WMO / NOAA" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "WFP — Horn of Africa",
+        "url": "https://www.wfp.org/publications/regional-drought-response-plan-horn-africa-2023",
+        "description": "Delivering emergency food assistance and supporting drought early warning systems across Somalia, Kenya, and Ethiopia."
+      },
+      {
+        "name": "FEWS NET Early Warning",
+        "url": "https://fews.net/east-africa/",
+        "description": "The primary food security early warning system for the Horn of Africa — its early alerts enable pre-emptive response that saves lives."
+      }
+    ],
+    "awareness": [
+      "Share that the Horn of Africa barely recovered from the worst drought in 40 years before a new drought began in 2025 — this is not a one-time disaster but an accelerating pattern",
+      "Highlight the near-total crop failure in Somalia's breadbasket regions — less than 10% of average harvest means communities have almost no locally grown food",
+      "Raise awareness about the loss of livestock during repeated droughts: herds that represent generational wealth are dying faster than they can be rebuilt",
+      "Amplify the work of FEWS NET and early warning systems — the ability to see famines coming is only valuable if the international community responds in time",
+      "Connect the Horn of Africa drought to climate change — the region is experiencing a 'new normal' of disrupted rainfall driven by global warming"
+    ],
+    "political": [
+      "Demand that your government restore emergency funding for Horn of Africa humanitarian operations — aid cuts are directly causing preventable deaths",
+      "Push for sustained investment in FEWS NET and other early warning systems — early response costs a fraction of emergency famine response",
+      "Advocate for climate adaptation investments in the Horn of Africa: drought-resistant crops, water harvesting, and livestock insurance programs",
+      "Support debt relief for Somalia, Kenya, and Ethiopia so they can invest in climate resilience rather than debt service",
+      "Urge your government to connect its climate commitments to concrete adaptation funding for the Horn of Africa — the most climate-vulnerable region in Africa"
+    ]
+  },
+  "sources": [
+    { "title": "FEWS NET East Africa", "url": "https://fews.net/east-africa/", "org": "FEWS NET" },
+    { "title": "WFP Horn of Africa Response", "url": "https://www.wfp.org/publications/regional-drought-response-plan-horn-africa-2023", "org": "WFP" },
+    { "title": "OCHA Horn of Africa", "url": "https://www.unocha.org/", "org": "OCHA" },
+    { "title": "FAO Horn of Africa", "url": "https://www.fao.org/emergencies/fao-in-action/stories/stories-detail/en/c/1631127/", "org": "FAO" },
+    { "title": "IPC Horn of Africa", "url": "https://www.ipcinfo.org/", "org": "IPC" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

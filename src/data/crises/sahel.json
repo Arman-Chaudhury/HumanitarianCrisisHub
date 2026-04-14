@@ -1,0 +1,53 @@
+{
+  "slug": "sahel",
+  "name": "Sahel Desertification",
+  "region": "Burkina Faso, Mali, Niger, Chad, Nigeria, Cameroon, Senegal",
+  "status": "escalating",
+  "color": "#D4730A",
+  "accent": "#E89030",
+  "coordinates": { "lat": 15.00, "lng": 0.00 },
+  "summary": "Temperatures in the Sahel are rising 1.5 times the global average, driving desertification, resource competition, and armed group recruitment. This climate-conflict nexus has driven a 2,446% increase in displacement since 2014. Nearly 4 million people are displaced and 45.9 million face food insecurity during the 2025 lean season. 14,800+ schools have been closed due to insecurity.",
+  "context": "The Sahel — the semiarid band stretching across Africa south of the Sahara — is the world's most acute climate-conflict nexus. Here, climate change is not an abstract future threat but a present-day driver of mass displacement, starvation, and armed conflict.\n\nTemperatures in the Sahel are rising at approximately 1.5 times the global average — one of the fastest rates of warming anywhere on Earth. This drives accelerating desertification: the southward advance of the Sahara, declining rainfall, and the destruction of the pastoral and agricultural systems that millions of people depend on. When farmers and herders lose their livelihoods to drought and land degradation, they compete fiercely for what remains — and armed groups recruit from the ranks of the desperate.\n\nThe numbers illustrate the scale of catastrophe. Displacement in the Sahel has increased by 2,446% since 2014 — from under 100,000 displaced to approximately 4 million. 45.9 million people faced food insecurity during the 2025 lean season across Burkina Faso, Mali, Niger, Nigeria, Chad, and Cameroon. Over 14,800 schools have been closed due to armed group attacks or security threats — representing a generation being denied education across the most educationally vulnerable part of the world.\n\nThe political dimension is inseparable from the climate dimension. Military coups in Mali, Burkina Faso, and Niger have disrupted international partnerships, expelled peacekeepers and aid organizations, and created governance vacuums that armed groups fill. UNHCR's 2025 Sahel appeal was only 32% funded — meaning the international community has effectively withdrawn from the crisis just as it reaches its worst point.\n\nClimate scientists project the Sahel situation will significantly worsen by 2050 even under optimistic emissions scenarios. Without transformational investment in adaptation, peace, and development, the Sahel crisis will export displacement on a scale that will dwarf anything seen so far.",
+  "stats": [
+    { "label": "Displaced (2025)", "value": "4M", "source": "UNHCR Sahel" },
+    { "label": "Displacement Increase Since 2014", "value": "+2,446%", "source": "UNHCR / IDMC" },
+    { "label": "Food Insecure (Lean Season 2025)", "value": "45.9M", "source": "OCHA / FEWS NET" },
+    { "label": "Schools Closed by Insecurity", "value": "14,800+", "source": "UNICEF Sahel" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR Sahel Emergency",
+        "url": "https://reporting.unhcr.org/operational/situations/sahel-situation",
+        "description": "Protecting and supporting 4 million displaced people across the Sahel, including in areas affected by jihadist insurgency and climate displacement."
+      },
+      {
+        "name": "IRC — Central Sahel",
+        "url": "https://www.rescue.org/article/central-sahel-how-conflict-and-climate-change-drive-crisis",
+        "description": "Delivering humanitarian assistance to conflict and climate-affected communities across the Sahel, including healthcare, food, and protection."
+      }
+    ],
+    "awareness": [
+      "Share the 2,446% displacement figure: the Sahel has gone from under 100,000 displaced in 2014 to 4 million in 2025 — driven by climate, conflict, and international neglect",
+      "Highlight that Sahel temperatures are rising 1.5 times faster than the global average — the world's most vulnerable people are experiencing the harshest climate impacts",
+      "Amplify the school closure crisis: 14,800+ schools closed due to armed group insecurity means an entire generation in the Sahel is growing up without education",
+      "Connect the dots between climate change and conflict — the Sahel is the clearest current example of climate as a driver of war and displacement",
+      "Challenge wealthy nations that are primarily responsible for climate change to dramatically increase both mitigation and adaptation funding for the Sahel"
+    ],
+    "political": [
+      "Urge your government to dramatically increase contributions to climate adaptation funding for Sahel countries — those least responsible for emissions are bearing the greatest costs",
+      "Demand that your government restore humanitarian funding to Sahel operations — at 32% funded, UNHCR cannot protect people it cannot reach",
+      "Push for a comprehensive Sahel strategy that addresses governance, security, and climate in an integrated way rather than treating them as separate problems",
+      "Advocate for debt relief for Sahel countries so they can invest in climate resilience and development rather than debt service",
+      "Support regional institutions (G5 Sahel, African Union) with the capacity to address the interconnected drivers of the Sahel crisis"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Sahel Situation", "url": "https://reporting.unhcr.org/operational/situations/sahel-situation", "org": "UNHCR" },
+    { "title": "IRC Sahel Crisis", "url": "https://www.rescue.org/article/central-sahel-how-conflict-and-climate-change-drive-crisis", "org": "IRC" },
+    { "title": "OCHA Sahel", "url": "https://www.unocha.org/sahel", "org": "OCHA" },
+    { "title": "FEWS NET Sahel", "url": "https://fews.net/west-africa", "org": "FEWS NET" },
+    { "title": "IDMC Sahel Displacement", "url": "https://www.internal-displacement.org/", "org": "IDMC" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

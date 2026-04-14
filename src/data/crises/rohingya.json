@@ -1,0 +1,58 @@
+{
+  "slug": "rohingya",
+  "name": "Rohingya in Bangladesh",
+  "region": "Cox's Bazar, Bhasan Char Island — southeastern Bangladesh",
+  "status": "escalating",
+  "color": "#7B3040",
+  "accent": "#A04860",
+  "coordinates": { "lat": 21.21, "lng": 92.16 },
+  "summary": "1,139,433 Rohingya are biometrically registered in Bangladesh's camps — among the most densely populated places on Earth at just 24 km². 150,000 new arrivals since 2024 mark the largest movement since 2017. The 2025 Joint Response Plan is only 21.7% funded, threatening systemic collapse of health, food, and education services that 95% of Rohingya depend on entirely.",
+  "context": "The Rohingya refugee crisis in Bangladesh is one of the world's most acute protracted displacement emergencies. The majority fled Myanmar's August 2017 military campaign — which the UN described as textbook genocide — in which security forces burned villages, committed mass killings, and systematically drove out the Rohingya Muslim minority. Over 700,000 arrived in a matter of weeks, creating one of the fastest refugee exoduses in history.\n\nSeven years later, more than 1.1 million Rohingya remain in Cox's Bazar — the world's largest refugee settlement spanning just 24 square kilometers. This makes it one of the most densely populated places on Earth. The camps are not temporary shelters but effectively cities with no legal status, no right to work, and no freedom of movement for their residents.\n\nNew arrivals have increased dramatically. 150,000 Rohingya have arrived from Myanmar since 2024, driven by the intensification of Myanmar's civil war, which has directly affected Rakhine State where most remaining Rohingya live. This influx is the largest since the 2017 crisis and has further strained an already overwhelmed system.\n\nThe humanitarian response is on the verge of collapse. The 2025 Joint Response Plan is only 21.7% funded. WFP has been forced to cut monthly food rations multiple times. Health clinics operate at reduced capacity. Education services for 400,000+ Rohingya children are threatened. 95% of Rohingya are entirely dependent on humanitarian assistance — they have no legal right to work, no ability to leave the camps, and no assets.\n\nRepatriation to Myanmar remains impossible. There are no conditions of safety, citizenship, or accountability that would make return viable. Bangladesh insists on repatriation as the only solution, but no durable solution exists while Myanmar denies Rohingya citizenship and the military continues to attack Rakhine.",
+  "stats": [
+    { "label": "Registered Rohingya in Bangladesh", "value": "1,139,433", "source": "UNHCR Bangladesh, 2025" },
+    { "label": "New Arrivals Since 2024", "value": "150,000", "source": "UNHCR" },
+    { "label": "Joint Response Plan Funded", "value": "21.7%", "source": "UNHCR/IOM JRP 2025" },
+    { "label": "Camp Area", "value": "24 km²", "source": "UNHCR Bangladesh" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "UNHCR — Rohingya Emergency",
+        "url": "https://www.unhcr.org/us/emergencies/rohingya-emergency",
+        "description": "Providing protection, shelter, and essential services to over 1.1 million Rohingya in Bangladesh's camps, which are at risk of service collapse due to chronic underfunding."
+      },
+      {
+        "name": "IOM Bangladesh",
+        "url": "https://crisisresponse.iom.int/response/bangladesh-crisis-response-plan-2025",
+        "description": "Supporting emergency shelter, water, sanitation, and new arrival response in Cox's Bazar's Rohingya camps."
+      },
+      {
+        "name": "Rohingya Response",
+        "url": "https://rohingyaresponse.org/",
+        "description": "A platform connecting donors with vetted organizations delivering direct assistance to Rohingya in Bangladesh's camps."
+      }
+    ],
+    "awareness": [
+      "Share that the Rohingya camps span just 24 km² for 1.1 million people — among the densest human settlements anywhere — and that 95% depend entirely on international aid to survive",
+      "Highlight that the Joint Response Plan is only 21.7% funded — when food rations are cut, children go hungry and die of preventable disease in camps in Bangladesh",
+      "Amplify Rohingya activists, journalists, and community leaders who are documenting conditions and advocating for rights from within and outside the camps",
+      "Raise awareness that repatriation to Myanmar remains impossible — there is no safe country to return to while the genocide remains unaddressed and citizenship denied",
+      "Challenge the 'donor fatigue' narrative — these are people with no alternative. Their dependency is a product of policy, not character"
+    ],
+    "political": [
+      "Urge your government to substantially increase its contribution to the Rohingya Joint Response Plan — a 21.7% funding rate means the system is collapsing",
+      "Push for Myanmar accountability at the International Court of Justice and ICC — justice for past atrocity is inseparable from creating conditions for safe return",
+      "Advocate for Bangladesh to allow Rohingya the right to work — current restrictions force 1.1 million people into total dependency and prevent any path to self-sufficiency",
+      "Support donor pressure on Myanmar to restore Rohingya citizenship as a precondition for any repatriation discussions",
+      "Demand that China and ASEAN members engage meaningfully with the Rohingya crisis rather than protecting Myanmar from accountability"
+    ]
+  },
+  "sources": [
+    { "title": "UNHCR Rohingya Emergency", "url": "https://www.unhcr.org/us/emergencies/rohingya-emergency", "org": "UNHCR" },
+    { "title": "IOM Bangladesh", "url": "https://crisisresponse.iom.int/response/bangladesh-crisis-response-plan-2025", "org": "IOM" },
+    { "title": "Rohingya Response Platform", "url": "https://rohingyaresponse.org/", "org": "Rohingya Response" },
+    { "title": "MSF Cox's Bazar", "url": "https://www.msf.org/bangladesh-rohingya-refugee-crisis", "org": "MSF" },
+    { "title": "Human Rights Watch Rohingya", "url": "https://www.hrw.org/tag/rohingya", "org": "Human Rights Watch" }
+  ],
+  "lastUpdated": "2026-04-13"
+}

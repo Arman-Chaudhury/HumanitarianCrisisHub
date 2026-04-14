@@ -1,0 +1,58 @@
+{
+  "slug": "north-korea",
+  "name": "North Korea",
+  "region": "Nationwide — Pyongyang, North Hamgyong, Ryanggang, Hwanghae",
+  "status": "active",
+  "color": "#4A3728",
+  "accent": "#6B5240",
+  "coordinates": { "lat": 40.34, "lng": 127.51 },
+  "summary": "Approximately 12 million North Koreans — half the population — are undernourished. Rice prices nearly doubled between late 2023 and early 2025. Border guards are still ordered to shoot unauthorized crossers. A 2025 UN report found a 'lost decade' of expanded repression. Only 224 North Koreans reached South Korea in 2025 — the lowest since the Korean War era.",
+  "context": "North Korea is arguably the world's most extreme totalitarian state — a country where three generations of the Kim family have ruled with absolute authority since 1948, where citizens are classified by loyalty to the state from birth, and where attempting to leave is a capital offense.\n\nThe humanitarian situation is severe and worsening. Approximately 12 million people — nearly half the population of 25 million — are chronically undernourished. The food system relies on a state Public Distribution System that collapsed in the 1990s famine (which killed 600,000–900,000 people) and has never fully recovered. Private markets (jangmadang) have partially filled the gap, but they function under constant threat of crackdown.\n\nThe COVID-19 pandemic dramatically worsened conditions. Kim Jong-un sealed the border entirely in 2020, effectively halting all trade. Food prices spiked catastrophically. International aid agencies that had limited access were expelled. By 2025, rice prices had nearly doubled compared to late 2023, pushing more households into food insecurity. The border remains highly restricted.\n\nThe political repression system is comprehensive. An estimated 80,000–120,000 people are held in political prison camps (kwanliso) under conditions that UN investigations have described as constituting crimes against humanity, including torture, sexual violence, forced labor, and starvation. Three generations of a family can be imprisoned for one member's perceived disloyalty.\n\nThe escape route through China and Southeast Asia to South Korea has been virtually closed. Only 224 North Koreans reached South Korea in 2025 — compared to annual flows of 2,000–3,000 in the 2000s. Those caught attempting to cross are executed or sent to camps. China forcibly repatriates North Koreans it catches, condemning them to severe punishment upon return.",
+  "stats": [
+    { "label": "Undernourished", "value": "~12M", "source": "WFP / FAO 2025" },
+    { "label": "Political Prison Camp Inmates", "value": "80,000–120,000", "source": "UN Commission of Inquiry" },
+    { "label": "Defectors Reaching South Korea (2025)", "value": "224", "source": "MOUA South Korea" },
+    { "label": "UN Finding", "value": "Crimes Against Humanity", "source": "UN COI, 2014 (conditions ongoing)" }
+  ],
+  "actions": {
+    "donate": [
+      {
+        "name": "Committee for Human Rights in North Korea",
+        "url": "https://www.hrnk.org/",
+        "description": "Documenting human rights violations in North Korea through satellite imagery, defector testimony, and policy research."
+      },
+      {
+        "name": "Database Center for North Korean Human Rights",
+        "url": "https://en.nkdb.org/",
+        "description": "Systematically documenting North Korean human rights violations for eventual accountability and justice."
+      },
+      {
+        "name": "HRW — North Korea",
+        "url": "https://www.hrw.org/world-report/2026/country-chapters/north-korea",
+        "description": "Documenting and reporting on North Korea's human rights crisis, including the prison camp system and treatment of defectors."
+      }
+    ],
+    "awareness": [
+      "Share that half of North Korea's population is undernourished — in a country that spends billions on nuclear weapons and missile programs",
+      "Highlight the three-generations punishment system: one family member's perceived disloyalty can sentence their children and grandchildren to political prison camps",
+      "Amplify North Korean defector voices — people who survived the prison camps and the escape route and are now telling the world what they experienced",
+      "Raise awareness that China forcibly repatriates North Korean refugees — an act that condemns them to execution or torture — and demand China stop",
+      "Challenge the framing that North Korea is primarily a security issue: it is first a massive human rights crisis affecting 25 million people"
+    ],
+    "political": [
+      "Urge your government to support UN mechanisms addressing North Korean human rights — including the Group of Experts mandate",
+      "Push for China to stop forcibly repatriating North Korean refugees — this is a fundamental violation of the principle of non-refoulement",
+      "Advocate for 'Radio Free Asia' and similar media organizations broadcasting into North Korea — information is the most powerful tool for change",
+      "Support universal jurisdiction laws that would allow prosecution of North Korean officials for crimes against humanity in your country",
+      "Demand that any diplomatic engagement with North Korea include concrete human rights benchmarks and independent monitoring"
+    ]
+  },
+  "sources": [
+    { "title": "HRNK Committee for HR in DPRK", "url": "https://www.hrnk.org/", "org": "HRNK" },
+    { "title": "HRW North Korea 2026", "url": "https://www.hrw.org/world-report/2026/country-chapters/north-korea", "org": "Human Rights Watch" },
+    { "title": "NK DB Center for HR", "url": "https://en.nkdb.org/", "org": "NKDB" },
+    { "title": "UN Commission of Inquiry — DPRK", "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-dprk/index", "org": "OHCHR" },
+    { "title": "WFP DPRK Situation", "url": "https://www.wfp.org/countries/democratic-peoples-republic-korea", "org": "WFP" }
+  ],
+  "lastUpdated": "2026-04-13"
+}
