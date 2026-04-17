@@ -6,6 +6,7 @@ import { OrbitControls, Html, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import { useRouter } from "next/navigation";
 import type { Crisis } from "@/types/crisis";
+import { getStatusColor } from "@/lib/statusColors";
 
 /* ── Convert lat/lng to 3D sphere position ── */
 function latLngToVector3(lat: number, lng: number, radius: number): THREE.Vector3 {
@@ -71,7 +72,7 @@ function CrisisHotspot({ crisis, isSelected, onSelect }: CrisisHotspotProps) {
     onSelect(crisis.slug);
   }, [onSelect, crisis.slug]);
 
-  const color = new THREE.Color(crisis.color);
+  const color = new THREE.Color(getStatusColor(crisis.status));
 
   return (
     <group position={position} quaternion={orientation}>
@@ -124,7 +125,7 @@ function CrisisHotspot({ crisis, isSelected, onSelect }: CrisisHotspotProps) {
             className="whitespace-nowrap px-3 py-2 rounded-md shadow-lg"
             style={{
               background: "rgba(14,13,11,0.92)",
-              border: `1px solid ${crisis.color}55`,
+              border: `1px solid ${getStatusColor(crisis.status)}55`,
               backdropFilter: "blur(8px)",
             }}
           >
@@ -133,7 +134,7 @@ function CrisisHotspot({ crisis, isSelected, onSelect }: CrisisHotspotProps) {
             </span>
             <span
               className="ml-2 font-sans text-[10px] uppercase tracking-wider font-medium"
-              style={{ color: crisis.color }}
+              style={{ color: getStatusColor(crisis.status) }}
             >
               {crisis.status}
             </span>
@@ -185,7 +186,7 @@ function RotatingGlobe({ crises, selectedSlug, onSelect }: RotatingGlobeProps) {
       groupRef.current.rotation.y += diff * 0.05;
 
       // Zoom in via FOV
-      cam.fov = THREE.MathUtils.lerp(cam.fov, 28, 0.05);
+      cam.fov = THREE.MathUtils.lerp(cam.fov, 32, 0.05);
     } else {
       // Auto-rotate when idle
       groupRef.current.rotation.y += delta * 0.06;
@@ -290,13 +291,15 @@ export default function Globe({ crises }: GlobeProps) {
             "radial-gradient(circle, rgba(230,57,70,0.06) 0%, rgba(230,57,70,0.02) 40%, transparent 70%)",
         }}
       />
-      <Canvas
-        camera={{ position: [0, 0, 5], fov: 45 }}
-        style={{ background: "transparent" }}
-        dpr={[1, 2]}
-      >
-        <GlobeScene crises={crises} selectedSlug={selectedSlug} onSelect={setSelectedSlug} />
-      </Canvas>
+      <div style={{ width: "100%", height: "100%", clipPath: "circle(50% at 50% 50%)" }}>
+        <Canvas
+          camera={{ position: [0, 0, 5.8], fov: 45 }}
+          style={{ background: "transparent" }}
+          dpr={[1, 2]}
+        >
+          <GlobeScene crises={crises} selectedSlug={selectedSlug} onSelect={setSelectedSlug} />
+        </Canvas>
+      </div>
     </div>
   );
 }

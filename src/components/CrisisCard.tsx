@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Crisis } from "@/types/crisis";
+import { getStatusColor } from "@/lib/statusColors";
 
 interface CrisisCardProps {
   crisis: Crisis;
@@ -21,11 +22,11 @@ export default function CrisisCard({ crisis }: CrisisCardProps) {
       <div className="flex items-center gap-2 mb-3">
         <span
           className="w-2 h-2 rounded-sm animate-pulse"
-          style={{ backgroundColor: crisis.color }}
+          style={{ backgroundColor: getStatusColor(crisis.status) }}
         />
         <span
           className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase"
-          style={{ color: crisis.color }}
+          style={{ color: getStatusColor(crisis.status) }}
         >
           {STATUS_LABELS[crisis.status] || crisis.status}
         </span>
@@ -53,7 +54,7 @@ export default function CrisisCard({ crisis }: CrisisCardProps) {
             <div key={stat.label}>
               <div
                 className="font-display text-xl tracking-wider"
-                style={{ color: crisis.color }}
+                style={{ color: getStatusColor(crisis.status) }}
               >
                 {stat.value}
               </div>

@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import type { Metadata } from "next";
 import { getCrisisBySlug, getAllCrisisSlugs, getAllCrises } from "@/lib/crises";
 import StatsBar from "@/components/StatsBar";
 import ActionTabs from "@/components/ActionTabs";
+import CrisisNavPills from "@/components/CrisisNavPills";
 
 interface CrisisPageProps {
   params: { slug: string };
@@ -54,21 +54,7 @@ export default function CrisisPage({ params }: CrisisPageProps) {
   return (
     <>
       {/* Crisis quick-nav pills */}
-      <div className="flex gap-2.5 flex-wrap mb-11 animate-fade-up-1">
-        {allCrises.map((c) => (
-          <Link
-            key={c.slug}
-            href={`/crises/${c.slug}`}
-            className={`px-[18px] py-2 rounded font-sans text-[13px] font-medium tracking-tight border transition-all duration-300 ${
-              c.slug === crisis.slug
-                ? "text-text-bright border-crisis-red bg-crisis-red-dim shadow-[0_0_16px_rgba(230,57,70,0.09)]"
-                : "text-text-dim border-border hover:text-text-muted hover:border-border-hard"
-            }`}
-          >
-            {c.name}
-          </Link>
-        ))}
-      </div>
+      <CrisisNavPills crises={allCrises} currentSlug={crisis.slug} />
 
       {/* Crisis header */}
       <header className="mb-11 animate-fade-up-2">
