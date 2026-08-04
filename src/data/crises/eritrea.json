@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#1A5276",
   "accent": "#2E7AAB",
-  "coordinates": { "lat": 15.18, "lng": 39.78 },
+  "coordinates": {
+    "lat": 15.18,
+    "lng": 39.78
+  },
   "summary": "Eritrea enforces indefinite military conscription — legally capped at 18 months but routinely extending for decades — that a 2015 UN report called 'slavery-like.' 679,346 Eritreans are refugees or asylum seekers (11% of the population — one of the world's highest exile rates). No elections since 1993, no independent press, no constitution in force. No humanitarian organizations operate inside the country.",
   "context": "Eritrea, ruled by President Isaias Afewerki since independence in 1993, is often called 'Africa's North Korea' — a closed, totalitarian state with no elections, no independent media, no functioning constitution, and no civil society. The country has never held a national election. The constitution ratified in 1997 has never been implemented.\n\nThe most distinctive feature of Eritrea's repression is its system of indefinite national service — military conscription theoretically capped at 18 months but in practice extended for years or decades. Hundreds of thousands of Eritreans are conscripted into military or civil service for indefinite periods, working for wages as low as $30 per month. Conscripts cannot leave the country, cannot choose their assignments, and can be punished — including by imprisonment in desert detention camps — for any perceived resistance. A 2015 UN Commission of Inquiry called the system 'slavery-like' and said it may constitute crimes against humanity.\n\nThe Eritrean government's response to the Tigray war in Ethiopia — deploying troops to Tigray where they have been documented committing atrocities — has placed Eritrea in international focus, but accountability has not followed.\n\nFlight from Eritrea is constant and desperate. Despite shoot-to-kill orders at the border, approximately 679,346 Eritreans (11% of the total population) are registered as refugees or asylum seekers worldwide — one of the world's highest exile ratios for any country not in active war. Many traverse dangerous Libya-Mediterranean routes to reach Europe.\n\nNo international humanitarian organizations have a presence inside Eritrea. The government allows no independent monitoring, no NGOs, and no foreign journalists. The scale of suffering inside the country is essentially unknowable.",
   "stats": [
-    { "label": "Eritrean Refugees Worldwide", "value": "679,346", "source": "UNHCR 2025" },
-    { "label": "Exile Share of Population", "value": "~11%", "source": "UNHCR / UNDP" },
-    { "label": "Years Without Elections", "value": "30+", "source": "Since 1993 independence" },
-    { "label": "Humanitarian Org Access", "value": "None", "source": "OCHA / HRW" }
+    {
+      "label": "Eritrean Refugees Worldwide",
+      "value": "679,346",
+      "source": "UNHCR 2025"
+    },
+    {
+      "label": "Exile Share of Population",
+      "value": "~11%",
+      "source": "UNHCR / UNDP"
+    },
+    {
+      "label": "Years Without Elections",
+      "value": "30+",
+      "source": "Since 1993 independence"
+    },
+    {
+      "label": "Humanitarian Org Access",
+      "value": "None",
+      "source": "OCHA / HRW"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "HRW Eritrea Report", "url": "https://www.hrw.org/world-report/2024/country-chapters/eritrea", "org": "Human Rights Watch" },
-    { "title": "Human Rights Concern Eritrea", "url": "https://hrc-eritrea.org/", "org": "HRC Eritrea" },
-    { "title": "UN Commission of Inquiry — Eritrea", "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-eritrea/index", "org": "OHCHR" },
-    { "title": "UNHCR Eritrea Situation", "url": "https://www.unhcr.org/countries/eritrea", "org": "UNHCR" },
-    { "title": "Amnesty International Eritrea", "url": "https://www.amnesty.org/en/location/africa/east-africa-the-horn-and-great-lakes/eritrea/", "org": "Amnesty International" }
+    {
+      "title": "HRW Eritrea Report",
+      "url": "https://www.hrw.org/world-report/2024/country-chapters/eritrea",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Human Rights Concern Eritrea",
+      "url": "https://hrc-eritrea.org/",
+      "org": "HRC Eritrea"
+    },
+    {
+      "title": "UN Commission of Inquiry — Eritrea",
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-eritrea/index",
+      "org": "OHCHR"
+    },
+    {
+      "title": "UNHCR Eritrea Situation",
+      "url": "https://www.unhcr.org/countries/eritrea",
+      "org": "UNHCR"
+    },
+    {
+      "title": "Amnesty International Eritrea",
+      "url": "https://www.amnesty.org/en/location/africa/east-africa-the-horn-and-great-lakes/eritrea/",
+      "org": "Amnesty International"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/eritrea.jpg",
+    "/images/crises/eritrea-2.jpg",
+    "/images/crises/eritrea-3.png"
+  ]
 }

@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#15528C",
   "accent": "#2070B5",
-  "coordinates": { "lat": 30.38, "lng": 69.35 },
+  "coordinates": {
+    "lat": 30.38,
+    "lng": 69.35
+  },
   "summary": "Pakistan is the world's most climate-vulnerable nation despite contributing less than 1% of global emissions. Catastrophic monsoon flooding has become virtually annual: the 2022 floods affected 33 million people with $30 billion in damage, 2024 displaced 1.5 million, and 2025 killed 972 people and displaced over 2 million. Pakistan's crisis illustrates climate injustice on an epic scale.",
   "context": "Pakistan's climate crisis is perhaps the world's starkest illustration of climate injustice: a country responsible for less than 1% of global greenhouse gas emissions is experiencing some of the planet's most catastrophic climate impacts. A 2025 global climate vulnerability assessment ranked Pakistan the most climate-vulnerable country on Earth.\n\nThe monsoon flooding has become a nearly annual catastrophe. The 2022 mega-floods — driven by glacial melting combined with extraordinary monsoon rains — submerged one-third of Pakistan's land area. 33 million people were directly affected, 1,700 killed, and damages exceeded $30 billion — equal to roughly 9% of Pakistan's entire GDP. The economic blow to an already struggling economy was devastating.\n\nThe pattern has continued. In 2024, monsoon flooding displaced 1.5 million people. In 2025, floods killed 972 people and displaced over 2 million more. Each year, millions of rural Pakistanis — disproportionately women, children, landless laborers, and smallholder farmers — lose their homes, crops, and livelihoods. Recovery is incomplete before the next season begins.\n\nPakistan's vulnerability is driven by multiple converging factors. It is home to more glaciers than anywhere outside the polar regions — approximately 7,000 glaciers in the Himalaya, Karakoram, and Hindu Kush ranges — and glacial lake outburst floods are increasing in frequency and severity. Climate change is simultaneously intensifying monsoon rains, accelerating glacial melt, and extending heat waves that kill crops and livestock.\n\nThe economic costs compound pre-existing debt and instability. Pakistan regularly requires IMF assistance, and climate disasters repeatedly devastate hard-won development gains. The country is locked in a cycle where it cannot afford the adaptation investments it needs because it is spending recovery resources from the last disaster.",
   "stats": [
-    { "label": "Killed in 2025 Floods", "value": "972", "source": "NDMA Pakistan, 2025" },
-    { "label": "Displaced in 2025 Floods", "value": "2M+", "source": "IOM / OCHA" },
-    { "label": "Affected by 2022 Floods", "value": "33M", "source": "PDMA / OCHA" },
-    { "label": "Climate Vulnerability Rank", "value": "#1 globally", "source": "Global Climate Risk Index 2025" }
+    {
+      "label": "Killed in 2025 Floods",
+      "value": "972",
+      "source": "NDMA Pakistan, 2025"
+    },
+    {
+      "label": "Displaced in 2025 Floods",
+      "value": "2M+",
+      "source": "IOM / OCHA"
+    },
+    {
+      "label": "Affected by 2022 Floods",
+      "value": "33M",
+      "source": "PDMA / OCHA"
+    },
+    {
+      "label": "Climate Vulnerability Rank",
+      "value": "#1 globally",
+      "source": "Global Climate Risk Index 2025"
+    }
   ],
   "actions": {
     "donate": [
@@ -43,11 +62,36 @@
     ]
   },
   "sources": [
-    { "title": "IFRC Pakistan Floods", "url": "https://www.ifrc.org/press-release/pakistan-floods-escalating-humanitarian-crisis-amid-climate-extremes", "org": "IFRC" },
-    { "title": "Amnesty Pakistan Climate", "url": "https://www.amnesty.org/en/projects/pakistan-climate-impact/", "org": "Amnesty International" },
-    { "title": "OCHA Pakistan", "url": "https://www.unocha.org/pakistan", "org": "OCHA" },
-    { "title": "NDMA Pakistan", "url": "https://ndma.gov.pk/", "org": "NDMA Pakistan" },
-    { "title": "Global Climate Risk Index", "url": "https://www.germanwatch.org/en/cri", "org": "Germanwatch" }
+    {
+      "title": "IFRC Pakistan Floods",
+      "url": "https://www.ifrc.org/press-release/pakistan-floods-escalating-humanitarian-crisis-amid-climate-extremes",
+      "org": "IFRC"
+    },
+    {
+      "title": "Amnesty Pakistan Climate",
+      "url": "https://www.amnesty.org/en/projects/pakistan-climate-impact/",
+      "org": "Amnesty International"
+    },
+    {
+      "title": "OCHA Pakistan",
+      "url": "https://www.unocha.org/pakistan",
+      "org": "OCHA"
+    },
+    {
+      "title": "NDMA Pakistan",
+      "url": "https://ndma.gov.pk/",
+      "org": "NDMA Pakistan"
+    },
+    {
+      "title": "Global Climate Risk Index",
+      "url": "https://www.germanwatch.org/en/cri",
+      "org": "Germanwatch"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/pakistan-floods.jpg",
+    "/images/crises/pakistan-floods-2.jpg",
+    "/images/crises/pakistan-floods-3.jpg"
+  ]
 }

@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#2E5F2E",
   "accent": "#448844",
-  "coordinates": { "lat": 38.97, "lng": 59.56 },
+  "coordinates": {
+    "lat": 38.97,
+    "lng": 59.56
+  },
   "summary": "Turkmenistan holds a Freedom House score of 2/100 — tied for the lowest globally. 72,000 people are estimated to live in modern slavery. 162 cases of forcibly disappeared prisoners are documented. Systemic forced cotton labor, banned US imports, and ranked 175th/180 for press freedom make this one of the world's most closed and repressive societies.",
   "context": "Turkmenistan is one of the world's most closed and repressive states — a Central Asian petrostate ruled by a dynastic dictatorship since independence from the Soviet Union in 1991. It ranks alongside North Korea and Eritrea at the very bottom of global freedom indices.\n\nThe country's Freedom House score of 2/100 reflects an almost total absence of political and civil freedoms. There are no independent political parties, no free media, no civil society organizations, and no independent judiciary. State media projects an image of prosperity and order while citizens live under pervasive surveillance and fear.\n\nThe forced cotton labor system is one of Turkmenistan's most documented human rights abuses. The government mobilizes hundreds of thousands of citizens — including students, teachers, and doctors — to pick cotton under threat of job loss or worse. This system is so egregious that the United States banned all Turkmenistan cotton imports in 2018. The use of forced labor in the cotton supply chain makes Turkmenistan-sourced cotton untouchable for ethical supply chains.\n\nAn estimated 72,000 people live in modern slavery conditions, according to the Global Slavery Index. Prisoners — including political prisoners — are frequently held incommunicado in conditions described as torture. 162 cases of 'disappeared' prisoners have been formally documented, where families receive no information about whether their relative is alive or dead.\n\nTurkmenistan's gas reserves — among the world's largest — have provided the government with resources to maintain control and resist international pressure. Gas revenues fund an elaborate personality cult and massive public construction projects while basic goods are rationed or unavailable.",
   "stats": [
-    { "label": "Freedom House Score", "value": "2/100", "source": "Freedom House 2025" },
-    { "label": "Living in Modern Slavery", "value": "72,000", "source": "Global Slavery Index" },
-    { "label": "Disappeared Prisoners", "value": "162 documented", "source": "Prove They Are Alive!" },
-    { "label": "Press Freedom Rank", "value": "175/180", "source": "RSF 2025" }
+    {
+      "label": "Freedom House Score",
+      "value": "2/100",
+      "source": "Freedom House 2025"
+    },
+    {
+      "label": "Living in Modern Slavery",
+      "value": "72,000",
+      "source": "Global Slavery Index"
+    },
+    {
+      "label": "Disappeared Prisoners",
+      "value": "162 documented",
+      "source": "Prove They Are Alive!"
+    },
+    {
+      "label": "Press Freedom Rank",
+      "value": "175/180",
+      "source": "RSF 2025"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "HRW Turkmenistan 2026", "url": "https://www.hrw.org/world-report/2026/country-chapters/turkmenistan", "org": "Human Rights Watch" },
-    { "title": "Amnesty Turkmenistan", "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/turkmenistan/", "org": "Amnesty International" },
-    { "title": "Prove They Are Alive!", "url": "https://provetheyarealive.org/", "org": "PTAA Campaign" },
-    { "title": "Freedom House Turkmenistan", "url": "https://freedomhouse.org/country/turkmenistan/freedom-world/2025", "org": "Freedom House" },
-    { "title": "Turkmen Helsinki Foundation", "url": "https://www.tmhelsinki.org/", "org": "THF" }
+    {
+      "title": "HRW Turkmenistan 2026",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/turkmenistan",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Amnesty Turkmenistan",
+      "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/turkmenistan/",
+      "org": "Amnesty International"
+    },
+    {
+      "title": "Prove They Are Alive!",
+      "url": "https://provetheyarealive.org/",
+      "org": "PTAA Campaign"
+    },
+    {
+      "title": "Freedom House Turkmenistan",
+      "url": "https://freedomhouse.org/country/turkmenistan/freedom-world/2025",
+      "org": "Freedom House"
+    },
+    {
+      "title": "Turkmen Helsinki Foundation",
+      "url": "https://www.tmhelsinki.org/",
+      "org": "THF"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/turkmenistan.jpg",
+    "/images/crises/turkmenistan-2.png",
+    "/images/crises/turkmenistan-3.jpg"
+  ]
 }

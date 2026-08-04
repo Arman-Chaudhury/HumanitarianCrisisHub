@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#4A3728",
   "accent": "#6B5240",
-  "coordinates": { "lat": 40.34, "lng": 127.51 },
+  "coordinates": {
+    "lat": 40.34,
+    "lng": 127.51
+  },
   "summary": "Approximately 12 million North Koreans — half the population — are undernourished. Rice prices nearly doubled between late 2023 and early 2025. Border guards are still ordered to shoot unauthorized crossers. A 2025 UN report found a 'lost decade' of expanded repression. Only 224 North Koreans reached South Korea in 2025 — the lowest since the Korean War era.",
   "context": "North Korea is arguably the world's most extreme totalitarian state — a country where three generations of the Kim family have ruled with absolute authority since 1948, where citizens are classified by loyalty to the state from birth, and where attempting to leave is a capital offense.\n\nThe humanitarian situation is severe and worsening. Approximately 12 million people — nearly half the population of 25 million — are chronically undernourished. The food system relies on a state Public Distribution System that collapsed in the 1990s famine (which killed 600,000–900,000 people) and has never fully recovered. Private markets (jangmadang) have partially filled the gap, but they function under constant threat of crackdown.\n\nThe COVID-19 pandemic dramatically worsened conditions. Kim Jong-un sealed the border entirely in 2020, effectively halting all trade. Food prices spiked catastrophically. International aid agencies that had limited access were expelled. By 2025, rice prices had nearly doubled compared to late 2023, pushing more households into food insecurity. The border remains highly restricted.\n\nThe political repression system is comprehensive. An estimated 80,000–120,000 people are held in political prison camps (kwanliso) under conditions that UN investigations have described as constituting crimes against humanity, including torture, sexual violence, forced labor, and starvation. Three generations of a family can be imprisoned for one member's perceived disloyalty.\n\nThe escape route through China and Southeast Asia to South Korea has been virtually closed. Only 224 North Koreans reached South Korea in 2025 — compared to annual flows of 2,000–3,000 in the 2000s. Those caught attempting to cross are executed or sent to camps. China forcibly repatriates North Koreans it catches, condemning them to severe punishment upon return.",
   "stats": [
-    { "label": "Undernourished", "value": "~12M", "source": "WFP / FAO 2025" },
-    { "label": "Political Prison Camp Inmates", "value": "80,000–120,000", "source": "UN Commission of Inquiry" },
-    { "label": "Defectors Reaching South Korea (2025)", "value": "224", "source": "MOUA South Korea" },
-    { "label": "UN Finding", "value": "Crimes Against Humanity", "source": "UN COI, 2014 (conditions ongoing)" }
+    {
+      "label": "Undernourished",
+      "value": "~12M",
+      "source": "WFP / FAO 2025"
+    },
+    {
+      "label": "Political Prison Camp Inmates",
+      "value": "80,000–120,000",
+      "source": "UN Commission of Inquiry"
+    },
+    {
+      "label": "Defectors Reaching South Korea (2025)",
+      "value": "224",
+      "source": "MOUA South Korea"
+    },
+    {
+      "label": "UN Finding",
+      "value": "Crimes Against Humanity",
+      "source": "UN COI, 2014 (conditions ongoing)"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "HRNK Committee for HR in DPRK", "url": "https://www.hrnk.org/", "org": "HRNK" },
-    { "title": "HRW North Korea 2026", "url": "https://www.hrw.org/world-report/2026/country-chapters/north-korea", "org": "Human Rights Watch" },
-    { "title": "NK DB Center for HR", "url": "https://en.nkdb.org/", "org": "NKDB" },
-    { "title": "UN Commission of Inquiry — DPRK", "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-dprk/index", "org": "OHCHR" },
-    { "title": "WFP DPRK Situation", "url": "https://www.wfp.org/countries/democratic-peoples-republic-korea", "org": "WFP" }
+    {
+      "title": "HRNK Committee for HR in DPRK",
+      "url": "https://www.hrnk.org/",
+      "org": "HRNK"
+    },
+    {
+      "title": "HRW North Korea 2026",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/north-korea",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "NK DB Center for HR",
+      "url": "https://en.nkdb.org/",
+      "org": "NKDB"
+    },
+    {
+      "title": "UN Commission of Inquiry — DPRK",
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-dprk/index",
+      "org": "OHCHR"
+    },
+    {
+      "title": "WFP DPRK Situation",
+      "url": "https://www.wfp.org/countries/democratic-peoples-republic-korea",
+      "org": "WFP"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/north-korea.jpg",
+    "/images/crises/north-korea-2.jpg",
+    "/images/crises/north-korea-3.jpg"
+  ]
 }

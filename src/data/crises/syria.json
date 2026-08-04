@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#BD4F6C",
   "accent": "#D4748B",
-  "coordinates": { "lat": 34.80, "lng": 38.99 },
+  "coordinates": {
+    "lat": 34.8,
+    "lng": 38.99
+  },
   "summary": "Syria is in a complex transitional period following the fall of the Assad regime in December 2024. While over 3 million displaced people have returned, conditions remain fragile with ongoing clashes in the northeast, the worst drought in 36 years, and 16.5 million people still in need of humanitarian assistance.",
   "context": "The fall of the Assad regime in December 2024 marked a dramatic turning point in Syria's 13-year civil war, but it did not end the humanitarian crisis. Over 3 million displaced Syrians have returned home since December 2024, representing one of the largest return movements in years. However, the conditions they are returning to are deeply challenging: 77% of communities report a lack of livelihoods, and much of Syria's infrastructure — schools, hospitals, water systems — remains destroyed.\n\nOngoing clashes continue in northeastern Syria between Turkish-backed forces, Kurdish-led groups, and remnants of various armed factions. Explosive ordnance left by 13 years of conflict killed over 540 people in 2025 alone. The political transition is fragile, with competing armed groups and governance structures creating uncertainty across the country.\n\nSyria is also experiencing its worst drought in 36 years, devastating agricultural production and water supplies in a country where millions already live in extreme poverty. 7.1 million people face food insecurity. The healthcare system, already decimated by the war, is struggling to meet the surge in need from returning populations.\n\nApproximately 5.5–6 million Syrians remain internally displaced, and 3.9 million are refugees abroad — primarily in Turkey, Lebanon, and Jordan. The $3.19 billion humanitarian appeal for 2026 was only 36% funded, severely limiting the international community's ability to support Syria's transition.\n\nSyria's reconstruction will require decades and hundreds of billions of dollars. The transition represents an opportunity, but without sustained international engagement and funding, the country risks sliding back into conflict or entrenching new forms of instability.",
   "stats": [
-    { "label": "Need Aid", "value": "16.5M", "source": "OCHA Syria, 2026" },
-    { "label": "IDPs", "value": "5.5–6M", "source": "IOM/OCHA Syria" },
-    { "label": "Refugees Abroad", "value": "3.9M", "source": "UNHCR, Dec 2025" },
-    { "label": "Killed by Ordnance (2025)", "value": "540+", "source": "OCHA Syria" }
+    {
+      "label": "Need Aid",
+      "value": "16.5M",
+      "source": "OCHA Syria, 2026"
+    },
+    {
+      "label": "IDPs",
+      "value": "5.5–6M",
+      "source": "IOM/OCHA Syria"
+    },
+    {
+      "label": "Refugees Abroad",
+      "value": "3.9M",
+      "source": "UNHCR, Dec 2025"
+    },
+    {
+      "label": "Killed by Ordnance (2025)",
+      "value": "540+",
+      "source": "OCHA Syria"
+    }
   ],
   "actions": {
     "donate": [
@@ -53,11 +72,36 @@
     ]
   },
   "sources": [
-    { "title": "OCHA Syria Response", "url": "https://www.unocha.org/syria", "org": "OCHA" },
-    { "title": "UNHCR Syria Situation", "url": "https://www.unhcr.org/us/where-we-work/countries/syrian-arab-republic", "org": "UNHCR" },
-    { "title": "WFP Syria Emergency", "url": "https://www.wfp.org/emergencies/syria-emergency", "org": "WFP" },
-    { "title": "IOM Syria Displacement", "url": "https://www.iom.int/countries/syria", "org": "IOM" },
-    { "title": "WHO Syria Crisis", "url": "https://www.who.int/emergencies/situations/syria-crisis", "org": "WHO" }
+    {
+      "title": "OCHA Syria Response",
+      "url": "https://www.unocha.org/syria",
+      "org": "OCHA"
+    },
+    {
+      "title": "UNHCR Syria Situation",
+      "url": "https://www.unhcr.org/us/where-we-work/countries/syrian-arab-republic",
+      "org": "UNHCR"
+    },
+    {
+      "title": "WFP Syria Emergency",
+      "url": "https://www.wfp.org/emergencies/syria-emergency",
+      "org": "WFP"
+    },
+    {
+      "title": "IOM Syria Displacement",
+      "url": "https://www.iom.int/countries/syria",
+      "org": "IOM"
+    },
+    {
+      "title": "WHO Syria Crisis",
+      "url": "https://www.who.int/emergencies/situations/syria-crisis",
+      "org": "WHO"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/syria.jpg",
+    "/images/crises/syria-2.jpg",
+    "/images/crises/syria-3.jpg"
+  ]
 }

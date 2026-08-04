@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#D4730A",
   "accent": "#E89030",
-  "coordinates": { "lat": 15.00, "lng": 0.00 },
+  "coordinates": {
+    "lat": 15.0,
+    "lng": 0.0
+  },
   "summary": "Temperatures in the Sahel are rising 1.5 times the global average, driving desertification, resource competition, and armed group recruitment. This climate-conflict nexus has driven a 2,446% increase in displacement since 2014. Nearly 4 million people are displaced and 45.9 million face food insecurity during the 2025 lean season. 14,800+ schools have been closed due to insecurity.",
   "context": "The Sahel — the semiarid band stretching across Africa south of the Sahara — is the world's most acute climate-conflict nexus. Here, climate change is not an abstract future threat but a present-day driver of mass displacement, starvation, and armed conflict.\n\nTemperatures in the Sahel are rising at approximately 1.5 times the global average — one of the fastest rates of warming anywhere on Earth. This drives accelerating desertification: the southward advance of the Sahara, declining rainfall, and the destruction of the pastoral and agricultural systems that millions of people depend on. When farmers and herders lose their livelihoods to drought and land degradation, they compete fiercely for what remains — and armed groups recruit from the ranks of the desperate.\n\nThe numbers illustrate the scale of catastrophe. Displacement in the Sahel has increased by 2,446% since 2014 — from under 100,000 displaced to approximately 4 million. 45.9 million people faced food insecurity during the 2025 lean season across Burkina Faso, Mali, Niger, Nigeria, Chad, and Cameroon. Over 14,800 schools have been closed due to armed group attacks or security threats — representing a generation being denied education across the most educationally vulnerable part of the world.\n\nThe political dimension is inseparable from the climate dimension. Military coups in Mali, Burkina Faso, and Niger have disrupted international partnerships, expelled peacekeepers and aid organizations, and created governance vacuums that armed groups fill. UNHCR's 2025 Sahel appeal was only 32% funded — meaning the international community has effectively withdrawn from the crisis just as it reaches its worst point.\n\nClimate scientists project the Sahel situation will significantly worsen by 2050 even under optimistic emissions scenarios. Without transformational investment in adaptation, peace, and development, the Sahel crisis will export displacement on a scale that will dwarf anything seen so far.",
   "stats": [
-    { "label": "Displaced (2025)", "value": "4M", "source": "UNHCR Sahel" },
-    { "label": "Displacement Increase Since 2014", "value": "+2,446%", "source": "UNHCR / IDMC" },
-    { "label": "Food Insecure (Lean Season 2025)", "value": "45.9M", "source": "OCHA / FEWS NET" },
-    { "label": "Schools Closed by Insecurity", "value": "14,800+", "source": "UNICEF Sahel" }
+    {
+      "label": "Displaced (2025)",
+      "value": "4M",
+      "source": "UNHCR Sahel"
+    },
+    {
+      "label": "Displacement Increase Since 2014",
+      "value": "+2,446%",
+      "source": "UNHCR / IDMC"
+    },
+    {
+      "label": "Food Insecure (Lean Season 2025)",
+      "value": "45.9M",
+      "source": "OCHA / FEWS NET"
+    },
+    {
+      "label": "Schools Closed by Insecurity",
+      "value": "14,800+",
+      "source": "UNICEF Sahel"
+    }
   ],
   "actions": {
     "donate": [
@@ -43,11 +62,36 @@
     ]
   },
   "sources": [
-    { "title": "UNHCR Sahel Situation", "url": "https://reporting.unhcr.org/operational/situations/sahel-situation", "org": "UNHCR" },
-    { "title": "IRC Sahel Crisis", "url": "https://www.rescue.org/article/central-sahel-how-conflict-and-climate-change-drive-crisis", "org": "IRC" },
-    { "title": "OCHA Sahel", "url": "https://www.unocha.org/sahel", "org": "OCHA" },
-    { "title": "FEWS NET Sahel", "url": "https://fews.net/west-africa", "org": "FEWS NET" },
-    { "title": "IDMC Sahel Displacement", "url": "https://www.internal-displacement.org/", "org": "IDMC" }
+    {
+      "title": "UNHCR Sahel Situation",
+      "url": "https://reporting.unhcr.org/operational/situations/sahel-situation",
+      "org": "UNHCR"
+    },
+    {
+      "title": "IRC Sahel Crisis",
+      "url": "https://www.rescue.org/article/central-sahel-how-conflict-and-climate-change-drive-crisis",
+      "org": "IRC"
+    },
+    {
+      "title": "OCHA Sahel",
+      "url": "https://www.unocha.org/sahel",
+      "org": "OCHA"
+    },
+    {
+      "title": "FEWS NET Sahel",
+      "url": "https://fews.net/west-africa",
+      "org": "FEWS NET"
+    },
+    {
+      "title": "IDMC Sahel Displacement",
+      "url": "https://www.internal-displacement.org/",
+      "org": "IDMC"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/sahel.jpg",
+    "/images/crises/sahel-2.png",
+    "/images/crises/sahel-3.jpg"
+  ]
 }

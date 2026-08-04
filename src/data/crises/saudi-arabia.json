@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#1A7A1A",
   "accent": "#2A9E2A",
-  "coordinates": { "lat": 23.89, "lng": 45.08 },
+  "coordinates": {
+    "lat": 23.89,
+    "lng": 45.08
+  },
   "summary": "13 million migrant workers (42% of Saudi Arabia's total population) are subject to the kafala sponsorship system. Saudi Arabia recorded record-high executions for a second consecutive year. Women have been sentenced to decades in prison for social media posts. Saudi border guards killed hundreds of Ethiopian migrants at the Yemen border. Sportswashing events proceed as human rights deteriorate.",
   "context": "Saudi Arabia presents a paradox visible to anyone paying attention: massive international sports events, cultural openings, and 'Vision 2030' modernization announcements coexist with systematic human rights violations that are worsening by virtually every measure.\n\nThe kafala (sponsorship) system subjects 13 million migrant workers — 42% of Saudi Arabia's total population — to a system that ties their legal status to their employer, making them vulnerable to exploitation, wage theft, passport confiscation, and effective imprisonment in the country if they try to leave without employer permission. Migrant workers, primarily from South Asia, Southeast Asia, and Africa, build Saudi Arabia's infrastructure and run its households in conditions that human rights organizations consistently document as forced labor.\n\nSaudi Arabia's execution rate hit record highs in 2022, 2023, and continues elevated. Many executions follow trials that do not meet minimum international standards — including confessions extracted under torture and capital charges applied to offenses that should carry no such penalty. Drug possession accounts for a significant portion of executions.\n\nWomen's rights activists who advocated for the right to drive — the same right the government eventually granted in 2018 — received extraordinary sentences: Salma al-Shehab received 34 years in prison, Nourah al-Qahtani 45 years, for tweets and social media posts. Those imprisoned have been subjected to documented torture, including sexual violence.\n\nSaudi border guards killing Ethiopian migrants attempting to cross from Yemen constitutes a documented pattern of extrajudicial killings at the southern border. Saudi Arabia's multibillion-dollar investments in golf (LIV), football (Premier League), Formula 1, boxing, and entertainment are explicitly described by Saudi officials as image management — 'sportswashing' in human rights organizations' terminology.",
   "stats": [
-    { "label": "Migrant Workers Under Kafala", "value": "13M", "source": "ILO / HRW" },
-    { "label": "Migrant Share of Population", "value": "42%", "source": "Saudi General Statistics" },
-    { "label": "Executions (2024)", "value": "Record High (2nd yr)", "source": "Amnesty International" },
-    { "label": "Prison Sentence — Social Media Post", "value": "34–45 years", "source": "HRW Saudi Arabia" }
+    {
+      "label": "Migrant Workers Under Kafala",
+      "value": "13M",
+      "source": "ILO / HRW"
+    },
+    {
+      "label": "Migrant Share of Population",
+      "value": "42%",
+      "source": "Saudi General Statistics"
+    },
+    {
+      "label": "Executions (2024)",
+      "value": "Record High (2nd yr)",
+      "source": "Amnesty International"
+    },
+    {
+      "label": "Prison Sentence — Social Media Post",
+      "value": "34–45 years",
+      "source": "HRW Saudi Arabia"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "HRW Saudi Arabia 2025", "url": "https://www.hrw.org/world-report/2025/country-chapters/saudi-arabia", "org": "Human Rights Watch" },
-    { "title": "ALQST Saudi Human Rights", "url": "https://alqst.org/en/", "org": "ALQST" },
-    { "title": "Amnesty Saudi Arabia", "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/middle-east/saudi-arabia/", "org": "Amnesty International" },
-    { "title": "ILO Kafala System", "url": "https://www.ilo.org/beirut/areasofwork/labour-migration/kafala/lang--en/index.htm", "org": "ILO" },
-    { "title": "Migrant-Rights.org", "url": "https://www.migrant-rights.org/", "org": "Migrant Rights" }
+    {
+      "title": "HRW Saudi Arabia 2025",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/saudi-arabia",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "ALQST Saudi Human Rights",
+      "url": "https://alqst.org/en/",
+      "org": "ALQST"
+    },
+    {
+      "title": "Amnesty Saudi Arabia",
+      "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/middle-east/saudi-arabia/",
+      "org": "Amnesty International"
+    },
+    {
+      "title": "ILO Kafala System",
+      "url": "https://www.ilo.org/beirut/areasofwork/labour-migration/kafala/lang--en/index.htm",
+      "org": "ILO"
+    },
+    {
+      "title": "Migrant-Rights.org",
+      "url": "https://www.migrant-rights.org/",
+      "org": "Migrant Rights"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/saudi-arabia.jpg",
+    "/images/crises/saudi-arabia-2.png",
+    "/images/crises/saudi-arabia-3.jpg"
+  ]
 }

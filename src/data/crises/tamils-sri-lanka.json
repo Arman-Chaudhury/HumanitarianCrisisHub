@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#C75000",
   "accent": "#E87020",
-  "coordinates": { "lat": 9.67, "lng": 80.02 },
+  "coordinates": {
+    "lat": 9.67,
+    "lng": 80.02
+  },
   "summary": "2,500+ acres of Tamil land in Jaffna remain occupied by the Sri Lankan military 15 years after the war ended. Ongoing surveillance of Tamil activists, linguistic exclusion, and demographic changes through Sinhalese settlement continue. Up to 40,000 civilians were killed in the war's final months. The government rejected genocide claims in May 2025 as accountability remains absent.",
   "context": "The Sri Lankan civil war between the government and the Liberation Tigers of Tamil Eelam (LTTE) ended in May 2009 with the military's defeat of the LTTE. The final months of the war saw mass atrocities: credible UN estimates suggest up to 40,000 Tamil civilians were killed during the government's final military offensive, many in designated 'no-fire zones' that were repeatedly shelled. No one has been held accountable.\n\nFifteen years after the war's end, Tamil communities in the north and east continue to face post-conflict marginalization that many describe as a continuation of the conditions that generated the conflict. Over 2,500 acres of Tamil-owned land in Jaffna remain occupied by the Sri Lankan military, with former landowners unable to return to their homes and farms. Demilitarization of the north has proceeded slowly and incompletely.\n\nDemographic engineering — the establishment of Sinhalese Buddhist settlements in historically Tamil and Muslim areas — continues to alter the ethnic composition of the north and east. Tamil language rights remain contested: despite official recognition of Tamil as an official language, its use in public administration and courts is inconsistent.\n\nPolitically active Tamils face ongoing surveillance by intelligence services. Diaspora Tamils who return to Sri Lanka for family visits have reported interrogation and monitoring. The Prevention of Terrorism Act (PTA), used extensively against Tamils during the war, continues to be applied.\n\nSri Lanka's government rejected genocide claims in May 2025 and has resisted international accountability mechanisms. The UN Human Rights Council's monitoring mandate — the primary international accountability tool — remains under political challenge. A generation of Tamil youth has grown up in the shadow of the war without justice, accountability, or full restoration of their rights.",
   "stats": [
-    { "label": "Acres of Occupied Tamil Land", "value": "2,500+", "source": "NPC / HRW" },
-    { "label": "Civilians Killed (War's End)", "value": "Up to 40,000", "source": "UN Panel of Experts" },
-    { "label": "Years Without Accountability", "value": "15+", "source": "Since May 2009" },
-    { "label": "Genocide Claims Rejected", "value": "May 2025", "source": "GoSL Statement" }
+    {
+      "label": "Acres of Occupied Tamil Land",
+      "value": "2,500+",
+      "source": "NPC / HRW"
+    },
+    {
+      "label": "Civilians Killed (War's End)",
+      "value": "Up to 40,000",
+      "source": "UN Panel of Experts"
+    },
+    {
+      "label": "Years Without Accountability",
+      "value": "15+",
+      "source": "Since May 2009"
+    },
+    {
+      "label": "Genocide Claims Rejected",
+      "value": "May 2025",
+      "source": "GoSL Statement"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "Minority Rights Group — Tamils", "url": "https://minorityrights.org/communities/tamils/", "org": "MRG" },
-    { "title": "HRW Sri Lanka", "url": "https://www.hrw.org/asia/sri-lanka", "org": "Human Rights Watch" },
-    { "title": "International Truth and Justice Project", "url": "https://www.itjpsl.com/", "org": "ITJP" },
-    { "title": "UN OHCHR Sri Lanka", "url": "https://www.ohchr.org/en/countries/sri-lanka", "org": "OHCHR" },
-    { "title": "Amnesty Sri Lanka", "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/sri-lanka/", "org": "Amnesty International" }
+    {
+      "title": "Minority Rights Group — Tamils",
+      "url": "https://minorityrights.org/communities/tamils/",
+      "org": "MRG"
+    },
+    {
+      "title": "HRW Sri Lanka",
+      "url": "https://www.hrw.org/asia/sri-lanka",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "International Truth and Justice Project",
+      "url": "https://www.itjpsl.com/",
+      "org": "ITJP"
+    },
+    {
+      "title": "UN OHCHR Sri Lanka",
+      "url": "https://www.ohchr.org/en/countries/sri-lanka",
+      "org": "OHCHR"
+    },
+    {
+      "title": "Amnesty Sri Lanka",
+      "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/sri-lanka/",
+      "org": "Amnesty International"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/tamils-sri-lanka.jpg",
+    "/images/crises/tamils-sri-lanka-2.jpg",
+    "/images/crises/tamils-sri-lanka-3.jpg"
+  ]
 }

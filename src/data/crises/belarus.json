@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#5B2C8B",
   "accent": "#7A48B0",
-  "coordinates": { "lat": 53.71, "lng": 27.95 },
+  "coordinates": {
+    "lat": 53.71,
+    "lng": 27.95
+  },
   "summary": "Belarus holds over 1,110 political prisoners as of December 2025. Since the fraudulent 2020 election and subsequent crackdown, 9,044+ people have faced politically motivated criminal prosecutions. Routine torture and ill-treatment in detention are documented. Nobel laureate Ales Bialiatski was released in December 2025, but new arrests continue unabated under Lukashenko's regime.",
   "context": "Belarus has been ruled by Alexander Lukashenko since 1994. Following the August 2020 presidential election — which independent observers and the EU consider fraudulent — Lukashenko launched the largest crackdown in Belarusian history against a mass protest movement that had mobilized millions. Over five years later, the repression has not abated.\n\nThe scale of political repression is extraordinary for a European country. Over 9,044 people have faced politically motivated criminal prosecutions since 2020. At least 1,110 remain imprisoned as political prisoners as of December 2025. Prisoners include journalists, lawyers, doctors, teachers, factory workers, athletes, and ordinary citizens who attended protests or expressed opposition online. Charges are typically fabricated or grossly disproportionate — organizing 'mass disturbances,' spreading 'false information,' or acting against state security.\n\nTorture and ill-treatment in detention facilities is systematic and extensively documented. The Viasna Human Rights Centre — the primary organization tracking political prisoners — has collected thousands of testimonies describing beatings, sleep deprivation, stress positions, and sexual violence in facilities following the 2020 crackdown.\n\nThe Nobel Peace Prize was awarded to Ales Bialiatski, founder of Viasna, in 2022 while he was in prison. He was released in December 2025, but many other prisoners remain, and new arrests continue at a sustained pace. Over 200,000 Belarusians have fled abroad since 2020, creating one of the largest exile communities in European history.\n\nBelarus's alignment with Russia — which has used Belarusian territory as a staging ground for attacks on Ukraine — has deepened since 2020, making international pressure more politically complex.",
   "stats": [
-    { "label": "Political Prisoners", "value": "1,110+", "source": "Viasna, Dec 2025" },
-    { "label": "Politically Motivated Prosecutions", "value": "9,044+", "source": "Viasna / Amnesty" },
-    { "label": "Belarusians in Exile", "value": "200,000+", "source": "EU / UNHCR" },
-    { "label": "Years in Power — Lukashenko", "value": "30+", "source": "Since 1994" }
+    {
+      "label": "Political Prisoners",
+      "value": "1,110+",
+      "source": "Viasna, Dec 2025"
+    },
+    {
+      "label": "Politically Motivated Prosecutions",
+      "value": "9,044+",
+      "source": "Viasna / Amnesty"
+    },
+    {
+      "label": "Belarusians in Exile",
+      "value": "200,000+",
+      "source": "EU / UNHCR"
+    },
+    {
+      "label": "Years in Power — Lukashenko",
+      "value": "30+",
+      "source": "Since 1994"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "Viasna Human Rights Centre", "url": "https://spring96.org/en", "org": "Viasna" },
-    { "title": "HRW Belarus 2026", "url": "https://www.hrw.org/world-report/2026/country-chapters/belarus", "org": "Human Rights Watch" },
-    { "title": "Amnesty Belarus", "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/belarus/", "org": "Amnesty International" },
-    { "title": "UN SR on Belarus", "url": "https://www.ohchr.org/en/countries/belarus", "org": "OHCHR" },
-    { "title": "Zerkalo — Belarusian Media", "url": "https://zerkalo.io/", "org": "Zerkalo" }
+    {
+      "title": "Viasna Human Rights Centre",
+      "url": "https://spring96.org/en",
+      "org": "Viasna"
+    },
+    {
+      "title": "HRW Belarus 2026",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/belarus",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Amnesty Belarus",
+      "url": "https://www.amnesty.org/en/location/europe-and-central-asia/eastern-europe-and-central-asia/belarus/",
+      "org": "Amnesty International"
+    },
+    {
+      "title": "UN SR on Belarus",
+      "url": "https://www.ohchr.org/en/countries/belarus",
+      "org": "OHCHR"
+    },
+    {
+      "title": "Zerkalo — Belarusian Media",
+      "url": "https://zerkalo.io/",
+      "org": "Zerkalo"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/belarus.jpg",
+    "/images/crises/belarus-2.jpg",
+    "/images/crises/belarus-3.jpg"
+  ]
 }

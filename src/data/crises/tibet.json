@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#7B3F9E",
   "accent": "#9B5FBE",
-  "coordinates": { "lat": 31.69, "lng": 88.08 },
+  "coordinates": {
+    "lat": 31.69,
+    "lng": 88.08
+  },
   "summary": "Tibet receives a Freedom House score of zero — tied for second-lowest globally. 80% of children in the Tibet Autonomous Region are separated from families and placed in state-run boarding schools mandating Mandarin. 930,000+ rural Tibetans face forced urbanization. China's new Ethnic Unity Law (March 2026) formally mandates assimilation, and Tibet remains sealed from independent observation.",
   "context": "China's policies toward Tibetans have escalated into systematic forced assimilation that cultural scholars and rights organizations describe as cultural genocide. The Tibet Autonomous Region receives a Freedom House score of zero — among the lowest in the world — reflecting an almost total absence of civil and political freedoms.\n\nThe most urgent current concern is China's colonial boarding school system. Approximately 80% of school-age children in the TAR are separated from their families and placed in state-run residential schools where instruction is conducted exclusively in Mandarin, Tibetan language and culture are suppressed, and children are subject to political indoctrination. The stated goal of the system is to produce Tibetan children who are culturally and linguistically Chinese.\n\nOver 930,000 rural Tibetans have been forcibly relocated to urban apartment complexes as part of a 'poverty alleviation' campaign that simultaneously destroys traditional pastoral livelihoods and communities. Former nomads who herded yaks for generations are resettled in apartment blocks with no means of supporting themselves.\n\nChina's new Ethnic Unity Law (March 2026) represents a legal formalization of assimilation policies, explicitly mandating cultural convergence with Han Chinese identity. This law, combined with the boarding school system and forced relocations, constitutes a comprehensive program to eliminate Tibetan cultural distinctiveness within a generation.\n\nTibet is effectively sealed from independent observation. Foreign journalists, researchers, and diplomats face severe restrictions on access to the TAR. Most information comes from Tibetan exile communities in India and the diaspora, and from leaked documents and satellite imagery.",
   "stats": [
-    { "label": "Freedom House Score", "value": "0/100", "source": "Freedom House 2025" },
-    { "label": "Children in State Boarding Schools", "value": "~80%", "source": "Tibet Watch / HRW" },
-    { "label": "Forced Relocations", "value": "930,000+", "source": "Human Rights Watch" },
-    { "label": "Tibetan Diaspora", "value": "150,000+", "source": "Central Tibetan Administration" }
+    {
+      "label": "Freedom House Score",
+      "value": "0/100",
+      "source": "Freedom House 2025"
+    },
+    {
+      "label": "Children in State Boarding Schools",
+      "value": "~80%",
+      "source": "Tibet Watch / HRW"
+    },
+    {
+      "label": "Forced Relocations",
+      "value": "930,000+",
+      "source": "Human Rights Watch"
+    },
+    {
+      "label": "Tibetan Diaspora",
+      "value": "150,000+",
+      "source": "Central Tibetan Administration"
+    }
   ],
   "actions": {
     "donate": [
@@ -43,11 +62,36 @@
     ]
   },
   "sources": [
-    { "title": "International Campaign for Tibet", "url": "https://savetibet.org/", "org": "ICT" },
-    { "title": "Freedom House Tibet Report", "url": "https://freedomhouse.org/country/tibet/freedom-world/2025", "org": "Freedom House" },
-    { "title": "HRW China and Tibet", "url": "https://www.hrw.org/asia/china-and-tibet", "org": "Human Rights Watch" },
-    { "title": "CECC Tibet", "url": "https://www.cecc.gov/issue/tibet", "org": "CECC" },
-    { "title": "Tibet Watch Reports", "url": "https://www.tibetwatch.org/", "org": "Tibet Watch" }
+    {
+      "title": "International Campaign for Tibet",
+      "url": "https://savetibet.org/",
+      "org": "ICT"
+    },
+    {
+      "title": "Freedom House Tibet Report",
+      "url": "https://freedomhouse.org/country/tibet/freedom-world/2025",
+      "org": "Freedom House"
+    },
+    {
+      "title": "HRW China and Tibet",
+      "url": "https://www.hrw.org/asia/china-and-tibet",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "CECC Tibet",
+      "url": "https://www.cecc.gov/issue/tibet",
+      "org": "CECC"
+    },
+    {
+      "title": "Tibet Watch Reports",
+      "url": "https://www.tibetwatch.org/",
+      "org": "Tibet Watch"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/tibet.jpg",
+    "/images/crises/tibet-2.jpg",
+    "/images/crises/tibet-3.jpg"
+  ]
 }

@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#9B59B6",
   "accent": "#BB8FCE",
-  "coordinates": { "lat": 21.91, "lng": 95.96 },
+  "coordinates": {
+    "lat": 21.91,
+    "lng": 95.96
+  },
   "summary": "Myanmar is engulfed in a multi-front civil war following the 2021 military coup. The Rohingya face ongoing persecution, and over 3 million people are displaced across the country as the military junta conducts airstrikes on civilian areas.",
   "context": "Myanmar's crisis has deepened dramatically since the military coup of February 2021, which overthrew the democratically elected government. The junta, known as the Tatmadaw, has responded to widespread civilian resistance with brutal force — including airstrikes on villages, mass arbitrary detention, torture, and extrajudicial killings.\n\nA nationwide civil disobedience movement and dozens of armed resistance groups, including ethnic armed organizations and newly formed People's Defence Forces, are fighting the military regime. The conflict has spread across the country, with particularly intense fighting in Sagaing, Chin, Kayah, and Shan states.\n\nThe Rohingya, a Muslim minority group in Rakhine State, continue to face what the UN has called a genocide. The military's 2017 campaign of mass killings, sexual violence, and village burnings drove over 700,000 Rohingya to refugee camps in Bangladesh. Those who remain in Myanmar face severe restrictions on movement, denial of citizenship, and ongoing violence from both the military and the Arakan Army.\n\nThe humanitarian situation is dire. Over 18 million people — one-third of the population — need humanitarian assistance. The economy has collapsed, the healthcare system is in ruins, and access for international aid organizations is severely restricted by the junta.\n\nCyclone Mocha in 2023 devastated Rakhine State, compounding the suffering of Rohingya communities. The international response has been widely criticized as insufficient, with the UN humanitarian appeal for Myanmar consistently underfunded.",
   "stats": [
-    { "label": "Displaced", "value": "3M+", "source": "UNHCR Myanmar Update, 2025" },
-    { "label": "Need Aid", "value": "18M", "source": "OCHA Myanmar Response Plan" },
-    { "label": "Rohingya Refugees", "value": "960K+", "source": "UNHCR Bangladesh" },
-    { "label": "Political Prisoners", "value": "20K+", "source": "Assistance Association for Political Prisoners" }
+    {
+      "label": "Displaced",
+      "value": "3M+",
+      "source": "UNHCR Myanmar Update, 2025"
+    },
+    {
+      "label": "Need Aid",
+      "value": "18M",
+      "source": "OCHA Myanmar Response Plan"
+    },
+    {
+      "label": "Rohingya Refugees",
+      "value": "960K+",
+      "source": "UNHCR Bangladesh"
+    },
+    {
+      "label": "Political Prisoners",
+      "value": "20K+",
+      "source": "Assistance Association for Political Prisoners"
+    }
   ],
   "actions": {
     "donate": [
@@ -53,11 +72,36 @@
     ]
   },
   "sources": [
-    { "title": "UNHCR Myanmar Situation", "url": "https://www.unhcr.org/emergencies/myanmar-emergency", "org": "UNHCR" },
-    { "title": "OCHA Myanmar Response Plan", "url": "https://www.unocha.org/myanmar", "org": "OCHA" },
-    { "title": "UN Fact-Finding Mission", "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index", "org": "OHCHR" },
-    { "title": "AAPP Political Prisoners", "url": "https://aappb.org", "org": "Assistance Association for Political Prisoners" },
-    { "title": "Fortify Rights Reports", "url": "https://www.fortifyrights.org/mya", "org": "Fortify Rights" }
+    {
+      "title": "UNHCR Myanmar Situation",
+      "url": "https://www.unhcr.org/emergencies/myanmar-emergency",
+      "org": "UNHCR"
+    },
+    {
+      "title": "OCHA Myanmar Response Plan",
+      "url": "https://www.unocha.org/myanmar",
+      "org": "OCHA"
+    },
+    {
+      "title": "UN Fact-Finding Mission",
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index",
+      "org": "OHCHR"
+    },
+    {
+      "title": "AAPP Political Prisoners",
+      "url": "https://aappb.org",
+      "org": "Assistance Association for Political Prisoners"
+    },
+    {
+      "title": "Fortify Rights Reports",
+      "url": "https://www.fortifyrights.org/mya",
+      "org": "Fortify Rights"
+    }
   ],
-  "lastUpdated": "2026-03-18"
+  "lastUpdated": "2026-03-18",
+  "photos": [
+    "/images/crises/myanmar.jpg",
+    "/images/crises/myanmar-2.png",
+    "/images/crises/myanmar-3.jpg"
+  ]
 }

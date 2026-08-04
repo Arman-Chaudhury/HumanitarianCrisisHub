@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#A3282F",
   "accent": "#C0404A",
-  "coordinates": { "lat": 33.89, "lng": 35.50 },
+  "coordinates": {
+    "lat": 33.89,
+    "lng": 35.5
+  },
   "summary": "Lebanon's economic collapse — one of the worst in modern history — has been compounded by the 2024 Israel-Hezbollah war, which caused $14 billion in additional damage. 80% of the population lives in poverty, the lira has lost 98% of its value, 4.1 million people need humanitarian assistance, and 1.5 million Syrian refugees remain in a country that can barely sustain its own people.",
   "context": "Lebanon is experiencing a compounding humanitarian catastrophe driven by the intersection of one of the worst economic collapses in modern global history and the devastating consequences of the 2024 Israel-Hezbollah war.\n\nThe economic crisis — which began with the 2019 financial system collapse — has impoverished the Lebanese population at a staggering rate. The Lebanese lira has lost over 98% of its value against the dollar since 2019. 80% of the population now lives below the poverty line. The banking system effectively collapsed, wiping out the savings of millions of families. The public healthcare system has largely ceased to function. Electricity supply is measured in hours per day rather than hours per outage.\n\nThe 2024 conflict between Israel and Hezbollah devastated southern Lebanon and the Bekaa Valley, displacing over 1.2 million people and causing an estimated $14 billion in additional damage to a country already unable to function. Entire towns in the south were destroyed. Infrastructure that would take years to rebuild under normal circumstances must now be reconstructed in the context of total fiscal collapse.\n\nLebanon also hosts approximately 1.5 million Syrian refugees — one of the highest per-capita refugee populations anywhere. Lebanese communities that host refugees are themselves in acute need. Tensions between host communities and refugees have increased as resources shrink and public services collapse.\n\n4.1 million people — about two-thirds of the Lebanese population — need humanitarian assistance. The combination of economic collapse, war aftermath, and refugee pressure makes Lebanon's situation uniquely complex, requiring both emergency humanitarian response and fundamental economic reform that the Lebanese political system has proven incapable of delivering.",
   "stats": [
-    { "label": "In Need", "value": "4.1M", "source": "OCHA Lebanon" },
-    { "label": "In Poverty", "value": "80%", "source": "World Bank Lebanon" },
-    { "label": "Syrian Refugees", "value": "1.5M", "source": "UNHCR Lebanon" },
-    { "label": "War Damage (2024)", "value": "$14B", "source": "UN/World Bank" }
+    {
+      "label": "In Need",
+      "value": "4.1M",
+      "source": "OCHA Lebanon"
+    },
+    {
+      "label": "In Poverty",
+      "value": "80%",
+      "source": "World Bank Lebanon"
+    },
+    {
+      "label": "Syrian Refugees",
+      "value": "1.5M",
+      "source": "UNHCR Lebanon"
+    },
+    {
+      "label": "War Damage (2024)",
+      "value": "$14B",
+      "source": "UN/World Bank"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "OCHA Lebanon", "url": "https://www.unocha.org/lebanon", "org": "OCHA" },
-    { "title": "UNHCR Lebanon", "url": "https://www.unhcr.org/countries/lebanon", "org": "UNHCR" },
-    { "title": "IOM Lebanon Crisis Response", "url": "https://crisisresponse.iom.int/response/lebanon-crisis-response-plan-2025", "org": "IOM" },
-    { "title": "World Bank Lebanon Economic Monitor", "url": "https://www.worldbank.org/en/country/lebanon", "org": "World Bank" },
-    { "title": "IRC Lebanon", "url": "https://www.rescue.org/country/lebanon", "org": "IRC" }
+    {
+      "title": "OCHA Lebanon",
+      "url": "https://www.unocha.org/lebanon",
+      "org": "OCHA"
+    },
+    {
+      "title": "UNHCR Lebanon",
+      "url": "https://www.unhcr.org/countries/lebanon",
+      "org": "UNHCR"
+    },
+    {
+      "title": "IOM Lebanon Crisis Response",
+      "url": "https://crisisresponse.iom.int/response/lebanon-crisis-response-plan-2025",
+      "org": "IOM"
+    },
+    {
+      "title": "World Bank Lebanon Economic Monitor",
+      "url": "https://www.worldbank.org/en/country/lebanon",
+      "org": "World Bank"
+    },
+    {
+      "title": "IRC Lebanon",
+      "url": "https://www.rescue.org/country/lebanon",
+      "org": "IRC"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/lebanon.jpg",
+    "/images/crises/lebanon-2.jpg",
+    "/images/crises/lebanon-3.jpg"
+  ]
 }

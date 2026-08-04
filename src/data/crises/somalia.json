@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#D4A017",
   "accent": "#E8C04A",
-  "coordinates": { "lat": 5.15, "lng": 46.20 },
+  "coordinates": {
+    "lat": 5.15,
+    "lng": 46.2
+  },
   "summary": "Somalia is on the brink of catastrophe. Four consecutive poor rainy seasons have produced the lowest seasonal crop harvest in 30 years, Al-Shabaab's 2025 offensive has reversed most government gains, and a 74% cut in humanitarian funding means only one in three people in need receives food aid. 6.5 million people are projected to face crisis-level hunger by early 2026.",
   "context": "Somalia has faced near-continuous crisis for over three decades, but 2025–2026 marks a severe new deterioration. Four consecutive poor rainy seasons have devastated pastoral and farming communities that depend on seasonal rains for survival. Non-irrigated harvests in Somalia's southern breadbasket regions are projected at less than 10% of average levels — a catastrophic failure with no modern precedent.\n\nAl-Shabaab's 2025 military offensive has reversed most of the territorial gains made by Somali government forces over the previous two years, recapturing strategic towns and expanding control across rural central and southern Somalia. The combination of active conflict, deteriorating climate, and a collapsed aid pipeline has created conditions approaching famine in multiple regions.\n\nThe humanitarian funding crisis is acute. Somalia's 2025 Humanitarian Response Plan was only 20.3% funded — receiving just $289 million of the $1.42 billion requested. This is the lowest funding rate in a decade, and the result is visible: only 1 in 3 people who need food assistance received it in October 2025. The government declared a national drought emergency in November 2025 — the first such declaration since 2022.\n\nOver 3.5 million Somalis are internally displaced, many having fled multiple times. Malnutrition is reaching critical levels, particularly among children under five. The healthcare system, already fragile, is buckling under the combined weight of disease, injury, and funding cuts.\n\nSomalia's crisis exemplifies the structural failures of the global humanitarian system: a country experiencing a predictable, foreseeable emergency that receives a fraction of the resources needed to prevent mass death.",
   "stats": [
-    { "label": "Facing Crisis Hunger", "value": "6.5M", "source": "IPC, Feb 2026" },
-    { "label": "IDPs", "value": "3.5M", "source": "UNHCR Somalia" },
-    { "label": "Children Malnourished", "value": "1.84M", "source": "IPC/WFP 2026" },
-    { "label": "HRP Funded", "value": "20.3%", "source": "OCHA Somalia, 2025" }
+    {
+      "label": "Facing Crisis Hunger",
+      "value": "6.5M",
+      "source": "IPC, Feb 2026"
+    },
+    {
+      "label": "IDPs",
+      "value": "3.5M",
+      "source": "UNHCR Somalia"
+    },
+    {
+      "label": "Children Malnourished",
+      "value": "1.84M",
+      "source": "IPC/WFP 2026"
+    },
+    {
+      "label": "HRP Funded",
+      "value": "20.3%",
+      "source": "OCHA Somalia, 2025"
+    }
   ],
   "actions": {
     "donate": [
@@ -53,11 +72,36 @@
     ]
   },
   "sources": [
-    { "title": "WFP Somalia Emergency", "url": "https://www.wfp.org/emergencies/somalia-emergency", "org": "WFP" },
-    { "title": "OCHA Somalia Response Plan", "url": "https://www.unocha.org/somalia", "org": "OCHA" },
-    { "title": "IPC Somalia Food Security", "url": "https://www.ipcinfo.org/", "org": "IPC" },
-    { "title": "UNICEF Somalia", "url": "https://www.unicef.org/somalia/", "org": "UNICEF" },
-    { "title": "FAO Somalia", "url": "https://www.fao.org/somalia/en/", "org": "FAO" }
+    {
+      "title": "WFP Somalia Emergency",
+      "url": "https://www.wfp.org/emergencies/somalia-emergency",
+      "org": "WFP"
+    },
+    {
+      "title": "OCHA Somalia Response Plan",
+      "url": "https://www.unocha.org/somalia",
+      "org": "OCHA"
+    },
+    {
+      "title": "IPC Somalia Food Security",
+      "url": "https://www.ipcinfo.org/",
+      "org": "IPC"
+    },
+    {
+      "title": "UNICEF Somalia",
+      "url": "https://www.unicef.org/somalia/",
+      "org": "UNICEF"
+    },
+    {
+      "title": "FAO Somalia",
+      "url": "https://www.fao.org/somalia/en/",
+      "org": "FAO"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/somalia.webp",
+    "/images/crises/somalia-2.png",
+    "/images/crises/somalia-3.jpg"
+  ]
 }

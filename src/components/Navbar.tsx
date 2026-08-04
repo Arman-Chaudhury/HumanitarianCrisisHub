@@ -14,7 +14,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex items-center justify-between pb-5 border-b-2 border-text-bright mb-10 animate-fade-up">
+    <nav className="sticky top-0 z-[50] flex items-center justify-between pb-5 pt-3 -mt-3 mb-10 border-b-2 border-text-bright bg-bg/80 backdrop-blur-md animate-fade-up">
       <Link href="/" className="font-serif text-2xl text-text-bright tracking-tight">
         <em className="text-crisis-red italic">Crisis</em> Hub
       </Link>

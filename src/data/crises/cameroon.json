@@ -5,14 +5,33 @@
   "status": "underreported",
   "color": "#1B7A4E",
   "accent": "#2B9E65",
-  "coordinates": { "lat": 3.85, "lng": 11.50 },
+  "coordinates": {
+    "lat": 3.85,
+    "lng": 11.5
+  },
   "summary": "Cameroon is ranked the world's most neglected displacement crisis by NRC in 2025. Three overlapping emergencies — the Anglophone separatist war, Boko Haram in the Far North, and CAR refugee spillover — displace over 844,000 people. Security incidents nearly doubled in 2024, with 7,035 incidents recorded, yet the crisis generated only 28,800 media articles — 15 times fewer than Ukraine.",
   "context": "Cameroon hosts three simultaneous humanitarian crises that have received almost no international attention despite their combined scale and severity. In the Northwest and Southwest regions, a separatist conflict between Anglophone armed groups (known collectively as 'Ambazonia' forces) and Cameroonian government security forces has displaced hundreds of thousands and created a crisis characterized by attacks on civilians, school closures, and a systematic breakdown of services in English-speaking areas.\n\nIn the Far North region bordering Nigeria and Chad, Boko Haram and ISWAP conduct regular attacks on villages, markets, and aid workers, maintaining a persistent state of insecurity for lakeside communities. Over 300,000 people are displaced in this region alone.\n\nIn the East, Cameroon hosts over 300,000 refugees from the Central African Republic, straining already limited local resources in one of the most underdeveloped parts of the country.\n\nThe NRC ranked Cameroon the world's most neglected displacement crisis in 2025, citing the extraordinary gap between scale and coverage. Only 28,800 media articles were published about Cameroon's crisis in all of 2024 — compared to over 400,000 for Ukraine. Security incidents nearly doubled from 2023 to 2024, rising to 7,035 documented incidents. Yet the humanitarian response remains chronically underfunded.\n\nOver 3.3 million people need humanitarian assistance. The Anglophone crisis in particular has been characterized by a near-complete absence of international pressure despite documented atrocities by both government forces and armed separatist groups.",
   "stats": [
-    { "label": "People Displaced", "value": "844,000+", "source": "NRC, 2025" },
-    { "label": "In Need", "value": "3.3M", "source": "OCHA Cameroon" },
-    { "label": "Security Incidents (2024)", "value": "7,035", "source": "ACLED / NRC" },
-    { "label": "NRC Neglect Ranking", "value": "#1 (2025)", "source": "Norwegian Refugee Council" }
+    {
+      "label": "People Displaced",
+      "value": "844,000+",
+      "source": "NRC, 2025"
+    },
+    {
+      "label": "In Need",
+      "value": "3.3M",
+      "source": "OCHA Cameroon"
+    },
+    {
+      "label": "Security Incidents (2024)",
+      "value": "7,035",
+      "source": "ACLED / NRC"
+    },
+    {
+      "label": "NRC Neglect Ranking",
+      "value": "#1 (2025)",
+      "source": "Norwegian Refugee Council"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "NRC — Most Neglected Crises 2025", "url": "https://www.nrc.no/", "org": "Norwegian Refugee Council" },
-    { "title": "International Crisis Group — Cameroon", "url": "https://www.crisisgroup.org/africa/central-africa/cameroon", "org": "ICG" },
-    { "title": "OCHA Cameroon", "url": "https://www.unocha.org/cameroon", "org": "OCHA" },
-    { "title": "UNHCR Cameroon", "url": "https://www.unhcr.org/countries/cameroon", "org": "UNHCR" },
-    { "title": "UNFPA Cameroon", "url": "https://www.unfpa.org/", "org": "UNFPA" }
+    {
+      "title": "NRC — Most Neglected Crises 2025",
+      "url": "https://www.nrc.no/",
+      "org": "Norwegian Refugee Council"
+    },
+    {
+      "title": "International Crisis Group — Cameroon",
+      "url": "https://www.crisisgroup.org/africa/central-africa/cameroon",
+      "org": "ICG"
+    },
+    {
+      "title": "OCHA Cameroon",
+      "url": "https://www.unocha.org/cameroon",
+      "org": "OCHA"
+    },
+    {
+      "title": "UNHCR Cameroon",
+      "url": "https://www.unhcr.org/countries/cameroon",
+      "org": "UNHCR"
+    },
+    {
+      "title": "UNFPA Cameroon",
+      "url": "https://www.unfpa.org/",
+      "org": "UNFPA"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/cameroon.png",
+    "/images/crises/cameroon-2.jpg",
+    "/images/crises/cameroon-3.jpg"
+  ]
 }

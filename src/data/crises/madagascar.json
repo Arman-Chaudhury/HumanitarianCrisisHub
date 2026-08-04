@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#2E8B8B",
   "accent": "#40AAAA",
-  "coordinates": { "lat": -23.44, "lng": 44.47 },
+  "coordinates": {
+    "lat": -23.44,
+    "lng": 44.47
+  },
   "summary": "Southern Madagascar's Grand Sud region has experienced what scientists and the UN have called the world's first climate change famine — a famine driven not by war or political failure but purely by drought caused by changing rainfall patterns linked to climate change. 1.78 million people face urgent food needs. Madagascar contributes virtually nothing to global emissions.",
   "context": "Southern Madagascar's Grand Sud region has become globally significant as what many scientists and the UN WFP have described as the world's first famine driven directly by climate change — not by conflict, not by governance failure, but by shifting rainfall patterns that have devastated this already extremely poor region.\n\nThe Grand Sud has experienced recurrent devastating droughts since 2019, with the worst conditions occurring in 2021–2022 when IPC Phase 5 (Catastrophe/Famine) conditions were first documented. While rains partially recovered in subsequent years, the situation remains deeply precarious. 1.78 million people are projected to need urgent food action.\n\nThe communities of the Grand Sud — primarily the Tandroy and Mahafaly peoples — have subsisted for centuries through traditional farming, herding, and the cultivation of drought-resistant crops like cassava. The frequency and severity of droughts over the past decade have exceeded anything in living memory, destroying the coping mechanisms that communities built over generations. Livestock — the primary wealth and food security mechanism — have died in large numbers. People are eating zebu leather, cactus plants, and wild plants to survive.\n\nMadagascar is one of the world's poorest countries and one of the lowest emitters of greenhouse gases — contributing a negligible fraction of a percent to global emissions. Yet it is experiencing famine conditions linked directly to climate change driven by industrialized nations. This is the climate justice crisis in its starkest form.\n\nAccess to the Grand Sud is challenging due to poor infrastructure, and humanitarian response has been chronically underfunded. The world has been slow to recognize what is happening: the first climate change famine is unfolding in a country that has contributed almost nothing to the warming causing it.",
   "stats": [
-    { "label": "People Needing Urgent Food Action", "value": "1.78M", "source": "IPC Madagascar" },
-    { "label": "Years of Severe Drought", "value": "5+ (since 2019)", "source": "WFP / FAO" },
-    { "label": "Madagascar Emissions Share", "value": "<0.01% global", "source": "CDIAC / Our World in Data" },
-    { "label": "Crisis Designation", "value": "World's 1st climate famine", "source": "WFP / UN" }
+    {
+      "label": "People Needing Urgent Food Action",
+      "value": "1.78M",
+      "source": "IPC Madagascar"
+    },
+    {
+      "label": "Years of Severe Drought",
+      "value": "5+ (since 2019)",
+      "source": "WFP / FAO"
+    },
+    {
+      "label": "Madagascar Emissions Share",
+      "value": "<0.01% global",
+      "source": "CDIAC / Our World in Data"
+    },
+    {
+      "label": "Crisis Designation",
+      "value": "World's 1st climate famine",
+      "source": "WFP / UN"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "WFP Madagascar", "url": "https://www.wfp.org/countries/madagascar", "org": "WFP" },
-    { "title": "IPC Madagascar", "url": "https://www.ipcinfo.org/", "org": "IPC" },
-    { "title": "UNICEF Madagascar", "url": "https://www.unicef.org/madagascar/", "org": "UNICEF" },
-    { "title": "OCHA Madagascar", "url": "https://www.unocha.org/madagascar", "org": "OCHA" },
-    { "title": "FAO Madagascar", "url": "https://www.fao.org/madagascar/en/", "org": "FAO" }
+    {
+      "title": "WFP Madagascar",
+      "url": "https://www.wfp.org/countries/madagascar",
+      "org": "WFP"
+    },
+    {
+      "title": "IPC Madagascar",
+      "url": "https://www.ipcinfo.org/",
+      "org": "IPC"
+    },
+    {
+      "title": "UNICEF Madagascar",
+      "url": "https://www.unicef.org/madagascar/",
+      "org": "UNICEF"
+    },
+    {
+      "title": "OCHA Madagascar",
+      "url": "https://www.unocha.org/madagascar",
+      "org": "OCHA"
+    },
+    {
+      "title": "FAO Madagascar",
+      "url": "https://www.fao.org/madagascar/en/",
+      "org": "FAO"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/madagascar.jpg",
+    "/images/crises/madagascar-2.png",
+    "/images/crises/madagascar-3.jpg"
+  ]
 }

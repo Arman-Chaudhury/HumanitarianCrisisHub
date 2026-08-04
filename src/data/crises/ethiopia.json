@@ -5,14 +5,33 @@
   "status": "underreported",
   "color": "#C41E3A",
   "accent": "#E0425A",
-  "coordinates": { "lat": 9.15, "lng": 40.49 },
+  "coordinates": {
+    "lat": 9.15,
+    "lng": 40.49
+  },
   "summary": "Ethiopia is experiencing multiple simultaneous armed conflicts behind near-total media blackout. While the Tigray war formally ended in 2022, Eritrean forces remain in occupied areas, federal forces and Fano militia are clashing in Amhara with documented drone strikes on civilians, fighting continues in Oromia, and 18.9 million people are in humanitarian need.",
   "context": "Ethiopia's humanitarian catastrophe is one of the most undercovered of any large-scale crisis in the world. While international attention briefly focused on the Tigray war (2020–2022), the formal ceasefire has not ended atrocity. Eritrean forces remain in occupation of significant areas of Tigray, committing documented human rights violations. Over one million Tigrayans remain in protracted displacement with no safe conditions for return.\n\nA new front of fighting opened in Amhara in 2023 and escalated sharply through 2025, pitting federal forces against the Fano militia — an armed movement that coalesced in response to what Amhara communities saw as federal abandonment. Drone strikes on civilian areas in Amhara have been documented, including a February 2025 strike that killed 16 people including children. The Ethiopian government has imposed a near-total media blackout on both the Amhara and Oromia conflicts, making independent verification extremely difficult.\n\nIn Oromia, fighting between federal forces and the Oromo Liberation Army continues across vast rural areas, generating ongoing displacement and human rights abuses on multiple sides.\n\nThe humanitarian scale is enormous: 18.9 million people in need, 3.3 million IDPs, and malnutrition at critical levels. In some woredas of Tigray, the global acute malnutrition rate exceeds 19.8% — above the emergency threshold. Over 8.3 million children are out of school across conflict-affected regions.\n\nMassive US aid cuts in 2025 have devastated Ethiopia's humanitarian response, closing 422 health facilities. What is happening in Ethiopia is a large-scale, multi-front humanitarian emergency that the world has largely stopped watching.",
   "stats": [
-    { "label": "Need Aid", "value": "18.9M", "source": "EU/ECHO; OCHA" },
-    { "label": "IDPs", "value": "3.3M", "source": "IOM DTM Ethiopia" },
-    { "label": "Children Out of School", "value": "8.3M+", "source": "ACAPS, 2025" },
-    { "label": "Child Acute Wasting", "value": "894,682", "source": "UNICEF Ethiopia" }
+    {
+      "label": "Need Aid",
+      "value": "18.9M",
+      "source": "EU/ECHO; OCHA"
+    },
+    {
+      "label": "IDPs",
+      "value": "3.3M",
+      "source": "IOM DTM Ethiopia"
+    },
+    {
+      "label": "Children Out of School",
+      "value": "8.3M+",
+      "source": "ACAPS, 2025"
+    },
+    {
+      "label": "Child Acute Wasting",
+      "value": "894,682",
+      "source": "UNICEF Ethiopia"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "OCHA Ethiopia", "url": "https://www.unocha.org/ethiopia", "org": "OCHA" },
-    { "title": "UNICEF Ethiopia Appeals", "url": "https://www.unicef.org/appeals/ethiopia", "org": "UNICEF" },
-    { "title": "IOM Ethiopia Crisis Response", "url": "https://crisisresponse.iom.int/response/ethiopia-crisis-response-plan-2026", "org": "IOM" },
-    { "title": "HRW Ethiopia Report 2026", "url": "https://www.hrw.org/world-report/2026/country-chapters/ethiopia", "org": "Human Rights Watch" },
-    { "title": "ICRC Ethiopia", "url": "https://www.icrc.org/en/where-we-work/africa/ethiopia", "org": "ICRC" }
+    {
+      "title": "OCHA Ethiopia",
+      "url": "https://www.unocha.org/ethiopia",
+      "org": "OCHA"
+    },
+    {
+      "title": "UNICEF Ethiopia Appeals",
+      "url": "https://www.unicef.org/appeals/ethiopia",
+      "org": "UNICEF"
+    },
+    {
+      "title": "IOM Ethiopia Crisis Response",
+      "url": "https://crisisresponse.iom.int/response/ethiopia-crisis-response-plan-2026",
+      "org": "IOM"
+    },
+    {
+      "title": "HRW Ethiopia Report 2026",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/ethiopia",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "ICRC Ethiopia",
+      "url": "https://www.icrc.org/en/where-we-work/africa/ethiopia",
+      "org": "ICRC"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/ethiopia.jpg",
+    "/images/crises/ethiopia-2.jpg",
+    "/images/crises/ethiopia-3.png"
+  ]
 }

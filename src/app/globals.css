@@ -21,8 +21,25 @@
   --crisis-accent: #f4a261;
 }
 
-html {
-  scroll-behavior: smooth;
+/* Lenis manages smooth scroll on >=md screens; keep native smooth as fallback */
+@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
 }
 
 body {

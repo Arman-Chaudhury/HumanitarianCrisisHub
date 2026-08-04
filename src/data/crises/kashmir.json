@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#4A5240",
   "accent": "#6B7458",
-  "coordinates": { "lat": 34.08, "lng": 74.80 },
+  "coordinates": {
+    "lat": 34.08,
+    "lng": 74.8
+  },
   "summary": "Following the April 2025 Pahalgam attack, approximately 2,800 individuals were arrested or detained in Kashmir, including journalists and human rights defenders. Since Article 370's revocation in 2019, India has deployed AI-assisted facial recognition, mass surveillance, and blocked 8,000+ social media accounts. UN experts expressed alarm at systematic human rights violations in November 2025.",
   "context": "Kashmir has been a site of political conflict and human rights violations for over 75 years. Following India's revocation of Article 370 in August 2019 — which stripped Jammu and Kashmir of its special status and statehood — the situation has escalated significantly. The revocation was accompanied by the largest military deployment in Kashmir's history, a communications blackout lasting months, and mass detentions of political leaders.\n\nIndia has built one of the world's most sophisticated surveillance and control systems in Kashmir. AI-assisted facial recognition is deployed across the valley. Over 8,000 social media accounts have been blocked. Internet shutdowns — which Kashmir holds the world record for — are routine during periods of unrest. The combination of surveillance technology and physical security apparatus creates an environment of pervasive monitoring.\n\nThe April 2025 Pahalgam attack — in which tourists were killed by militants — triggered a severe crackdown. Approximately 2,800 people were arrested or detained, including journalists, academics, lawyers, and human rights defenders with no documented connection to militancy. UN Special Rapporteurs expressed formal alarm in November 2025 about systematic violations, including arbitrary detention, suppression of civil society, and restrictions on press freedom.\n\nOver 2,500 acres of land in Jaffna — actually a Sri Lanka reference but in this context, in Kashmiri areas — remain under military occupation, affecting civilian communities. Demographic changes through settlements have altered the social composition of some areas, a concern raised by UN experts.\n\nKashmiri civil society organizations, journalists, and human rights defenders operate under constant surveillance and the threat of prosecution under the Unlawful Activities Prevention Act (UAPA), which allows detention without trial for extended periods.",
   "stats": [
-    { "label": "Detained Post-Pahalgam", "value": "~2,800", "source": "HRW / UN Experts, 2025" },
-    { "label": "Social Media Accounts Blocked", "value": "8,000+", "source": "Internet Freedom Foundation" },
-    { "label": "Internet Shutdowns (since 2012)", "value": "World Record", "source": "Access Now" },
-    { "label": "UN Expert Alarm", "value": "Nov 2025", "source": "OHCHR Special Procedures" }
+    {
+      "label": "Detained Post-Pahalgam",
+      "value": "~2,800",
+      "source": "HRW / UN Experts, 2025"
+    },
+    {
+      "label": "Social Media Accounts Blocked",
+      "value": "8,000+",
+      "source": "Internet Freedom Foundation"
+    },
+    {
+      "label": "Internet Shutdowns (since 2012)",
+      "value": "World Record",
+      "source": "Access Now"
+    },
+    {
+      "label": "UN Expert Alarm",
+      "value": "Nov 2025",
+      "source": "OHCHR Special Procedures"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "OHCHR Kashmir Reports", "url": "https://www.ohchr.org/en/press-releases/2025/11/un-experts-alarmed-kashmir", "org": "OHCHR" },
-    { "title": "HRW Kashmir", "url": "https://www.hrw.org/asia/india", "org": "Human Rights Watch" },
-    { "title": "Kashmir Law & Justice Project", "url": "https://www.kljp.org/", "org": "KLJP" },
-    { "title": "Access Now Internet Shutdowns", "url": "https://www.accessnow.org/", "org": "Access Now" },
-    { "title": "Amnesty India", "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/india/", "org": "Amnesty International" }
+    {
+      "title": "OHCHR Kashmir Reports",
+      "url": "https://www.ohchr.org/en/press-releases/2025/11/un-experts-alarmed-kashmir",
+      "org": "OHCHR"
+    },
+    {
+      "title": "HRW Kashmir",
+      "url": "https://www.hrw.org/asia/india",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Kashmir Law & Justice Project",
+      "url": "https://www.kljp.org/",
+      "org": "KLJP"
+    },
+    {
+      "title": "Access Now Internet Shutdowns",
+      "url": "https://www.accessnow.org/",
+      "org": "Access Now"
+    },
+    {
+      "title": "Amnesty India",
+      "url": "https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/india/",
+      "org": "Amnesty International"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/kashmir.jpg",
+    "/images/crises/kashmir-2.jpg",
+    "/images/crises/kashmir-3.jpg"
+  ]
 }

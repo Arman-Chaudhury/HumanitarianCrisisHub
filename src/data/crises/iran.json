@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#7A1C2E",
   "accent": "#A52840",
-  "coordinates": { "lat": 32.43, "lng": 53.69 },
+  "coordinates": {
+    "lat": 32.43,
+    "lng": 53.69
+  },
   "summary": "December 2025–January 2026 protests — the largest since the 1979 revolution, spreading to 200+ cities — were met with live ammunition. 3,428+ protesters were killed during peak unrest (January 8–12, 2026). Executions hit their highest level since 2015. Kurds, Baloch, and women's rights activists are disproportionately targeted in a widening crackdown.",
   "context": "Iran's human rights crisis has intensified dramatically following a wave of protests that began in December 2025 and spread to over 200 cities — the largest domestic uprising since the 1979 Islamic Revolution. The immediate trigger was economic grievances: currency collapse, chronic unemployment, and inflation. But protests quickly broadened into demands for political change and accountability for the regime's systematic repression.\n\nThe government's response was brutal. At peak unrest between January 8–12, 2026, at least 3,428 protesters were killed according to the Iran Human Rights News Agency (IHRNGO). Thousands more were injured. Mass arrests swept up students, journalists, workers, and activists. Many of those arrested have been subjected to torture in detention, according to survivor testimony and UN reports.\n\nIran's execution rate has been climbing for years and hit its highest point since 2015. Many executions follow trials that international observers describe as not meeting minimum standards of due process — confessions extracted under torture, charges of 'enmity against God' applied to political prisoners, and executions carried out with minimal notice.\n\nEthnic minorities face disproportionate repression. The Baloch — a minority in Sistan-Baluchestan province — face the highest execution rates of any group. Kurdish activists, journalists, and politicians are systematically prosecuted. Women's rights activists who participated in the 2022 'Woman, Life, Freedom' uprising continue to face prosecution, imprisonment, and in some cases execution.\n\nNo independent media operates inside Iran. International journalists cannot enter freely. The UN Fact-Finding Mission on Iran, established after the 2022 uprising, has documented crimes against humanity but faces Iranian non-cooperation.",
   "stats": [
-    { "label": "Protesters Killed (Jan 2026)", "value": "3,428+", "source": "IHRNGO, Jan 2026" },
-    { "label": "Cities Affected by Protests", "value": "200+", "source": "IHRNGO / HRW" },
-    { "label": "Executions (2025)", "value": "Highest since 2015", "source": "Amnesty International" },
-    { "label": "UN Fact-Finding Mission", "value": "Crimes Against Humanity", "source": "OHCHR, 2025" }
+    {
+      "label": "Protesters Killed (Jan 2026)",
+      "value": "3,428+",
+      "source": "IHRNGO, Jan 2026"
+    },
+    {
+      "label": "Cities Affected by Protests",
+      "value": "200+",
+      "source": "IHRNGO / HRW"
+    },
+    {
+      "label": "Executions (2025)",
+      "value": "Highest since 2015",
+      "source": "Amnesty International"
+    },
+    {
+      "label": "UN Fact-Finding Mission",
+      "value": "Crimes Against Humanity",
+      "source": "OHCHR, 2025"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "HRW Iran Report 2025", "url": "https://www.hrw.org/world-report/2025/country-chapters/iran", "org": "Human Rights Watch" },
-    { "title": "UN FFM Iran", "url": "https://www.ohchr.org/en/hr-bodies/hrc/ffm-iran", "org": "OHCHR" },
-    { "title": "IHRNGO Iran", "url": "https://iranhr.net/en/", "org": "Iran Human Rights News Agency" },
-    { "title": "Hengaw Kurdish Rights", "url": "https://hengaw.net/en", "org": "Hengaw" },
-    { "title": "Amnesty International Iran", "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/iran/", "org": "Amnesty International" }
+    {
+      "title": "HRW Iran Report 2025",
+      "url": "https://www.hrw.org/world-report/2025/country-chapters/iran",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "UN FFM Iran",
+      "url": "https://www.ohchr.org/en/hr-bodies/hrc/ffm-iran",
+      "org": "OHCHR"
+    },
+    {
+      "title": "IHRNGO Iran",
+      "url": "https://iranhr.net/en/",
+      "org": "Iran Human Rights News Agency"
+    },
+    {
+      "title": "Hengaw Kurdish Rights",
+      "url": "https://hengaw.net/en",
+      "org": "Hengaw"
+    },
+    {
+      "title": "Amnesty International Iran",
+      "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/iran/",
+      "org": "Amnesty International"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/iran.jpg",
+    "/images/crises/iran-2.jpg",
+    "/images/crises/iran-3.jpg"
+  ]
 }

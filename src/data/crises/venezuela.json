@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#B8A800",
   "accent": "#D8C820",
-  "coordinates": { "lat": 6.42, "lng": -66.59 },
+  "coordinates": {
+    "lat": 6.42,
+    "lng": -66.59
+  },
   "summary": "7.9 million Venezuelans have fled since 2014 — Latin America's largest displacement crisis ever. 2,000 people continue to leave daily. The response receives one-tenth the per-capita funding compared to Syria's refugee crisis. The 2025–2026 response plan was only 4.6% funded at launch — effectively no international response to the hemisphere's largest humanitarian emergency.",
   "context": "Venezuela's displacement crisis is Latin America's largest and most underfunded. Since 2014, the collapse of Venezuela's economy — driven by economic mismanagement, oil dependency, and US sanctions — has pushed nearly 8 million people to flee the country. With 2,000 people still leaving every day, the crisis continues to grow.\n\nVenezuela's economic collapse has been catastrophic in scale. GDP fell by over 70% between 2013 and 2021 — one of the largest peacetime economic contractions in modern history. Hyperinflation at times exceeded 1 million percent annually. The healthcare system collapsed: hospitals ran out of medicines, surgical equipment, and basic supplies. Infant mortality rose. Malnutrition spread. Electricity blackouts became permanent features of daily life.\n\nThose who have fled are distributed primarily across Latin America: 2.7 million in Colombia, 1.5 million in Peru, 500,000+ in Ecuador and Chile each. 6.9 million Venezuelans are hosted in Latin America, with an additional 1 million in the United States, Europe, and elsewhere. Despite their large numbers, Venezuelan refugees are systematically underresourced compared to other displaced populations.\n\nThe funding disparity is stark. Syrian refugees receive approximately $1,400 per person per year in international support. Venezuelan refugees receive approximately $150 — roughly one-tenth. The 2025–2026 Regional Response Plan for Refugees and Migrants from Venezuela (R4V) was only 4.6% funded at launch — a figure that represents a near-complete international abdication of responsibility.\n\nWithin Venezuela, an estimated 7 million more remain in acute need. Political repression under Nicolás Maduro — who claimed victory in the fraudulent July 2024 presidential election — has intensified, with 2,000+ arrests of opposition figures and protesters following the election.",
   "stats": [
-    { "label": "Venezuelans Displaced", "value": "7.9M", "source": "R4V / UNHCR" },
-    { "label": "Leaving Daily", "value": "2,000", "source": "R4V Platform, 2025" },
-    { "label": "Response Plan Funded (2025)", "value": "4.6%", "source": "R4V Response Plan" },
-    { "label": "Per-Capita vs Syria Funding", "value": "~1/10th", "source": "IRC Comparison" }
+    {
+      "label": "Venezuelans Displaced",
+      "value": "7.9M",
+      "source": "R4V / UNHCR"
+    },
+    {
+      "label": "Leaving Daily",
+      "value": "2,000",
+      "source": "R4V Platform, 2025"
+    },
+    {
+      "label": "Response Plan Funded (2025)",
+      "value": "4.6%",
+      "source": "R4V Response Plan"
+    },
+    {
+      "label": "Per-Capita vs Syria Funding",
+      "value": "~1/10th",
+      "source": "IRC Comparison"
+    }
   ],
   "actions": {
     "donate": [
@@ -43,11 +62,36 @@
     ]
   },
   "sources": [
-    { "title": "R4V Venezuela Platform", "url": "https://www.r4v.info/", "org": "R4V" },
-    { "title": "UNHCR Venezuela Situation", "url": "https://www.unhcr.org/us/emergencies/venezuela-situation", "org": "UNHCR" },
-    { "title": "IRC Venezuela Crisis", "url": "https://www.rescue.org/country/venezuela", "org": "IRC" },
-    { "title": "Human Rights Watch Venezuela", "url": "https://www.hrw.org/americas/venezuela", "org": "Human Rights Watch" },
-    { "title": "Amnesty Venezuela", "url": "https://www.amnesty.org/en/location/americas/south-america/venezuela/", "org": "Amnesty International" }
+    {
+      "title": "R4V Venezuela Platform",
+      "url": "https://www.r4v.info/",
+      "org": "R4V"
+    },
+    {
+      "title": "UNHCR Venezuela Situation",
+      "url": "https://www.unhcr.org/us/emergencies/venezuela-situation",
+      "org": "UNHCR"
+    },
+    {
+      "title": "IRC Venezuela Crisis",
+      "url": "https://www.rescue.org/country/venezuela",
+      "org": "IRC"
+    },
+    {
+      "title": "Human Rights Watch Venezuela",
+      "url": "https://www.hrw.org/americas/venezuela",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Amnesty Venezuela",
+      "url": "https://www.amnesty.org/en/location/americas/south-america/venezuela/",
+      "org": "Amnesty International"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/venezuela.jpg",
+    "/images/crises/venezuela-2.jpg",
+    "/images/crises/venezuela-3.jpg"
+  ]
 }

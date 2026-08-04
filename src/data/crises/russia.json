@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#8B1C2C",
   "accent": "#B52840",
-  "coordinates": { "lat": 61.52, "lng": 105.32 },
+  "coordinates": {
+    "lat": 61.52,
+    "lng": 105.32
+  },
   "summary": "The 2023 designation of the 'international LGBT movement' as extremist has led to 101 extremism-related convictions for acts as innocuous as displaying rainbow colors. Political opposition is effectively criminalized. Independent media is virtually eliminated. Russia's invasion of Ukraine has accelerated authoritarian consolidation domestically, creating a society under pervasive state control.",
   "context": "Russia's domestic political repression has accelerated sharply since the 2022 full-scale invasion of Ukraine. The war has served as a pretext for eliminating virtually all remaining space for dissent, independent journalism, and civil society activity.\n\nThe criminalization of LGBTQ+ people has reached an extraordinary level. In November 2023, the Russian Supreme Court designated the 'international LGBT movement' as extremist — a designation with no precedent in international law and no coherent definition of what it targets. By 2025, 101 people had been convicted on extremism charges for acts as innocuous as posting rainbow flags online, displaying pride symbols, or using LGBTQ+-affirming language. The potential punishment is up to 10 years in prison.\n\nAlexei Navalny, Russia's most prominent opposition leader, was killed in an Arctic penal colony in February 2024. Thousands of anti-war protesters have been sentenced to years in prison. Protest has become functionally impossible — participants face immediate arrest, criminal charges, and multi-year sentences. Hundreds of thousands of Russians who could afford to have left the country to avoid conscription, persecution, or simply to preserve their ability to speak freely.\n\nIndependent media inside Russia has been virtually eliminated. Novaya Gazeta, Echo of Moscow, TV Rain, Meduza, and other outlets have been blocked, shut down, or forced into exile. Journalists who remain in Russia face prosecution under laws criminalizing 'discrediting' the armed forces or 'spreading false information' about military operations — effectively banning any truthful reporting on the war.\n\nSocial media platforms that have not complied with state demands to remove content have been blocked. Russians who try to access independent news through VPNs face increasing restrictions. The information environment inside Russia has been dramatically narrowed.",
   "stats": [
-    { "label": "LGBT Extremism Convictions", "value": "101+", "source": "HRW / OVD-Info, 2025" },
-    { "label": "Anti-War Protesters Jailed", "value": "Thousands", "source": "OVD-Info" },
-    { "label": "Russians Who Left Since 2022", "value": "700,000–1M+", "source": "Various estimates" },
-    { "label": "Independent Media Remaining", "value": "Virtually none", "source": "RSF / CPJ" }
+    {
+      "label": "LGBT Extremism Convictions",
+      "value": "101+",
+      "source": "HRW / OVD-Info, 2025"
+    },
+    {
+      "label": "Anti-War Protesters Jailed",
+      "value": "Thousands",
+      "source": "OVD-Info"
+    },
+    {
+      "label": "Russians Who Left Since 2022",
+      "value": "700,000–1M+",
+      "source": "Various estimates"
+    },
+    {
+      "label": "Independent Media Remaining",
+      "value": "Virtually none",
+      "source": "RSF / CPJ"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "OVD-Info Political Arrests", "url": "https://ovd.info/", "org": "OVD-Info" },
-    { "title": "HRW Russia LGBT Extremism", "url": "https://www.hrw.org/news/2025/06/30/russia-rising-toll-of-lgbt-extremism-designation", "org": "Human Rights Watch" },
-    { "title": "Amnesty Russia 2026", "url": "https://www.amnesty.org/en/latest/news/2026/02/", "org": "Amnesty International" },
-    { "title": "Meduza — Independent Russian Media", "url": "https://meduza.io/en", "org": "Meduza" },
-    { "title": "RSF Russia Press Freedom", "url": "https://rsf.org/en/country/russia", "org": "Reporters Without Borders" }
+    {
+      "title": "OVD-Info Political Arrests",
+      "url": "https://ovd.info/",
+      "org": "OVD-Info"
+    },
+    {
+      "title": "HRW Russia LGBT Extremism",
+      "url": "https://www.hrw.org/news/2025/06/30/russia-rising-toll-of-lgbt-extremism-designation",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Amnesty Russia 2026",
+      "url": "https://www.amnesty.org/en/latest/news/2026/02/",
+      "org": "Amnesty International"
+    },
+    {
+      "title": "Meduza — Independent Russian Media",
+      "url": "https://meduza.io/en",
+      "org": "Meduza"
+    },
+    {
+      "title": "RSF Russia Press Freedom",
+      "url": "https://rsf.org/en/country/russia",
+      "org": "Reporters Without Borders"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/russia.jpg",
+    "/images/crises/russia-2.png",
+    "/images/crises/russia-3.jpg"
+  ]
 }

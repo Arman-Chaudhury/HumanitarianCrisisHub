@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#D4A03C",
   "accent": "#E8C547",
-  "coordinates": { "lat": 15.5, "lng": 32.53 },
+  "coordinates": {
+    "lat": 15.5,
+    "lng": 32.53
+  },
   "summary": "A devastating civil war between the Sudanese Armed Forces and the Rapid Support Forces has displaced over 10 million people, created the world's largest displacement crisis, and pushed millions to the brink of famine.",
   "context": "Sudan's civil war erupted in April 2023 when tensions between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF) escalated into open combat in Khartoum. The conflict quickly spread to Darfur and other regions, reigniting ethnic violence that echoes the genocide of the early 2000s.\n\nThe RSF, which evolved from the Janjaweed militia responsible for atrocities in Darfur, has been accused of systematic attacks on civilian populations, particularly targeting non-Arab communities. Reports from the UN and human rights organizations document mass killings, sexual violence, and the deliberate destruction of villages across West Darfur.\n\nThe humanitarian toll is staggering. The UN has called Sudan the world's largest displacement crisis, surpassing even Syria and Ukraine. Millions have fled to neighboring Chad, South Sudan, Egypt, and Ethiopia, straining resources in countries already facing their own crises.\n\nFamine conditions have been confirmed in parts of Darfur and Khartoum, with the Integrated Food Security Phase Classification (IPC) warning that over 25 million people — half the population — face acute hunger. Aid delivery has been severely hampered by active fighting, bureaucratic obstruction, and attacks on humanitarian workers.\n\nDespite the scale of suffering, Sudan's crisis has received a fraction of the international attention and funding directed at other conflicts. Multiple ceasefire attempts have failed, and diplomatic efforts have yet to produce a sustained halt to the violence.",
   "stats": [
-    { "label": "Displaced", "value": "10M+", "source": "UNHCR, 2025" },
-    { "label": "Facing Famine", "value": "25M", "source": "IPC Analysis, 2025" },
-    { "label": "Killed", "value": "15,000+", "source": "ACLED Conflict Data" },
-    { "label": "Refugees Abroad", "value": "2M+", "source": "UNHCR Regional Update" }
+    {
+      "label": "Displaced",
+      "value": "10M+",
+      "source": "UNHCR, 2025"
+    },
+    {
+      "label": "Facing Famine",
+      "value": "25M",
+      "source": "IPC Analysis, 2025"
+    },
+    {
+      "label": "Killed",
+      "value": "15,000+",
+      "source": "ACLED Conflict Data"
+    },
+    {
+      "label": "Refugees Abroad",
+      "value": "2M+",
+      "source": "UNHCR Regional Update"
+    }
   ],
   "actions": {
     "donate": [
@@ -53,11 +72,36 @@
     ]
   },
   "sources": [
-    { "title": "UNHCR Sudan Situation", "url": "https://www.unhcr.org/emergencies/sudan-crisis", "org": "UNHCR" },
-    { "title": "WFP Sudan Emergency", "url": "https://www.wfp.org/emergencies/sudan-emergency", "org": "WFP" },
-    { "title": "IPC Famine Analysis", "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156903/", "org": "IPC" },
-    { "title": "MSF — Sudan Reports", "url": "https://www.msf.org/sudan", "org": "Doctors Without Borders" },
-    { "title": "HRW — Sudan Crisis", "url": "https://www.hrw.org/africa/sudan", "org": "Human Rights Watch" }
+    {
+      "title": "UNHCR Sudan Situation",
+      "url": "https://www.unhcr.org/emergencies/sudan-crisis",
+      "org": "UNHCR"
+    },
+    {
+      "title": "WFP Sudan Emergency",
+      "url": "https://www.wfp.org/emergencies/sudan-emergency",
+      "org": "WFP"
+    },
+    {
+      "title": "IPC Famine Analysis",
+      "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156903/",
+      "org": "IPC"
+    },
+    {
+      "title": "MSF — Sudan Reports",
+      "url": "https://www.msf.org/sudan",
+      "org": "Doctors Without Borders"
+    },
+    {
+      "title": "HRW — Sudan Crisis",
+      "url": "https://www.hrw.org/africa/sudan",
+      "org": "Human Rights Watch"
+    }
   ],
-  "lastUpdated": "2026-03-18"
+  "lastUpdated": "2026-03-18",
+  "photos": [
+    "/images/crises/sudan.jpg",
+    "/images/crises/sudan-2.jpg",
+    "/images/crises/sudan-3.jpg"
+  ]
 }

@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#8B2FC9",
   "accent": "#AB4FE8",
-  "coordinates": { "lat": 18.97, "lng": -72.28 },
+  "coordinates": {
+    "lat": 18.97,
+    "lng": -72.28
+  },
   "summary": "Haiti has descended into one of the worst humanitarian crises in the Western Hemisphere. The Viv Ansanm gang coalition controls approximately 90% of Port-au-Prince, at least 5,519 people were killed between March 2025 and January 2026, and 5.7 million face acute food insecurity. Sexual violence against children has increased 1,000% since 2023.",
   "context": "Haiti's state has effectively collapsed. The Viv Ansanm gang coalition — a historic alliance of formerly rival gangs — controls approximately 90% of Port-au-Prince and is expanding its reach into northern and central departments that were previously insulated from the violence. The government has lost the ability to govern most of the country.\n\nThe scale of violence is staggering. Between March 2025 and January 2026, at least 5,519 people were killed and 2,608 injured. Homicide rates in the Artibonite and Centre departments have surged 210%. Sexual violence against children has increased by 1,000% since 2023 — a figure that represents a deliberate weaponization of gender-based violence by armed groups to consolidate control.\n\nThe humanitarian consequences are severe. Over 1.4 million people are displaced — a 40% increase since the end of 2024, and the fastest-growing displacement crisis in the hemisphere. 5.7 million people face acute food insecurity, including 1.9 million at emergency levels. Gang blockades of ports and roads have disrupted food imports and aid delivery.\n\n1,600 schools have closed, leaving 1.5 million children without education. Child gang recruitment has surged 70%. The Kenyan-led Multinational Security Support Mission (MSS), authorized in 2023, has had limited impact on gang control due to chronic underfunding and logistical constraints.\n\nThe 2025 Humanitarian Response Plan was only 24% funded. Haiti's crisis is both a direct humanitarian emergency and a cautionary tale about what happens when international attention fades from a country in protracted collapse.",
   "stats": [
-    { "label": "Facing Food Crisis", "value": "5.7M", "source": "IPC, Oct 2025" },
-    { "label": "Displaced", "value": "1.4M+", "source": "IOM, March 2026" },
-    { "label": "Killed (2025–2026)", "value": "5,519+", "source": "OHCHR / BINUH" },
-    { "label": "Children Out of School", "value": "1.5M", "source": "UN News, 2025" }
+    {
+      "label": "Facing Food Crisis",
+      "value": "5.7M",
+      "source": "IPC, Oct 2025"
+    },
+    {
+      "label": "Displaced",
+      "value": "1.4M+",
+      "source": "IOM, March 2026"
+    },
+    {
+      "label": "Killed (2025–2026)",
+      "value": "5,519+",
+      "source": "OHCHR / BINUH"
+    },
+    {
+      "label": "Children Out of School",
+      "value": "1.5M",
+      "source": "UN News, 2025"
+    }
   ],
   "actions": {
     "donate": [
@@ -53,11 +72,36 @@
     ]
   },
   "sources": [
-    { "title": "OCHA Haiti", "url": "https://www.unocha.org/haiti", "org": "OCHA" },
-    { "title": "IPC Haiti Food Security", "url": "https://www.ipcinfo.org/", "org": "IPC" },
-    { "title": "BINUH Haiti Reports", "url": "https://binuh.unmissions.org/", "org": "BINUH" },
-    { "title": "IOM Haiti Displacement", "url": "https://dtm.iom.int/haiti", "org": "IOM" },
-    { "title": "IRC Haiti Crisis", "url": "https://www.rescue.org/country/haiti", "org": "IRC" }
+    {
+      "title": "OCHA Haiti",
+      "url": "https://www.unocha.org/haiti",
+      "org": "OCHA"
+    },
+    {
+      "title": "IPC Haiti Food Security",
+      "url": "https://www.ipcinfo.org/",
+      "org": "IPC"
+    },
+    {
+      "title": "BINUH Haiti Reports",
+      "url": "https://binuh.unmissions.org/",
+      "org": "BINUH"
+    },
+    {
+      "title": "IOM Haiti Displacement",
+      "url": "https://dtm.iom.int/haiti",
+      "org": "IOM"
+    },
+    {
+      "title": "IRC Haiti Crisis",
+      "url": "https://www.rescue.org/country/haiti",
+      "org": "IRC"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/haiti.png",
+    "/images/crises/haiti-2.jpg",
+    "/images/crises/haiti-3.png"
+  ]
 }

@@ -5,14 +5,33 @@
   "status": "underreported",
   "color": "#8B1A1A",
   "accent": "#B52020",
-  "coordinates": { "lat": 6.61, "lng": 20.94 },
+  "coordinates": {
+    "lat": 6.61,
+    "lng": 20.94
+  },
   "summary": "The Central African Republic ranks 191st out of 193 countries on the Human Development Index and has appeared on every CARE forgotten crises report since 2016. 2.4 million people — 38% of the population — need humanitarian assistance. In April 2025, UNICEF's Rapid Response Mechanism was discontinued after 10 years due to funding cuts, eliminating a critical safety net for children.",
   "context": "The Central African Republic has been in a state of protracted armed conflict for over a decade. Multiple armed groups control vast swaths of territory, with the government — backed by Russian Wagner Group forces — controlling primarily the capital Bangui and some major towns. Despite Wagner's presence, the security situation has not meaningfully improved for civilians.\n\nCAR ranks 191st out of 193 countries on the Human Development Index — virtually the bottom of every global development measure. Per capita income is among the world's lowest. Access to healthcare, clean water, and education is among the worst anywhere. Years of conflict have systematically destroyed what limited infrastructure existed.\n\nThe scale of the crisis is staggering in proportion to the population: 2.4 million people — 38% of CAR's 6.3 million people — need humanitarian assistance. This is one of the highest need-to-population ratios of any crisis in the world. Yet CAR generates almost no media coverage: only 1,532 media articles in all of 2025 — the lowest of any crisis tracked in global monitoring systems.\n\nA devastating blow came in April 2025 when UNICEF discontinued its Rapid Response Mechanism after 10 years of operation, due to funding cuts. This mechanism was the primary tool for rapidly responding to new waves of displacement and attacks — its elimination removes a critical layer of protection for children in one of the most dangerous places on Earth for civilians.\n\nCAR's crisis has appeared on every CARE forgotten crises report since 2016. It is a textbook example of a protracted emergency trapped in a cycle of violence, underdevelopment, and invisibility.",
   "stats": [
-    { "label": "In Need", "value": "2.4M", "source": "OCHA CAR" },
-    { "label": "HDI Rank", "value": "191/193", "source": "UNDP 2025" },
-    { "label": "Population in Need", "value": "38%", "source": "OCHA CAR, 2025" },
-    { "label": "Media Articles (2025)", "value": "1,532", "source": "CARE Forgotten Crises" }
+    {
+      "label": "In Need",
+      "value": "2.4M",
+      "source": "OCHA CAR"
+    },
+    {
+      "label": "HDI Rank",
+      "value": "191/193",
+      "source": "UNDP 2025"
+    },
+    {
+      "label": "Population in Need",
+      "value": "38%",
+      "source": "OCHA CAR, 2025"
+    },
+    {
+      "label": "Media Articles (2025)",
+      "value": "1,532",
+      "source": "CARE Forgotten Crises"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "OCHA Central African Republic", "url": "https://www.unocha.org/central-african-republic", "org": "OCHA" },
-    { "title": "UNICEF CAR", "url": "https://www.unicef.org/appeals/car", "org": "UNICEF" },
-    { "title": "CARE Forgotten Crises Report", "url": "https://www.care.org/", "org": "CARE" },
-    { "title": "HRW CAR", "url": "https://www.hrw.org/africa/central-african-republic", "org": "Human Rights Watch" },
-    { "title": "MSF Central African Republic", "url": "https://www.msf.org/central-african-republic", "org": "MSF" }
+    {
+      "title": "OCHA Central African Republic",
+      "url": "https://www.unocha.org/central-african-republic",
+      "org": "OCHA"
+    },
+    {
+      "title": "UNICEF CAR",
+      "url": "https://www.unicef.org/appeals/car",
+      "org": "UNICEF"
+    },
+    {
+      "title": "CARE Forgotten Crises Report",
+      "url": "https://www.care.org/",
+      "org": "CARE"
+    },
+    {
+      "title": "HRW CAR",
+      "url": "https://www.hrw.org/africa/central-african-republic",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "MSF Central African Republic",
+      "url": "https://www.msf.org/central-african-republic",
+      "org": "MSF"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/central-african-republic.jpg",
+    "/images/crises/central-african-republic-2.jpg",
+    "/images/crises/central-african-republic-3.jpg"
+  ]
 }

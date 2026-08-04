@@ -5,14 +5,33 @@
   "status": "active",
   "color": "#4A90D9",
   "accent": "#7AB8F5",
-  "coordinates": { "lat": 41.75, "lng": 86.13 },
+  "coordinates": {
+    "lat": 41.75,
+    "lng": 86.13
+  },
   "summary": "The Chinese government is carrying out a campaign of mass detention, forced labor, cultural erasure, and surveillance against Uyghur Muslims and other Turkic minorities in Xinjiang. Experts and governments have described the situation as genocide and crimes against humanity.",
   "context": "Since 2017, the Chinese government has built a vast network of internment camps in Xinjiang (which Uyghurs call East Turkestan), detaining an estimated 1 to 1.8 million Uyghurs and other Turkic Muslims. China describes these as \"vocational education and training centers,\" but extensive reporting, leaked government documents, and survivor testimony reveal a system of arbitrary mass detention.\n\nDetainees have described forced political indoctrination, torture, sexual violence, forced sterilization, and coerced labor. Birth rates in Uyghur-majority areas of Xinjiang have plummeted — dropping by over 80% in some counties between 2015 and 2018, according to Chinese government statistics analyzed by researchers.\n\nBeyond the camps, the Uyghur population faces pervasive surveillance through AI-powered cameras, mandatory smartphone apps, DNA collection, and a system of assigned government \"minders\" who live in Uyghur homes. Mosques have been demolished or repurposed, religious practices restricted, and Uyghur language education curtailed.\n\nForced labor is another critical dimension. Reports from the Australian Strategic Policy Institute, the BBC, and others have documented Uyghur workers being transferred to factories across China under coercive conditions, producing goods for major global brands in textiles, electronics, and agriculture — including cotton, polysilicon for solar panels, and tomato products.\n\nThe UN Office of the High Commissioner for Human Rights released a landmark assessment in 2022 concluding that China's actions in Xinjiang may constitute crimes against humanity. Several governments, including the United States, Canada, the UK, and the Netherlands, have formally recognized the situation as genocide.\n\nChina denies all allegations and has blocked independent access to the region, making documentation difficult but not impossible thanks to the courageous work of diaspora Uyghurs, investigative journalists, and researchers analyzing satellite imagery and leaked documents.",
   "stats": [
-    { "label": "Detained", "value": "1–1.8M", "source": "ASPI, Adrian Zenz research" },
-    { "label": "Camps Identified", "value": "380+", "source": "ASPI Xinjiang Data Project" },
-    { "label": "Birth Rate Drop", "value": "84%", "source": "Chinese govt statistics / Zenz analysis" },
-    { "label": "Mosques Damaged", "value": "16,000+", "source": "ASPI Satellite Analysis" }
+    {
+      "label": "Detained",
+      "value": "1–1.8M",
+      "source": "ASPI, Adrian Zenz research"
+    },
+    {
+      "label": "Camps Identified",
+      "value": "380+",
+      "source": "ASPI Xinjiang Data Project"
+    },
+    {
+      "label": "Birth Rate Drop",
+      "value": "84%",
+      "source": "Chinese govt statistics / Zenz analysis"
+    },
+    {
+      "label": "Mosques Damaged",
+      "value": "16,000+",
+      "source": "ASPI Satellite Analysis"
+    }
   ],
   "actions": {
     "donate": [
@@ -53,11 +72,36 @@
     ]
   },
   "sources": [
-    { "title": "OHCHR Xinjiang Assessment", "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region", "org": "UN OHCHR" },
-    { "title": "ASPI Xinjiang Data Project", "url": "https://xjdp.aspi.org.au", "org": "Australian Strategic Policy Institute" },
-    { "title": "Uyghur Human Rights Project", "url": "https://uhrp.org/reports/", "org": "UHRP" },
-    { "title": "HRW — China/Xinjiang", "url": "https://www.hrw.org/tag/xinjiang", "org": "Human Rights Watch" },
-    { "title": "Amnesty — Uyghurs", "url": "https://www.amnesty.org/en/latest/news/2021/06/china-draconian-repression-of-muslims-in-xinjiang-amounts-to-crimes-against-humanity/", "org": "Amnesty International" }
+    {
+      "title": "OHCHR Xinjiang Assessment",
+      "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+      "org": "UN OHCHR"
+    },
+    {
+      "title": "ASPI Xinjiang Data Project",
+      "url": "https://xjdp.aspi.org.au",
+      "org": "Australian Strategic Policy Institute"
+    },
+    {
+      "title": "Uyghur Human Rights Project",
+      "url": "https://uhrp.org/reports/",
+      "org": "UHRP"
+    },
+    {
+      "title": "HRW — China/Xinjiang",
+      "url": "https://www.hrw.org/tag/xinjiang",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Amnesty — Uyghurs",
+      "url": "https://www.amnesty.org/en/latest/news/2021/06/china-draconian-repression-of-muslims-in-xinjiang-amounts-to-crimes-against-humanity/",
+      "org": "Amnesty International"
+    }
   ],
-  "lastUpdated": "2026-03-18"
+  "lastUpdated": "2026-03-18",
+  "photos": [
+    "/images/crises/uyghurs.jpg",
+    "/images/crises/uyghurs-2.jpg",
+    "/images/crises/uyghurs-3.jpg"
+  ]
 }

@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#8B4513",
   "accent": "#B85A2A",
-  "coordinates": { "lat": 21.27, "lng": 81.63 },
+  "coordinates": {
+    "lat": 21.27,
+    "lng": 81.63
+  },
   "summary": "In June 2024, India's National Tiger Conservation Authority ordered the forced relocation of 89,800 tribal families from 848 villages in 54 tiger reserves — potentially one of the largest conservation-driven displacements ever ordered. An estimated 30 million Adivasi have been displaced since independence. 104.3 million Adivasi (8.6% of India's population) face ongoing dispossession, criminalization, and exclusion.",
   "context": "India's 104.3 million Adivasi (Scheduled Tribes, also called Indigenous or tribal peoples) are among the country's most marginalized populations, facing systematic dispossession, discrimination, and exclusion from the development and conservation processes that directly affect their lands and lives.\n\nThe June 2024 NTCA order — directing the forced relocation of 89,800 tribal families from 848 villages in 54 tiger reserves — represents one of the most dramatic recent examples of what critics call 'fortress conservation': the displacement of Indigenous peoples in the name of wildlife protection. International experts and Indigenous rights organizations have described this potential displacement as possibly the largest ever undertaken under the banner of conservation. Research consistently shows that areas managed by Indigenous communities have better conservation outcomes than those managed by state exclusion.\n\nAn estimated 30 million Adivasi have been displaced from their ancestral lands since India's independence in 1947 — by dams, mines, national parks, military zones, and industrial projects. The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act of 2006 was intended to address this history of dispossession, but implementation has been systematically undermined.\n\nAdivasi communities also face violence. In Chhattisgarh and Jharkhand, military and paramilitary operations targeting Maoist insurgents have resulted in documented abuses against tribal civilians — arbitrary detention, torture, destruction of villages, and killings. The conflation of Adivasi identity with Maoist sympathies has been used to justify violence and criminalization.\n\nForest rights activists — those working to implement the Forest Rights Act — face UAPA charges, arrests, and in some cases killing. The criminalization of Indigenous forest rights defense is a persistent pattern.",
   "stats": [
-    { "label": "Adivasi Population", "value": "104.3M", "source": "India Census / IWGIA" },
-    { "label": "Families Ordered Relocated (2024)", "value": "89,800", "source": "NTCA Order, June 2024" },
-    { "label": "Displaced Since Independence", "value": "~30M", "source": "IWGIA / Survival International" },
-    { "label": "Share of India's Population", "value": "8.6%", "source": "India Census 2011" }
+    {
+      "label": "Adivasi Population",
+      "value": "104.3M",
+      "source": "India Census / IWGIA"
+    },
+    {
+      "label": "Families Ordered Relocated (2024)",
+      "value": "89,800",
+      "source": "NTCA Order, June 2024"
+    },
+    {
+      "label": "Displaced Since Independence",
+      "value": "~30M",
+      "source": "IWGIA / Survival International"
+    },
+    {
+      "label": "Share of India's Population",
+      "value": "8.6%",
+      "source": "India Census 2011"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "IWGIA India 2025", "url": "https://iwgia.org/en/india/5658-iw-2025-india.html", "org": "IWGIA" },
-    { "title": "Survival International India", "url": "https://www.survivalinternational.org/", "org": "Survival International" },
-    { "title": "Business & Human Rights — India", "url": "https://www.business-humanrights.org/", "org": "BHRRC" },
-    { "title": "HRW India", "url": "https://www.hrw.org/asia/india", "org": "Human Rights Watch" },
-    { "title": "Forest Rights Act Monitoring", "url": "https://fra.org.in/", "org": "Community Forest Rights" }
+    {
+      "title": "IWGIA India 2025",
+      "url": "https://iwgia.org/en/india/5658-iw-2025-india.html",
+      "org": "IWGIA"
+    },
+    {
+      "title": "Survival International India",
+      "url": "https://www.survivalinternational.org/",
+      "org": "Survival International"
+    },
+    {
+      "title": "Business & Human Rights — India",
+      "url": "https://www.business-humanrights.org/",
+      "org": "BHRRC"
+    },
+    {
+      "title": "HRW India",
+      "url": "https://www.hrw.org/asia/india",
+      "org": "Human Rights Watch"
+    },
+    {
+      "title": "Forest Rights Act Monitoring",
+      "url": "https://fra.org.in/",
+      "org": "Community Forest Rights"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/adivasi-india.jpg",
+    "/images/crises/adivasi-india-2.jpg",
+    "/images/crises/adivasi-india-3.jpg"
+  ]
 }

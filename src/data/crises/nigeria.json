@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#E85D04",
   "accent": "#F48C42",
-  "coordinates": { "lat": 12.00, "lng": 8.50 },
+  "coordinates": {
+    "lat": 12.0,
+    "lng": 8.5
+  },
   "summary": "Nigeria is fighting a multi-front war that the world largely ignores. ISWAP leads all Islamic State branches globally with 445 claimed attacks in one year. At least 2,266 people were killed in H1 2025 alone — surpassing all 2024 casualties. 33.1 million people are projected food insecure during the lean season, and the $910 million Humanitarian Response Plan was only 31% funded.",
   "context": "Nigeria's northeast faces the longest-running active jihadist insurgency in Africa. The Islamic State West Africa Province (ISWAP) — which split from Boko Haram in 2016 — now leads all Islamic State branches globally in claimed attacks, with 445 recorded between July 2024 and July 2025. Violence surged dramatically in 2025, with at least 2,266 killed in the first half of the year alone, surpassing the entire casualty toll for 2024.\n\nThe humanitarian consequences are severe but receive little international attention. In the Borno, Adamawa, and Yobe (BAY) states of the northeast, 7.8 million people need humanitarian assistance and 2.3 million are internally displaced. Entire communities have been abandoned after repeated attacks. The Lake Chad Basin's environment, already devastated by the 90% shrinkage of Lake Chad, provides fertile ground for armed group recruitment among communities with no livelihoods.\n\nIn the northwest, large-scale banditry — mass kidnapping, cattle rustling, and armed attacks on farming communities — displaces millions and drives acute food insecurity. The northwest crisis involves different armed actors than the northeast but produces similarly devastating humanitarian consequences.\n\nNigeria's 2025 Humanitarian Response Plan required $910 million but received only 31%. Many of the 7.8 million people in need in the northeast receive no assistance at all. The food security situation is compounded by the broader economic crisis: Nigeria experienced its worst inflation in decades in 2024–2025, devastating purchasing power across the country.\n\nThe scale of Nigeria's crises — in a country of 220 million people with Africa's largest economy — makes the relative invisibility of these emergencies all the more striking.",
   "stats": [
-    { "label": "Food Insecure", "value": "33.1M", "source": "OCHA Nigeria, 2025" },
-    { "label": "Need Aid (NE Nigeria)", "value": "7.8M", "source": "OCHA Nigeria" },
-    { "label": "IDPs (Northeast)", "value": "2.3M", "source": "UNHCR Nigeria" },
-    { "label": "ISWAP Attacks (1 year)", "value": "445", "source": "ACLED / Long War Journal" }
+    {
+      "label": "Food Insecure",
+      "value": "33.1M",
+      "source": "OCHA Nigeria, 2025"
+    },
+    {
+      "label": "Need Aid (NE Nigeria)",
+      "value": "7.8M",
+      "source": "OCHA Nigeria"
+    },
+    {
+      "label": "IDPs (Northeast)",
+      "value": "2.3M",
+      "source": "UNHCR Nigeria"
+    },
+    {
+      "label": "ISWAP Attacks (1 year)",
+      "value": "445",
+      "source": "ACLED / Long War Journal"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "OCHA Nigeria Response Plan", "url": "https://www.unocha.org/nigeria", "org": "OCHA" },
-    { "title": "UNHCR Nigeria", "url": "https://www.unhcr.org/countries/nigeria", "org": "UNHCR" },
-    { "title": "Action Against Hunger Nigeria", "url": "https://www.actionagainsthunger.org", "org": "Action Against Hunger" },
-    { "title": "ACLED Nigeria Conflict Data", "url": "https://acleddata.com/", "org": "ACLED" },
-    { "title": "FEWS NET Nigeria", "url": "https://fews.net/west-africa/nigeria", "org": "FEWS NET" }
+    {
+      "title": "OCHA Nigeria Response Plan",
+      "url": "https://www.unocha.org/nigeria",
+      "org": "OCHA"
+    },
+    {
+      "title": "UNHCR Nigeria",
+      "url": "https://www.unhcr.org/countries/nigeria",
+      "org": "UNHCR"
+    },
+    {
+      "title": "Action Against Hunger Nigeria",
+      "url": "https://www.actionagainsthunger.org",
+      "org": "Action Against Hunger"
+    },
+    {
+      "title": "ACLED Nigeria Conflict Data",
+      "url": "https://acleddata.com/",
+      "org": "ACLED"
+    },
+    {
+      "title": "FEWS NET Nigeria",
+      "url": "https://fews.net/west-africa/nigeria",
+      "org": "FEWS NET"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/nigeria.png",
+    "/images/crises/nigeria-2.jpg",
+    "/images/crises/nigeria-3.jpg"
+  ]
 }

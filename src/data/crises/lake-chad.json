@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#4A7C59",
   "accent": "#6A9E75",
-  "coordinates": { "lat": 13.50, "lng": 14.50 },
+  "coordinates": {
+    "lat": 13.5,
+    "lng": 14.5
+  },
   "summary": "6.08 million people are displaced across four countries in the Lake Chad Basin. Lake Chad has shrunk by 90% since the 1960s due to climate change and water extraction, destroying livelihoods and enabling Boko Haram/ISWAP recruitment. 55 million people face food insecurity across the basin. Climate modeling projects catastrophic floods becoming 2–5 year events.",
   "context": "The Lake Chad Basin represents one of the world's most severe climate-conflict nexuses. Lake Chad itself has shrunk by approximately 90% since the 1960s — from approximately 25,000 square kilometers to under 2,500 — due to climate change, increased irrigation, and population growth. The lake's shrinkage has devastated the fishing, farming, and pastoral communities that have depended on it for centuries.\n\nAs traditional livelihoods collapsed and communities lost access to water and fish, economic desperation increased dramatically. The conditions created by the lake's disappearance — extreme poverty, resource competition, and governance failure — provided fertile ground for Boko Haram's emergence in northeastern Nigeria in 2009 and its subsequent spread across the basin into Niger, Chad, and Cameroon.\n\nBoko Haram and its Islamic State-affiliated splinter ISWAP have killed tens of thousands of people, displaced millions, and created chronic insecurity that prevents recovery and development. Over 6.08 million people are displaced across the four lake countries — a figure that represents one of the most concentrated displacement crises in Africa.\n\n55 million people across the broader Lake Chad Basin face food insecurity, driven by the combination of conflict, climate disruption, and the collapse of the lake's ecosystem. In Chad alone, 7 million people require humanitarian assistance.\n\nClimate projections are alarming. The region is already experiencing more extreme rainfall variability — severe droughts interspersed with catastrophic floods — and climate models project that extreme flood events will become 2–5 year occurrences rather than rare events. The lake may partially recover under some scenarios or continue shrinking under others; either way, the communities around it face continued disruption.",
   "stats": [
-    { "label": "People Displaced (4 countries)", "value": "6.08M", "source": "IOM DTM Lake Chad" },
-    { "label": "Facing Food Insecurity", "value": "55M", "source": "OCHA / WFP" },
-    { "label": "Lake Chad Shrinkage", "value": "90% since 1960s", "source": "UN Environment" },
-    { "label": "Chad Alone Needing Aid", "value": "7M", "source": "OCHA Chad" }
+    {
+      "label": "People Displaced (4 countries)",
+      "value": "6.08M",
+      "source": "IOM DTM Lake Chad"
+    },
+    {
+      "label": "Facing Food Insecurity",
+      "value": "55M",
+      "source": "OCHA / WFP"
+    },
+    {
+      "label": "Lake Chad Shrinkage",
+      "value": "90% since 1960s",
+      "source": "UN Environment"
+    },
+    {
+      "label": "Chad Alone Needing Aid",
+      "value": "7M",
+      "source": "OCHA Chad"
+    }
   ],
   "actions": {
     "donate": [
@@ -43,11 +62,36 @@
     ]
   },
   "sources": [
-    { "title": "IOM DTM Lake Chad Basin", "url": "https://dtm.iom.int/operations/lake-chad-basin-crisis", "org": "IOM" },
-    { "title": "OCHA Lake Chad", "url": "https://www.unocha.org/", "org": "OCHA" },
-    { "title": "WFP Lake Chad", "url": "https://www.wfp.org/", "org": "WFP" },
-    { "title": "Lake Chad Basin Commission", "url": "http://www.lcbc-cblt.org/", "org": "LCBC" },
-    { "title": "UN Environment Lake Chad", "url": "https://www.unep.org/", "org": "UNEP" }
+    {
+      "title": "IOM DTM Lake Chad Basin",
+      "url": "https://dtm.iom.int/operations/lake-chad-basin-crisis",
+      "org": "IOM"
+    },
+    {
+      "title": "OCHA Lake Chad",
+      "url": "https://www.unocha.org/",
+      "org": "OCHA"
+    },
+    {
+      "title": "WFP Lake Chad",
+      "url": "https://www.wfp.org/",
+      "org": "WFP"
+    },
+    {
+      "title": "Lake Chad Basin Commission",
+      "url": "http://www.lcbc-cblt.org/",
+      "org": "LCBC"
+    },
+    {
+      "title": "UN Environment Lake Chad",
+      "url": "https://www.unep.org/",
+      "org": "UNEP"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/lake-chad.jpg",
+    "/images/crises/lake-chad-2.jpg",
+    "/images/crises/lake-chad-3.jpg"
+  ]
 }

@@ -43,4 +43,6 @@ export interface Crisis {
   actions: CrisisActions;
   sources: CrisisSource[];
   lastUpdated: string;
+  photos?: string[];
+  outlinePath?: string;
 }

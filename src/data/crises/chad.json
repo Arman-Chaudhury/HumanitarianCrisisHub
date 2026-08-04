@@ -5,14 +5,33 @@
   "status": "escalating",
   "color": "#A0522D",
   "accent": "#C4763E",
-  "coordinates": { "lat": 15.45, "lng": 18.73 },
+  "coordinates": {
+    "lat": 15.45,
+    "lng": 18.73
+  },
   "summary": "Chad is the primary destination for Sudanese refugees fleeing the Darfur genocide. Over 1.2 million Sudanese refugees have arrived — tripling in two years — in a country that itself ranks 189th on the HDI. Refugees receive only 5 liters of water per day versus the 15–20L standard, only 14% of shelter needs are met, and Sudan's refugee response is only 20% funded.",
   "context": "Chad sits at the intersection of multiple humanitarian crises. It hosts one of the world's most rapidly growing refugee populations — Sudanese fleeing the Darfur genocide and civil war — while simultaneously managing its own internal fragility, Boko Haram violence in the Lake Chad Basin, and recurring drought and flooding from climate change.\n\nThe pace of Sudanese refugee arrivals has been extraordinary. The population tripled in two years, reaching over 1.2 million registered Sudanese refugees in Chad — in a country of just 18 million people that itself ranks 189th on the Human Development Index. This is one of the most extreme per-capita refugee burdens of any host country in the world.\n\nConditions in the refugee sites are alarming. Refugees receive on average only 5 liters of water per day — a third of the Sphere humanitarian standard minimum. Only 14% of shelter needs are met. Health services are stretched beyond capacity. Food rations have been cut due to the chronic underfunding of the Sudan refugee response, which stands at only 20% of requirements.\n\nAt the same time, Chad's own population faces severe food insecurity. 7 million Chadians require humanitarian assistance, driven by a combination of Boko Haram violence in the Lake Chad region, recurring floods destroying crops, and structural poverty. The country effectively hosts a mega-crisis while managing its own.\n\nChad's example illustrates a structural failure of the global humanitarian system: the countries least able to absorb refugees are often those hosting the most, while wealthier nations that could absorb more maintain restrictive policies and under-fund the response in countries like Chad.",
   "stats": [
-    { "label": "Sudanese Refugees", "value": "1.2M+", "source": "UNHCR Chad" },
-    { "label": "Total Chadians in Need", "value": "7M", "source": "OCHA Chad" },
-    { "label": "Refugee Daily Water", "value": "5L/day", "source": "UNHCR Chad (vs 15–20L standard)" },
-    { "label": "Shelter Needs Met", "value": "14%", "source": "UNHCR Chad, 2025" }
+    {
+      "label": "Sudanese Refugees",
+      "value": "1.2M+",
+      "source": "UNHCR Chad"
+    },
+    {
+      "label": "Total Chadians in Need",
+      "value": "7M",
+      "source": "OCHA Chad"
+    },
+    {
+      "label": "Refugee Daily Water",
+      "value": "5L/day",
+      "source": "UNHCR Chad (vs 15–20L standard)"
+    },
+    {
+      "label": "Shelter Needs Met",
+      "value": "14%",
+      "source": "UNHCR Chad, 2025"
+    }
   ],
   "actions": {
     "donate": [
@@ -48,11 +67,36 @@
     ]
   },
   "sources": [
-    { "title": "UNHCR Chad", "url": "https://www.unhcr.org/us/where-we-work/countries/chad", "org": "UNHCR" },
-    { "title": "OCHA Chad", "url": "https://www.unocha.org/chad", "org": "OCHA" },
-    { "title": "WFP Chad", "url": "https://www.wfp.org/countries/chad", "org": "WFP" },
-    { "title": "IOM Chad", "url": "https://www.iom.int/countries/chad", "org": "IOM" },
-    { "title": "UNHCR Sudan Situation", "url": "https://data.unhcr.org/en/situations/sudansituation", "org": "UNHCR" }
+    {
+      "title": "UNHCR Chad",
+      "url": "https://www.unhcr.org/us/where-we-work/countries/chad",
+      "org": "UNHCR"
+    },
+    {
+      "title": "OCHA Chad",
+      "url": "https://www.unocha.org/chad",
+      "org": "OCHA"
+    },
+    {
+      "title": "WFP Chad",
+      "url": "https://www.wfp.org/countries/chad",
+      "org": "WFP"
+    },
+    {
+      "title": "IOM Chad",
+      "url": "https://www.iom.int/countries/chad",
+      "org": "IOM"
+    },
+    {
+      "title": "UNHCR Sudan Situation",
+      "url": "https://data.unhcr.org/en/situations/sudansituation",
+      "org": "UNHCR"
+    }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-13",
+  "photos": [
+    "/images/crises/chad.png",
+    "/images/crises/chad-2.png",
+    "/images/crises/chad-3.jpg"
+  ]
 }
