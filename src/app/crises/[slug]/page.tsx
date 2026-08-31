@@ -89,6 +89,47 @@ export default function CrisisPage({ params }: CrisisPageProps) {
         </p>
       </header>
 
+      {/* On-the-ground photography */}
+      {(crisis.photos?.length ?? 0) > 0 && (
+        <section className="mb-11 animate-fade-up-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+            {crisis.photos!.map((src, i) => (
+              <div
+                key={src}
+                className="relative aspect-[4/3] overflow-hidden rounded-sm bg-bg-card border border-border"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={src}
+                  alt={`${crisis.name} — on-the-ground photo ${i + 1}`}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
+          {(crisis.photoCredits?.length ?? 0) > 0 && (
+            <p className="mt-2 font-sans text-[10px] leading-relaxed text-text-dim">
+              Photos via Wikimedia Commons:{" "}
+              {crisis.photoCredits!.map((c, i) => (
+                <span key={i}>
+                  {i > 0 && " · "}
+                  <a
+                    href={c.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-border hover:text-text-body transition-colors"
+                  >
+                    {c.artist}
+                  </a>{" "}
+                  ({c.license})
+                </span>
+              ))}
+            </p>
+          )}
+        </section>
+      )}
+
       {/* Stats */}
       <StatsBar stats={crisis.stats} />
 
