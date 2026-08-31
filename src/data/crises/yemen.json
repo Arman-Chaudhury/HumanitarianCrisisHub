@@ -100,15 +100,15 @@
   ],
   "lastUpdated": "2026-03-18",
   "photos": [
-    "/images/crises/yemen.jpg",
+    "/images/crises/yemen.png",
     "/images/crises/yemen-2.jpg",
-    "/images/crises/yemen-3.jpg"
+    "/images/crises/yemen-3.png"
   ],
   "photoCredits": [
     {
-      "artist": "Ibrahem Qasim",
-      "license": "CC BY-SA 3.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Yemeni_soldiers_from_the_1st_Armoured_Division.JPG"
+      "artist": "Almigdad Mojalli/VOA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:On_the_day_after_a_July_airstrike_in_Sanaa_Yemen_families_mourn_their_lost_relatives_but_say_there_is_no_way_they_have_the_resources_to_rebuild_their_homes_-_July-13-2015.png"
     },
     {
       "artist": "CENTCOM",
@@ -116,9 +116,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:US_striking_Houthi_positions_in_Yemen.webm"
     },
     {
-      "artist": "Presidential Press and Information Office",
-      "license": "CC BY 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:President_Ali_Abdullah_Saleh.jpg"
+      "artist": "Almigdad Mojalli/VOA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Months_after_an_airstrike_on_a_neighborhood_populated_by_black_Yemenis_or_%22Muhamasheen%22_more_than_a_hundred_buildings_still_remain_in_rubble_and_survivors_continue_to_search_for_any_valuables_-_Sanaa_-_Yemen_-_Oct-9-2015.png"
     }
   ]
 }

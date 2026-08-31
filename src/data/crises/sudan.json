@@ -100,25 +100,25 @@
   ],
   "lastUpdated": "2026-03-18",
   "photos": [
-    "/images/crises/sudan.jpg",
-    "/images/crises/sudan-2.jpg",
+    "/images/crises/sudan.png",
+    "/images/crises/sudan-2.png",
     "/images/crises/sudan-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "Gunnery Sgt. Matthew Bragg",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:230424-M-DP650-0004_-_MSGs_evacuate,_return_from_Khartoum.jpg"
+      "artist": "Uhna727ua",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Khartoum_Fire.png"
     },
     {
-      "artist": "Photographer: B N Chagny",
-      "license": "CC BY-SA 1.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Sudan_Meroe_Pyramids_2001.JPG"
+      "artist": "Channel 1 Egypt",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Destroyed_car_El_Fasher.png"
     },
     {
-      "artist": "Henry Wilkins/VOA",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Screengrab_of_refugee_camp_from_Number_of_Refugees_Who_Fled_Sudan_for_Chad_Double_in_Week.jpg"
+      "artist": "European Commission DG ECHO",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Darfurians_refugees_in_Eastern_Chad.jpg"
     }
   ]
 }
