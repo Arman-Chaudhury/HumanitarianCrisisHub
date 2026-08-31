@@ -14,13 +14,13 @@
   "stats": [
     {
       "label": "Displaced",
-      "value": "3M+",
-      "source": "UNHCR Myanmar Update, 2025"
+      "value": "3.6M",
+      "source": "UN OCHA HNRP, 2026"
     },
     {
       "label": "Need Aid",
-      "value": "18M",
-      "source": "OCHA Myanmar Response Plan"
+      "value": "16.2M",
+      "source": "UN OCHA HNRP, 2026"
     },
     {
       "label": "Rohingya Refugees",
@@ -98,7 +98,7 @@
       "org": "Fortify Rights"
     }
   ],
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-08-31",
   "photos": [
     "/images/crises/myanmar.png",
     "/images/crises/myanmar-2.jpg",

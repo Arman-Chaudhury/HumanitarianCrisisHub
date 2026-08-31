@@ -13,19 +13,19 @@
   "context": "The current crisis in Gaza is the culmination of over 75 years of displacement, occupation, and blockade. Since 2007, Gaza has been under a land, air, and sea blockade that has restricted the movement of over 2 million people and devastated the local economy.\n\nThe escalation that began in October 2023 has resulted in unprecedented destruction of civilian infrastructure — hospitals, schools, refugee camps, and residential areas. International humanitarian organizations have described the situation as a catastrophe without parallel in recent history.\n\nThe United Nations has repeatedly called for unimpeded humanitarian access and the protection of civilians. Health facilities have been severely impacted, with the majority of hospitals either destroyed or only partially functional. The World Health Organization has warned of cascading health crises, including the spread of infectious diseases due to overcrowding and lack of sanitation.\n\nUnderstanding this context is essential. This is not a conflict that started on a single date — it is rooted in decades of policies that human rights organizations, including Amnesty International and Human Rights Watch, have documented extensively. The International Court of Justice has also weighed in on the legal dimensions of the situation.\n\nMillions of Palestinians in Gaza have been displaced multiple times, with nowhere safe to go. The humanitarian community continues to call for a ceasefire, the release of all hostages, and sustained humanitarian access to all affected populations.",
   "stats": [
     {
-      "label": "Displaced",
-      "value": "2M+",
-      "source": "UNRWA Situation Report, 2025"
-    },
-    {
       "label": "Killed",
-      "value": "45,000+",
-      "source": "Gaza Ministry of Health / WHO"
+      "value": "73,000+",
+      "source": "Gaza MoH via UN OCHA, Aug 2026"
     },
     {
-      "label": "Food Insecure",
-      "value": "96%",
-      "source": "IPC Famine Review, 2024"
+      "label": "Injured",
+      "value": "174,000+",
+      "source": "Gaza MoH via UN OCHA, Aug 2026"
+    },
+    {
+      "label": "Displaced",
+      "value": "2.1M",
+      "source": "UN OCHA — entire population, 2026"
     },
     {
       "label": "Infrastructure Destroyed",
@@ -103,7 +103,7 @@
       "org": "Amnesty International"
     }
   ],
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-08-31",
   "photos": [
     "/images/crises/palestine.jpg",
     "/images/crises/palestine-2.jpg",

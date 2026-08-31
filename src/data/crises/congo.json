@@ -13,24 +13,24 @@
   "context": "The Democratic Republic of Congo has endured decades of conflict, instability, and exploitation. The eastern provinces of North Kivu, South Kivu, and Ituri are home to over 100 armed groups vying for control of territory rich in minerals essential to global technology supply chains — coltan, cobalt, tin, and gold.\n\nThe M23 rebel group, widely reported to receive support from neighboring Rwanda, has intensified its offensive since late 2022, capturing significant territory and displacing hundreds of thousands. The UN Group of Experts and multiple investigations have documented Rwanda's involvement, which Rwanda denies.\n\nThe humanitarian impact is immense. The DRC has the largest number of internally displaced people in Africa and one of the largest in the world. Displacement camps around Goma and other cities are overcrowded, lacking adequate food, water, and sanitation. Outbreaks of cholera, measles, and mpox have compounded the crisis.\n\nSexual violence has been used as a weapon of war by multiple armed groups, with the DRC consistently ranked among the worst places in the world for gender-based violence in conflict. Survivors face stigma and often lack access to medical and psychological care.\n\nThe connection between Congo's minerals and global consumer electronics is a critical but often overlooked dimension. Cobalt mined in artisanal conditions — including by children — powers the batteries in smartphones, laptops, and electric vehicles worldwide. Advocacy for supply chain transparency and conflict-free sourcing is an important avenue for action.",
   "stats": [
     {
-      "label": "Displaced",
-      "value": "7M+",
-      "source": "UNHCR, 2025"
+      "label": "Displaced Internally",
+      "value": "5.8M",
+      "source": "UN OCHA, 2026"
+    },
+    {
+      "label": "Refugees Abroad",
+      "value": "1.2M+",
+      "source": "UNHCR, 2026"
     },
     {
       "label": "Need Aid",
-      "value": "25M",
-      "source": "OCHA Humanitarian Response Plan"
+      "value": "14.9M",
+      "source": "UN OCHA HRP, 2026"
     },
     {
       "label": "Armed Groups",
       "value": "100+",
       "source": "UN Group of Experts Report"
-    },
-    {
-      "label": "Children Affected",
-      "value": "3M+",
-      "source": "UNICEF DRC Situation Report"
     }
   ],
   "actions": {
@@ -98,7 +98,7 @@
       "org": "Global Witness"
     }
   ],
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-08-31",
   "photos": [
     "/images/crises/congo.jpg",
     "/images/crises/congo-2.jpg",
