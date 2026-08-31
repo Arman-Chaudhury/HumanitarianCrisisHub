@@ -102,6 +102,23 @@
   "photos": [
     "/images/crises/congo.jpg",
     "/images/crises/congo-2.jpg",
-    "/images/crises/congo-3.jpg"
+    "/images/crises/congo-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Francis Shok Mweze",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:La_Gombe,_Kinshasa,_RDC_(cropped).jpg"
+    },
+    {
+      "artist": "L. Werchick / USAID",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:DRC_raped_women.jpg"
+    },
+    {
+      "artist": "EMMANRMS",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cathedrale_notre_dame_de_la_victoire_bukavu.png"
+    }
   ]
 }

@@ -93,5 +93,22 @@
     "/images/crises/lake-chad.jpg",
     "/images/crises/lake-chad-2.jpg",
     "/images/crises/lake-chad-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Unknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Lake_Chad_1973.jpg"
+    },
+    {
+      "artist": "Free French press. Transfer: United States Office of War Information.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chadian_soldier_of_WWII.jpg"
+    },
+    {
+      "artist": "Photo taken by de:Benutzer:Alex Anlicker using a Nikon Coolpix 950.",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Drinking_water.jpg"
+    }
   ]
 }

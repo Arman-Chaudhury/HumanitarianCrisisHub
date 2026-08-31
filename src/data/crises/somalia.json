@@ -101,7 +101,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/somalia.webp",
-    "/images/crises/somalia-2.png",
+    "/images/crises/somalia-2.jpg",
     "/images/crises/somalia-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Muuse Maxamuud Jiisow",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Islamic_Courts_Union_insurgents_with_prisoners_of_war.webp"
+    },
+    {
+      "artist": "Oxfam East Africa",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Oxfam_East_Africa_-_New_camp_stands_idle_and_closed_as_Somali_refugees_pour_into_Kenya.jpg"
+    },
+    {
+      "artist": "AMISOM",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lido_beach_from_the_sea_in_Mogadishu.jpg"
+    }
   ]
 }

@@ -103,5 +103,22 @@
     "/images/crises/ukraine.jpg",
     "/images/crises/ukraine-2.jpg",
     "/images/crises/ukraine-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Johann Homann",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ukrania_quae_et_Terra_Cosaccorum_cum_vicinis_Walachiae,_Moldoviae,_Johann_Baptiste_Homann_(Nuremberg,_1720).jpg"
+    },
+    {
+      "artist": "U.S. intelligence agencies (unclassified)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Russian_forces_near_Ukraine,_2021-12-03_(crop).jpg"
+    },
+    {
+      "artist": "Ministry of Defense of Ukraine",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anti-terrorist_operation_in_eastern_Ukraine_(War_Ukraine)_(27843153986).jpg"
+    }
   ]
 }

@@ -103,5 +103,22 @@
     "/images/crises/uyghurs.jpg",
     "/images/crises/uyghurs-2.jpg",
     "/images/crises/uyghurs-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "United States Commission on International Religious Freedom",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Nury_Turkel_headshot_2.jpg"
+    },
+    {
+      "artist": "Ronnie Macdonald from Chelmsford, United Kingdom",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Xian_Great_Mosque_07_(5458567815).jpg"
+    },
+    {
+      "artist": "https://www.flickr.com/photos/90987386@N05/",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Uyghur_man_in_Kashgar.jpg"
+    }
   ]
 }

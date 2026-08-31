@@ -97,6 +97,23 @@
   "photos": [
     "/images/crises/belarus.jpg",
     "/images/crises/belarus-2.jpg",
-    "/images/crises/belarus-3.jpg"
+    "/images/crises/belarus-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Homoatrox",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_Minsk_(180819)_09.jpg"
+    },
+    {
+      "artist": "Kancelaria Prezesa Rady Ministrów",
+      "license": "CC BY 3.0 pl",
+      "url": "https://commons.wikimedia.org/wiki/File:20220630_Zapora_na_granicy_polsko-bia%C5%82oruskiej_004.jpg"
+    },
+    {
+      "artist": "File:Belarus-Poland border (ru).png: Homoatrox derivative work: Homoat",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Belarus-Poland_border_(en).png"
+    }
   ]
 }

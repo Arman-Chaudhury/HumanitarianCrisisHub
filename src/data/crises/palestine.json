@@ -108,5 +108,22 @@
     "/images/crises/palestine.jpg",
     "/images/crises/palestine-2.jpg",
     "/images/crises/palestine-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "WAFA (Q2915969) in contract with a local company (APAimages)‏‏",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Damage_in_Gaza_Strip_during_the_October_2023_-_13.jpg"
+    },
+    {
+      "artist": "Naser Jafari",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:4-Sending_humanitarian_cargo_to_Gaza-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84_%D9%85%D8%AD%D9%85%D9%88%D9%84%D9%87_%D8%A8%D8%B4%D8%B1_%D8%AF%D9%88%D8%B3%D8%AA%D8%A7%D9%86%D9%87_%D8%A8%D9%87_%D8%BA%D8%B2%D9%87.jpg"
+    },
+    {
+      "artist": "Fadi Thabet",
+      "license": "CC BY-SA 3.0 igo",
+      "url": "https://commons.wikimedia.org/wiki/File:The_water_crisis_in_Gaza_is_severe%E2%80%94perhaps_the_most_urgent_struggle_in_the_midst_of_all_this_destruction.jpeg"
+    }
   ]
 }

@@ -97,6 +97,23 @@
   "photos": [
     "/images/crises/lebanon.jpg",
     "/images/crises/lebanon-2.jpg",
-    "/images/crises/lebanon-3.jpg"
+    "/images/crises/lebanon-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Mahdi Shojaeian",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Damages_after_2020_Beirut_explosions_1.jpg"
+    },
+    {
+      "artist": "Original: The United States National Geospatial-Intelligence Agency. E",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Israel_and_Lebanon.JPG"
+    },
+    {
+      "artist": "Torsten",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Iran_and_Israel_(without_West_Bank_and_Gaza).png"
+    }
   ]
 }

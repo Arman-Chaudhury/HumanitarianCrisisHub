@@ -96,7 +96,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/russia.jpg",
-    "/images/crises/russia-2.png",
+    "/images/crises/russia-2.jpg",
     "/images/crises/russia-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Владислав Постников",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Protest_against_the_invasion_of_Ukraine_(Yekaterinburg,_February_24,_2022).jpg"
+    },
+    {
+      "artist": "Dhārmikatva",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D1%88_%D0%B7%D0%B0_%D0%BC%D0%B8%D1%80_%D0%B8_%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%83_(2).jpg"
+    },
+    {
+      "artist": "Leonhard Lenz",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ukraine_solidarity_protest_Berlin_Pariser_Platz_with_lighted_Brandenburg_Gate_2022-02-24_02.jpg"
+    }
   ]
 }

@@ -97,6 +97,23 @@
   "photos": [
     "/images/crises/burkina-faso.png",
     "/images/crises/burkina-faso-2.jpg",
-    "/images/crises/burkina-faso-3.jpg"
+    "/images/crises/burkina-faso-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "The Militant/ Ernest Harsch",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Thomas_Sankara_in_Harlem_(1984).png"
+    },
+    {
+      "artist": "Office of the White House (Amanda Lucidon)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Blaise_Compaor%C3%A9_2014-08-05.jpg"
+    },
+    {
+      "artist": "VOA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldats_fran%C3%A7ais_%C3%A0_Gao2.PNG"
+    }
   ]
 }

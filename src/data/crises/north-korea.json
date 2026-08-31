@@ -95,8 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/north-korea.jpg",
+    "/images/crises/north-korea.png",
     "/images/crises/north-korea-2.jpg",
     "/images/crises/north-korea-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Sdgedfegw",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:North_Korea_single_age_population_pyramid_2020.png"
+    },
+    {
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_6a019.jpg"
+    },
+    {
+      "artist": "U.S. Mission Geneva/ Eric Bridiers",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Commission_of_Inquiry_on_the_DPRK_Presents_Report.jpg"
+    }
   ]
 }

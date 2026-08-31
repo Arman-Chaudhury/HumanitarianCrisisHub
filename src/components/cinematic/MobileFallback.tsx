@@ -40,10 +40,11 @@ export default function MobileFallback({ crises }: MobileFallbackProps) {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/earth-water.png"
+            src="/textures/earth_day.jpg"
             alt=""
             aria-hidden
-            className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-screen"
+            className="absolute inset-0 w-full h-full object-cover opacity-90"
+            style={{ objectPosition: "40% 42%" }}
           />
         </div>
       </div>

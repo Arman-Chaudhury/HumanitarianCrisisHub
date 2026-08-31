@@ -93,5 +93,22 @@
     "/images/crises/venezuela.jpg",
     "/images/crises/venezuela-2.jpg",
     "/images/crises/venezuela-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "David Hernandez Aponte",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Aeropuerto_Internacional_Simon_Bolivar.jpeg"
+    },
+    {
+      "artist": "Official White House Photo by Molly Riley.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:P20260103MR-0139_President_Donald_Trump,_CIA_Director_John_Ratcliffe_and_Secretary_of_State_Marco_Rubio_monitor_U.S._military_operations_in_Venezuela.jpg"
+    },
+    {
+      "artist": "U.S. Marines 24MEU by Lance Cpl. Allison White",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:LCF-24-_Ground_Zero_(9781949).jpg"
+    }
   ]
 }

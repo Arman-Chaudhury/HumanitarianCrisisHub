@@ -101,7 +101,24 @@
   "lastUpdated": "2026-03-18",
   "photos": [
     "/images/crises/yemen.jpg",
-    "/images/crises/yemen-2.png",
+    "/images/crises/yemen-2.jpg",
     "/images/crises/yemen-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Ibrahem Qasim",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Yemeni_soldiers_from_the_1st_Armoured_Division.JPG"
+    },
+    {
+      "artist": "CENTCOM",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:US_striking_Houthi_positions_in_Yemen.webm"
+    },
+    {
+      "artist": "Presidential Press and Information Office",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:President_Ali_Abdullah_Saleh.jpg"
+    }
   ]
 }

@@ -98,5 +98,22 @@
     "/images/crises/tamils-sri-lanka.jpg",
     "/images/crises/tamils-sri-lanka-2.jpg",
     "/images/crises/tamils-sri-lanka-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Anuradha Dullewe Wijeyeratne",
+      "license": "PD",
+      "url": "https://en.wikipedia.org/wiki/File:Raja_(elephant)_in_Sri_Lankan_Rupee_bank_notes.JPG"
+    },
+    {
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ceylon_Tamil_girl_1910.jpeg"
+    },
+    {
+      "artist": "Internet Archive Book Images",
+      "license": "No restrictions",
+      "url": "https://commons.wikimedia.org/wiki/File:Wanderings_east_of_Suez_in_Ceylon,_India,_China_and_Japan_(1907)_(14764108484).jpg"
+    }
   ]
 }

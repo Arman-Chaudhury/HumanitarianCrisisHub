@@ -93,5 +93,22 @@
     "/images/crises/tibet.jpg",
     "/images/crises/tibet-2.jpg",
     "/images/crises/tibet-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Billlion at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr_Akong_Tulku_Rinpoche.jpg"
+    },
+    {
+      "artist": "Edgar Beltrán / The Pillar",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Pope_Leo_XIV_on_the_loggia_(cropped).jpg"
+    },
+    {
+      "artist": "Hilmi Hacaloğlu",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:2015_Nepal_depremi_(7).jpg"
+    }
   ]
 }

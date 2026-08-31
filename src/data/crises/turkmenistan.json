@@ -98,5 +98,22 @@
     "/images/crises/turkmenistan.jpg",
     "/images/crises/turkmenistan-2.png",
     "/images/crises/turkmenistan-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Georgia",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Stamps_of_Georgia,_2003-455.jpg"
+    },
+    {
+      "artist": "Lovepeacejoy404",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Poverty-_Share_of_population_living_on_less_than_$8.30_a_day,_2023-2024.png"
+    },
+    {
+      "artist": "Presidential Press and Information Office",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Dmitry_Medvedev_in_Turkmenistan_13_September_2009-1.jpg"
+    }
   ]
 }

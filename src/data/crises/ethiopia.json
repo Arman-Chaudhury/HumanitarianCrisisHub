@@ -97,6 +97,23 @@
   "photos": [
     "/images/crises/ethiopia.jpg",
     "/images/crises/ethiopia-2.jpg",
-    "/images/crises/ethiopia-3.png"
+    "/images/crises/ethiopia-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Yan Boechat/VOA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:VOA_Tigray_Children2.jpg"
+    },
+    {
+      "artist": "Talskiddy at English Wikipedia",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Opbushel.jpg"
+    },
+    {
+      "artist": "unknown; according to [1] and [2] an official portrait of which b/w co",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Haile_Selassie_in_full_dress_(3x4_cropped).jpg"
+    }
   ]
 }

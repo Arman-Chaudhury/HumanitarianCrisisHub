@@ -98,5 +98,22 @@
     "/images/crises/eritrea.jpg",
     "/images/crises/eritrea-2.jpg",
     "/images/crises/eritrea-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "U.S. Customs and Border Protection",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CBP_Processing_Unaccompanied_Children_(15020196668).jpg"
+    },
+    {
+      "artist": "Voice of America; Mulugeta Atsbeha",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Delegation_from_the_African_Union_(AU)_and_other_partners_has_arrived_in_Mekelle.jpg"
+    },
+    {
+      "artist": "NYMan6",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Forceful_Deportation_of_Eritreans_from_Sudan_(2023).png"
+    }
   ]
 }

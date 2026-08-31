@@ -98,5 +98,22 @@
     "/images/crises/south-sudan.jpg",
     "/images/crises/south-sudan-2.jpg",
     "/images/crises/south-sudan-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Jens Klinzing",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Garang_Mausoleum_Square_in_Juba.JPG"
+    },
+    {
+      "artist": "Geoff NoNick",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aweil.jpg"
+    },
+    {
+      "artist": "Unknown author",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:South_Sudan_Malakal_Marketplace_Aug_2005.jpg"
+    }
   ]
 }

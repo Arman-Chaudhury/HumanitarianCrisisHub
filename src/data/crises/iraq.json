@@ -98,5 +98,22 @@
     "/images/crises/iraq.jpg",
     "/images/crises/iraq-2.jpg",
     "/images/crises/iraq-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "US Air Force",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg"
+    },
+    {
+      "artist": "PHAN April Hatton",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kurdish_refugees_travel_by_truck,_Turkey,_1991.jpeg"
+    },
+    {
+      "artist": "Institute for National Strategic Studies (INSS.)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kurdish_refugees_in_camp_sites_along_the_Turkey-Iraq_border,_1991.jpg"
+    }
   ]
 }

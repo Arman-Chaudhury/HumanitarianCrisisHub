@@ -93,5 +93,22 @@
     "/images/crises/balochistan.jpg",
     "/images/crises/balochistan-2.jpg",
     "/images/crises/balochistan-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "NASA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:2022_Pakistan_Floods_-_August_27,_2021_vs._August_27,_2022_in_Sindh.jpg"
+    },
+    {
+      "artist": "Pierre Markuse",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_(53245908850).jpg"
+    },
+    {
+      "artist": "Nayyabbewal",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Uzair_bloch.png"
+    }
   ]
 }

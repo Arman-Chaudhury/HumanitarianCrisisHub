@@ -91,7 +91,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/sahel.jpg",
-    "/images/crises/sahel-2.png",
+    "/images/crises/sahel-2.jpg",
     "/images/crises/sahel-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Adam Jones, Ph.D.",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mud_Mosque_-_Bani_-_Sahel_Region_-_Burkina_Faso_-_02.jpg"
+    },
+    {
+      "artist": "Dr Mary Gillham Archive Project",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Low_water_and_Syd,_Upper_Neuadd_Reservoir._Eroded_rocky_bed._July_1976.jpg"
+    },
+    {
+      "artist": "Unknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Famine_Niger.jpg"
+    }
   ]
 }

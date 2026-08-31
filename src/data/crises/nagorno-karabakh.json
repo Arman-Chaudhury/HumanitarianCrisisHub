@@ -92,6 +92,23 @@
   "photos": [
     "/images/crises/nagorno-karabakh.png",
     "/images/crises/nagorno-karabakh-2.jpg",
-    "/images/crises/nagorno-karabakh-3.jpg"
+    "/images/crises/nagorno-karabakh-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Ministry of Defence of the Russian Federation",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ethnic_Armenians_of_Nagorno-Karabakh_seeking_refuge_due_to_attacks_by_Azerbaijani_armed_forces.png"
+    },
+    {
+      "artist": "Neftchi at en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Gravestones_of_Azeri_soldiers_died_in_Karabakh_war.jpg"
+    },
+    {
+      "artist": "Golden",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nagorno-Karabakh_conflict.png"
+    }
   ]
 }

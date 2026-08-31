@@ -96,7 +96,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/mozambique.png",
-    "/images/crises/mozambique-2.jpg",
+    "/images/crises/mozambique-2.png",
     "/images/crises/mozambique-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Voudloper",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cratons_West_Gondwana_and_EAO_v2.png"
+    },
+    {
+      "artist": "Francisco Júnior (VOA)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:RwandanpatrolMocimboa.png"
+    },
+    {
+      "artist": "F Mira from Lisbon, Portugal",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bridge_over_Rio_Lurio_EN1_road_(3911465523).jpg"
+    }
   ]
 }

@@ -100,8 +100,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/haiti.png",
+    "/images/crises/haiti.jpg",
     "/images/crises/haiti-2.jpg",
     "/images/crises/haiti-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Wikitalovin1",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:List_of_ongoing_armed_conflicts.jpg"
+    },
+    {
+      "artist": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:ISS027-E-17333_-_View_of_Dominican_Republic.jpg"
+    },
+    {
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Duvalier_Presidential_Portrait_(1957).png"
+    }
   ]
 }

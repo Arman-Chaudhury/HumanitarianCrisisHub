@@ -101,7 +101,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/afghanistan.png",
-    "/images/crises/afghanistan-2.png",
-    "/images/crises/afghanistan-3.png"
+    "/images/crises/afghanistan-2.jpg",
+    "/images/crises/afghanistan-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Nederlandse Leeuw, Nicolas Eynaud",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:War_in_Afghanistan_(1992%E2%80%932001).png"
+    },
+    {
+      "artist": "מנחם.אל",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Territories_of_the_Islamic_State_in_Afghanistan_1.jpg"
+    },
+    {
+      "artist": "erwinlux",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mortar_attack_on_Shigal_Tarna_garrison,_Kunar_Province,_87.jpg"
+    }
   ]
 }

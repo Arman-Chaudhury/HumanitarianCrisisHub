@@ -3,8 +3,9 @@
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { gsap } from "gsap";
-import type { Crisis } from "@/types/crisis";
+import type { Crisis, ReliefWebItem } from "@/types/crisis";
 import { getStatusColor } from "@/lib/statusColors";
+import reliefweb from "@/data/reliefweb.json";
 
 const STATUS_LABELS: Record<string, string> = {
   active: "Active Crisis",
@@ -59,6 +60,9 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
 
   const color = getStatusColor(crisis.status);
   const photos = crisis.photos ?? [];
+  const credits = crisis.photoCredits ?? [];
+  const updates: ReliefWebItem[] =
+    (reliefweb.crises as Record<string, ReliefWebItem[]>)[crisis.slug] ?? [];
 
   const goToFullPage = () => router.push(`/crises/${crisis.slug}`);
 
@@ -122,7 +126,12 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
               >
                 {src ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={src} alt="" className="absolute inset-0 w-full h-full object-cover" />
+                  <img
+                    src={src}
+                    alt={`${crisis.name} — crisis photo ${i + 1}`}
+                    loading="lazy"
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
                 ) : (
                   <div
                     className="absolute inset-0"
@@ -134,6 +143,58 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
               </div>
             ))}
           </div>
+
+          {/* Photo attribution — required by Commons licenses */}
+          {credits.length > 0 && (
+            <p className="font-sans text-[10px] leading-relaxed text-text-dim -mt-5 mb-7">
+              Photos via Wikimedia Commons:{" "}
+              {credits.map((c, i) => (
+                <span key={i}>
+                  {i > 0 && " · "}
+                  <a
+                    href={c.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-border hover:text-text-body transition-colors"
+                  >
+                    {c.artist}
+                  </a>{" "}
+                  ({c.license})
+                </span>
+              ))}
+            </p>
+          )}
+
+          {/* Latest updates — auto-refreshed from UN ReliefWeb */}
+          {updates.length > 0 && (
+            <div className="mb-7">
+              <h3 className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase text-text-dim mb-3">
+                Latest Updates{" "}
+                <span className="font-normal normal-case tracking-normal">
+                  — via UN ReliefWeb
+                </span>
+              </h3>
+              <ul className="space-y-2 border-l-[3px] pl-5" style={{ borderColor: `${color}55` }}>
+                {updates.map((u) => (
+                  <li key={u.url}>
+                    <a
+                      href={u.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group block"
+                    >
+                      <span className="font-sans text-[14px] text-text-body group-hover:text-text-bright transition-colors leading-snug">
+                        {u.title}
+                      </span>
+                      <span className="block font-sans text-[11px] text-text-dim mt-0.5">
+                        {u.source} · {u.date}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Stats — top 3 */}
           {crisis.stats?.length > 0 && (

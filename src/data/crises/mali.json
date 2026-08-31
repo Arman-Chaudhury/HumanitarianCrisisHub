@@ -95,8 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/mali.png",
+    "/images/crises/mali.jpg",
     "/images/crises/mali-2.png",
     "/images/crises/mali-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "George Rodger",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Africa._French_West_Africa._Currently_the_most_important_efforts_of_the_Office_du_Niger_are_directed_toward_the..._-_NARA_-_541637.jpg"
+    },
+    {
+      "artist": "VOA (Moctar Barry)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Assimi_Goita,_August_2021.png"
+    },
+    {
+      "artist": "President of Russia,Kremlin",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Assimi_Go%C3%AFta_with_Russian_president_Vladimir_Putin_July_2023.jpg"
+    }
   ]
 }

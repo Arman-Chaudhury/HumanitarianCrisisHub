@@ -96,7 +96,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/niger.jpg",
-    "/images/crises/niger-2.png",
-    "/images/crises/niger-3.png"
+    "/images/crises/niger-2.jpg",
+    "/images/crises/niger-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Rolanda Jundt U.S. Department of Energy's Atmospheric Radiation Measur",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Niameyairport_2005_crop.JPG"
+    },
+    {
+      "artist": "NigerTZai",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Niger,_Niamey,_Pont_Kennedy_(1).jpg"
+    },
+    {
+      "artist": "U.S. Army Special Forces.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Tongo_Tongo_ambush_footage,_October_2017.webm"
+    }
   ]
 }

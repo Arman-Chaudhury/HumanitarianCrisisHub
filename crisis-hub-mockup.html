@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crisis Hub — Act on Global Humanitarian Crises</title>
+  <meta name="description" content="A free resource hub documenting global humanitarian crises with actionable ways to help: donate, spread awareness, and demand political change." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    /* ─────────────────────────────────────────────────
+       TOKENS
+    ───────────────────────────────────────────────── */
+    :root {
+      --bg:            #161412;
+      --bg-deep:       #0e0d0b;
+      --bg-section:    #111009;
+      --bg-card:       rgba(255,255,255,0.03);
+      --bg-card-hover: rgba(255,255,255,0.06);
+      --text-bright:   #f0ece2;
+      --text-body:     #c4bfb1;
+      --text-muted:    #8a8474;
+      --text-dim:      #5e584c;
+      --text-faint:    #3a3428;
+      --border:        rgba(255,255,255,0.08);
+      --border-mid:    rgba(255,255,255,0.12);
+      --border-hard:   rgba(255,255,255,0.18);
+      --red:           #e63946;
+      --red-dim:       rgba(230,57,70,0.09);
+      --red-mid:       rgba(230,57,70,0.2);
+      --yellow:        #FFD166;
+      --pad-x:         clamp(1.5rem, 6vw, 6rem);
+      --pad-y:         clamp(4rem, 8vw, 8rem);
+    }
+
+    /* ─────────────────────────────────────────────────
+       RESET
+    ───────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text-bright);
+      font-family: 'DM Sans', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    ::selection { background: rgba(230,57,70,0.3); color: var(--text-bright); }
+    :focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: #2a2520; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-dim); }
+
+    /* ─────────────────────────────────────────────────
+       AMBIENT GLOW
+    ───────────────────────────────────────────────── */
+    .ambient {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 55% 40% at 8% 5%,  rgba(230,57,70,0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 35% at 92% 85%, rgba(244,162,97,0.03) 0%, transparent 70%);
+    }
+
+    /* ─────────────────────────────────────────────────
+       FADE-IN SCROLL ANIMATION
+    ───────────────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.in { opacity: 1; transform: none; }
+
+    /* ─────────────────────────────────────────────────
+       KEYFRAMES
+    ───────────────────────────────────────────────── */
+    @keyframes scanline {
+      0%   { transform: translateX(-100%); }
+      100% { transform: translateX(300%); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1);    opacity: .85; }
+      50%       { transform: scale(1.3); opacity: 1; }
+    }
+    @keyframes ring-expand {
+      0%   { transform: scale(1);   opacity: .55; }
+      100% { transform: scale(2.8); opacity: 0; }
+    }
+
+    /* ─────────────────────────────────────────────────
+       URGENT BANNER
+    ───────────────────────────────────────────────── */
+    .urgent {
+      position: relative;
+      z-index: 50;
+      overflow: hidden;
+      background: var(--red-dim);
+      border-bottom: 1px solid rgba(230,57,70,0.25);
+      padding: 14px var(--pad-x);
+    }
+    .urgent .sweep {
+      position: absolute; inset: 0;
+      background: linear-gradient(90deg, transparent, rgba(230,57,70,0.06), transparent);
+      animation: scanline 4s linear infinite;
+      pointer-events: none;
+    }
+    .urgent p {
+      position: relative; z-index: 1;
+      font-size: 0.8125rem; line-height: 1.55;
+      color: var(--text-body); letter-spacing: .01em;
+    }
+    .urgent strong { color: var(--red); font-weight: 600; }
+
+    /* ─────────────────────────────────────────────────
+       NAV
+    ───────────────────────────────────────────────── */
+    nav.nav {
+      position: sticky; top: 0; z-index: 40;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.25rem var(--pad-x);
+      border-bottom: 1px solid var(--border);
+      background: rgba(22,20,18,.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .nav-logo {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.375rem; color: var(--text-bright); letter-spacing: -.02em;
+    }
+    .nav-logo em { font-style: italic; color: var(--red); }
+
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      font-size: .6875rem; font-weight: 500;
+      letter-spacing: .2em; text-transform: uppercase;
+      color: var(--text-dim); transition: color .2s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--text-bright); }
+    @media (max-width: 600px) {
+      .nav-links { gap: .875rem; }
+      .nav-links a { font-size: .625rem; letter-spacing: .14em; }
+    }
+
+    /* ─────────────────────────────────────────────────
+       HERO
+    ───────────────────────────────────────────────── */
+    .hero {
+      position: relative; z-index: 10;
+      padding: clamp(3rem,6vw,6rem) var(--pad-x) 0;
+      min-height: calc(100svh - 90px);
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+
+    .hero-body {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      flex: 1;
+      padding-bottom: 3rem;
+    }
+    @media (min-width: 860px) {
+      .hero-body { grid-template-columns: 55% 1fr; gap: 3rem; }
+    }
+
+    .hero-eyebrow {
+      font-size: .6875rem; font-weight: 500;
+      letter-spacing: .2em; text-transform: uppercase;
+      color: var(--red); margin-bottom: 1.25rem;
+      display: flex; align-items: center; gap: .75rem;
+    }
+    .hero-eyebrow::before {
+      content: ''; display: block;
+      width: 32px; height: 1px; background: var(--red);
+    }
+
+    .hero-h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(72px, 12vw, 160px);
+      line-height: .92; letter-spacing: .04em;
+      color: var(--text-bright);
+      margin-bottom: .5rem;
+    }
+    .hero-h1 .red { color: var(--red); }
+
+    .hero-sub {
+      margin-top: 1.75rem;
+      max-width: 440px;
+      font-size: clamp(.9375rem, 1.2vw, 1.0625rem);
+      font-weight: 300; line-height: 1.75;
+      color: var(--text-body);
+    }
+    .hero-sub strong { color: var(--text-bright); font-weight: 500; }
+
+    /* Globe column */
+    .hero-globe-col {
+      position: relative;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .globe-wrap {
+      position: relative;
+      width: min(100%, 420px);
+      aspect-ratio: 1/1;
+    }
+    .globe-halo {
+      position: absolute; inset: -14%;
+      border-radius: 50%; pointer-events: none;
+      background: radial-gradient(circle, rgba(230,57,70,.08) 0%, rgba(230,57,70,.02) 45%, transparent 70%);
+    }
+    #globe-canvas {
+      width: 100% !important; height: 100% !important;
+      border-radius: 50%; display: block;
+      cursor: grab;
+    }
+    #globe-canvas:active { cursor: grabbing; }
+    .globe-tip {
+      position: absolute; z-index: 20;
+      pointer-events: none;
+      background: rgba(12,11,9,.94);
+      border: 1px solid rgba(230,57,70,.3);
+      backdrop-filter: blur(12px);
+      border-radius: 6px;
+      padding: 5px 11px;
+      font-size: .75rem; font-weight: 600;
+      color: var(--text-bright); white-space: nowrap;
+      display: none;
+      transform: translate(-50%, calc(-100% - 10px));
+    }
+    .globe-tip-status {
+      display: inline-block; margin-left: 7px;
+      font-size: .625rem; font-weight: 500;
+      letter-spacing: .09em; text-transform: uppercase;
+    }
+
+    /* Stats strip */
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      border-top: 1px solid var(--border-mid);
+      margin-top: 0;
+    }
+    @media (min-width: 600px) { .hero-stats { grid-template-columns: repeat(4, 1fr); } }
+
+    .hero-stat {
+      padding: 1.75rem var(--pad-x) 1.75rem 0;
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-stat:nth-child(2n) { border-right: none; }
+    @media (min-width: 600px) {
+      .hero-stat { padding: 1.75rem 2rem; border-right: 1px solid var(--border); border-bottom: none; }
+      .hero-stat:last-child { border-right: none; }
+      .hero-stat:nth-child(2n) { border-right: 1px solid var(--border); }
+    }
+    .hero-stat-val {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: .04em; line-height: 1;
+      color: var(--text-bright); margin-bottom: .3rem;
+    }
+    .hero-stat-lbl {
+      font-size: .6875rem; font-weight: 500;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--text-dim);
+    }
+    .hero-stat-region {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic; font-size: .8125rem;
+      color: var(--text-muted); margin-top: .2rem;
+    }
+
+    /* ─────────────────────────────────────────────────
+       SECTION WRAPPER  (full-bleed background, padded)
+    ───────────────────────────────────────────────── */
+    .section {
+      position: relative; z-index: 10;
+      padding: var(--pad-y) var(--pad-x);
+    }
+    .section.alt { background: var(--bg-section); }
+
+    /* Section label row  —  "01   CRISES" */
+    .section-label {
+      display: flex; align-items: baseline;
+      gap: 1.5rem; margin-bottom: 3rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-num {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .6875rem; font-weight: 500;
+      letter-spacing: .18em; color: var(--text-dim);
+    }
+    .section-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(1.5rem, 3vw, 2.5rem);
+      letter-spacing: .12em; color: var(--text-muted);
+    }
+    .section-count-badge {
+      margin-left: auto;
+      font-size: .6875rem; letter-spacing: .1em;
+      color: var(--text-dim);
+    }
+
+    /* Big italic serif statement (Wix "Moving you from insight…") */
+    .statement {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-size: clamp(2rem, 4.5vw, 4.5rem);
+      line-height: 1.1; letter-spacing: -.01em;
+      color: var(--text-bright);
+      max-width: 18ch;
+      margin-bottom: 3rem;
+    }
+    .statement em { color: var(--red); font-style: italic; }
+
+    /* ─────────────────────────────────────────────────
+       CRISIS GRID
+    ───────────────────────────────────────────────── */
+    .crisis-grid {
+      display: grid; gap: 1px;
+      grid-template-columns: 1fr;
+      background: var(--border);
+    }
+    @media (min-width: 600px) { .crisis-grid { grid-template-columns: repeat(2,1fr); } }
+    @media (min-width: 900px) { .crisis-grid { grid-template-columns: repeat(3,1fr); } }
+
+    .crisis-card {
+      background: var(--bg);
+      padding: 2rem 1.75rem 1.75rem;
+      display: flex; flex-direction: column;
+      transition: background .25s;
+      cursor: pointer;
+    }
+    .section.alt .crisis-card { background: var(--bg-section); }
+    .crisis-card:hover { background: var(--bg-card-hover); }
+
+    .card-accent {
+      height: 3px; width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 0;
+    }
+    .card-status {
+      display: flex; align-items: center; gap: .5rem;
+      margin-bottom: .875rem;
+    }
+    .status-pip {
+      width: 7px; height: 7px; border-radius: 50%;
+      animation: pulse 2.2s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    .status-text {
+      font-size: .625rem; font-weight: 600;
+      letter-spacing: .2em; text-transform: uppercase;
+    }
+
+    .card-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.25rem, 4vw, 3rem);
+      letter-spacing: .05em; color: var(--text-bright);
+      line-height: .95; margin-bottom: .4rem;
+      transition: letter-spacing .3s;
+    }
+    .crisis-card:hover .card-name { letter-spacing: .08em; }
+
+    .card-region {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic; font-size: .875rem;
+      color: var(--text-muted); margin-bottom: 1.25rem;
+    }
+
+    .card-summary {
+      font-size: .875rem; line-height: 1.65;
+      color: var(--text-body); flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-stats {
+      display: flex; gap: 1.75rem;
+      margin-top: 1.5rem; padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+    }
+    .card-stat-val {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.375rem; letter-spacing: .04em;
+    }
+    .card-stat-lbl {
+      font-size: .625rem; text-transform: uppercase;
+      letter-spacing: .14em; color: var(--text-dim);
+      margin-top: 2px;
+    }
+
+    /* ─────────────────────────────────────────────────
+       TAKE ACTION — 3-COLUMN DESKTOP LAYOUT
+    ───────────────────────────────────────────────── */
+    .action-cols {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1px;
+      background: var(--border);
+      margin-bottom: 4rem;
+    }
+    @media (min-width: 760px) { .action-cols { grid-template-columns: repeat(3,1fr); } }
+
+    .action-col {
+      background: var(--bg);
+      padding: 2.5rem 2rem;
+    }
+    .section.alt .action-col { background: var(--bg-section); }
+
+    .action-col-header {
+      display: flex; align-items: center; gap: .75rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .action-col-icon {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      background: var(--red-dim);
+      border: 1px solid rgba(230,57,70,.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; color: var(--red);
+      flex-shrink: 0;
+    }
+    .action-col-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.375rem; letter-spacing: .1em;
+      color: var(--text-bright);
+    }
+
+    .action-item {
+      display: flex; gap: 1rem;
+      padding: .875rem 0;
+      border-bottom: 1px solid var(--border);
+      align-items: flex-start;
+    }
+    .action-item:first-of-type { border-top: none; }
+    .action-item:last-child { border-bottom: none; }
+
+    .action-item-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.125rem; letter-spacing: .04em;
+      color: var(--red); opacity: .55;
+      min-width: 28px; line-height: 1.4;
+    }
+    .action-item p {
+      font-size: .8125rem; line-height: 1.65;
+      color: var(--text-body);
+    }
+    .action-item p strong { color: var(--text-bright); font-weight: 500; }
+
+    /* Donate items (link rows) */
+    .donate-item {
+      display: flex; flex-direction: column;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+      transition: padding-left .25s;
+    }
+    .donate-item:last-child { border-bottom: none; }
+    .donate-item:hover { padding-left: .375rem; }
+
+    .donate-item-name {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.0625rem; color: var(--text-bright);
+      margin-bottom: .25rem;
+    }
+    .donate-item-desc {
+      font-size: .8rem; color: var(--text-muted);
+      line-height: 1.5; margin-bottom: .625rem;
+    }
+    .donate-link {
+      display: inline-flex; align-items: center; gap: .375rem;
+      font-size: .6875rem; font-weight: 600;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--red);
+    }
+    .donate-link::after { content: '→'; }
+
+    /* ─────────────────────────────────────────────────
+       CALL SCRIPT
+    ───────────────────────────────────────────────── */
+    .script-wrap {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 2.5rem;
+      border: 1px solid var(--border-mid);
+      background: var(--bg-card);
+      border-radius: .5rem;
+      max-width: 780px;
+    }
+    @media (min-width: 640px) {
+      .script-wrap { grid-template-columns: 1fr 2fr; }
+    }
+    .script-label {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem; letter-spacing: .1em;
+      color: var(--text-muted);
+    }
+    .script-label p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: .8125rem; font-weight: 300;
+      letter-spacing: 0; color: var(--text-dim);
+      margin-top: .5rem; text-transform: none;
+    }
+    .script-text {
+      font-size: .9375rem; line-height: 1.85;
+      color: var(--text-body);
+    }
+    .ph { color: var(--red); font-weight: 500; }
+
+    /* Rep grid */
+    .rep-grid {
+      display: grid; gap: 1px;
+      background: var(--border);
+      grid-template-columns: 1fr;
+      margin-bottom: 3rem;
+    }
+    @media (min-width: 600px) { .rep-grid { grid-template-columns: repeat(2,1fr); } }
+
+    .rep-card {
+      background: var(--bg);
+      padding: 1.75rem 1.5rem;
+      transition: background .25s;
+    }
+    .section.alt .rep-card { background: var(--bg-section); }
+    .rep-card:hover { background: var(--bg-card-hover); }
+    .rep-card h3 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.125rem; color: var(--text-bright);
+      margin-bottom: .375rem;
+    }
+    .rep-card p { font-size: .875rem; color: var(--text-muted); line-height: 1.6; }
+    .rep-card .rep-arrow {
+      display: block; margin-top: 1rem;
+      font-size: .6875rem; font-weight: 600;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--red);
+    }
+    .rep-card .rep-arrow::after { content: ' →'; }
+
+    /* ─────────────────────────────────────────────────
+       ORG ROWS (Resources)
+    ───────────────────────────────────────────────── */
+    .org-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.625rem 0;
+      border-bottom: 1px solid var(--border);
+      gap: 1.5rem;
+      transition: padding-left .3s cubic-bezier(.22,1,.36,1);
+    }
+    .org-row:first-child { border-top: 1px solid var(--border); }
+    .org-row:hover { padding-left: .875rem; }
+
+    .org-info { flex: 1; min-width: 0; }
+    .org-info h3 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.1875rem; color: var(--text-bright);
+      margin-bottom: .2rem;
+    }
+    .org-info p { font-size: .875rem; color: var(--text-muted); line-height: 1.55; }
+
+    .org-cta {
+      display: inline-flex; align-items: center;
+      gap: .5rem; flex-shrink: 0;
+      font-size: .6875rem; font-weight: 600;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--red);
+      padding: .625rem 1.25rem;
+      border: 1.5px solid rgba(230,57,70,.4);
+      border-radius: 3px;
+      transition: all .2s;
+      white-space: nowrap;
+    }
+    .org-row:hover .org-cta {
+      background: var(--red);
+      border-color: var(--red);
+      color: var(--text-bright);
+    }
+    .org-cta::after { content: '→'; }
+
+    /* Vetting grid */
+    .vetting-grid {
+      display: grid; gap: 1px;
+      background: var(--border);
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 2rem;
+    }
+    @media (min-width: 760px) { .vetting-grid { grid-template-columns: repeat(4,1fr); } }
+
+    .vetting-card {
+      background: var(--bg); padding: 1.75rem 1.5rem;
+      transition: background .25s;
+    }
+    .section.alt .vetting-card { background: var(--bg-section); }
+    .vetting-card:hover { background: var(--bg-card-hover); }
+    .vetting-card h3 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.0625rem; color: var(--text-bright);
+      margin-bottom: .4rem;
+    }
+    .vetting-card p { font-size: .8125rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ─────────────────────────────────────────────────
+       IHL / PROSE
+    ───────────────────────────────────────────────── */
+    .prose { max-width: 720px; }
+    .prose p {
+      font-size: 1rem; font-weight: 300;
+      line-height: 1.85; color: var(--text-body);
+      margin-bottom: 1rem;
+    }
+    .prose a { color: var(--red); }
+    .prose a:hover { text-decoration: underline; }
+
+    /* ─────────────────────────────────────────────────
+       ABOUT — MISSION STATEMENT (full-width big text)
+    ───────────────────────────────────────────────── */
+    .mission-block {
+      padding: var(--pad-y) var(--pad-x);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      margin-bottom: var(--pad-y);
+    }
+    .mission-big {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.5rem, 6vw, 7rem);
+      line-height: .95; letter-spacing: .04em;
+      color: var(--text-bright);
+      max-width: 20ch;
+      margin-bottom: 2rem;
+    }
+    .mission-big span { color: var(--red); }
+
+    .mission-cols {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+    @media (min-width: 640px) { .mission-cols { grid-template-columns: repeat(3,1fr); } }
+
+    .mission-col h3 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.0625rem; color: var(--text-bright);
+      margin-bottom: .375rem;
+    }
+    .mission-col p { font-size: .875rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* Principles */
+    .principles {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1px;
+      background: var(--border);
+    }
+    @media (min-width: 640px) { .principles { grid-template-columns: repeat(2,1fr); } }
+    @media (min-width: 900px) { .principles { grid-template-columns: repeat(3,1fr); } }
+
+    .principle {
+      background: var(--bg);
+      padding: 2rem 1.75rem;
+      display: flex; gap: 1.125rem;
+    }
+    .section.alt .principle { background: var(--bg-section); }
+
+    .principle-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem; letter-spacing: .05em;
+      color: var(--red); opacity: .6; min-width: 32px;
+      padding-top: 1px;
+    }
+    .principle h3 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.0625rem; color: var(--text-bright);
+      margin-bottom: .375rem;
+    }
+    .principle p { font-size: .8125rem; color: var(--text-body); line-height: 1.6; }
+
+    /* Who built it */
+    .who-text {
+      font-size: 1rem; font-weight: 300;
+      line-height: 1.85; color: var(--text-body);
+      max-width: 620px;
+    }
+
+    /* ─────────────────────────────────────────────────
+       FOOTER
+    ───────────────────────────────────────────────── */
+    footer {
+      position: relative; z-index: 10;
+      padding: 2.5rem var(--pad-x) 3rem;
+      border-top: 1px solid var(--border-mid);
+      background: var(--bg-deep);
+    }
+    .footer-top {
+      display: flex; align-items: center;
+      justify-content: space-between; flex-wrap: wrap;
+      gap: 1rem; margin-bottom: 1rem;
+    }
+    .footer-logo {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.25rem; color: var(--text-dim); letter-spacing: -.01em;
+    }
+    .footer-logo em { font-style: italic; color: var(--red); }
+    .footer-links { display: flex; gap: 1.5rem; list-style: none; }
+    .footer-links a {
+      font-size: .6875rem; letter-spacing: .14em;
+      text-transform: uppercase; color: var(--text-faint);
+      transition: color .2s;
+    }
+    .footer-links a:hover { color: var(--text-muted); }
+    .footer-note {
+      font-size: .75rem; color: var(--text-faint); line-height: 1.65;
+      max-width: 560px;
+    }
+
+    /* ─────────────────────────────────────────────────
+       BODY TEXT UTILITY
+    ───────────────────────────────────────────────── */
+    .body-text {
+      font-size: 1rem; font-weight: 300;
+      line-height: 1.85; color: var(--text-body);
+      max-width: 640px;
+    }
+    .body-text strong { color: var(--text-bright); font-weight: 500; }
+    .mt-2 { margin-top: .5rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-8 { margin-top: 2rem; }
+    .mt-12 { margin-top: 3rem; }
+    .mb-4 { margin-bottom: 1rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .mb-8 { margin-bottom: 2rem; }
+    .mb-12 { margin-bottom: 3rem; }
+  </style>
+</head>
+<body>
+
+<div class="ambient"></div>
+
+<!-- ── URGENT BANNER ───────────────────────────────── -->
+<div class="urgent">
+  <div class="sweep"></div>
+  <p><strong>Urgent:</strong> Multiple humanitarian crises demand urgent attention. Millions face famine, displacement, and violence. Scroll down to learn how you can help — right now.</p>
+</div>
+
+<!-- ── NAV ────────────────────────────────────────── -->
+<nav class="nav">
+  <a href="#home" class="nav-logo"><em>Crisis</em> Hub</a>
+  <ul class="nav-links">
+    <li><a href="#crises" class="active">CRISES</a></li>
+    <li><a href="#take-action">TAKE ACTION</a></li>
+    <li><a href="#resources">RESOURCES</a></li>
+    <li><a href="#about">ABOUT</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ───────────────────────────────────────── -->
+<section id="home" class="hero reveal">
+
+  <div class="hero-body">
+    <!-- Headline -->
+    <div class="hero-text">
+      <div class="hero-eyebrow">Humanitarian Crisis Resource Hub</div>
+      <h1 class="hero-h1">
+        EVERY<br>CRISIS.<br><span class="red">REAL<br>ACTION.</span>
+      </h1>
+      <p class="hero-sub">
+        One website documenting global humanitarian crises — with three clear paths to help:
+        <strong>donate</strong>, <strong>amplify</strong>, and <strong>demand change</strong>.
+      </p>
+    </div>
+
+    <!-- Globe -->
+    <div class="hero-globe-col">
+      <div class="globe-wrap">
+        <div class="globe-halo"></div>
+        <canvas id="globe-canvas"></canvas>
+        <div class="globe-tip" id="globe-tip">
+          <span id="tip-name"></span>
+          <span class="globe-tip-status" id="tip-status"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats strip -->
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-val">10M+</div>
+      <div class="hero-stat-lbl">People Displaced</div>
+      <div class="hero-stat-region">Sudan alone</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-val">21M+</div>
+      <div class="hero-stat-lbl">People Need Aid</div>
+      <div class="hero-stat-region">Yemen</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-val">96%</div>
+      <div class="hero-stat-lbl">Food Insecure</div>
+      <div class="hero-stat-region">Gaza</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-val">1.8M</div>
+      <div class="hero-stat-lbl">Detained</div>
+      <div class="hero-stat-region">Xinjiang</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ── 01 — CRISES ────────────────────────────────── -->
+<section id="crises" class="section alt">
+  <div class="section-label reveal">
+    <span class="section-num">01</span>
+    <span class="section-name">ALL CRISES</span>
+    <span class="section-count-badge">6 documented</span>
+  </div>
+
+  <div class="crisis-grid">
+
+    <!-- Palestine -->
+    <div class="crisis-card reveal">
+      <div class="card-accent" style="background:#FFD166"></div>
+      <div class="card-status">
+        <span class="status-pip" style="background:#FFD166"></span>
+        <span class="status-text" style="color:#FFD166">Escalating</span>
+      </div>
+      <div class="card-name">PALESTINE</div>
+      <div class="card-region">Gaza Strip &amp; West Bank</div>
+      <p class="card-summary">Ongoing military operations have caused massive civilian casualties, displacement, and a humanitarian catastrophe in Gaza. Over 2 million people face severe food insecurity and lack access to adequate medical care.</p>
+      <div class="card-stats">
+        <div><div class="card-stat-val" style="color:#FFD166">2M+</div><div class="card-stat-lbl">Displaced</div></div>
+        <div><div class="card-stat-val" style="color:#FFD166">96%</div><div class="card-stat-lbl">Food Insecure</div></div>
+      </div>
+    </div>
+
+    <!-- Sudan -->
+    <div class="crisis-card reveal">
+      <div class="card-accent" style="background:#FFD166"></div>
+      <div class="card-status">
+        <span class="status-pip" style="background:#FFD166"></span>
+        <span class="status-text" style="color:#FFD166">Escalating</span>
+      </div>
+      <div class="card-name">SUDAN</div>
+      <div class="card-region">Darfur, Khartoum &amp; Eastern Regions</div>
+      <p class="card-summary">A devastating civil war between the Sudanese Armed Forces and the Rapid Support Forces has displaced over 10 million people, created the world's largest displacement crisis, and pushed millions to the brink of famine.</p>
+      <div class="card-stats">
+        <div><div class="card-stat-val" style="color:#FFD166">10M+</div><div class="card-stat-lbl">Displaced</div></div>
+        <div><div class="card-stat-val" style="color:#FFD166">25M</div><div class="card-stat-lbl">Facing Famine</div></div>
+      </div>
+    </div>
+
+    <!-- DR Congo -->
+    <div class="crisis-card reveal">
+      <div class="card-accent" style="background:#E63946"></div>
+      <div class="card-status">
+        <span class="status-pip" style="background:#E63946"></span>
+        <span class="status-text" style="color:#E63946">Active Crisis</span>
+      </div>
+      <div class="card-name">DR CONGO</div>
+      <div class="card-region">North Kivu, South Kivu, Ituri</div>
+      <p class="card-summary">Eastern Congo faces one of the world's longest-running humanitarian crises. Armed groups including the M23 rebel movement have displaced over 7 million people amid widespread violence and a scramble for conflict minerals.</p>
+      <div class="card-stats">
+        <div><div class="card-stat-val" style="color:#E63946">7M+</div><div class="card-stat-lbl">Displaced</div></div>
+        <div><div class="card-stat-val" style="color:#E63946">25M</div><div class="card-stat-lbl">Need Aid</div></div>
+      </div>
+    </div>
+
+    <!-- Myanmar -->
+    <div class="crisis-card reveal">
+      <div class="card-accent" style="background:#E63946"></div>
+      <div class="card-status">
+        <span class="status-pip" style="background:#E63946"></span>
+        <span class="status-text" style="color:#E63946">Active Crisis</span>
+      </div>
+      <div class="card-name">MYANMAR</div>
+      <div class="card-region">Rakhine, Chin, Sagaing &amp; Nationwide</div>
+      <p class="card-summary">Myanmar is engulfed in a multi-front civil war following the 2021 military coup. The Rohingya face ongoing persecution, and over 3 million people are displaced as the junta conducts airstrikes on civilian areas.</p>
+      <div class="card-stats">
+        <div><div class="card-stat-val" style="color:#E63946">3M+</div><div class="card-stat-lbl">Displaced</div></div>
+        <div><div class="card-stat-val" style="color:#E63946">18M</div><div class="card-stat-lbl">Need Aid</div></div>
+      </div>
+    </div>
+
+    <!-- Yemen -->
+    <div class="crisis-card reveal">
+      <div class="card-accent" style="background:#E63946"></div>
+      <div class="card-status">
+        <span class="status-pip" style="background:#E63946"></span>
+        <span class="status-text" style="color:#E63946">Active Crisis</span>
+      </div>
+      <div class="card-name">YEMEN</div>
+      <div class="card-region">Nationwide — Sana'a, Aden, Hodeidah</div>
+      <p class="card-summary">Yemen remains one of the world's worst humanitarian disasters after nearly a decade of civil war. Over 21 million people need humanitarian assistance, with millions facing famine and a collapsed healthcare system.</p>
+      <div class="card-stats">
+        <div><div class="card-stat-val" style="color:#E63946">21M+</div><div class="card-stat-lbl">Need Aid</div></div>
+        <div><div class="card-stat-val" style="color:#E63946">2.2M</div><div class="card-stat-lbl">Children Malnourished</div></div>
+      </div>
+    </div>
+
+    <!-- Uyghurs -->
+    <div class="crisis-card reveal">
+      <div class="card-accent" style="background:#E63946"></div>
+      <div class="card-status">
+        <span class="status-pip" style="background:#E63946"></span>
+        <span class="status-text" style="color:#E63946">Active Crisis</span>
+      </div>
+      <div class="card-name">UYGHURS</div>
+      <div class="card-region">Xinjiang (East Turkestan), China</div>
+      <p class="card-summary">The Chinese government is carrying out a campaign of mass detention, forced labor, cultural erasure, and surveillance against Uyghur Muslims. Experts and multiple governments have described this as genocide.</p>
+      <div class="card-stats">
+        <div><div class="card-stat-val" style="color:#E63946">1–1.8M</div><div class="card-stat-lbl">Detained</div></div>
+        <div><div class="card-stat-val" style="color:#E63946">380+</div><div class="card-stat-lbl">Camps Identified</div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 02 — TAKE ACTION ───────────────────────────── -->
+<section id="take-action" class="section">
+  <div class="section-label reveal">
+    <span class="section-num">02</span>
+    <span class="section-name">TAKE ACTION</span>
+  </div>
+
+  <p class="statement reveal">
+    Turn your concern<br>into <em>real pressure</em>.
+  </p>
+
+  <!-- Three action columns -->
+  <div class="action-cols reveal">
+
+    <!-- Donate -->
+    <div class="action-col">
+      <div class="action-col-header">
+        <div class="action-col-icon">♥</div>
+        <div class="action-col-title">DONATE</div>
+      </div>
+      <a href="https://www.unrwa.org/donate" target="_blank" rel="noopener noreferrer" class="donate-item">
+        <div class="donate-item-name">UNRWA</div>
+        <div class="donate-item-desc">UN agency for Palestine refugees — food, shelter, healthcare, and education across Gaza and the West Bank.</div>
+        <span class="donate-link">Donate</span>
+      </a>
+      <a href="https://www.msf.org" target="_blank" rel="noopener noreferrer" class="donate-item">
+        <div class="donate-item-name">Doctors Without Borders</div>
+        <div class="donate-item-desc">Emergency medical care in Sudan, DRC, Myanmar, and Yemen — including trauma surgery and disease response.</div>
+        <span class="donate-link">Donate</span>
+      </a>
+      <a href="https://donate.unhcr.org" target="_blank" rel="noopener noreferrer" class="donate-item">
+        <div class="donate-item-name">UNHCR</div>
+        <div class="donate-item-desc">Shelter, protection, and essential supplies for millions displaced by conflict worldwide.</div>
+        <span class="donate-link">Donate</span>
+      </a>
+      <a href="https://www.wfp.org" target="_blank" rel="noopener noreferrer" class="donate-item">
+        <div class="donate-item-name">World Food Programme</div>
+        <div class="donate-item-desc">Emergency food assistance in famine-threatened Sudan, Yemen, and eastern DRC.</div>
+        <span class="donate-link">Donate</span>
+      </a>
+      <a href="https://uhrp.org" target="_blank" rel="noopener noreferrer" class="donate-item">
+        <div class="donate-item-name">Uyghur Human Rights Project</div>
+        <div class="donate-item-desc">Research and advocacy documenting abuses and promoting Uyghur rights through policy engagement.</div>
+        <span class="donate-link">Donate</span>
+      </a>
+    </div>
+
+    <!-- Amplify -->
+    <div class="action-col">
+      <div class="action-col-header">
+        <div class="action-col-icon">◉</div>
+        <div class="action-col-title">AMPLIFY</div>
+      </div>
+      <div class="action-item"><span class="action-item-num">01</span><p>Share verified reporting from Al Jazeera, Reuters, AP, and +972 Magazine. Signal-boost journalists from affected regions.</p></div>
+      <div class="action-item"><span class="action-item-num">02</span><p>Amplify Sudanese, Congolese, Rohingya, and Palestinian journalists on social media — they are the primary witnesses on the ground.</p></div>
+      <div class="action-item"><span class="action-item-num">03</span><p>Use <strong>#SudanCrisis</strong>, <strong>#KeepEyesOnSudan</strong>, and <strong>#CongoIsBleeding</strong> to counteract media blackouts.</p></div>
+      <div class="action-item"><span class="action-item-num">04</span><p>Organize campus teach-ins, community vigils, and film screenings — especially for the crises the news cycle ignores.</p></div>
+      <div class="action-item"><span class="action-item-num">05</span><p>Write op-eds or letters to your local newspaper calling for more coverage of underreported crises.</p></div>
+      <div class="action-item"><span class="action-item-num">06</span><p>Create and share infographics about timelines and statistics. Counter misinformation with verified sources.</p></div>
+    </div>
+
+    <!-- Demand Change -->
+    <div class="action-col">
+      <div class="action-col-header">
+        <div class="action-col-icon">⚡</div>
+        <div class="action-col-title">DEMAND CHANGE</div>
+      </div>
+      <div class="action-item"><span class="action-item-num">01</span><p>Call your congressional representatives to demand increased humanitarian funding — the UN appeals are chronically underfunded.</p></div>
+      <div class="action-item"><span class="action-item-num">02</span><p>Identify yourself as a constituent — offices prioritize calls from their district. One call takes two minutes.</p></div>
+      <div class="action-item"><span class="action-item-num">03</span><p>Urge support for targeted sanctions against Myanmar's military junta and Sudan's RSF commanders responsible for atrocities.</p></div>
+      <div class="action-item"><span class="action-item-num">04</span><p>Push for enforcement of the Uyghur Forced Labor Prevention Act (UFLPA) and demand corporate supply chain audits.</p></div>
+      <div class="action-item"><span class="action-item-num">05</span><p>Attend town halls — ask your question on the record, in public. Organize call-in days with friends.</p></div>
+      <div class="action-item"><span class="action-item-num">06</span><p>Follow up — one call is good. Repeated contact over weeks is what actually moves offices to act.</p></div>
+    </div>
+
+  </div>
+
+  <!-- Find Your Reps -->
+  <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.75rem;letter-spacing:.1em;color:var(--text-muted);margin-bottom:1.25rem;" class="reveal">FIND YOUR REPRESENTATIVES</h3>
+  <p class="body-text mb-6 reveal">Your elected officials work for you. A phone call takes 2 minutes and is one of the most effective political actions available to civilians.</p>
+  <div class="rep-grid reveal">
+    <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener noreferrer" class="rep-card">
+      <h3>Find Your House Rep</h3>
+      <p>Look up your U.S. House Representative by ZIP code on house.gov</p>
+      <span class="rep-arrow">Visit house.gov</span>
+    </a>
+    <a href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" rel="noopener noreferrer" class="rep-card">
+      <h3>Find Your Senators</h3>
+      <p>Contact your two U.S. Senators through the official Senate directory</p>
+      <span class="rep-arrow">Visit senate.gov</span>
+    </a>
+  </div>
+
+  <!-- Call Script -->
+  <div class="script-wrap reveal">
+    <div class="script-label">
+      CALL SCRIPT
+      <p>Adapt for any crisis. Calls are more effective than emails.</p>
+    </div>
+    <p class="script-text">
+      "Hi, my name is <span class="ph">[Your Name]</span> and I'm a constituent from <span class="ph">[City, State]</span>.
+      I'm calling to urge <span class="ph">[Representative/Senator Name]</span> to <span class="ph">[specific ask — e.g. support a ceasefire resolution, increase humanitarian funding, impose targeted sanctions]</span>.
+      The humanitarian situation in <span class="ph">[Crisis Region]</span> is dire, and I believe the United States has a responsibility to act. Thank you for your time."
+    </p>
+  </div>
+</section>
+
+<!-- ── 03 — RESOURCES ─────────────────────────────── -->
+<section id="resources" class="section alt">
+  <div class="section-label reveal">
+    <span class="section-num">03</span>
+    <span class="section-name">RESOURCES</span>
+  </div>
+
+  <p class="statement reveal" style="font-size:clamp(1.75rem,3.5vw,3.5rem);">
+    Organizations working<br>across <em>every crisis</em>.
+  </p>
+
+  <div class="reveal">
+    <a href="https://www.unhcr.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>UNHCR — The UN Refugee Agency</h3><p>Protects refugees and displaced communities worldwide. Provides shelter, legal assistance, and resettlement support.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.msf.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>Doctors Without Borders (MSF)</h3><p>Independent medical humanitarian organization providing emergency aid in conflict zones, epidemics, and natural disasters.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.icrc.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>International Committee of the Red Cross</h3><p>Protects civilians in armed conflict. Visits detainees, reunites families, and promotes international humanitarian law.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.unicef.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>UNICEF</h3><p>Works in over 190 countries to protect children's rights, provide healthcare, nutrition, education, and emergency relief.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.wfp.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>World Food Programme</h3><p>The world's largest humanitarian organization addressing hunger. Provides food assistance in emergencies and supports food systems.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.hrw.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>Human Rights Watch</h3><p>Investigates and reports on human rights abuses worldwide. Provides evidence-based advocacy to governments and institutions.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.amnesty.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>Amnesty International</h3><p>Global movement campaigning for human rights. Documents abuses, mobilizes public pressure, and advocates for justice.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+    <a href="https://www.rescue.org" target="_blank" rel="noopener noreferrer" class="org-row">
+      <div class="org-info"><h3>International Rescue Committee</h3><p>Responds to the world's worst humanitarian crises with healthcare, education, economic wellbeing, and safety programs.</p></div>
+      <span class="org-cta">Visit </span>
+    </a>
+  </div>
+
+  <!-- Vetting -->
+  <div class="mt-12 reveal">
+    <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.75rem;letter-spacing:.1em;color:var(--text-muted);margin-bottom:.875rem;">HOW TO VET A CHARITY</h3>
+    <p class="body-text mb-4">Before donating, verify: transparent financials, a clear mission, evidence of on-the-ground impact. Avoid organizations that spend disproportionately on overhead.</p>
+    <div class="vetting-grid">
+      <a href="https://www.charitynavigator.org" target="_blank" rel="noopener noreferrer" class="vetting-card">
+        <h3>Charity Navigator</h3><p>Rates charities on financial health, accountability, and transparency.</p>
+      </a>
+      <a href="https://www.givewell.org" target="_blank" rel="noopener noreferrer" class="vetting-card">
+        <h3>GiveWell</h3><p>In-depth research to find outstanding giving opportunities based on impact.</p>
+      </a>
+      <a href="https://www.guidestar.org" target="_blank" rel="noopener noreferrer" class="vetting-card">
+        <h3>GuideStar (Candid)</h3><p>Nonprofit data including financials, leadership, and mission information.</p>
+      </a>
+      <a href="https://www.charitywatch.org" target="_blank" rel="noopener noreferrer" class="vetting-card">
+        <h3>CharityWatch</h3><p>Independent watchdog grading charities on efficiency and governance.</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- IHL -->
+  <div class="mt-12 reveal">
+    <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.75rem;letter-spacing:.1em;color:var(--text-muted);margin-bottom:1.25rem;">INTERNATIONAL HUMANITARIAN LAW</h3>
+    <div class="prose">
+      <p>International Humanitarian Law (IHL), also known as the laws of war, seeks to limit the effects of armed conflict. It protects civilians and restricts means of warfare. The Geneva Conventions of 1949 and their Additional Protocols are its core treaties.</p>
+      <p>Key principles: <strong style="color:var(--text-bright);font-weight:500;">distinction</strong> (civilians vs combatants), <strong style="color:var(--text-bright);font-weight:500;">proportionality</strong> (force vs military advantage), <strong style="color:var(--text-bright);font-weight:500;">precaution</strong> (minimize civilian harm), and the <strong style="color:var(--text-bright);font-weight:500;">prohibition of collective punishment</strong>. Violations may constitute war crimes.</p>
+      <p style="font-size:.875rem;color:var(--text-muted);margin-top:1.5rem;">Learn more: <a href="https://www.icrc.org/en/war-and-law" target="_blank" rel="noopener noreferrer">ICRC — War and Law</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ── 04 — ABOUT ──────────────────────────────────── -->
+<section id="about" class="section">
+  <div class="section-label reveal">
+    <span class="section-num">04</span>
+    <span class="section-name">ABOUT</span>
+  </div>
+
+  <!-- Big mission statement block (Wix-style) -->
+  <div class="mission-block reveal">
+    <div class="mission-big">
+      ONE WEBSITE.<br>EVERY CRISIS.<br>
+      <span>THREE ACTIONS.</span>
+    </div>
+    <p class="body-text mb-8">
+      Crisis Hub exists because people want to help but don't know where to start. Mainstream media coverage is inconsistent — Sudan, Congo, and Myanmar rarely trend. Donation links, political action steps, and educational context are scattered across dozens of sites. This site brings it together.
+    </p>
+    <div class="mission-cols">
+      <div class="mission-col">
+        <h3>Not a news site</h3>
+        <p>It's a resource hub that stays useful even when the news cycle moves on.</p>
+      </div>
+      <div class="mission-col">
+        <h3>Not politically aligned</h3>
+        <p>Pro-human-rights, not pro-any-party. Crises of all political origins are documented here.</p>
+      </div>
+      <div class="mission-col">
+        <h3>Not a fundraising platform</h3>
+        <p>We link to vetted organizations but handle no money directly.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Principles grid -->
+  <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.75rem;letter-spacing:.1em;color:var(--text-muted);margin-bottom:1.5rem;" class="reveal">OUR PRINCIPLES</h3>
+  <div class="principles reveal">
+    <div class="principle"><span class="principle-num">01</span><div><h3>Cite everything</h3><p>Every statistic, every claim is linked to a reputable source — UNHCR, WHO, ICRC, Reuters, AP, and more.</p></div></div>
+    <div class="principle"><span class="principle-num">02</span><div><h3>Never sensationalize</h3><p>The facts are devastating enough. We state them plainly and let them speak for themselves.</p></div></div>
+    <div class="principle"><span class="principle-num">03</span><div><h3>Center affected voices</h3><p>We prioritize journalists, activists, and organizations from the affected regions — not just Western NGOs.</p></div></div>
+    <div class="principle"><span class="principle-num">04</span><div><h3>Acknowledge complexity</h3><p>We don't oversimplify conflicts into good/evil narratives. Context is essential for meaningful action.</p></div></div>
+    <div class="principle"><span class="principle-num">05</span><div><h3>Vet every organization</h3><p>Before we list a donation link, we research using Charity Navigator, GiveWell, and direct investigation.</p></div></div>
+    <div class="principle"><span class="principle-num">06</span><div><h3>Stay current</h3><p>A stale donation link is worse than none. Every page has a 'Last Updated' timestamp.</p></div></div>
+  </div>
+
+  <!-- Who built it -->
+  <div class="mt-12 reveal">
+    <h3 style="font-family:'Bebas Neue',sans-serif;font-size:1.75rem;letter-spacing:.1em;color:var(--text-muted);margin-bottom:1.25rem;">WHO BUILT THIS</h3>
+    <p class="who-text">
+      Crisis Hub was created by Arman Chaudhury — a student who believes that access to clear, honest information and actionable pathways is the first step toward meaningful solidarity. This is a student-built project. It's open source, independent, and receives no funding from any political organization or government.
+    </p>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────── -->
+<footer>
+  <div class="footer-top">
+    <a href="#home" class="footer-logo"><em>Crisis</em> Hub</a>
+    <ul class="footer-links">
+      <li><a href="#crises">Crises</a></li>
+      <li><a href="#take-action">Take Action</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </div>
+  <p class="footer-note">
+    Always verify organizations before donating. This is a student-built resource hub, not a news outlet. The most powerful thing you can do is start — and then keep going.
+  </p>
+</footer>
+
+<!-- ── THREE.JS GLOBE ─────────────────────────────── -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function () {
+  const canvas  = document.getElementById('globe-canvas');
+  const tip     = document.getElementById('globe-tip');
+  const tipName = document.getElementById('tip-name');
+  const tipStat = document.getElementById('tip-status');
+
+  const CRISES = [
+    { name:'Palestine', lat:31.35,  lng:34.31,  status:'Escalating', color:'#FFD166' },
+    { name:'Sudan',     lat:15.5,   lng:32.53,  status:'Escalating', color:'#FFD166' },
+    { name:'DR Congo',  lat:-1.68,  lng:29.22,  status:'Active',     color:'#E63946' },
+    { name:'Myanmar',   lat:21.91,  lng:95.96,  status:'Active',     color:'#E63946' },
+    { name:'Yemen',     lat:15.37,  lng:44.19,  status:'Active',     color:'#E63946' },
+    { name:'Uyghurs',   lat:41.75,  lng:86.13,  status:'Active',     color:'#E63946' },
+  ];
+
+  function v3(lat, lng, r) {
+    const phi = (90-lat)*Math.PI/180, theta = (lng+180)*Math.PI/180;
+    return new THREE.Vector3(
+      -(r*Math.sin(phi)*Math.cos(theta)),
+        r*Math.cos(phi),
+        r*Math.sin(phi)*Math.sin(theta)
+    );
+  }
+
+  const W = canvas.parentElement.clientWidth;
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.setSize(W, W);
+  renderer.setClearColor(0,0);
+
+  const scene  = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(45,1,.1,100);
+  camera.position.set(0,0,5.8);
+
+  scene.add(new THREE.AmbientLight(0xffffff,2.5));
+  const d1 = new THREE.DirectionalLight(0xffffff,2); d1.position.set(5,3,5); scene.add(d1);
+  const d2 = new THREE.DirectionalLight(0xffffff,.5); d2.position.set(-5,-2,-3); scene.add(d2);
+
+  const G = new THREE.Group(); scene.add(G);
+
+  // Ocean base
+  G.add(new THREE.Mesh(new THREE.SphereGeometry(1.998,64,64),
+    new THREE.MeshBasicMaterial({color:0x091d36})));
+
+  // Icosahedron wireframe (land suggestion)
+  G.add(new THREE.Mesh(new THREE.IcosahedronGeometry(2.001,5),
+    new THREE.MeshBasicMaterial({color:0x1a5c8a,wireframe:true,transparent:true,opacity:.07})));
+
+  // Grid lines
+  for(let lat=-60;lat<=60;lat+=30){
+    const phi=(90-lat)*Math.PI/180, pts=[];
+    for(let i=0;i<=128;i++){const t=i/128*Math.PI*2;pts.push(new THREE.Vector3(-2.004*Math.sin(phi)*Math.cos(t),2.004*Math.cos(phi),2.004*Math.sin(phi)*Math.sin(t)));}
+    G.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:0x1a5c8a,transparent:true,opacity:.16})));
+  }
+  for(let lng=0;lng<360;lng+=30){
+    const theta=(lng+180)*Math.PI/180, pts=[];
+    for(let i=0;i<=64;i++){const phi=i/64*Math.PI;pts.push(new THREE.Vector3(-2.004*Math.sin(phi)*Math.cos(theta),2.004*Math.cos(phi),2.004*Math.sin(phi)*Math.sin(theta)));}
+    G.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:0x1a5c8a,transparent:true,opacity:.09})));
+  }
+
+  // Atmosphere
+  G.add(new THREE.Mesh(new THREE.SphereGeometry(2.09,64,64),
+    new THREE.MeshBasicMaterial({color:0x3a7bd5,transparent:true,opacity:.14,side:THREE.BackSide})));
+
+  // Hotspots
+  const hotspots = CRISES.map(c=>{
+    const pos=v3(c.lat,c.lng,2.02), norm=pos.clone().normalize();
+    const q=new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,0,1),norm);
+    const col=new THREE.Color(c.color);
+    const grp=new THREE.Group(); grp.position.copy(pos); grp.quaternion.copy(q); G.add(grp);
+    const glow=new THREE.Mesh(new THREE.SphereGeometry(.055,16,16),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.12}));
+    grp.add(glow);
+    grp.add(new THREE.Mesh(new THREE.SphereGeometry(.034,16,16),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.3})));
+    grp.add(new THREE.Mesh(new THREE.SphereGeometry(.022,16,16),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.9})));
+    const ring=new THREE.Mesh(new THREE.RingGeometry(.025,.038,32),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.4,side:THREE.DoubleSide}));
+    grp.add(ring);
+    return {c,grp,glow,ring,pos};
+  });
+
+  // Interaction
+  let dragging=false, px=0, py=0, auto=true, resumeT=null;
+  const ray=new THREE.Raycaster(), mouse=new THREE.Vector2();
+
+  canvas.addEventListener('mousedown',e=>{dragging=true;px=e.clientX;py=e.clientY;auto=false;clearTimeout(resumeT);});
+  window.addEventListener('mouseup',()=>{dragging=false;resumeT=setTimeout(()=>auto=true,3000);});
+  window.addEventListener('mousemove',e=>{
+    const rect=canvas.getBoundingClientRect();
+    const cx=e.clientX-rect.left, cy=e.clientY-rect.top;
+    if(dragging){
+      G.rotation.y+=(e.clientX-px)*.005;
+      G.rotation.x=Math.max(-1.2,Math.min(1.2,G.rotation.x+(e.clientY-py)*.005));
+      px=e.clientX;py=e.clientY; return;
+    }
+    mouse.x=(cx/rect.width)*2-1; mouse.y=-(cy/rect.height)*2+1;
+    ray.setFromCamera(mouse,camera);
+    let hit=false;
+    for(const h of hotspots){if(ray.intersectObject(h.grp,true).length){tipName.textContent=h.c.name;tipStat.textContent=h.c.status;tipStat.style.color=h.c.color;tip.style.left=cx+'px';tip.style.top=cy+'px';tip.style.display='block';canvas.style.cursor='pointer';hit=true;break;}}
+    if(!hit){tip.style.display='none';canvas.style.cursor='grab';}
+  });
+  canvas.addEventListener('touchstart',e=>{dragging=true;px=e.touches[0].clientX;py=e.touches[0].clientY;auto=false;clearTimeout(resumeT);},{passive:true});
+  canvas.addEventListener('touchend',()=>{dragging=false;resumeT=setTimeout(()=>auto=true,3000);});
+  canvas.addEventListener('touchmove',e=>{if(!dragging)return;G.rotation.y+=(e.touches[0].clientX-px)*.005;G.rotation.x=Math.max(-1.2,Math.min(1.2,G.rotation.x+(e.touches[0].clientY-py)*.005));px=e.touches[0].clientX;py=e.touches[0].clientY;},{passive:true});
+  new ResizeObserver(()=>{const s=canvas.parentElement.clientWidth;renderer.setSize(s,s);}).observe(canvas.parentElement);
+
+  const clock=new THREE.Clock();
+  (function loop(){
+    requestAnimationFrame(loop);
+    const t=clock.getElapsedTime();
+    if(auto)G.rotation.y+=.0005;
+    hotspots.forEach(({glow,ring})=>{
+      glow.scale.setScalar(1+Math.sin(t*2.5)*.35);
+      const rp=(t*.5)%2.2;
+      ring.scale.setScalar(1+rp);
+      ring.material.opacity=Math.max(0,.48-rp*.22);
+    });
+    renderer.render(scene,camera);
+  })();
+})();
+</script>
+
+<!-- ── UI JS ───────────────────────────────────────── -->
+<script>
+// ── Active nav on scroll ──
+const SECS = ['home','crises','take-action','resources','about'];
+const navAs = document.querySelectorAll('.nav-links a');
+function updateNav(){
+  let cur='home';
+  SECS.forEach(id=>{const el=document.getElementById(id);if(el&&scrollY>=el.offsetTop-130)cur=id;});
+  navAs.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+cur));
+}
+window.addEventListener('scroll',updateNav,{passive:true});
+
+// ── Scroll reveal ──
+const obs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}});
+},{threshold:.06,rootMargin:'0px 0px -40px 0px'});
+
+document.querySelectorAll('.reveal').forEach((el,i)=>{
+  // stagger crisis cards
+  if(el.classList.contains('crisis-card'))el.style.transitionDelay=(i%6)*.08+'s';
+  obs.observe(el);
+});
+
+// Immediately show anything already in view
+setTimeout(()=>{
+  document.querySelectorAll('.reveal').forEach(el=>{
+    if(el.getBoundingClientRect().top<innerHeight)el.classList.add('in');
+  });
+},60);
+</script>
+
+</body>
+</html>

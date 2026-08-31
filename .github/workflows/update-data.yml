@@ -1,0 +1,35 @@
+name: Update crisis data
+
+on:
+  schedule:
+    # Nightly at 03:17 UTC (off the whole-hour rush)
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  reliefweb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest ReliefWeb reports
+        run: node scripts/update-reliefweb.mjs
+
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet src/data/reliefweb.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/reliefweb.json
+          git commit -m "Refresh ReliefWeb crisis updates"
+          git push

@@ -98,5 +98,22 @@
     "/images/crises/adivasi-india.jpg",
     "/images/crises/adivasi-india-2.jpg",
     "/images/crises/adivasi-india-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Barunkhanal",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Terai_nepal.jpg"
+    },
+    {
+      "artist": "Sumita Roy Dutta",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Stranded_migrant_workers_during_fourth_phase_of_the_lockdown_IMG_20200523_125500.jpg"
+    },
+    {
+      "artist": "Press Information Department",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Chief_Adviser_Professor_Muhammad_Yunus_giving_farewell_speech_(Monday,_February_16,_2026).jpg"
+    }
   ]
 }

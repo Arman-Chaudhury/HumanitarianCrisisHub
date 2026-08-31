@@ -96,7 +96,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/nigeria.png",
-    "/images/crises/nigeria-2.jpg",
+    "/images/crises/nigeria-2.png",
     "/images/crises/nigeria-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Hussaina Muhammad (VOA)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Nigerian_Helicopter_-_Sambisa_Forest,_2017.png"
+    },
+    {
+      "artist": "Juicespiller",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Borno_Insurgency.png"
+    },
+    {
+      "artist": "Ifeatu Nnaobi",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indimi_Mosque_Maiduguri_Borno_State_Nigeria.jpg"
+    }
   ]
 }

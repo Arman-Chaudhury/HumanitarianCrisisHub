@@ -98,5 +98,22 @@
     "/images/crises/west-papua.jpg",
     "/images/crises/west-papua-2.png",
     "/images/crises/west-papua-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Baophucminh53G",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Crisis_of_dragon%27s_blood_at_M%E1%BA%A1c_Th%C3%A1i_T%C3%B4ng_Street_10-03-2026_E6.jpg"
+    },
+    {
+      "artist": "US Dept.of State.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Indo_PNG_border.png"
+    },
+    {
+      "artist": "Carol M. Highsmith",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gari-Melchers-War-Highsmith.jpeg"
+    }
   ]
 }

@@ -91,7 +91,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/horn-of-africa-drought.png",
-    "/images/crises/horn-of-africa-drought-2.jpg",
+    "/images/crises/horn-of-africa-drought-2.png",
     "/images/crises/horn-of-africa-drought-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "FEWS NET and FSNAU",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:20220321_SO_Report_CS_HA.png"
+    },
+    {
+      "artist": "Famine Early Warning Systems Network - USAID",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FEWS_Eastern_Africa_July-September_projection.png"
+    },
+    {
+      "artist": "Pmau",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lac_de_l%27Entonnoir_-_img_49473.jpg"
+    }
   ]
 }

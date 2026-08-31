@@ -96,7 +96,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/madagascar.jpg",
-    "/images/crises/madagascar-2.png",
+    "/images/crises/madagascar-2.jpg",
     "/images/crises/madagascar-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Capitaine Humbert (d. 1921)",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:FrenchTroopsMadagasgar.jpg"
+    },
+    {
+      "artist": "Mmalembo",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Andry_Rajoelina_greeting_crowd.jpg"
+    },
+    {
+      "artist": "Prime Minister's Office",
+      "license": "GODL-India",
+      "url": "https://commons.wikimedia.org/wiki/File:President_of_the_Republic_of_Madagascar_Andry_Rajoelina,_Abu_Dhabi,_2024.jpg"
+    }
   ]
 }

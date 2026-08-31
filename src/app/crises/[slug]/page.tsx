@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getCrisisBySlug, getAllCrisisSlugs, getAllCrises } from "@/lib/crises";
+import type { ReliefWebItem } from "@/types/crisis";
 import StatsBar from "@/components/StatsBar";
 import ActionTabs from "@/components/ActionTabs";
 import CrisisNavPills from "@/components/CrisisNavPills";
+import reliefweb from "@/data/reliefweb.json";
 
 interface CrisisPageProps {
   params: { slug: string };
@@ -89,6 +91,42 @@ export default function CrisisPage({ params }: CrisisPageProps) {
 
       {/* Stats */}
       <StatsBar stats={crisis.stats} />
+
+      {/* Latest updates — refreshed nightly from UN ReliefWeb */}
+      {(() => {
+        const updates: ReliefWebItem[] =
+          (reliefweb.crises as Record<string, ReliefWebItem[]>)[crisis.slug] ?? [];
+        if (updates.length === 0) return null;
+        return (
+          <section className="mt-10 animate-fade-up-4">
+            <h4 className="font-display text-[22px] text-text-dim tracking-[0.1em] mb-3.5">
+              LATEST UPDATES
+              <span className="ml-3 font-sans text-[10px] font-medium tracking-[0.14em] text-text-faint uppercase align-middle">
+                via UN ReliefWeb
+              </span>
+            </h4>
+            <ul className="space-y-3 max-w-[680px]">
+              {updates.map((u) => (
+                <li key={u.url}>
+                  <a
+                    href={u.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group block"
+                  >
+                    <span className="font-sans text-[15px] text-text-body group-hover:text-text-bright transition-colors leading-snug">
+                      {u.title}
+                    </span>
+                    <span className="block font-sans text-[11px] text-text-dim mt-0.5">
+                      {u.source} · {u.date}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })()}
 
       {/* Action Tabs */}
       <ActionTabs actions={crisis.actions} />

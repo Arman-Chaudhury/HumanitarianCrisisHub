@@ -102,6 +102,23 @@
   "photos": [
     "/images/crises/syria.jpg",
     "/images/crises/syria-2.jpg",
-    "/images/crises/syria-3.jpg"
+    "/images/crises/syria-3.png"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Voice of America News: Scott Bobb reports from Aleppo, Syria",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg"
+    },
+    {
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Hussein_Assad_Bouteflika_Khaddam.jpg"
+    },
+    {
+      "artist": "Ecrusized",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:2024_Israeli_invasion_of_Syria.png"
+    }
   ]
 }

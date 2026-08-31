@@ -98,5 +98,22 @@
     "/images/crises/aboriginal-australians.jpg",
     "/images/crises/aboriginal-australians-2.png",
     "/images/crises/aboriginal-australians-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Andrew Garran",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Indig2.jpg"
+    },
+    {
+      "artist": "Carl Sofus Lumholtz (23 April 1851 – 5 May 1922)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Massacre_at_Skull_Hole,_Mistake_Creek,_Australia.png"
+    },
+    {
+      "artist": "Department of Foreign Affairs and Trade",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Herron,_AO_(1).jpg"
+    }
   ]
 }

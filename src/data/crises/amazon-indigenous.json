@@ -103,5 +103,22 @@
     "/images/crises/amazon-indigenous.jpg",
     "/images/crises/amazon-indigenous-2.jpg",
     "/images/crises/amazon-indigenous-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "PNUMA",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nemonte_Nenquimo_2020_UNEP_Champions_of_the_Earth_laureate_credit_UNEP020-compressed.jpg"
+    },
+    {
+      "artist": "G. Mülzel",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Amerikanska_folk,_Nordisk_familjebok.jpg"
+    },
+    {
+      "artist": "Limongi",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Indigenous_brazil.jpg"
+    }
   ]
 }

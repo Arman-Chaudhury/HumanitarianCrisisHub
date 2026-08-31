@@ -95,8 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/libya.jpg",
+    "/images/crises/libya.png",
     "/images/crises/libya-2.jpg",
     "/images/crises/libya-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "US Energy Information Administration",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:OilProduction.Libya2010-2015.png"
+    },
+    {
+      "artist": "U.S. Embassy in Libya/State Department",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Cretz_Stands_by_Fist_Crushing_a_U.S._Fighter_Plane_Sculpture.jpg"
+    },
+    {
+      "artist": "Mohmmed ayd",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Libya.sire.2017.jpg"
+    }
   ]
 }

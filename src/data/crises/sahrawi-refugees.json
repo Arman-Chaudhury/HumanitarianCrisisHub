@@ -91,7 +91,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/sahrawi-refugees.jpg",
-    "/images/crises/sahrawi-refugees-2.png",
+    "/images/crises/sahrawi-refugees-2.jpg",
     "/images/crises/sahrawi-refugees-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Jørn Sund-Henriksen",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ElAiounrefugeecamp.jpg"
+    },
+    {
+      "artist": "Saharaui-wiki",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Group_photo_of_the_Working_Group_2.jpg"
+    },
+    {
+      "artist": "Jørn Sund-Henriksen",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:TypicalshopRabouni.jpg"
+    }
   ]
 }

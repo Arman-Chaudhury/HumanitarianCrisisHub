@@ -95,8 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/colombia.png",
+    "/images/crises/colombia.jpg",
     "/images/crises/colombia-2.jpg",
     "/images/crises/colombia-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Alvaro Morales Ríos",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Hipop%C3%B3tamo_Vanessa_PTHN.jpg"
+    },
+    {
+      "artist": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:%22Liegende_mit_Frucht%22_Skulptur_von_Fernando_Botero_in_Bamberg_-_Deutschland.jpg"
+    },
+    {
+      "artist": "Alonso de Narváez",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alonso_de_Narvaez_-_Our_Lady_of_Chiquinquira,1562.jpg"
+    }
   ]
 }

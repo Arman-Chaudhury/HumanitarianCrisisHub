@@ -98,5 +98,22 @@
     "/images/crises/kashmir.jpg",
     "/images/crises/kashmir-2.jpg",
     "/images/crises/kashmir-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "US Central Intelligence Agency (old labels removed, new added by Fowle",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kashmir_region._LOC_2003626427_-_showing_sub-regions_administered_by_different_countries.jpg"
+    },
+    {
+      "artist": "Unknown photographer",
+      "license": "PD-India",
+      "url": "https://en.wikipedia.org/wiki/File:KashmirPundit1895BritishLibrary.jpg"
+    },
+    {
+      "artist": "Government of India",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Indian_soldiers_landing_at_Srinagar_airfield_during_the_1947%E2%80%931948_war.jpg"
+    }
   ]
 }

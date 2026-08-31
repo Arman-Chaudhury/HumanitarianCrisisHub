@@ -97,6 +97,23 @@
   "photos": [
     "/images/crises/rohingya.jpg",
     "/images/crises/rohingya-2.jpg",
-    "/images/crises/rohingya-3.png"
+    "/images/crises/rohingya-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "John Owens (VOA)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kutupalong_Refugee_Camp_(John_Owens-VOA).jpg"
+    },
+    {
+      "artist": "Maaz Hussain (VOA)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kutupalong_Refugee_Camp_(Maaz_Hussain-VOA).jpg"
+    },
+    {
+      "artist": "Zlatica Hoke (VOA)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_a_burned_Rohingya_village_in_Rakhine_state,_Myanmar_-_September_2017.JPG"
+    }
   ]
 }

@@ -98,5 +98,22 @@
     "/images/crises/bangladesh-climate.jpg",
     "/images/crises/bangladesh-climate-2.jpg",
     "/images/crises/bangladesh-climate-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "U.S. Marine Corps photo by Sgt. Ezekiel R. Kitandwe",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:US_Navy_071124-M-3095K-007_An_aerial_view_of_damage_to_villages_and_infrastructure_following_Cyclone_Sidr,_which_swept_into_southern_Bangladesh_Nov._15.jpg"
+    },
+    {
+      "artist": "Unmanned remote wildfire camera owned by State of California.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:062821Yreka_Fire_CalFire_-2wiki.jpg"
+    },
+    {
+      "artist": "KEmel49",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Flood_affected_road.jpg"
+    }
   ]
 }

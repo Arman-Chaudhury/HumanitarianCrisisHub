@@ -29,6 +29,19 @@ export interface CrisisActions {
   political: string[];
 }
 
+export interface PhotoCredit {
+  artist: string;
+  license: string;
+  url: string;
+}
+
+export interface ReliefWebItem {
+  title: string;
+  date: string;
+  url: string;
+  source: string;
+}
+
 export interface Crisis {
   slug: string;
   name: string;
@@ -44,5 +57,6 @@ export interface Crisis {
   sources: CrisisSource[];
   lastUpdated: string;
   photos?: string[];
+  photoCredits?: PhotoCredit[];
   outlinePath?: string;
 }

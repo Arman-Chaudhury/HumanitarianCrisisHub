@@ -93,5 +93,22 @@
     "/images/crises/pakistan-floods.jpg",
     "/images/crises/pakistan-floods-2.jpg",
     "/images/crises/pakistan-floods-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "NASA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Pakistan_2010_Floods.jpg"
+    },
+    {
+      "artist": "U.S. Air Force",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:C-17_test_sortie.jpg"
+    },
+    {
+      "artist": "TAPAS KUMAR HALDER",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:The_World%E2%80%99s_Humanitarian_Crisis_at_West_Bengal_in_February_02,_2020-0008.jpg"
+    }
   ]
 }

@@ -95,8 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/cameroon.png",
-    "/images/crises/cameroon-2.jpg",
+    "/images/crises/cameroon.jpg",
+    "/images/crises/cameroon-2.png",
     "/images/crises/cameroon-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Embassy of the United States of America to Cameroon.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Baka_dancers_June_2006.jpg"
+    },
+    {
+      "artist": "User:Borysk5",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ambazoniaincidents.png"
+    },
+    {
+      "artist": "No machine-readable author provided. Eavebe assumed (based on copyrigh",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Yaound%C3%A9_1.jpg"
+    }
   ]
 }

@@ -101,7 +101,24 @@
   "lastUpdated": "2026-03-18",
   "photos": [
     "/images/crises/myanmar.jpg",
-    "/images/crises/myanmar-2.png",
+    "/images/crises/myanmar-2.jpg",
     "/images/crises/myanmar-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "MPATV",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mon_State_Kyomaro_Township_bombed_2024-03-28_(cropped).jpg"
+    },
+    {
+      "artist": "VOA Burmese",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:2021_Myanmar_Protest_in_Hleden.jpg"
+    },
+    {
+      "artist": "Jean-Marie Hullot",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ShwedagonPagoda.jpg"
+    }
   ]
 }

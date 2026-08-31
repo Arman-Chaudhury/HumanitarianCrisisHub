@@ -95,8 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/chad.png",
+    "/images/crises/chad.jpg",
     "/images/crises/chad-2.png",
     "/images/crises/chad-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "Kevin Paul",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chad_Michael_Murray_at_Nostalgia_Con_Anaheim_2026.jpg"
+    },
+    {
+      "artist": "La Prensa Gráfica",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:El_capitolio_no_power.png"
+    },
+    {
+      "artist": "Keith Allison",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:ChadJohnson.jpg"
+    }
   ]
 }

@@ -98,5 +98,22 @@
     "/images/crises/saudi-arabia.jpg",
     "/images/crises/saudi-arabia-2.png",
     "/images/crises/saudi-arabia-3.jpg"
+  ],
+  "photoCredits": [
+    {
+      "artist": "khadim-un-nabi Rao",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Masjid_Nabavi_Madina_pakistani_labor_-_panoramio.jpg"
+    },
+    {
+      "artist": "Sdgedfegw",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Saudi_Arabia_single_age_population_pyramid_2020.png"
+    },
+    {
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Teachers_at_Madrasah_Darul_Ulum_Mecca_from_Indonesia.jpg"
+    }
   ]
 }
