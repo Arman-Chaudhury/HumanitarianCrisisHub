@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   description:
     "A free resource hub documenting global humanitarian crises with actionable ways to help: donate, spread awareness, and demand political change.",
-  metadataBase: new URL("https://crisishub.org"),
+  metadataBase: new URL("https://crisis-hub.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_US",

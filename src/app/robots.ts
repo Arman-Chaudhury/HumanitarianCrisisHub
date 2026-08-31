@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://crisishub.org/sitemap.xml",
+    sitemap: "https://crisis-hub.vercel.app/sitemap.xml",
   };
 }

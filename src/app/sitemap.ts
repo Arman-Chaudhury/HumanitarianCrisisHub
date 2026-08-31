@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllCrisisSlugs } from "@/lib/crises";
 
-const BASE_URL = "https://crisishub.org";
+const BASE_URL = "https://crisis-hub.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const slugs = getAllCrisisSlugs();
