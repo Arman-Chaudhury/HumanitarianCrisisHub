@@ -78,12 +78,25 @@ function parseItems(xml) {
   return items;
 }
 
-async function fetchReports(term) {
+let debuggedEmpty = false;
+async function fetchReportsRss(term) {
   for (let attempt = 0; attempt < 3; attempt += 1) {
     const res = await fetch(FEED + encodeURIComponent(term), {
       headers: { "User-Agent": UA },
     });
-    if (res.ok) return parseItems(await res.text()).slice(0, 3);
+    if (res.ok) {
+      const body = await res.text();
+      const items = parseItems(body).slice(0, 3);
+      if (items.length === 0 && !debuggedEmpty) {
+        // Diagnose silently-empty responses (e.g. bot challenge served as 200)
+        debuggedEmpty = true;
+        console.error(
+          `DEBUG empty feed for "${term}": content-type=${res.headers.get("content-type")}, ` +
+            `bytes=${body.length}, head=${JSON.stringify(body.slice(0, 200))}`,
+        );
+      }
+      return items;
+    }
     // 406/429 are rate limiting — back off and retry
     if (res.status === 406 || res.status === 429) {
       await new Promise((r) => setTimeout(r, 20000 * (attempt + 1)));
@@ -93,6 +106,38 @@ async function fetchReports(term) {
   }
   throw new Error(`ReliefWeb rate limit persisted for "${term}"`);
 }
+
+/**
+ * Official ReliefWeb API v2 — used when RELIEFWEB_APPNAME is set (request one
+ * free at https://apidoc.reliefweb.int/parameters#appname, then add it as a
+ * repo secret so the GitHub Action can use it). More reliable than RSS, which
+ * serves bot challenges to some datacenter IPs.
+ */
+async function fetchReportsApi(term) {
+  const res = await fetch(
+    `https://api.reliefweb.int/v2/reports?appname=${encodeURIComponent(process.env.RELIEFWEB_APPNAME)}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "User-Agent": UA },
+      body: JSON.stringify({
+        query: { value: term, operator: "AND" },
+        limit: 3,
+        sort: ["date.created:desc"],
+        fields: { include: ["title", "date.created", "url", "source.shortname"] },
+      }),
+    },
+  );
+  if (!res.ok) throw new Error(`ReliefWeb API ${res.status} for "${term}"`);
+  const json = await res.json();
+  return (json.data ?? []).map((d) => ({
+    title: d.fields?.title ?? "",
+    date: (d.fields?.date?.created ?? "").slice(0, 10),
+    url: d.fields?.url ?? "",
+    source: d.fields?.source?.[0]?.shortname ?? "",
+  }));
+}
+
+const fetchReports = process.env.RELIEFWEB_APPNAME ? fetchReportsApi : fetchReportsRss;
 
 const files = (await readdir(CRISES_DIR)).filter((f) => f.endsWith(".json"));
 const out = { generated: new Date().toISOString().slice(0, 10), crises: {} };

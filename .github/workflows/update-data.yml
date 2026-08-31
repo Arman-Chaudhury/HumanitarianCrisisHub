@@ -20,6 +20,8 @@ jobs:
           node-version: 20
 
       - name: Fetch latest ReliefWeb reports
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
         run: node scripts/update-reliefweb.mjs
 
       - name: Commit refreshed data
