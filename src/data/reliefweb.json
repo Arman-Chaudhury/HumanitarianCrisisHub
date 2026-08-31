@@ -1,4 +1,1045 @@
 {
   "generated": "2026-08-31",
-  "crises": {}
+  "crises": {
+    "aboriginal-australians": [
+      {
+        "title": "World: Epidemic and emerging disease alerts in the Pacific as of 07 July2026",
+        "date": "2026-07-07",
+        "url": "https://reliefweb.int/map/world/epidemic-and-emerging-disease-alerts-pacific-07-july2026",
+        "source": "Pacific Community"
+      },
+      {
+        "title": "World: Epidemic and emerging disease alerts in the Pacific as of 26 May 2026",
+        "date": "2026-05-26",
+        "url": "https://reliefweb.int/map/world/epidemic-and-emerging-disease-alerts-pacific-26-may-2026",
+        "source": "Pacific Community"
+      },
+      {
+        "title": "World: Epidemic and emerging disease alerts in the Pacific as of 20 January 2026",
+        "date": "2026-01-20",
+        "url": "https://reliefweb.int/map/world/epidemic-and-emerging-disease-alerts-pacific-20-january-2026",
+        "source": "Pacific Community"
+      }
+    ],
+    "adivasi-india": [
+      {
+        "title": "Bangladesh: Legal aid in South Asia is failing to reach survivors of sexual violence",
+        "date": "2025-04-30",
+        "url": "https://reliefweb.int/report/bangladesh/legal-aid-south-asia-failing-reach-survivors-sexual-violence",
+        "source": "Equality Now"
+      },
+      {
+        "title": "Joint Statement: EU Should Press India to End Rights Abuses",
+        "date": "2024-08-20",
+        "url": "https://reliefweb.int/report/india/joint-statement-eu-should-press-india-end-rights-abuses",
+        "source": "Amnesty International"
+      },
+      {
+        "title": "Amnesty International Report 2022/23: The state of the world’s human rights [EN/AR]",
+        "date": "2023-03-28",
+        "url": "https://reliefweb.int/report/world/amnesty-international-report-202223-state-worlds-human-rights-enar",
+        "source": "Amnesty International"
+      }
+    ],
+    "afghanistan": [
+      {
+        "title": "Afghanistan: Beyond Short-Term Aid: Financing Durable Solutions for Displaced Afghans | NRC",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/afghanistan/beyond-short-term-aid-financing-durable-solutions-displaced-afghans-nrc",
+        "source": "Norwegian Refugee Council"
+      },
+      {
+        "title": "UNHCR Rwanda - Population Statistics Dashboard - 31 July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-statistics-dashboard-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Afghanistan: Humanitarian Operational Presence (3W) - Western Region (April - June 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/map/afghanistan/afghanistan-humanitarian-operational-presence-3w-western-region-april-june-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      }
+    ],
+    "amazon-indigenous": [
+      {
+        "title": "Colombia: Floods - DREF Final Report (MDRCO032)",
+        "date": "2026-06-19",
+        "url": "https://reliefweb.int/report/colombia/colombia-floods-dref-final-report-mdrco032",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
+        "title": "Argentina: UNICEF Latin America and the Caribbean Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
+        "date": "2026-03-02",
+        "url": "https://reliefweb.int/report/argentina/unicef-latin-america-and-caribbean-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
+        "source": "UN Children's Fund"
+      },
+      {
+        "title": "World: Isolated and Recently Contacted Indigenous Peoples of the Amazon and Gran Chaco Regions",
+        "date": "2025-12-24",
+        "url": "https://reliefweb.int/report/world/isolated-and-recently-contacted-indigenous-peoples-amazon-and-gran-chaco-regions",
+        "source": "Minority Rights Group"
+      }
+    ],
+    "balochistan": [
+      {
+        "title": "World: Statement of the Forty-fifth Meeting of the Polio IHR Emergency Committee (25 August 2026)",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/world/statement-forty-fifth-meeting-polio-ihr-emergency-committee-25-august-2026",
+        "source": "World Health Organization"
+      },
+      {
+        "title": "AKFP Pakistan: Monsoon Flood 2026 - Situation Report 02 (24 August, 2026)",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/pakistan/akfp-pakistan-monsoon-flood-2026-situation-report-02-24-august-2026",
+        "source": "Alkhidmat Foundation Pakistan"
+      },
+      {
+        "title": "UNHCR Afghanistan Situation Regional Update July 2026",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-situation-regional-update-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "bangladesh-climate": [
+      {
+        "title": "Bangladesh: DIEM-Monitoring emergency agriculture support brief July 2026 (round 14)",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/bangladesh/bangladesh-diem-monitoring-emergency-agriculture-support-brief-july-2026-round-14",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Bangladesh: Rohingya refugees face deepening triple crisis after almost a decade of displacement",
+        "date": "2026-08-26",
+        "url": "https://reliefweb.int/report/bangladesh/rohingya-refugees-face-deepening-triple-crisis-after-almost-decade-displacement",
+        "source": "Islamic Relief"
+      },
+      {
+        "title": "Bangladesh: A safer place to live: stronger shelters protect Rohingya families in Cox's Bazar | IFRC",
+        "date": "2026-08-26",
+        "url": "https://reliefweb.int/report/bangladesh/safer-place-live-stronger-shelters-protect-rohingya-families-coxs-bazar-ifrc",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      }
+    ],
+    "belarus": [
+      {
+        "title": "World: Recommendations for the upcoming 63rd session of the UN Human Rights Council - Global Centre for the Responsibility to Protect",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/world/recommendations-upcoming-63rd-session-un-human-rights-council-global-centre-responsibility-protect",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
+      {
+        "title": "Ukraine Regional Humanitarian Crisis: Regional Situation Report (January - June 2026)",
+        "date": "2026-08-07",
+        "url": "https://reliefweb.int/report/ukraine/ukraine-regional-humanitarian-crisis-regional-situation-report-january-june-2026",
+        "source": "United Nations Population Fund"
+      },
+      {
+        "title": "Belarus: UNICEF Europe and Central Asia Region Humanitarian Situation Report No.34 (Ukraine Refugee Response in Neighboring Countries), January - June 2026",
+        "date": "2026-08-05",
+        "url": "https://reliefweb.int/report/belarus/unicef-europe-and-central-asia-region-humanitarian-situation-report-no34-ukraine-refugee-response-neighboring-countries-january-june-2026",
+        "source": "UN Children's Fund"
+      }
+    ],
+    "burkina-faso": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "GIEWS Country Brief: The Togolese Republic 28-August-2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/togo/giews-country-brief-togolese-republic-28-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "GIEWS Country Brief: Niger (28-August-2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/niger/giews-country-brief-niger-28-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      }
+    ],
+    "cameroon": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "UNICEF Cameroon Cholera Outbreak Flash Update No. 3, 23 July-24 August 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/cameroon/unicef-cameroon-cholera-outbreak-flash-update-no-3-23-july-24-august-2026",
+        "source": "UN Children's Fund"
+      },
+      {
+        "title": "Cameroon: Cameroun - Mise à jour des messages clés : Des récoltes inférieures à la moyenne n’apportent qu’un répit temporaire, tandis que les déficits liés au conflit maintiennent Crise (Phase 3 de l’IPC), Juillet 2026 - Janvier 2027",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/cameroon/cameroun-mise-jour-des-messages-cles-des-recoltes-inferieures-la-moyenne-napportent-quun-repit-temporaire-tandis-que-les-deficits-lies-au-conflit-maintiennent-crise-phase-3-de-lipc-juillet-2026-janvier-2027",
+        "source": "Famine Early Warning System Network"
+      }
+    ],
+    "central-african-republic": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "CAR: République Centrafricaine: Analyse de Protection - Mise à jour de la situation de protection (Juillet 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-analyse-de-protection-mise-jour-de-la-situation-de-protection-juillet-2026",
+        "source": "Protection Cluster"
+      },
+      {
+        "title": "DR Congo: UNICEF Humanitarian Situation Report No. 1 (BVD Outbreak in DRC: Regional Preparedness and Readiness in Neighboring and At-Risk Countries), July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/unicef-humanitarian-situation-report-no-1-bvd-outbreak-drc-regional-preparedness-and-readiness-neighboring-and-risk-countries-july-2026",
+        "source": "UN Children's Fund"
+      }
+    ],
+    "chad": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "UNHCR TCHAD| Afflux des Réfugiés du Soudan | Statistiques de l'enregistrement individuel biométrique (au 30 Aou. 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/chad/unhcr-tchad-afflux-des-refugies-du-soudan-statistiques-de-lenregistrement-individuel-biometrique-au-30-aou-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "UNHCR CHAD| CORE Sudan Emergency Situation (30 Aug 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/chad/unhcr-chad-core-sudan-emergency-situation-30-aug-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "colombia": [
+      {
+        "title": "En Colombia, al menos una persona desaparece cada dos días en promedio en relación con los conflictos armados",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/colombia/en-colombia-al-menos-una-persona-desaparece-cada-dos-dias-en-promedio-en-relacion-con-los-conflictos-armados",
+        "source": "International Committee of the Red Cross"
+      },
+      {
+        "title": "OIM Respuesta al Terremoto en Colombia - Reporte de Situación #6 (28 agosto 2026)",
+        "date": "2026-08-30",
+        "url": "https://reliefweb.int/report/colombia/oim-respuesta-al-terremoto-en-colombia-reporte-de-situacion-6-28-agosto-2026",
+        "source": "International Organization for Migration"
+      },
+      {
+        "title": "IOM Colombia Earthquake Response - Situation Report #6 (28 August 2026)",
+        "date": "2026-08-30",
+        "url": "https://reliefweb.int/report/colombia/iom-colombia-earthquake-response-situation-report-6-28-august-2026",
+        "source": "International Organization for Migration"
+      }
+    ],
+    "congo": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "DR Congo: Cluster Protection RDC : Points saillants de la situation de protection en République démocratique du Congo du mois de juillet 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-points-saillants-de-la-situation-de-protection-en-republique-democratique-du-congo-du-mois-de-juillet-2026",
+        "source": "Protection Cluster"
+      },
+      {
+        "title": "UNHCR Rwanda - DR Congolese Forcibly Displaced Population Figures - 31 July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-dr-congolese-forcibly-displaced-population-figures-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "eritrea": [
+      {
+        "title": "UNHCR Rwanda - Population Statistics Dashboard - 31 July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-statistics-dashboard-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "RBESA Ethiopia Situation: Population of Concern to UNHCR - 31 July 2026",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/ethiopia/rbesa-ethiopia-situation-population-concern-unhcr-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Sudan: RBESA: IGAD region - Population of Concern to UNHCR - 31 July 2026",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/sudan/rbesa-igad-region-population-concern-unhcr-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "ethiopia": [
+      {
+        "title": "Somalia: El Niño 2026–27 in the East and Horn of Africa A predictable displacement crisis, and how to prevent it",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/somalia/el-nino-2026-27-east-and-horn-africa-predictable-displacement-crisis-and-how-prevent-it",
+        "source": "Danish Refugee Council"
+      },
+      {
+        "title": "DR Congo: UNICEF Humanitarian Situation Report No. 1 (BVD Outbreak in DRC: Regional Preparedness and Readiness in Neighboring and At-Risk Countries), July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/unicef-humanitarian-situation-report-no-1-bvd-outbreak-drc-regional-preparedness-and-readiness-neighboring-and-risk-countries-july-2026",
+        "source": "UN Children's Fund"
+      },
+      {
+        "title": "World: Start Fund Monthly Risk Bulletin (Issued: September 2026)",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-september-2026",
+        "source": "Start Network"
+      }
+    ],
+    "haiti": [
+      {
+        "title": "Haiti: IMAWG Haïti : Compte rendu de réunion, en ligne, 26 août 2026 [Meeting Minutes]",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/haiti/imawg-haiti-compte-rendu-de-reunion-en-ligne-26-aout-2026-meeting-minutes",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "UNICEF welcomes the release of women and children in Kenscoff and calls for stronger protection of children in Haiti",
+        "date": "2026-08-29",
+        "url": "https://reliefweb.int/report/haiti/unicef-welcomes-release-women-and-children-kenscoff-and-calls-stronger-protection-children-haiti-0",
+        "source": "UN Children's Fund"
+      },
+      {
+        "title": "L’UNICEF salue la liberation des enfants et des femmes enlevés à Kenscoff et appelle à renforcer la protection des enfants en Haiti",
+        "date": "2026-08-29",
+        "url": "https://reliefweb.int/report/haiti/lunicef-salue-la-liberation-des-enfants-et-des-femmes-enleves-kenscoff-et-appelle-renforcer-la-protection-des-enfants-en-haiti",
+        "source": "UN Children's Fund"
+      }
+    ],
+    "horn-of-africa-drought": [
+      {
+        "title": "Somalia: El Niño 2026–27 in the East and Horn of Africa A predictable displacement crisis, and how to prevent it",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/somalia/el-nino-2026-27-east-and-horn-africa-predictable-displacement-crisis-and-how-prevent-it",
+        "source": "Danish Refugee Council"
+      },
+      {
+        "title": "World: IOM Calls for Greater Investment in Land Restoration to Reduce Displacement",
+        "date": "2026-08-24",
+        "url": "https://reliefweb.int/report/world/iom-calls-greater-investment-land-restoration-reduce-displacement",
+        "source": "International Organization for Migration"
+      },
+      {
+        "title": "World: Global Seasonal Outlook (August 2026)",
+        "date": "2026-08-23",
+        "url": "https://reliefweb.int/report/world/global-seasonal-outlook-august-2026",
+        "source": "World Food Programme"
+      }
+    ],
+    "iran": [
+      {
+        "title": "Islamic Republic of Iran: Humanitarian Update No. 07 | As of 31 July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/iran-islamic-republic/islamic-republic-iran-humanitarian-update-no-07-31-july-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Afghanistan: Assisted Afghan Returnees from Pakistan, Iran and other countries from 23 August to 29 August 2026",
+        "date": "2026-08-30",
+        "url": "https://reliefweb.int/report/afghanistan/afghanistan-assisted-afghan-returnees-pakistan-iran-and-other-countries-23-august-29-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Lebanon: Escalation in the Middle East and Beyond — Mobility Report (11 – 24 August 2026)",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-mobility-report-11-24-august-2026",
+        "source": "International Organization for Migration"
+      }
+    ],
+    "iraq": [
+      {
+        "title": "Syria: Comprehensive Overview of Refugee Returnees (As of 27 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-refugee-returnees-27-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Lebanon: Escalation in the Middle East and Beyond — Mobility Report (11 – 24 August 2026)",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-mobility-report-11-24-august-2026",
+        "source": "International Organization for Migration"
+      },
+      {
+        "title": "Afghanistan: WHO Situation Report No.2: Health emergencies in the Eastern Mediterranean Region (July 2026)",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/afghanistan/who-situation-report-no2-health-emergencies-eastern-mediterranean-region-july-2026",
+        "source": "World Health Organization"
+      }
+    ],
+    "kashmir": [
+      {
+        "title": "AKFP Pakistan: Monsoon Flood 2026 - Situation Report 02 (24 August, 2026)",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/pakistan/akfp-pakistan-monsoon-flood-2026-situation-report-02-24-august-2026",
+        "source": "Alkhidmat Foundation Pakistan"
+      },
+      {
+        "title": "Pakistan: PAK: Pluvial/Flash Flood - 06-2026 - Update #3 (2026-08-23)",
+        "date": "2026-08-24",
+        "url": "https://reliefweb.int/report/pakistan/pak-pluvialflash-flood-06-2026-update-3-2026-08-23",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
+        "title": "Pakistan Rain Monitor - Issue Number 8 (11- 17 August 2026)",
+        "date": "2026-08-13",
+        "url": "https://reliefweb.int/report/pakistan/pakistan-rain-monitor-issue-number-8-11-17-august-2026",
+        "source": "World Food Programme"
+      }
+    ],
+    "lake-chad": [
+      {
+        "title": "Media resilience and risk communication take centre stage at Lake Chad Basin",
+        "date": "2026-08-29",
+        "url": "https://reliefweb.int/report/chad/media-resilience-and-risk-communication-take-centre-stage-lake-chad-basin",
+        "source": "UN Office for Disaster Risk Reduction"
+      },
+      {
+        "title": "World: Health ministers adopt framework to safeguard Africa's polio gains - GPEI",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/world/health-ministers-adopt-framework-safeguard-africas-polio-gains-gpei",
+        "source": "Global Polio Eradication Initiative"
+      },
+      {
+        "title": "Nigeria: Regional Strategy for the Stabilization, Recovery & Resilience of the Boko Haram-Affected Areas of the Lake Chad Basin Region, Adopted on 27th February 2025",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/nigeria/regional-strategy-stabilization-recovery-resilience-boko-haram-affected-areas-lake-chad-basin-region-adopted-27th-february-2025",
+        "source": "African Union"
+      }
+    ],
+    "lebanon": [
+      {
+        "title": "Syria: Comprehensive Overview of Refugee Returnees (As of 27 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-refugee-returnees-27-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "oPt: Calling for Stronger Humanitarian Partnerships and Faster, More Sustainable Responses",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/calling-stronger-humanitarian-partnerships-and-faster-more-sustainable-responses",
+        "source": "Life for Relief and Development"
+      },
+      {
+        "title": "Palestinian Refugees in Lebanon In Their Own Voices: Living in Permanent Survival Mode - Volume 13 | Spring 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/lebanon/palestinian-refugees-lebanon-their-own-voices-living-permanent-survival-mode-volume-13-spring-2026",
+        "source": "American Near East Refugee Aid"
+      }
+    ],
+    "libya": [
+      {
+        "title": "oPt: Calling for Stronger Humanitarian Partnerships and Faster, More Sustainable Responses",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/calling-stronger-humanitarian-partnerships-and-faster-more-sustainable-responses",
+        "source": "Life for Relief and Development"
+      },
+      {
+        "title": "Italy weekly sea arrivals update - 31 August 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/italy/italy-weekly-sea-arrivals-update-31-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Sudan Emergency: Population movements from Sudan - 24 August 2026",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/sudan/sudan-emergency-population-movements-sudan-24-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "madagascar": [
+      {
+        "title": "WFP Madagascar Country Brief, August 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/madagascar/wfp-madagascar-country-brief-august-2026",
+        "source": "World Food Programme"
+      },
+      {
+        "title": "DR Congo: RBESA: SADC region - Population of Concern to UNHCR - 31 July 2026",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/rbesa-sadc-region-population-concern-unhcr-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Madagascar: Southern Africa: 2026 El Niño Preparedness Alert (August 2026)",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/madagascar/southern-africa-2026-el-nino-preparedness-alert-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      }
+    ],
+    "mali": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "GIEWS Country Brief: Niger (28-August-2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/niger/giews-country-brief-niger-28-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "GIEWS Country Brief: The Republic of Mali 27-August-2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/mali/giews-country-brief-republic-mali-27-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      }
+    ],
+    "mozambique": [
+      {
+        "title": "Mozambique: Boletim Diário da Cólera Data: 30/08/2026 [PT]",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-30082026-pt",
+        "source": "Government of Mozambique"
+      },
+      {
+        "title": "DR Congo: RBESA: SADC region - Population of Concern to UNHCR - 31 July 2026",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/rbesa-sadc-region-population-concern-unhcr-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Sudan: Regional Dashboard RBESA: IDPs Dashboard - 31 July 2026",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/sudan/regional-dashboard-rbesa-idps-dashboard-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "myanmar": [
+      {
+        "title": "Philippines: ASEAN Weekly Disaster Update Week 35 | 24 - 30 August 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/philippines/asean-weekly-disaster-update-week-35-24-30-august-2026",
+        "source": "ASEAN Coordinating Centre for Humanitarian Assistance"
+      },
+      {
+        "title": "Myanmar Situation Analysis: [10/8/2026 - 16/8/2026]",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/myanmar/myanmar-situation-analysis-1082026-1682026",
+        "source": "Data Friendly Space"
+      },
+      {
+        "title": "Myanmar Situation Analysis: [3/8/2026 - 9/8/2026]",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/myanmar/myanmar-situation-analysis-382026-982026",
+        "source": "Data Friendly Space"
+      }
+    ],
+    "nagorno-karabakh": [
+      {
+        "title": "Armenia and Azerbaijan: The Hard Road to a Lasting Peace - Crisis Group Europe Briefing N°98 | 5 September 2025 [EN/RU]",
+        "date": "2025-09-08",
+        "url": "https://reliefweb.int/report/armenia/armenia-and-azerbaijan-hard-road-lasting-peace-crisis-group-europe-briefing-ndeg98-5-september-2025-enru",
+        "source": "International Crisis Group"
+      },
+      {
+        "title": "Armenia: Paths to Stability: Socio-Economic Perspectives of Displaced Populations from Nagorno Karabakh after a Year of Displacement (Aragatsotn, Shirak, Ararat, Tavush and Syunik Regions) - Needs Assessment report (December 2024)",
+        "date": "2025-04-14",
+        "url": "https://reliefweb.int/report/armenia/paths-stability-socio-economic-perspectives-displaced-populations-nagorno-karabakh-after-year-displacement-aragatsotn-shirak-ararat-tavush-and-syunik-regions-needs-assessment-report-december-2024-0",
+        "source": "Agency for Technical Cooperation and Development"
+      },
+      {
+        "title": "World: IHL in Focus: Annual Report Assessing Compliance in Contemporary Armed Conflicts, July 2023 - June 2024",
+        "date": "2025-02-26",
+        "url": "https://reliefweb.int/report/world/ihl-focus-annual-report-assessing-compliance-contemporary-armed-conflicts-july-2023-june-2024",
+        "source": "Geneva Academy of International Humanitarian Law and Human Rights"
+      }
+    ],
+    "niger": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Niger: Bulletin mensuel Cluster Santé NER N°4_2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/niger/bulletin-mensuel-cluster-sante-ner-ndeg42026",
+        "source": "World Health Organization"
+      },
+      {
+        "title": "GIEWS Country Brief: Niger (28-August-2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/niger/giews-country-brief-niger-28-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      }
+    ],
+    "nigeria": [
+      {
+        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 31 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Nigeria: Joint Market Monitoring Initiative - Price & Functionality Update Katsina Kebbi Sokoto Zamfara (July 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/nigeria/joint-market-monitoring-initiative-price-functionality-update-katsina-kebbi-sokoto-zamfara-july-2026",
+        "source": "Fact Foundation"
+      },
+      {
+        "title": "Nigeria: Joint Market Monitoring Initiative - Price & Functionality Update Borno Adamawa Yobe (July 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/nigeria/joint-market-monitoring-initiative-price-functionality-update-borno-adamawa-yobe-july-2026",
+        "source": "Fact Foundation"
+      }
+    ],
+    "north-korea": [
+      {
+        "title": "Myanmar: UNICEF East Asia and the Pacific Region Humanitarian Situation Report No. 1 (Mid-Year), 30 June 2026",
+        "date": "2026-08-05",
+        "url": "https://reliefweb.int/report/myanmar/unicef-east-asia-and-pacific-region-humanitarian-situation-report-no-1-mid-year-30-june-2026",
+        "source": "UN Children's Fund"
+      },
+      {
+        "title": "UNHCR Republic of Korea: 2026 Funding Update (as of 30 June 2026)",
+        "date": "2026-07-02",
+        "url": "https://reliefweb.int/report/republic-korea/unhcr-republic-korea-2026-funding-update-30-june-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: Concern reached 23 million people in 27 countries last year",
+        "date": "2026-06-15",
+        "url": "https://reliefweb.int/report/world/concern-reached-23-million-people-27-countries-last-year",
+        "source": "Concern Worldwide"
+      }
+    ],
+    "pacific-islands": [
+      {
+        "title": "Cook Islands: State of the Climate in South-West Pacific 2025",
+        "date": "2026-07-07",
+        "url": "https://reliefweb.int/report/cook-islands/state-climate-south-west-pacific-2025",
+        "source": "World Meteorological Organization"
+      },
+      {
+        "title": "World: State of the Climate in Asia 2025 [EN/AR/ZH]",
+        "date": "2026-06-17",
+        "url": "https://reliefweb.int/report/world/state-climate-asia-2025-enarzh",
+        "source": "World Meteorological Organization"
+      },
+      {
+        "title": "World: WMO Global Annual to Decadal Climate Update 2026-2035",
+        "date": "2026-05-28",
+        "url": "https://reliefweb.int/report/world/wmo-global-annual-decadal-climate-update-2026-2035",
+        "source": "World Meteorological Organization"
+      }
+    ],
+    "pakistan-floods": [
+      {
+        "title": "Integrated MHPSS Situation Analysis: Afghanistan - July 2026",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/afghanistan/integrated-mhpss-situation-analysis-afghanistan-july-2026",
+        "source": "REACH Initiative"
+      },
+      {
+        "title": "AKFP Pakistan: Monsoon Flood 2026 - Situation Report 02 (24 August, 2026)",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/pakistan/akfp-pakistan-monsoon-flood-2026-situation-report-02-24-august-2026",
+        "source": "Alkhidmat Foundation Pakistan"
+      },
+      {
+        "title": "Afghanistan: WHO Situation Report No.2: Health emergencies in the Eastern Mediterranean Region (July 2026)",
+        "date": "2026-08-25",
+        "url": "https://reliefweb.int/report/afghanistan/who-situation-report-no2-health-emergencies-eastern-mediterranean-region-july-2026",
+        "source": "World Health Organization"
+      }
+    ],
+    "palestine": [
+      {
+        "title": "Occupied Palestinian Territory (oPt) Situation Analysis: [10/8/2026] - [16/8/2026]",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-opt-situation-analysis-1082026-1682026",
+        "source": "Data Friendly Space"
+      },
+      {
+        "title": "Occupied Palestinian Territory (oPt) Situation Analysis: [3/8/2026] - [9/8/2026]",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-opt-situation-analysis-382026-982026",
+        "source": "Data Friendly Space"
+      },
+      {
+        "title": "IOM OPT Winter 2026-2027 Critical Needs",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/iom-opt-winter-2026-2027-critical-needs",
+        "source": "International Organization for Migration"
+      }
+    ],
+    "rohingya": [
+      {
+        "title": "Bangladesh: Islamic Relief - Rohingya Crisis Humanitarian Advocacy Updates",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/bangladesh/islamic-relief-rohingya-crisis-humanitarian-advocacy-updates",
+        "source": "Islamic Relief"
+      },
+      {
+        "title": "UNHCR Myanmar Situation Regional Update #9 (June-July 2026)",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/myanmar/unhcr-myanmar-situation-regional-update-9-june-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: Recommendations for the upcoming 63rd session of the UN Human Rights Council - Global Centre for the Responsibility to Protect",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/world/recommendations-upcoming-63rd-session-un-human-rights-council-global-centre-responsibility-protect",
+        "source": "Global Centre for the Responsibility to Protect"
+      }
+    ],
+    "russia": [
+      {
+        "title": "World: Recommendations for the upcoming 63rd session of the UN Human Rights Council - Global Centre for the Responsibility to Protect",
+        "date": "2026-08-27",
+        "url": "https://reliefweb.int/report/world/recommendations-upcoming-63rd-session-un-human-rights-council-global-centre-responsibility-protect",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
+      {
+        "title": "Ukraine war situation update | 8 – 14 August 2026",
+        "date": "2026-08-26",
+        "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-8-14-august-2026",
+        "source": "Armed Conflict Location &amp; Event Data"
+      },
+      {
+        "title": "Ukraine war situation update | 1 – 7 August 2026",
+        "date": "2026-08-20",
+        "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-1-7-august-2026",
+        "source": "Armed Conflict Location &amp; Event Data"
+      }
+    ],
+    "sahel": [
+      {
+        "title": "Niger: Bulletin mensuel Cluster Santé NER N°4_2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/niger/bulletin-mensuel-cluster-sante-ner-ndeg42026",
+        "source": "World Health Organization"
+      },
+      {
+        "title": "GIEWS Country Brief: The Togolese Republic 28-August-2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/togo/giews-country-brief-togolese-republic-28-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "GIEWS Country Brief: Niger (28-August-2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/niger/giews-country-brief-niger-28-august-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      }
+    ],
+    "sahrawi-refugees": [
+      {
+        "title": "World: Global Weather Hazards Summary, August 13, 2026 - August 19, 2026",
+        "date": "2026-08-14",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-august-13-2026-august-19-2026",
+        "source": "Famine Early Warning System Network"
+      },
+      {
+        "title": "WFP Algeria Country Brief, July 2026 (Reporting period: June 2026)",
+        "date": "2026-07-21",
+        "url": "https://reliefweb.int/report/algeria/wfp-algeria-country-brief-july-2026-reporting-period-june-2026",
+        "source": "World Food Programme"
+      },
+      {
+        "title": "World: Global Weather Hazards Summary, July 9, 2026 – July 15, 2026",
+        "date": "2026-07-08",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-july-9-2026-july-15-2026",
+        "source": "Famine Early Warning System Network"
+      }
+    ],
+    "san-bushmen": [
+      {
+        "title": "World: Carta Abierta de 2024 a los Representantes Permanentes ante las Naciones Unidas antes del Debate Abierto anual sobre Mujeres, Paz y Seguridad",
+        "date": "2024-10-09",
+        "url": "https://reliefweb.int/report/world/carta-abierta-de-2024-los-representantes-permanentes-ante-las-naciones-unidas-antes-del-debate-abierto-anual-sobre-mujeres-paz-y-seguridad",
+        "source": "ACT Alliance"
+      },
+      {
+        "title": "World: Lettre ouverte de 2024 aux représentant.e.s permanents auprès des Nations Unies avant le débat ouvert annuel sur l’agenda Femmes, Paix et Sécurité",
+        "date": "2024-10-09",
+        "url": "https://reliefweb.int/report/world/lettre-ouverte-de-2024-aux-representantes-permanents-aupres-des-nations-unies-avant-le-debat-ouvert-annuel-sur-lagenda-femmes-paix-et-securite",
+        "source": "ACT Alliance"
+      },
+      {
+        "title": "World: 2024 Open Letter to Permanent Representatives to the United Nations in advance of the annual Open Debate on Women, Peace and Security [EN/AR/RU]",
+        "date": "2024-10-09",
+        "url": "https://reliefweb.int/report/world/2024-open-letter-permanent-representatives-united-nations-advance-annual-open-debate-women-peace-and-security-enarru",
+        "source": "ACT Alliance"
+      }
+    ],
+    "saudi-arabia": [
+      {
+        "title": "World: Impacts of the Middle East conflict on East African refugees and migrants",
+        "date": "2026-04-24",
+        "url": "https://reliefweb.int/report/world/impacts-middle-east-conflict-east-african-refugees-and-migrants",
+        "source": "Mixed Migration Centre"
+      },
+      {
+        "title": "Iran: Escalation in the Middle East and Beyond: The Humanitarian Response (March 2026) [EN/AR]",
+        "date": "2026-03-24",
+        "url": "https://reliefweb.int/report/iran-islamic-republic/escalation-middle-east-and-beyond-humanitarian-response-march-2026-enar",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Quarterly Mixed Migration Update: Eastern and Southern Africa | Egypt and Yemen, Quarter 4 - 2025",
+        "date": "2026-02-05",
+        "url": "https://reliefweb.int/report/egypt/quarterly-mixed-migration-update-eastern-and-southern-africa-egypt-and-yemen-quarter-4-2025",
+        "source": "Mixed Migration Centre"
+      }
+    ],
+    "somalia": [
+      {
+        "title": "Somalia: El Niño 2026–27 in the East and Horn of Africa A predictable displacement crisis, and how to prevent it",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/somalia/el-nino-2026-27-east-and-horn-africa-predictable-displacement-crisis-and-how-prevent-it",
+        "source": "Danish Refugee Council"
+      },
+      {
+        "title": "Italy weekly sea arrivals update - 31 August 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/italy/italy-weekly-sea-arrivals-update-31-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Somalia Health Cluster Partners Operational Presence Map (July 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/somalia/somalia-health-cluster-partners-operational-presence-map-july-2026",
+        "source": "Health Cluster"
+      }
+    ],
+    "south-sudan": [
+      {
+        "title": "Somalia: El Niño 2026–27 in the East and Horn of Africa A predictable displacement crisis, and how to prevent it",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/somalia/el-nino-2026-27-east-and-horn-africa-predictable-displacement-crisis-and-how-prevent-it",
+        "source": "Danish Refugee Council"
+      },
+      {
+        "title": "UNHCR Rwanda - Population Statistics Dashboard - 31 July 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-statistics-dashboard-31-july-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Japan contributes USD 2.2 million boost to support WFP effort to tackle malnutrition in South Sudan",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/south-sudan/japan-contributes-usd-22-million-boost-support-wfp-effort-tackle-malnutrition-south-sudan",
+        "source": "World Food Programme"
+      }
+    ],
+    "sudan": [
+      {
+        "title": "Somalia: El Niño 2026–27 in the East and Horn of Africa A predictable displacement crisis, and how to prevent it",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/somalia/el-nino-2026-27-east-and-horn-africa-predictable-displacement-crisis-and-how-prevent-it",
+        "source": "Danish Refugee Council"
+      },
+      {
+        "title": "UNHCR TCHAD| Afflux des Réfugiés du Soudan | Statistiques de l'enregistrement individuel biométrique (au 30 Aou. 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/chad/unhcr-tchad-afflux-des-refugies-du-soudan-statistiques-de-lenregistrement-individuel-biometrique-au-30-aou-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "UNHCR CHAD| CORE Sudan Emergency Situation (30 Aug 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/chad/unhcr-chad-core-sudan-emergency-situation-30-aug-2026",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "syria": [
+      {
+        "title": "Syria: Comprehensive Overview of IDPs and IDP Returns Dashboard (As of 27 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-idps-and-idp-returns-dashboard-27-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Syria: Comprehensive Overview of Refugee Returnees (As of 27 August 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-refugee-returnees-27-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Palestinian Refugees in Lebanon In Their Own Voices: Living in Permanent Survival Mode - Volume 13 | Spring 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/lebanon/palestinian-refugees-lebanon-their-own-voices-living-permanent-survival-mode-volume-13-spring-2026",
+        "source": "American Near East Refugee Aid"
+      }
+    ],
+    "tamils-sri-lanka": [
+      {
+        "title": "Joint Civil Society Statement on Holding Sri Lanka Accountable for Violations of the Convention against Torture and Other Ill-Treatment",
+        "date": "2026-06-26",
+        "url": "https://reliefweb.int/report/sri-lanka/joint-civil-society-statement-holding-sri-lanka-accountable-violations-convention-against-torture-and-other-ill-treatment",
+        "source": "Amnesty International"
+      },
+      {
+        "title": "Sri Lanka: MSF concludes emergency response to cyclone Ditwah",
+        "date": "2026-03-12",
+        "url": "https://reliefweb.int/report/sri-lanka/msf-concludes-emergency-response-cyclone-ditwah",
+        "source": "Médecins Sans Frontières"
+      },
+      {
+        "title": "Sri Lanka: Cyclone Ditwah - Situation Report No. 7 (As of 6 February 2026)",
+        "date": "2026-02-06",
+        "url": "https://reliefweb.int/report/sri-lanka/sri-lanka-cyclone-ditwah-situation-report-no-7-6-february-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      }
+    ],
+    "tibet": [
+      {
+        "title": "World: HC Türk updates the Human Rights Council: “We need to safeguard eighty years of progress on freedom, equality and justice”",
+        "date": "2025-09-08",
+        "url": "https://reliefweb.int/report/world/hc-turk-updates-human-rights-council-we-need-safeguard-eighty-years-progress-freedom-equality-and-justice",
+        "source": "UN Office of the High Commissioner for Human Rights"
+      },
+      {
+        "title": "World: Third Committee Spotlights Human Rights Abuses in Conflicts, Stressing Need to End Terrorist Attacks, Genocide, Illegal Hostage-Taking, Enforced Displacement",
+        "date": "2023-10-18",
+        "url": "https://reliefweb.int/report/world/third-committee-spotlights-human-rights-abuses-conflicts-stressing-need-end-terrorist-attacks-genocide-illegal-hostage-taking-enforced-displacement",
+        "source": "UN General Assembly"
+      },
+      {
+        "title": "Highlighting a Resurgence of Human Rights Abuses Worldwide, Third Committee Calls on Nations to Urgently Abide by Existing Treaties to Eradicate Them",
+        "date": "2022-10-21",
+        "url": "https://reliefweb.int/report/world/highlighting-resurgence-human-rights-abuses-worldwide-third-committee-calls-nations-urgently-abide-existing-treaties-eradicate-them",
+        "source": "UN General Assembly"
+      }
+    ],
+    "turkmenistan": [
+      {
+        "title": "World: 65 years after landmark Convention, UNHCR calls for renewed action to prevent statelessness",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/world/65-years-after-landmark-convention-unhcr-calls-renewed-action-prevent-statelessness",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: 65 años después de la histórica Convención, ACNUR hace un llamamiento a renovar las medidas para prevenir la apatridia",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/world/65-anos-despues-de-la-historica-convencion-acnur-hace-un-llamamiento-renovar-las-medidas-para-prevenir-la-apatridia",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Lebanon: Escalation in the Middle East and Beyond — Mobility Report (11 – 24 August 2026)",
+        "date": "2026-08-28",
+        "url": "https://reliefweb.int/report/lebanon/escalation-middle-east-and-beyond-mobility-report-11-24-august-2026",
+        "source": "International Organization for Migration"
+      }
+    ],
+    "ukraine": [
+      {
+        "title": "UNHCR Romania Ukraine Refugee Situation Weekly Update #211 - 31 August 2026",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/romania/unhcr-romania-ukraine-refugee-situation-weekly-update-211-31-august-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Ukraine: Empowering Frontline Households: Direct Cash Assistance in Kharkivksa Oblast",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/ukraine/empowering-frontline-households-direct-cash-assistance-kharkivksa-oblast",
+        "source": "Agency for Technical Cooperation and Development"
+      },
+      {
+        "title": "UNHCR Romania - Ukrainian Refugees Participatory Assessment Report 2025",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/romania/unhcr-romania-ukrainian-refugees-participatory-assessment-report-2025",
+        "source": "UN High Commissioner for Refugees"
+      }
+    ],
+    "uyghurs": [
+      {
+        "title": "UN experts urge China to end repression of Uyghur and cultural expression of minorities",
+        "date": "2025-10-01",
+        "url": "https://reliefweb.int/report/china/un-experts-urge-china-end-repression-uyghur-and-cultural-expression-minorities",
+        "source": "UN Human Rights Council"
+      },
+      {
+        "title": "Atrocity Alert No. 448: Israel and the Occupied Palestinian Territory, Sudan and China",
+        "date": "2025-09-04",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/atrocity-alert-no-448-israel-and-occupied-palestinian-territory-sudan-and-china",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
+      {
+        "title": "Atrocity Alert No. 420: Myanmar (Burma), Syria and Forced Labor",
+        "date": "2024-12-05",
+        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-420-myanmar-burma-syria-and-forced-labor",
+        "source": "Global Centre for the Responsibility to Protect"
+      }
+    ],
+    "venezuela": [
+      {
+        "title": "Colombia: Venezuelan Refugees and Migrants in the Region - August 2026",
+        "date": "2026-08-20",
+        "url": "https://reliefweb.int/report/colombia/venezuelan-refugees-and-migrants-region-august-2026",
+        "source": "R4V"
+      },
+      {
+        "title": "UNHCR Peru: Factsheet 2026",
+        "date": "2026-08-20",
+        "url": "https://reliefweb.int/report/peru/unhcr-peru-factsheet-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "MMC 4Mi Infographia – Experiencias y expectativas del retorno a Venezuela (Julio 2026)",
+        "date": "2026-08-04",
+        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/mmc-4mi-infographia-experiencias-y-expectativas-del-retorno-venezuela-julio-2026",
+        "source": "Mixed Migration Centre"
+      }
+    ],
+    "west-papua": [
+      {
+        "title": "World: Reporting Sexual Violence and Abuse in Conflict - June 2026",
+        "date": "2026-07-14",
+        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-june-2026",
+        "source": "Insecurity Insight"
+      },
+      {
+        "title": "Indonesia: ASEAN Weekly Disaster Update Week 15 | 6 - 12 Apr 2026",
+        "date": "2026-04-13",
+        "url": "https://reliefweb.int/report/indonesia/asean-weekly-disaster-update-week-15-6-12-apr-2026",
+        "source": "ASEAN Coordinating Centre for Humanitarian Assistance"
+      },
+      {
+        "title": "Indonesia: ASEAN Weekly Disaster Update Week 50 | 8 – 14 December 2025",
+        "date": "2025-12-15",
+        "url": "https://reliefweb.int/report/indonesia/asean-weekly-disaster-update-week-50-8-14-december-2025",
+        "source": "ASEAN Coordinating Centre for Humanitarian Assistance"
+      }
+    ],
+    "yemen": [
+      {
+        "title": "Yemen: Health Cluster 4W Response Monitoring (July 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/yemen/yemen-health-cluster-4w-response-monitoring-july-2026",
+        "source": "Health Cluster"
+      },
+      {
+        "title": "Yemen: Health Cluster 4W Response Monitoring (June 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/yemen/yemen-health-cluster-4w-response-monitoring-june-2026",
+        "source": "Health Cluster"
+      },
+      {
+        "title": "Yemen: Health Cluster 4W Response Monitoring (May 2026)",
+        "date": "2026-08-31",
+        "url": "https://reliefweb.int/report/yemen/yemen-health-cluster-4w-response-monitoring-may-2026",
+        "source": "Health Cluster"
+      }
+    ]
+  }
 }
