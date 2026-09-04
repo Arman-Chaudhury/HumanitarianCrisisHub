@@ -137,7 +137,52 @@ async function fetchReportsApi(term) {
   }));
 }
 
-const fetchReports = process.env.RELIEFWEB_APPNAME ? fetchReportsApi : fetchReportsRss;
+/**
+ * Keyless fallback: Google News RSS. ReliefWeb's RSS serves empty pages to
+ * datacenter IPs (e.g. GitHub Actions) unless an approved appname is used, so
+ * this keeps headlines flowing from any environment.
+ */
+async function fetchReportsNews(term) {
+  const q = encodeURIComponent(`${term.replace(/"/g, "")} humanitarian`);
+  const res = await fetch(`https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`, {
+    headers: { "User-Agent": UA },
+  });
+  if (!res.ok) throw new Error(`Google News RSS ${res.status} for "${term}"`);
+  const items = [];
+  for (const m of (await res.text()).matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+    const block = m[1];
+    const pick = (tag) => {
+      const mm = block.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`));
+      return mm ? unescapeXml(mm[1].replace(/<!\[CDATA\[|\]\]>/g, "")) : "";
+    };
+    const source = pick("source");
+    // Google appends " - Source" to titles; strip it
+    const title = pick("title").replace(new RegExp(`\\s+-\\s+${source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`), "");
+    const link = pick("link");
+    const pubDate = pick("pubDate");
+    if (title && link) {
+      items.push({
+        title,
+        date: pubDate ? new Date(pubDate).toISOString().slice(0, 10) : "",
+        url: link,
+        source: source || "Google News",
+      });
+    }
+    if (items.length >= 3) break;
+  }
+  return items;
+}
+
+const primary = process.env.RELIEFWEB_APPNAME ? fetchReportsApi : fetchReportsRss;
+async function fetchReports(term) {
+  let items = [];
+  try {
+    items = await primary(term);
+  } catch (err) {
+    console.error(`${term}: ${err.message} — falling back to Google News`);
+  }
+  return items.length > 0 ? items : fetchReportsNews(term);
+}
 
 const files = (await readdir(CRISES_DIR)).filter((f) => f.endsWith(".json"));
 const out = { generated: new Date().toISOString().slice(0, 10), crises: {} };

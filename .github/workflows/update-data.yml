@@ -24,14 +24,17 @@ jobs:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
         run: node scripts/update-reliefweb.mjs
 
+      - name: Fetch live humanitarian indicators (OCHA HDX HAPI)
+        run: node scripts/update-live-stats.mjs
+
       - name: Commit refreshed data
         run: |
-          if git diff --quiet src/data/reliefweb.json; then
+          if git diff --quiet src/data/reliefweb.json src/data/live-stats.json; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/reliefweb.json
-          git commit -m "Refresh ReliefWeb crisis updates"
+          git add src/data/reliefweb.json src/data/live-stats.json
+          git commit -m "Refresh crisis updates and live indicators"
           git push

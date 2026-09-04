@@ -35,6 +35,19 @@ export interface PhotoCredit {
   url: string;
 }
 
+export interface LiveIndicator {
+  value: number;
+  asOf: string;
+  source: string;
+}
+
+export interface LiveStats {
+  iso3: string;
+  peopleInNeed?: LiveIndicator;
+  idps?: LiveIndicator;
+  foodInsecure?: LiveIndicator;
+}
+
 export interface ReliefWebItem {
   title: string;
   date: string;
