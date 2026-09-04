@@ -6,6 +6,7 @@ import { gsap } from "gsap";
 import type { Crisis, ReliefWebItem } from "@/types/crisis";
 import { getStatusColor } from "@/lib/statusColors";
 import reliefweb from "@/data/reliefweb.json";
+import LiveIndicators from "@/components/LiveIndicators";
 
 const STATUS_LABELS: Record<string, string> = {
   active: "Active Crisis",
@@ -164,6 +165,9 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
               ))}
             </p>
           )}
+
+          {/* Machine-updated indicators (nightly, UN OCHA HDX) */}
+          <LiveIndicators slug={crisis.slug} compactLayout />
 
           {/* Latest updates — auto-refreshed from UN ReliefWeb */}
           {updates.length > 0 && (

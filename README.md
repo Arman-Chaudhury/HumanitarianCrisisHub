@@ -4,12 +4,20 @@
 
 One website. Every crisis. Three actions: **Donate**, **Amplify**, **Demand Change**.
 
+I started this because every time a crisis was in the news, the people around
+me wanted to help and did not know where to start, and by the time they found a
+charity they trusted the news had moved on. Crisis Hub keeps all of it in one
+place: what is happening, who is doing real work on the ground, and three
+things you can do today.
+
 ![Crisis Hub — Every Crisis. Real Action.](public/og.jpg)
 
 ## Highlights
 
 - **Cinematic 3D globe** — a scroll-driven WebGL Earth built with Three.js: the camera flies from a horizon view into an interactive orbital stage where you can spin the globe, zoom with on-screen controls, and click any of 52 color-coded crisis hotspots. Rendered with 4K NASA Blue Marble imagery and a custom GLSL shader for the day/night terminator, city lights on the dark side, ocean specular shimmer, and a drifting cloud layer.
-- **Live data pipeline** — a nightly GitHub Action pulls the latest situation reports for every crisis from **UN OCHA's ReliefWeb** and commits them into the site, so each crisis page carries current headlines without manual editing.
+- **Live data pipeline** — a nightly GitHub Action refreshes two data files and commits them, so the site updates itself without manual editing:
+  - **Headlines** — the latest situation reports per crisis from **UN OCHA's ReliefWeb** (official API when an appname is configured; public RSS otherwise, with a Google News fallback).
+  - **Live indicators** — people in need, internally displaced persons, and IPC Phase 3+ food insecurity per country from **OCHA's Humanitarian API (HAPI) on HDX**, shown alongside the hand-curated statistics with their reference dates.
 - **Smart labeling** — hotspot name labels render only for the front-facing hemisphere and scale with zoom, keeping dense regions readable.
 - **Deep crisis pages** — every crisis has sourced statistics, background context, vetted donation organizations, awareness and political-action guides, licensed photography with attribution, and JSON-LD structured data.
 - **Scroll choreography** — GSAP ScrollTrigger and Lenis smooth-scrolling drive the hero sequence off a single scrubbed timeline, synced to the WebGL camera at 60fps.
@@ -32,18 +40,22 @@ npm run dev        # http://localhost:3000
 npm run build      # production build (SSG for all 52 crisis pages)
 ```
 
-Refresh the ReliefWeb headlines manually with:
+Refresh the automated data manually with:
 
 ```bash
-node scripts/update-reliefweb.mjs
+node scripts/update-reliefweb.mjs     # headlines (ReliefWeb / Google News)
+node scripts/update-live-stats.mjs    # live indicators (OCHA HDX HAPI)
 ```
+
+Both run nightly via `.github/workflows/update-data.yml`. Optional: request a free ReliefWeb appname (apidoc.reliefweb.int) and add it as the `RELIEFWEB_APPNAME` repository secret to use the official API from GitHub's servers.
 
 ## Project Structure
 
 ```
 crisis-hub/
 ├── .github/workflows/update-data.yml   # Nightly ReliefWeb refresh
-├── scripts/update-reliefweb.mjs        # UN ReliefWeb ingestion
+├── scripts/update-reliefweb.mjs        # UN ReliefWeb headline ingestion
+├── scripts/update-live-stats.mjs       # OCHA HDX HAPI indicator ingestion
 ├── public/
 │   ├── textures/                       # 4K NASA Blue Marble set
 │   └── images/crises/                  # Per-crisis photography (Wikimedia, attributed)
@@ -63,7 +75,8 @@ crisis-hub/
 │   │   └── ...                         # Grid, stats, tabs, nav
 │   ├── data/
 │   │   ├── crises/*.json               # One file per crisis (sourced)
-│   │   └── reliefweb.json              # Auto-refreshed headlines
+│   │   ├── reliefweb.json              # Auto-refreshed headlines
+│   │   └── live-stats.json             # Auto-refreshed UN indicators
 │   ├── lib/crises.ts
 │   └── types/crisis.ts
 └── tailwind.config.ts

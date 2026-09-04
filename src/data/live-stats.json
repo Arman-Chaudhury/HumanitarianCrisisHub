@@ -1,0 +1,471 @@
+{
+  "generated": "2026-09-04",
+  "crises": {
+    "afghanistan": {
+      "iso3": "AFG",
+      "peopleInNeed": {
+        "value": 21889283,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 3061922,
+        "asOf": "2026-01-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 13775635,
+        "asOf": "2025-10-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "balochistan": {
+      "iso3": "PAK",
+      "idps": {
+        "value": 523083,
+        "asOf": "2025-10-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 7543856,
+        "asOf": "2026-03-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "bangladesh-climate": {
+      "iso3": "BGD",
+      "idps": {
+        "value": 4955527,
+        "asOf": "2025-10-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 15270914,
+        "asOf": "2026-08-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "burkina-faso": {
+      "iso3": "BFA",
+      "peopleInNeed": {
+        "value": 4400000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 10293,
+        "asOf": "2019-08-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 1749437,
+        "asOf": "2024-05-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "cameroon": {
+      "iso3": "CMR",
+      "peopleInNeed": {
+        "value": 2900000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 510855,
+        "asOf": "2025-06-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 3120294,
+        "asOf": "2025-12-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "central-african-republic": {
+      "iso3": "CAF",
+      "peopleInNeed": {
+        "value": 2286959,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 416247,
+        "asOf": "2025-11-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 1928733,
+        "asOf": "2026-03-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "chad": {
+      "iso3": "TCD",
+      "peopleInNeed": {
+        "value": 4509014,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 219595,
+        "asOf": "2025-10-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 1927580,
+        "asOf": "2025-12-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "colombia": {
+      "iso3": "COL",
+      "peopleInNeed": {
+        "value": 6900000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      }
+    },
+    "congo": {
+      "iso3": "COD",
+      "peopleInNeed": {
+        "value": 14940727,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 1011568,
+        "asOf": "2026-07-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 24812776,
+        "asOf": "2025-12-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "ethiopia": {
+      "iso3": "ETH",
+      "peopleInNeed": {
+        "value": 21360484,
+        "asOf": "2024-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 1919993,
+        "asOf": "2024-08-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 16756345,
+        "asOf": "2021-06-30",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "haiti": {
+      "iso3": "HTI",
+      "peopleInNeed": {
+        "value": 6414193,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 1466862,
+        "asOf": "2026-05-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 5697628,
+        "asOf": "2026-02-28",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "horn-of-africa-drought": {
+      "iso3": "SOM",
+      "peopleInNeed": {
+        "value": 4796040,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 3262080,
+        "asOf": "2024-09-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 6030282,
+        "asOf": "2026-06-30",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "iraq": {
+      "iso3": "IRQ",
+      "idps": {
+        "value": 1031475,
+        "asOf": "2024-12-31",
+        "source": "IOM DTM via HDX HAPI"
+      }
+    },
+    "lebanon": {
+      "iso3": "LBN",
+      "idps": {
+        "value": 334353,
+        "asOf": "2026-08-26",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 873739,
+        "asOf": "2026-03-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "libya": {
+      "iso3": "LBY",
+      "idps": {
+        "value": 106371,
+        "asOf": "2025-12-31",
+        "source": "IOM DTM via HDX HAPI"
+      }
+    },
+    "madagascar": {
+      "iso3": "MDG",
+      "idps": {
+        "value": 90219,
+        "asOf": "2022-09-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 2572569,
+        "asOf": "2026-05-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "mali": {
+      "iso3": "MLI",
+      "peopleInNeed": {
+        "value": 5100000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 375539,
+        "asOf": "2023-04-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 855640,
+        "asOf": "2025-12-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "mozambique": {
+      "iso3": "MOZ",
+      "peopleInNeed": {
+        "value": 2356162,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 609243,
+        "asOf": "2025-03-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 1204836,
+        "asOf": "2026-03-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "myanmar": {
+      "iso3": "MMR",
+      "peopleInNeed": {
+        "value": 16229050,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      }
+    },
+    "niger": {
+      "iso3": "NER",
+      "peopleInNeed": {
+        "value": 2600000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 403643,
+        "asOf": "2025-09-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 1855774,
+        "asOf": "2025-12-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "nigeria": {
+      "iso3": "NGA",
+      "peopleInNeed": {
+        "value": 5900000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 1378124,
+        "asOf": "2025-10-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 27212933,
+        "asOf": "2025-12-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "pakistan-floods": {
+      "iso3": "PAK",
+      "idps": {
+        "value": 523083,
+        "asOf": "2025-10-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 7543856,
+        "asOf": "2026-03-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "palestine": {
+      "iso3": "PSE",
+      "foodInsecure": {
+        "value": 1239657,
+        "asOf": "2026-06-30",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "rohingya": {
+      "iso3": "BGD",
+      "idps": {
+        "value": 4955527,
+        "asOf": "2025-10-31",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 15270914,
+        "asOf": "2026-08-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "somalia": {
+      "iso3": "SOM",
+      "peopleInNeed": {
+        "value": 4796040,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 3262080,
+        "asOf": "2024-09-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 6030282,
+        "asOf": "2026-06-30",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "south-sudan": {
+      "iso3": "SSD",
+      "peopleInNeed": {
+        "value": 9913863,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 1992513,
+        "asOf": "2025-02-28",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 5972144,
+        "asOf": "2025-11-30",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "sudan": {
+      "iso3": "SDN",
+      "peopleInNeed": {
+        "value": 33699770,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 8685273,
+        "asOf": "2026-06-30",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 19466533,
+        "asOf": "2026-05-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    },
+    "syria": {
+      "iso3": "SYR",
+      "peopleInNeed": {
+        "value": 16500000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 5769012,
+        "asOf": "2026-06-30",
+        "source": "IOM DTM via HDX HAPI"
+      }
+    },
+    "tamils-sri-lanka": {
+      "iso3": "LKA",
+      "idps": {
+        "value": 205238,
+        "asOf": "2025-12-31",
+        "source": "IOM DTM via HDX HAPI"
+      }
+    },
+    "ukraine": {
+      "iso3": "UKR",
+      "peopleInNeed": {
+        "value": 10849697,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 3447123,
+        "asOf": "2026-07-31",
+        "source": "IOM DTM via HDX HAPI"
+      }
+    },
+    "venezuela": {
+      "iso3": "VEN",
+      "peopleInNeed": {
+        "value": 7900000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      }
+    },
+    "yemen": {
+      "iso3": "YEM",
+      "peopleInNeed": {
+        "value": 23100000,
+        "asOf": "2026-12-31",
+        "source": "OCHA HNO via HDX HAPI"
+      },
+      "idps": {
+        "value": 3066330,
+        "asOf": "2025-02-01",
+        "source": "IOM DTM via HDX HAPI"
+      },
+      "foodInsecure": {
+        "value": 4980505,
+        "asOf": "2026-05-31",
+        "source": "IPC Phase 3+ via HDX HAPI"
+      }
+    }
+  }
+}

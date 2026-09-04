@@ -5,6 +5,7 @@ import type { ReliefWebItem } from "@/types/crisis";
 import StatsBar from "@/components/StatsBar";
 import ActionTabs from "@/components/ActionTabs";
 import CrisisNavPills from "@/components/CrisisNavPills";
+import LiveIndicators from "@/components/LiveIndicators";
 import reliefweb from "@/data/reliefweb.json";
 
 interface CrisisPageProps {
@@ -132,6 +133,9 @@ export default function CrisisPage({ params }: CrisisPageProps) {
 
       {/* Stats */}
       <StatsBar stats={crisis.stats} />
+
+      {/* Machine-updated indicators (nightly, UN OCHA HDX) */}
+      <LiveIndicators slug={crisis.slug} />
 
       {/* Latest updates — refreshed nightly from UN ReliefWeb */}
       {(() => {
