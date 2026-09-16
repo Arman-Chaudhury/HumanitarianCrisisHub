@@ -173,7 +173,14 @@ async function fetchReportsNews(term) {
   return items;
 }
 
-const primary = process.env.RELIEFWEB_APPNAME ? fetchReportsApi : fetchReportsRss;
+// HEADLINES_SOURCE=news skips ReliefWeb entirely (useful when its edge is
+// blocking the current network, or to avoid its retry backoffs).
+const primary =
+  process.env.HEADLINES_SOURCE === "news"
+    ? fetchReportsNews
+    : process.env.RELIEFWEB_APPNAME
+      ? fetchReportsApi
+      : fetchReportsRss;
 async function fetchReports(term) {
   let items = [];
   try {
@@ -203,5 +210,10 @@ for (const file of files) {
   await new Promise((r) => setTimeout(r, 1500));
 }
 
+// Never clobber good data with an empty result (e.g. every source blocked).
+if (ok === 0) {
+  console.error("No data fetched — leaving existing reliefweb.json untouched.");
+  process.exit(0);
+}
 await writeFile(OUT_FILE, JSON.stringify(out, null, 2) + "\n");
 console.log(`reliefweb.json written — ${ok}/${files.length} crises have updates`);

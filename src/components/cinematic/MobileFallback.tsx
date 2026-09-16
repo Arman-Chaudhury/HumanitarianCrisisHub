@@ -1,11 +1,47 @@
 "use client";
 
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import type { Crisis } from "@/types/crisis";
 import { getStatusColor } from "@/lib/statusColors";
 
+/** Static Earth shown during SSR and while the WebGL bundle loads. */
+function StaticEarth() {
+  return (
+    <div
+      className="absolute inset-0 rounded-full overflow-hidden"
+      style={{
+        background:
+          "radial-gradient(circle at 35% 35%, #1a5c8a 0%, #091d36 60%, #050b14 100%)",
+        boxShadow: "inset -10px -16px 50px rgba(0,0,0,0.55), 0 0 60px rgba(108,184,255,0.12)",
+      }}
+    >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/textures/earth_day.jpg"
+        alt=""
+        aria-hidden
+        className="absolute inset-0 w-full h-full object-cover opacity-90"
+        style={{ objectPosition: "40% 42%" }}
+      />
+    </div>
+  );
+}
+
+const MobileGlobe = dynamic(() => import("./MobileGlobe"), {
+  ssr: false,
+  loading: () => <StaticEarth />,
+});
+
 interface MobileFallbackProps {
   crises: Crisis[];
+  selectedSlug: string | null;
+  onSelectCrisis: (slug: string) => void;
+  /** Show regardless of breakpoint (touch devices in landscape, reduced motion). */
+  force?: boolean;
+  /** Mount the WebGL globe (only once we know this is the active experience —
+   *  avoids a second hidden GL context on desktop). */
+  live?: boolean;
 }
 
 const STATUS_LABELS: Record<string, string> = {
@@ -15,14 +51,20 @@ const STATUS_LABELS: Record<string, string> = {
 };
 
 /**
- * Mobile (<768px) replacement for the WebGL globe scene. Shows a single
- * static Earth image and a tappable, scrollable list of crisis cards.
+ * Touch-device / reduced-motion replacement for the scroll-choreographed
+ * scene: a lighter live WebGL globe (auto-rotating, hotspots tappable) plus
+ * a scrollable list of crisis cards.
  */
-export default function MobileFallback({ crises }: MobileFallbackProps) {
+export default function MobileFallback({
+  crises,
+  selectedSlug,
+  onSelectCrisis,
+  force = false,
+  live = false,
+}: MobileFallbackProps) {
   return (
-    <div className="md:hidden mb-10">
-      {/* Static Earth — uses the existing land/water mask as a stylised globe */}
-      <div className="relative w-full aspect-square max-w-[420px] mx-auto mb-8">
+    <div className={`${force ? "" : "md:hidden "}mb-10`}>
+      <div className="relative w-full aspect-square max-w-[460px] mx-auto mb-3">
         <div
           className="absolute inset-[-8%] rounded-full pointer-events-none"
           style={{
@@ -30,24 +72,15 @@ export default function MobileFallback({ crises }: MobileFallbackProps) {
               "radial-gradient(circle, rgba(230,57,70,0.07) 0%, rgba(230,57,70,0.025) 40%, transparent 70%)",
           }}
         />
-        <div
-          className="absolute inset-0 rounded-full overflow-hidden"
-          style={{
-            background:
-              "radial-gradient(circle at 35% 35%, #1a5c8a 0%, #091d36 60%, #050b14 100%)",
-            boxShadow: "inset -10px -16px 50px rgba(0,0,0,0.55), 0 0 60px rgba(108,184,255,0.12)",
-          }}
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/textures/earth_day.jpg"
-            alt=""
-            aria-hidden
-            className="absolute inset-0 w-full h-full object-cover opacity-90"
-            style={{ objectPosition: "40% 42%" }}
-          />
-        </div>
+        {live ? (
+          <MobileGlobe crises={crises} selectedSlug={selectedSlug} onSelectCrisis={onSelectCrisis} />
+        ) : (
+          <StaticEarth />
+        )}
       </div>
+      <p className="text-center font-sans text-[10px] tracking-[0.3em] uppercase text-text-muted/80 mb-8">
+        Tap a marker
+      </p>
 
       <h3 className="font-display text-2xl tracking-[0.1em] text-text-bright mb-4">
         EXPLORE CRISES

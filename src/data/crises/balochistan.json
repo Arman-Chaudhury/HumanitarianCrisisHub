@@ -92,23 +92,23 @@
   "photos": [
     "/images/crises/balochistan.jpg",
     "/images/crises/balochistan-2.jpg",
-    "/images/crises/balochistan-3.png"
+    "/images/crises/balochistan-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "NASA",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:2022_Pakistan_Floods_-_August_27,_2021_vs._August_27,_2022_in_Sindh.jpg"
-    },
-    {
-      "artist": "Pierre Markuse",
-      "license": "CC BY 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Fires_in_Israel_and_the_Gaza_strip_-_7_October_2023_(53245908850).jpg"
-    },
-    {
-      "artist": "Nayyabbewal",
+      "artist": "Benoît Prieur",
       "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:Uzair_bloch.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Demonstration_in_support_of_the_Baloch_people_of_Iran_(London)_September_2023.JPG"
+    },
+    {
+      "artist": "Benoît Prieur",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Demonstration_in_support_of_the_Baloch_people_of_Iran_(London)_September_2023_(2).JPG"
+    },
+    {
+      "artist": "Voice of America",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Women_demonstration_Karima_Baloch_Pakistan.jpg"
     }
   ]
 }

@@ -102,13 +102,13 @@
   "photos": [
     "/images/crises/congo.jpg",
     "/images/crises/congo-2.jpg",
-    "/images/crises/congo-3.png"
+    "/images/crises/congo-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "Sunway godianne",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:CAMP_DE_D%C3%89PLAC%C3%89S_DE_L%E2%80%99ULPGL.jpg"
+      "artist": "MONUSCO Photos",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:IDP-Munigi-02_(8529966013).jpg"
     },
     {
       "artist": "Julien Harneis",
@@ -116,9 +116,9 @@
       "url": "https://commons.wikimedia.org/wiki/File:Nyanzale_displaced_persons_camp_children.jpg"
     },
     {
-      "artist": "EMMANRMS",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Cathedrale_notre_dame_de_la_victoire_bukavu.png"
+      "artist": "Julien Harneis",
+      "license": "CC BY-SA 1.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Congodistribution.jpg"
     }
   ]
 }

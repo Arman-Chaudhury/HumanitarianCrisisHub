@@ -96,24 +96,24 @@
   "lastUpdated": "2026-04-13",
   "photos": [
     "/images/crises/aboriginal-australians.jpg",
-    "/images/crises/aboriginal-australians-2.png",
+    "/images/crises/aboriginal-australians-2.jpg",
     "/images/crises/aboriginal-australians-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "Andrew Garran",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Indig2.jpg"
+      "artist": "State Library of New South Wales from Australia",
+      "license": "No restrictions",
+      "url": "https://commons.wikimedia.org/wiki/File:Aboriginal_Embassy_under_a_beach_umbrella,_Canberra,_27_January_1972._Left_to_right-_Michael_Anderson,_Billy_Craigie,_Bert_Williams_and_Tony_Coorey._(39642950501).jpg"
     },
     {
-      "artist": "Carl Sofus Lumholtz (23 April 1851 – 5 May 1922)",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Massacre_at_Skull_Hole,_Mistake_Creek,_Australia.png"
+      "artist": "julian meehan",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Invasion_Day_Protest_Swanston_St_Melbourne_2019.jpg"
     },
     {
-      "artist": "Department of Foreign Affairs and Trade",
-      "license": "CC BY 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:John_Herron,_AO_(1).jpg"
+      "artist": "Bidgee",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Invasion_Day_protest_at_the_Aboriginal_Tent_Embassy_in_Canberra.jpg"
     }
   ]
 }

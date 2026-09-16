@@ -15,10 +15,11 @@ import { TEXTURE_PATHS } from "./textures";
  * that need the missing assets.
  */
 
-function useOptionalTexture(url: string): THREE.Texture | null {
+function useOptionalTexture(url: string | null): THREE.Texture | null {
   // We use a manual loader so a 404 doesn't throw and break the whole scene.
   const [tex, setTex] = useState<THREE.Texture | null>(null);
   useEffect(() => {
+    if (!url) return;
     const loader = new THREE.TextureLoader();
     let cancelled = false;
     loader.load(
@@ -46,14 +47,16 @@ interface EarthLayersProps {
   groupRef: React.MutableRefObject<THREE.Group | null>;
   /** Children rendered inside the rotating group (hotspots). */
   children?: React.ReactNode;
+  /** Day map only — skips night/normal/specular/clouds to spare mobile GPUs. */
+  lite?: boolean;
 }
 
-export default function EarthLayers({ groupRef, children }: EarthLayersProps) {
+export default function EarthLayers({ groupRef, children, lite = false }: EarthLayersProps) {
   const dayMap = useOptionalTexture(TEXTURE_PATHS.day);
-  const normalMap = useOptionalTexture(TEXTURE_PATHS.normal);
-  const specularMap = useOptionalTexture(TEXTURE_PATHS.specular);
-  const cloudsMap = useOptionalTexture(TEXTURE_PATHS.clouds);
-  const nightMap = useOptionalTexture(TEXTURE_PATHS.night);
+  const normalMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.normal);
+  const specularMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.specular);
+  const cloudsMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.clouds);
+  const nightMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.night);
 
   const cloudsRef = useRef<THREE.Mesh>(null);
 

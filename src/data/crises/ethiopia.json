@@ -101,19 +101,19 @@
   ],
   "photoCredits": [
     {
-      "artist": "Jnyssen",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:School_destruction_(1)_Addilal_(Mishtir_Sabat).jpg"
+      "artist": "DFID - UK Department for International Development",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:A_woman_pictured_with_her_children,_recovering_from_malnutrition_at_a_health_clinic_in_southern_Ethiopia_(6021951300).jpg"
     },
     {
-      "artist": "Talskiddy at English Wikipedia",
-      "license": "CC BY 3.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Opbushel.jpg"
-    },
-    {
-      "artist": "unknown; according to [1] and [2] an official portrait of which b/w co",
+      "artist": "USAID Africa Bureau",
       "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Haile_Selassie_in_full_dress_(3x4_cropped).jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:A_young_man_in_drought_conditions_in_Ethiopia_(5933857075).jpg"
+    },
+    {
+      "artist": "Yan Boechat, VOA",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Displaced_children_in_Tigray_are_often_in_danger_of_malnutrition_and_in_some_areas,_famine,_pictured_in_Shire,_Ethiopia,_June_11,_2021.jpg"
     }
   ]
 }
