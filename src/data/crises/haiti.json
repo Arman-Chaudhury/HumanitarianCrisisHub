@@ -102,23 +102,23 @@
   "photos": [
     "/images/crises/haiti.jpg",
     "/images/crises/haiti-2.jpg",
-    "/images/crises/haiti-3.png"
+    "/images/crises/haiti-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "Wikitalovin1",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:List_of_ongoing_armed_conflicts.jpg"
+      "artist": "Freunde der Erziehungskunst Rudolf Steiners",
+      "license": "Attribution",
+      "url": "https://commons.wikimedia.org/wiki/File:Notfallp%C3%A4dagogik.jpg"
     },
     {
-      "artist": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+      "artist": "Ricardo Castrodad",
       "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:ISS027-E-17333_-_View_of_Dominican_Republic.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:48_Haitian_refugees_cling_to_the_cliffs_of_Monito_Cay,_Puerto_Rico,_as_a_USCG_rescue_boat_approaches_-_210812-G-G0107-1001_(cropped).jpg"
     },
     {
-      "artist": "Unknown authorUnknown author",
+      "artist": "Department of Defense. American Forces Information Service. Defense Vi",
       "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Duvalier_Presidential_Portrait_(1957).png"
+      "url": "https://commons.wikimedia.org/wiki/File:Haitian_refugees_board_a_Coast_Guard_boat._Nearly_15,000_Haitians_have_been_intercepted_and_brought_aboard_Navy_and_Coast_Guard_ships_between_October_and_December_1991._They_are_the_-_DPLA_-_94e4c72087e1e5ad852f61ae0ca4175b.jpeg"
     }
   ]
 }

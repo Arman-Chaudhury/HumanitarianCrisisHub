@@ -53,6 +53,12 @@ interface CinematicGlobeProps {
   /** Target camera distance while interactive — driven by the zoom buttons. */
   zoomTargetRef: MutableRefObject<number>;
   onSelectCrisis: (slug: string) => void;
+  /** Mobile profile: day-map only, lower DPR, camera starts orbital. */
+  lite?: boolean;
+  /** Mount OrbitControls while interactive (off on touch so pages still scroll). */
+  allowDrag?: boolean;
+  /** Render hotspot name labels. */
+  showLabels?: boolean;
 }
 
 /**
@@ -196,7 +202,7 @@ function LabelPlanner({
 
 /** The rotating Earth + hotspots group. Auto-rotates when nothing is
  *  selected; eases the selected hotspot toward the camera otherwise. */
-interface RotatingSceneProps extends Omit<CinematicGlobeProps, "zoomTargetRef"> {
+interface RotatingSceneProps extends Omit<CinematicGlobeProps, "zoomTargetRef" | "allowDrag" | "showLabels"> {
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
 }
@@ -209,6 +215,7 @@ function RotatingScene({
   nodesRef,
   labelSetRef,
   onSelectCrisis,
+  lite = false,
 }: RotatingSceneProps) {
   const groupRef = useRef<THREE.Group | null>(null);
 
@@ -242,7 +249,7 @@ function RotatingScene({
   });
 
   return (
-    <EarthLayers groupRef={groupRef}>
+    <EarthLayers groupRef={groupRef} lite={lite}>
       {crises.map((c) => (
         <Hotspot
           key={c.slug}
@@ -266,6 +273,9 @@ export default function CinematicGlobe({
   interactive,
   zoomTargetRef,
   onSelectCrisis,
+  lite = false,
+  allowDrag = true,
+  showLabels = true,
 }: CinematicGlobeProps) {
   // Registry of hotspot scene nodes (for world-position lookups) and the
   // planner-approved set of visible labels — both mutable, read every frame.
@@ -274,13 +284,14 @@ export default function CinematicGlobe({
 
   return (
     <Canvas
-      camera={{
-        position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z],
-        fov: HORIZON_FOV,
-      }}
-      style={{ background: "transparent" }}
-      dpr={[1, 2]}
-      gl={{ antialias: true, alpha: true }}
+      camera={
+        lite
+          ? { position: [ORBITAL_POS.x, ORBITAL_POS.y, ORBITAL_POS.z], fov: ORBITAL_FOV }
+          : { position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z], fov: HORIZON_FOV }
+      }
+      style={{ background: "transparent", touchAction: "pan-y" }}
+      dpr={lite ? [1, 1.5] : [1, 2]}
+      gl={{ antialias: true, alpha: true, powerPreference: lite ? "low-power" : "default" }}
     >
       <ambientLight intensity={1.3} />
       <directionalLight position={[5, 3, 5]} intensity={1.6} />
@@ -298,12 +309,13 @@ export default function CinematicGlobe({
           nodesRef={nodesRef}
           labelSetRef={labelSetRef}
           onSelectCrisis={onSelectCrisis}
+          lite={lite}
         />
       </Suspense>
 
       <LabelPlanner
         crises={crises}
-        interactive={interactive}
+        interactive={interactive && showLabels}
         nodesRef={nodesRef}
         labelSetRef={labelSetRef}
       />
@@ -311,7 +323,7 @@ export default function CinematicGlobe({
       <CameraRig progressRef={progressRef} interactive={interactive} />
       <ZoomRig zoomTargetRef={zoomTargetRef} interactive={interactive} />
 
-      {interactive && (
+      {interactive && allowDrag && (
         <OrbitControls
           enableZoom={false}
           enablePan={false}

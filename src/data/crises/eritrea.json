@@ -97,23 +97,23 @@
   "photos": [
     "/images/crises/eritrea.jpg",
     "/images/crises/eritrea-2.jpg",
-    "/images/crises/eritrea-3.png"
+    "/images/crises/eritrea-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "U.S. Customs and Border Protection",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:CBP_Processing_Unaccompanied_Children_(15020196668).jpg"
+      "artist": "Frank Karlitschek",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Refugees_In_Germany_Esnir_From_Eritrea_(123987743).jpeg"
     },
     {
-      "artist": "Voice of America; Mulugeta Atsbeha",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Delegation_from_the_African_Union_(AU)_and_other_partners_has_arrived_in_Mekelle.jpg"
-    },
-    {
-      "artist": "NYMan6",
+      "artist": "Rudychaimg",
       "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Forceful_Deportation_of_Eritreans_from_Sudan_(2023).png"
+      "url": "https://commons.wikimedia.org/wiki/File:African_refugees_in_Israel_2.jpg"
+    },
+    {
+      "artist": "Levi Meir Clancy",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:An_Eritrean_(African_and_Muslim)_asylum-seeker_in_Safed,_Israel_DSF0077.jpg"
     }
   ]
 }

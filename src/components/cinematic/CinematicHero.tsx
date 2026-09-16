@@ -67,11 +67,20 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
   const [modalCrisis, setModalCrisis] = useState<Crisis | null>(null);
   const [interactive, setInteractive] = useState(false);
   const [enabled, setEnabled] = useState(false);
+  // "mobile" once we know the cinematic scene won't run (touch device,
+  // narrow viewport, or reduced motion); "unknown" during SSR/hydration so
+  // CSS breakpoints alone decide what's visible and desktop never flashes
+  // the mobile layout.
+  const [mode, setMode] = useState<"unknown" | "cinematic" | "mobile">("unknown");
 
   useEffect(() => {
-    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    const isMobile =
+      window.matchMedia("(max-width: 767px)").matches ||
+      window.matchMedia("(pointer: coarse)").matches;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    setEnabled(!isMobile && !reduce);
+    const on = !isMobile && !reduce;
+    setEnabled(on);
+    setMode(on ? "cinematic" : "mobile");
 
     // Warm the browser cache for the globe textures immediately — the WebGL
     // canvas mounts via dynamic import, and without this the big day map only
@@ -194,18 +203,27 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
 
   return (
     <>
-      {/* Mobile fallback */}
-      <MobileFallback crises={crises} />
+      {/* Touch / reduced-motion experience */}
+      <MobileFallback
+        crises={crises}
+        selectedSlug={selectedSlug}
+        onSelectCrisis={onSelectCrisis}
+        force={mode === "mobile"}
+        live={mode === "mobile"}
+      />
 
       {/* Desktop scroll runway — empty section that just gives the page enough
           scrollable distance for the choreography. The visible content
-          (title, globe, legend) lives in fixed-position overlays below. */}
-      <section
-        ref={heroRef}
-        className="relative hidden md:block"
-        style={{ height: "315vh" }}
-        aria-label="Cinematic crisis globe"
-      />
+          (title, globe, legend) lives in fixed-position overlays below.
+          Removed entirely once we know the scene won't run. */}
+      {mode !== "mobile" && (
+        <section
+          ref={heroRef}
+          className="relative hidden md:block"
+          style={{ height: "315vh" }}
+          aria-label="Cinematic crisis globe"
+        />
+      )}
 
       {/* Fixed-position WebGL canvas — full viewport. Camera Rig handles the
           horizon → orbital flow; CSS only handles the late corner shrink. */}

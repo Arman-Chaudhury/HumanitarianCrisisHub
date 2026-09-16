@@ -95,25 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/libya.png",
+    "/images/crises/libya.jpg",
     "/images/crises/libya-2.jpg",
     "/images/crises/libya-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "US Energy Information Administration",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:OilProduction.Libya2010-2015.png"
+      "artist": "DFID - UK Department for International Development",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bangladeshi_migrants_from_Libya_at_Djerba_airport-dfid.jpg"
     },
     {
-      "artist": "U.S. Embassy in Libya/State Department",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Ambassador_Cretz_Stands_by_Fist_Crushing_a_U.S._Fighter_Plane_Sculpture.jpg"
+      "artist": "DFID - UK Department for International Development",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Listening_to_the_experiences_of_migrants_from_Libya.jpg"
     },
     {
-      "artist": "Mohmmed ayd",
-      "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Libya.sire.2017.jpg"
+      "artist": "DFID - UK Department for International Development",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Transit_camp_for_migrants_near_the_Tunisian_border_with_Libya.jpg"
     }
   ]
 }

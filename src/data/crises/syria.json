@@ -102,23 +102,23 @@
   "photos": [
     "/images/crises/syria.jpg",
     "/images/crises/syria-2.jpg",
-    "/images/crises/syria-3.png"
+    "/images/crises/syria-3.jpg"
   ],
   "photoCredits": [
     {
-      "artist": "VOA",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Aleppo_2017_(10).jpg"
+      "artist": "Ggia",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:20151030_Syrians_and_Iraq_refugees_arrive_at_Skala_Sykamias_Lesvos_Greece_1.jpg"
     },
     {
-      "artist": "U.S. Department of State",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:An_Aerial_View_of_the_Za%27atri_Refugee_Camp_(cropped).jpg"
+      "artist": "Mstyslav Chernov",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:A_line_of_Syrian_refugees_crossing_the_border_of_Hungary_and_Austria_on_their_way_to_Germany._Hungary,_Central_Europe,_6_September_2015.jpg"
     },
     {
-      "artist": "Ecrusized",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:2024_Israeli_invasion_of_Syria.png"
+      "artist": "DFID - UK Department for International Development",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Nayfa_and_grandson_Mahmoud,_aged_11,_at_an_IRC_clinic_in_Ramtha,_Jordan_(9613473031).jpg"
     }
   ]
 }

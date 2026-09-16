@@ -92,5 +92,10 @@ for (const file of files) {
   }
   await sleep(500);
 }
+// Never clobber good data with an empty result (e.g. every source blocked).
+if (ok === 0) {
+  console.error("No data fetched — leaving existing live-stats.json untouched.");
+  process.exit(0);
+}
 await writeFile(OUT_FILE, JSON.stringify(out, null, 2) + "\n");
 console.log(`live-stats.json written — ${ok}/${files.length} crises have live indicators`);

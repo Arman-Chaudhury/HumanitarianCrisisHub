@@ -101,19 +101,19 @@
   ],
   "photoCredits": [
     {
-      "artist": "mrlins",
+      "artist": "https://www.flickr.com/people/greenpeacefinland/ Lauri Myllyvirta /",
       "license": "CC BY 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Tuvalu_-_Funafuti_-_Approach.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Tuvalu_demonstration_COP15.jpg"
     },
     {
-      "artist": "Erin Magee/DFAT",
-      "license": "CC BY 2.0",
-      "url": "https://commons.wikimedia.org/wiki/File:As_an_extremely_low-lying_country,_surrounded_by_vast_oceans,_Kiribati_is_at_risk_from_the_negative_effects_of_climate_change,_such_as_sea-level_rise_and_storm_surges,_2011._Photo-_Erin_Magee_-_DFAT_(12426392094).jpg"
-    },
-    {
-      "artist": "Harold Clifford Fassett",
+      "artist": "Cesqld",
       "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:H-C-Fassett-Ellice-Is-1900.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Children_of_Niutao_Island.JPG"
+    },
+    {
+      "artist": "Photo taken by Government of Kiribati employee in the course of their ",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Children_in_Bairiki_Square,_Tarawa,_Kiribati.JPG"
     }
   ]
 }

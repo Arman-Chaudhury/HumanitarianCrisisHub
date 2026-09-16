@@ -95,25 +95,25 @@
   ],
   "lastUpdated": "2026-04-13",
   "photos": [
-    "/images/crises/north-korea.png",
-    "/images/crises/north-korea-2.jpg",
-    "/images/crises/north-korea-3.jpg"
+    "/images/crises/north-korea.jpg",
+    "/images/crises/north-korea-2.webp",
+    "/images/crises/north-korea-3.png"
   ],
   "photoCredits": [
     {
-      "artist": "Sdgedfegw",
+      "artist": "Elisabeth Carrera (WMNO)",
       "license": "CC BY-SA 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:North_Korea_single_age_population_pyramid_2020.png"
+      "url": "https://commons.wikimedia.org/wiki/File:Kim_Yumi.jpg"
     },
     {
-      "artist": "Unknown authorUnknown author",
+      "artist": "US Army Pfc. Seu Chan",
       "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:No-nb_bldsa_6a019.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Lee_So-yeon_(defector).webp"
     },
     {
-      "artist": "U.S. Mission Geneva/ Eric Bridiers",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Commission_of_Inquiry_on_the_DPRK_Presents_Report.jpg"
+      "artist": "북시탈tv",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Jeong_Haneul.png"
     }
   ]
 }
