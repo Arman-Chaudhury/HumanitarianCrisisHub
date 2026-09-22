@@ -66,6 +66,10 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [modalCrisis, setModalCrisis] = useState<Crisis | null>(null);
   const [interactive, setInteractive] = useState(false);
+  // Once the hero has fully faded out we stop the WebGL render loop and hide
+  // the layer, so the rest of the page scrolls without a 60fps canvas
+  // competing for the main thread and GPU.
+  const [pastGlobe, setPastGlobe] = useState(false);
   const [enabled, setEnabled] = useState(false);
   // "mobile" once we know the cinematic scene won't run (touch device,
   // narrow viewport, or reduced motion); "unknown" during SSR/hydration so
@@ -91,7 +95,6 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
         "/textures/earth_night.jpg",
         "/textures/earth_specular.jpg",
         "/textures/earth_clouds.png",
-        "/textures/earth_normal.jpg",
       ].forEach((src) => {
         const img = new Image();
         img.src = src;
@@ -120,7 +123,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
           end: "bottom bottom",
           // Higher scrub = more smoothing of progress. With Lenis driving
           // scroll, scrub: 1 is a good sweet spot for cinematic feel.
-          scrub: 1,
+          scrub: 0.6,
           onUpdate: (self) => {
             progressRef.current = self.progress;
             const p = self.progress;
@@ -132,6 +135,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
             }
             wasInteractiveRef.current = nowInteractive;
             setInteractive(nowInteractive);
+            setPastGlobe(p >= 0.995);
           },
         },
       });
@@ -234,6 +238,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
           style={{
             pointerEvents: interactive ? "auto" : "none",
             transformOrigin: "50% 50%",
+            visibility: pastGlobe ? "hidden" : "visible",
           }}
         >
           <div className="w-full h-full">
@@ -244,6 +249,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
               interactive={interactive}
               zoomTargetRef={zoomTargetRef}
               onSelectCrisis={onSelectCrisis}
+              paused={pastGlobe}
             />
           </div>
         </div>
@@ -259,7 +265,8 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
         >
           <h1
             ref={titleRef}
-            className="font-sans font-bold text-[clamp(36px,5vw,56px)] text-white tracking-tight leading-tight mb-4 drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)]"
+            className="font-sans font-bold text-[clamp(36px,5vw,56px)] text-white tracking-tight leading-tight mb-4"
+            style={{ textShadow: "0 2px 16px rgba(0,0,0,0.6)" }}
           >
             52 humanitarian crises.
             <br />
@@ -267,7 +274,8 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
           </h1>
           <p
             ref={taglineRef}
-            className="font-sans text-base sm:text-lg text-gray-200 font-normal max-w-[560px] mx-auto leading-relaxed drop-shadow-[0_1px_12px_rgba(0,0,0,0.5)]"
+            className="font-sans text-base sm:text-lg text-gray-200 font-normal max-w-[560px] mx-auto leading-relaxed"
+            style={{ textShadow: "0 1px 10px rgba(0,0,0,0.5)" }}
           >
             Independent, sourced briefings on the world&apos;s humanitarian emergencies,
             with vetted organizations to support and concrete ways to press for change.
