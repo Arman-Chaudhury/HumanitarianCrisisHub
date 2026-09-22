@@ -57,6 +57,8 @@ interface CinematicGlobeProps {
   allowDrag?: boolean;
   /** Render hotspot name labels. */
   showLabels?: boolean;
+  /** Stop the render loop entirely (used once the user has scrolled past the globe). */
+  paused?: boolean;
 }
 
 /**
@@ -274,6 +276,7 @@ export default function CinematicGlobe({
   lite = false,
   allowDrag = true,
   showLabels = true,
+  paused = false,
 }: CinematicGlobeProps) {
   // Registry of hotspot scene nodes (for world-position lookups) and the
   // planner-approved set of visible labels — both mutable, read every frame.
@@ -288,8 +291,11 @@ export default function CinematicGlobe({
           : { position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z], fov: HORIZON_FOV }
       }
       style={{ background: "transparent", touchAction: "pan-y" }}
-      dpr={lite ? [1, 1.5] : [1, 2]}
-      gl={{ antialias: true, alpha: true, powerPreference: lite ? "low-power" : "default" }}
+      // Cap device-pixel-ratio at 1.5: a full-viewport canvas at 2x on Retina
+      // is 4x the pixels of 1x for no visible gain on a textured sphere.
+      dpr={[1, 1.5]}
+      frameloop={paused ? "never" : "always"}
+      gl={{ antialias: true, alpha: true, powerPreference: lite ? "low-power" : "high-performance" }}
     >
       <ambientLight intensity={1.3} />
       <directionalLight position={[5, 3, 5]} intensity={1.6} />

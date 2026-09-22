@@ -53,7 +53,6 @@ interface EarthLayersProps {
 
 export default function EarthLayers({ groupRef, children, lite = false }: EarthLayersProps) {
   const dayMap = useOptionalTexture(TEXTURE_PATHS.day);
-  const normalMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.normal);
   const specularMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.specular);
   const cloudsMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.clouds);
   const nightMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.night);
@@ -144,7 +143,7 @@ export default function EarthLayers({ groupRef, children, lite = false }: EarthL
         {/* Dark ocean base sphere — keeps a believable silhouette before the
             surface shader has resolved or when only the fallback map is up. */}
         <mesh>
-          <sphereGeometry args={[1.998, 64, 64]} />
+          <sphereGeometry args={[1.998, 40, 40]} />
           <meshBasicMaterial color="#0a1d36" />
         </mesh>
 
@@ -152,21 +151,8 @@ export default function EarthLayers({ groupRef, children, lite = false }: EarthL
             no flat-color fallback layer, so there's no blue flash on load. */}
         {surfaceMaterial && (
           <mesh>
-            <sphereGeometry args={[2, 96, 96]} />
+            <sphereGeometry args={[2, 64, 64]} />
             <primitive object={surfaceMaterial} attach="material" />
-          </mesh>
-        )}
-
-        {/* Optional normal-mapped relief overlay (additive bump look) */}
-        {normalMap && surfaceMaterial && (
-          <mesh>
-            <sphereGeometry args={[2.001, 96, 96]} />
-            <meshStandardMaterial
-              transparent
-              opacity={0.0}
-              normalMap={normalMap}
-              normalScale={new THREE.Vector2(0.6, 0.6)}
-            />
           </mesh>
         )}
 
@@ -177,7 +163,7 @@ export default function EarthLayers({ groupRef, children, lite = false }: EarthL
           its motion is independent of the hotspot rotation. */}
       {cloudsMap && (
         <mesh ref={cloudsRef}>
-          <sphereGeometry args={[2.012, 96, 96]} />
+          <sphereGeometry args={[2.012, 48, 48]} />
           <meshBasicMaterial
             map={cloudsMap}
             transparent

@@ -161,7 +161,7 @@ export default function Hotspot({
     <group ref={groupRef} position={position} quaternion={orientation}>
       {/* Subtle ground glow on the surface */}
       <mesh ref={groundRef} position={[0, 0, -0.005]}>
-        <circleGeometry args={[0.07, 32]} />
+        <circleGeometry args={[0.07, 16]} />
         <meshBasicMaterial
           color={color}
           transparent
@@ -173,19 +173,19 @@ export default function Hotspot({
 
       {/* Expanding ring pulse */}
       <mesh ref={ringRef}>
-        <ringGeometry args={[0.016, 0.024, 32]} />
+        <ringGeometry args={[0.016, 0.024, 16]} />
         <meshBasicMaterial color={color} transparent opacity={0.32} side={THREE.DoubleSide} />
       </mesh>
 
       {/* Outer glow */}
       <mesh ref={glowRef}>
-        <sphereGeometry args={[0.03, 16, 16]} />
+        <sphereGeometry args={[0.03, 8, 8]} />
         <meshBasicMaterial color={color} transparent opacity={selected ? 0.2 : 0.1} />
       </mesh>
 
       {/* Mid glow */}
       <mesh ref={midRef}>
-        <sphereGeometry args={[0.02, 16, 16]} />
+        <sphereGeometry args={[0.02, 8, 8]} />
         <meshBasicMaterial color={color} transparent opacity={selected ? 0.5 : 0.28} />
       </mesh>
 
@@ -204,7 +204,7 @@ export default function Hotspot({
           document.body.style.cursor = "default";
         }}
       >
-        <sphereGeometry args={[0.014, 16, 16]} />
+        <sphereGeometry args={[0.014, 10, 10]} />
         <meshBasicMaterial
           color={color}
           transparent
