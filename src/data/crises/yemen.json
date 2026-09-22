@@ -1,7 +1,7 @@
 {
   "slug": "yemen",
   "name": "Yemen",
-  "region": "Nationwide — Sana'a, Aden, Taiz, Hodeidah",
+  "region": "Nationwide, Sana'a, Aden, Taiz, Hodeidah",
   "status": "active",
   "color": "#E76F51",
   "accent": "#F4A261",
@@ -10,7 +10,7 @@
     "lng": 44.19
   },
   "summary": "Yemen remains one of the world's worst humanitarian disasters after nearly a decade of civil war. Over 21 million people need humanitarian assistance, with millions facing famine and a collapsed healthcare system battling cholera and other preventable diseases.",
-  "context": "Yemen's civil war began in 2014 when Houthi forces seized the capital Sana'a, leading to a Saudi-led military coalition intervention in 2015. The conflict has since devastated the country's infrastructure, economy, and civilian population.\n\nThe Saudi-led coalition's aerial bombing campaign has been widely condemned for striking hospitals, schools, markets, and wedding parties. At the same time, Houthi forces have been accused of indiscriminate shelling, child recruitment, and obstructing humanitarian aid delivery.\n\nYemen was already the poorest country in the Middle East before the war. The conflict has pushed it into catastrophe. The healthcare system has largely collapsed, with fewer than half of health facilities fully functional. Cholera outbreaks have infected over 2.5 million people since 2016 — one of the largest epidemics in modern history.\n\nThe port of Hodeidah, through which the majority of Yemen's food and fuel imports pass, has been a flashpoint of the conflict. Blockades and restrictions on imports have directly contributed to famine conditions affecting millions.\n\nChildren bear a disproportionate burden of the crisis. UNICEF has called Yemen the worst place on earth to be a child. Malnutrition rates among children under five are among the highest in the world, and an estimated 11 million children need humanitarian assistance.\n\nDespite a fragile truce that began in 2022, the underlying conflict remains unresolved. Peace talks have stalled, and the humanitarian situation continues to deteriorate as international attention and funding decline.",
+  "context": "Yemen's civil war began in 2014 when Houthi forces seized the capital Sana'a, leading to a Saudi-led military coalition intervention in 2015. The conflict has since devastated the country's infrastructure, economy, and civilian population.\n\nThe Saudi-led coalition's aerial bombing campaign has been widely condemned for striking hospitals, schools, markets, and wedding parties. At the same time, Houthi forces have been accused of indiscriminate shelling, child recruitment, and obstructing humanitarian aid delivery.\n\nYemen was already the poorest country in the Middle East before the war. The conflict has pushed it into catastrophe. The healthcare system has largely collapsed, with fewer than half of health facilities fully functional. Cholera outbreaks have infected over 2.5 million people since 2016, one of the largest epidemics in modern history.\n\nThe port of Hodeidah, through which the majority of Yemen's food and fuel imports pass, has been a flashpoint of the conflict. Blockades and restrictions on imports have directly contributed to famine conditions affecting millions.\n\nChildren bear a disproportionate burden of the crisis. UNICEF has called Yemen the worst place on earth to be a child. Malnutrition rates among children under five are among the highest in the world, and an estimated 11 million children need humanitarian assistance.\n\nDespite a fragile truce that began in 2022, the underlying conflict remains unresolved. Peace talks have stalled, and the humanitarian situation continues to deteriorate as international attention and funding decline.",
   "stats": [
     {
       "label": "Need Aid",
@@ -36,12 +36,12 @@
   "actions": {
     "donate": [
       {
-        "name": "UNICEF — Yemen",
+        "name": "UNICEF, Yemen",
         "url": "https://www.unicef.org/yemen/",
         "description": "Treating malnourished children, providing clean water, and running vaccination campaigns across Yemen."
       },
       {
-        "name": "World Food Programme — Yemen",
+        "name": "World Food Programme, Yemen",
         "url": "https://www.wfp.org/emergencies/yemen-emergency",
         "description": "Delivering emergency food assistance to over 13 million people monthly in Yemen."
       },
@@ -60,7 +60,7 @@
       "Share the reality that Yemen has been called the world's worst humanitarian crisis by the UN for multiple years running",
       "Highlight the connection between arms sales to Saudi Arabia and the coalition's bombing campaign in Yemen",
       "Follow and amplify Yemeni journalists, photographers, and aid workers sharing first-hand accounts of the crisis",
-      "Organize educational events about Yemen's humanitarian situation — it remains one of the most under-covered crises globally",
+      "Organize educational events about Yemen's humanitarian situation, it remains one of the most under-covered crises globally",
       "Share resources about the cholera epidemic and child malnutrition crisis to put a human face on the statistics"
     ],
     "political": [
@@ -93,7 +93,7 @@
       "org": "WHO"
     },
     {
-      "title": "HRW — Yemen",
+      "title": "HRW, Yemen",
       "url": "https://www.hrw.org/middle-east/north-africa/yemen",
       "org": "Human Rights Watch"
     }

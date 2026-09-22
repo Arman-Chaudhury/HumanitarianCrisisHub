@@ -26,16 +26,16 @@ export async function generateMetadata({
   if (!crisis) return { title: "Crisis Not Found" };
 
   return {
-    title: `${crisis.name} — How to Help`,
+    title: `${crisis.name}: what is happening and how to help`,
     description: crisis.summary,
     openGraph: {
-      title: `${crisis.name} Crisis — How to Help | Crisis Hub`,
+      title: `${crisis.name}: what is happening and how to help | Crisis Hub`,
       description: crisis.summary,
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${crisis.name} Crisis — How to Help | Crisis Hub`,
+      title: `${crisis.name}: what is happening and how to help | Crisis Hub`,
       description: crisis.summary,
     },
   };
@@ -60,39 +60,44 @@ export default function CrisisPage({ params }: CrisisPageProps) {
       <CrisisNavPills crises={allCrises} currentSlug={crisis.slug} />
 
       {/* Crisis header */}
-      <header className="mb-11 animate-fade-up-2">
+      <header className="mb-11">
         <div className="inline-flex items-center gap-2 mb-3.5">
           <span
-            className="w-2 h-2 rounded-sm animate-pulse"
+            className="w-2 h-2 rounded-sm"
             style={{
               backgroundColor: crisis.color,
               boxShadow: `0 0 10px ${crisis.color}40`,
             }}
           />
           <span
-            className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase"
+            className="font-sans text-xs font-semibold tracking-normal"
             style={{ color: crisis.color }}
           >
             {STATUS_LABELS[crisis.status] || crisis.status}
           </span>
         </div>
 
-        <h1 className="font-display text-[clamp(56px,10vw,110px)] text-text-bright tracking-[0.05em] leading-[0.92] mb-2">
-          {crisis.name.toUpperCase()}
+        <h1 className="font-sans font-bold text-[clamp(32px,5vw,44px)] text-text-bright tracking-normal leading-tight mb-2">
+          {crisis.name}
         </h1>
 
-        <p className="font-serif italic text-base text-text-muted tracking-wide mb-6">
+        <p className="font-sans text-base text-text-muted mb-1">
           {crisis.region}
         </p>
+        <p className="font-sans text-xs text-text-faint mb-6">
+          Last reviewed{" "}
+          {new Date(crisis.lastUpdated).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+          {" "}· Sources listed at the end of this page
+        </p>
 
-        <p className="font-sans text-[17px] font-light leading-[1.75] text-text-body max-w-[600px] pl-5 border-l-[3px] border-crisis-red">
+        <p className="font-sans text-base font-normal leading-[1.75] text-text-body max-w-[600px] pl-5 border-l-[3px] border-crisis-red">
           {crisis.summary}
         </p>
       </header>
 
       {/* On-the-ground photography */}
       {(crisis.photos?.length ?? 0) > 0 && (
-        <section className="mb-11 animate-fade-up-3">
+        <section className="mb-11">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
             {crisis.photos!.map((src, i) => (
               <div
@@ -102,7 +107,7 @@ export default function CrisisPage({ params }: CrisisPageProps) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={src}
-                  alt={`${crisis.name} — on-the-ground photo ${i + 1}`}
+                  alt={`${crisis.name}: on-the-ground photo ${i + 1}`}
                   loading={i === 0 ? "eager" : "lazy"}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -110,7 +115,7 @@ export default function CrisisPage({ params }: CrisisPageProps) {
             ))}
           </div>
           {(crisis.photoCredits?.length ?? 0) > 0 && (
-            <p className="mt-2 font-sans text-[10px] leading-relaxed text-text-dim">
+            <p className="mt-2 font-sans text-xs leading-relaxed text-text-dim">
               Photos via Wikimedia Commons:{" "}
               {crisis.photoCredits!.map((c, i) => (
                 <span key={i}>
@@ -143,10 +148,10 @@ export default function CrisisPage({ params }: CrisisPageProps) {
           (reliefweb.crises as Record<string, ReliefWebItem[]>)[crisis.slug] ?? [];
         if (updates.length === 0) return null;
         return (
-          <section className="mt-10 animate-fade-up-4">
-            <h4 className="font-display text-[22px] text-text-dim tracking-[0.1em] mb-3.5">
-              LATEST UPDATES
-              <span className="ml-3 font-sans text-[10px] font-medium tracking-[0.14em] text-text-faint uppercase align-middle">
+          <section className="mt-10">
+            <h4 className="font-sans font-semibold text-lg text-text-dim tracking-normal mb-3.5">
+              Latest updates
+              <span className="ml-3 font-sans text-xs font-medium tracking-normal text-text-faint align-middle">
                 via UN ReliefWeb
               </span>
             </h4>
@@ -159,10 +164,10 @@ export default function CrisisPage({ params }: CrisisPageProps) {
                     rel="noopener noreferrer"
                     className="group block"
                   >
-                    <span className="font-sans text-[15px] text-text-body group-hover:text-text-bright transition-colors leading-snug">
+                    <span className="font-sans text-base text-text-body group-hover:text-text-bright transition-colors leading-snug">
                       {u.title}
                     </span>
-                    <span className="block font-sans text-[11px] text-text-dim mt-0.5">
+                    <span className="block font-sans text-xs text-text-dim mt-0.5">
                       {u.source} · {u.date}
                     </span>
                   </a>
@@ -177,14 +182,14 @@ export default function CrisisPage({ params }: CrisisPageProps) {
       <ActionTabs actions={crisis.actions} />
 
       {/* Background Context */}
-      <section className="mt-12 pt-9 border-t-2 border-text-bright animate-fade-up-5">
-        <h2 className="font-display text-4xl text-text-muted tracking-[0.08em] mb-5">
-          BACKGROUND
+      <section className="mt-12 pt-9 border-t border-border-hard">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          Background
         </h2>
         {crisis.context.split("\n\n").map((paragraph, i) => (
           <p
             key={i}
-            className="font-sans text-base font-light leading-[1.8] text-text-body mb-4 max-w-[680px]"
+            className="font-sans text-base font-normal leading-[1.8] text-text-body mb-4 max-w-[680px]"
           >
             {paragraph}
           </p>
@@ -192,9 +197,9 @@ export default function CrisisPage({ params }: CrisisPageProps) {
       </section>
 
       {/* Sources */}
-      <section className="mt-12 pt-7 border-t border-border-hard animate-fade-up-6">
-        <h4 className="font-display text-[22px] text-text-dim tracking-[0.1em] mb-3.5">
-          SOURCES
+      <section className="mt-12 pt-7 border-t border-border-hard">
+        <h4 className="font-sans font-semibold text-lg text-text-dim tracking-normal mb-3.5">
+          Sources
         </h4>
         <div className="flex flex-wrap">
           {crisis.sources.map((source) => (
@@ -203,13 +208,13 @@ export default function CrisisPage({ params }: CrisisPageProps) {
               href={source.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block font-sans text-[13px] text-text-muted mr-5 mb-2 border-b border-border pb-0.5 transition-all duration-200 hover:text-text-bright hover:border-text-bright"
+              className="inline-block font-sans text-sm text-text-muted mr-5 mb-2 border-b border-border pb-0.5 transition-all duration-200 hover:text-text-bright hover:border-text-bright"
             >
               {source.title}
             </a>
           ))}
         </div>
-        <p className="mt-4 font-sans text-[11px] font-medium text-text-faint uppercase tracking-[0.1em]">
+        <p className="mt-4 font-sans text-xs font-medium text-text-faint tracking-normal">
           Last updated: {new Date(crisis.lastUpdated).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",

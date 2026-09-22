@@ -6,33 +6,33 @@ import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 
 export const metadata: Metadata = {
   title: {
-    default: "Crisis Hub — Act on Global Humanitarian Crises",
+    default: "Crisis Hub: humanitarian crisis briefings and how to help",
     template: "%s | Crisis Hub",
   },
   description:
-    "A free resource hub documenting global humanitarian crises with actionable ways to help: donate, spread awareness, and demand political change.",
+    "Independent, sourced briefings on 52 humanitarian crises, with vetted organizations to support, ways to raise awareness, and steps to press for policy change.",
   metadataBase: new URL("https://crisis-hub.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: "Crisis Hub",
-    title: "Crisis Hub — Act on Global Humanitarian Crises",
+    title: "Crisis Hub: humanitarian crisis briefings and how to help",
     description:
-      "One website. Every crisis. Three actions: Donate, Amplify, Demand Change.",
+      "Sourced briefings on 52 humanitarian crises, refreshed nightly from UN data, with vetted ways to help.",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Crisis Hub — Every Crisis. Real Action.",
+        alt: "Crisis Hub",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Crisis Hub — Act on Global Humanitarian Crises",
+    title: "Crisis Hub: humanitarian crisis briefings and how to help",
     description:
-      "One website. Every crisis. Three actions: Donate, Amplify, Demand Change.",
+      "Sourced briefings on 52 humanitarian crises, refreshed nightly from UN data, with vetted ways to help.",
     images: ["/og.jpg"],
   },
   robots: {
@@ -56,18 +56,18 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
       </head>
       <body className="min-h-screen">
         <SmoothScrollProvider />
-        {/* Ambient background glow */}
-        <div className="ambient-glow" />
-
-        {/* Main page wrapper */}
-        <div className="relative z-10 max-w-[920px] mx-auto px-5 sm:px-7 pt-8 pb-16">
-          <Navbar />
+        <header className="sticky top-0 z-[50] bg-white/95 border-b border-border-hard">
+          <div className="max-w-[960px] mx-auto px-5 sm:px-7">
+            <Navbar />
+          </div>
+        </header>
+        <div className="relative z-10 max-w-[960px] mx-auto px-5 sm:px-7 pt-8 pb-16">
           <main>{children}</main>
           <Footer />
         </div>

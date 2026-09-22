@@ -71,7 +71,7 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
     <div className="fixed inset-0 z-[100]" data-lenis-prevent>
       <div
         ref={overlayRef}
-        className="absolute inset-0 bg-black/70 backdrop-blur-md"
+        className="absolute inset-0 bg-black/70"
         onClick={onClose}
       />
 
@@ -99,21 +99,21 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
               style={{ backgroundColor: color, boxShadow: `0 0 10px ${color}55` }}
             />
             <span
-              className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase"
+              className="font-sans text-xs font-semibold tracking-normal"
               style={{ color }}
             >
               {STATUS_LABELS[crisis.status] ?? crisis.status}
             </span>
           </div>
 
-          <h2 className="font-display text-[clamp(40px,7vw,72px)] text-text-bright tracking-[0.05em] leading-[0.95] mb-2">
-            {crisis.name.toUpperCase()}
+          <h2 className="font-sans font-bold text-[clamp(28px,4vw,40px)] text-text-bright tracking-normal leading-tight mb-2">
+            {crisis.name}
           </h2>
-          <p className="font-serif italic text-base text-text-muted tracking-wide mb-6">
+          <p className="font-sans text-base text-text-muted tracking-normal mb-6">
             {crisis.region}
           </p>
 
-          <p className="font-sans text-[16px] font-light leading-[1.75] text-text-body max-w-[640px] pl-5 border-l-[3px] mb-7"
+          <p className="font-sans text-base font-normal leading-[1.75] text-text-body max-w-[640px] pl-5 border-l-[3px] mb-7"
              style={{ borderColor: color }}>
             {crisis.summary}
           </p>
@@ -129,7 +129,7 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={src}
-                    alt={`${crisis.name} — crisis photo ${i + 1}`}
+                    alt={`${crisis.name}: crisis photo ${i + 1}`}
                     loading="lazy"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -147,7 +147,7 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
 
           {/* Photo attribution — required by Commons licenses */}
           {credits.length > 0 && (
-            <p className="font-sans text-[10px] leading-relaxed text-text-dim -mt-5 mb-7">
+            <p className="font-sans text-xs leading-relaxed text-text-dim -mt-5 mb-7">
               Photos via Wikimedia Commons:{" "}
               {credits.map((c, i) => (
                 <span key={i}>
@@ -172,10 +172,10 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
           {/* Latest updates — auto-refreshed from UN ReliefWeb */}
           {updates.length > 0 && (
             <div className="mb-7">
-              <h3 className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase text-text-dim mb-3">
+              <h3 className="font-sans text-xs font-semibold tracking-normal text-text-dim mb-3">
                 Latest Updates{" "}
-                <span className="font-normal normal-case tracking-normal">
-                  — via UN ReliefWeb
+                <span className="font-normal text-text-faint">
+                  via UN ReliefWeb
                 </span>
               </h3>
               <ul className="space-y-2 border-l-[3px] pl-5" style={{ borderColor: `${color}55` }}>
@@ -187,10 +187,10 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
                       rel="noopener noreferrer"
                       className="group block"
                     >
-                      <span className="font-sans text-[14px] text-text-body group-hover:text-text-bright transition-colors leading-snug">
+                      <span className="font-sans text-sm text-text-body group-hover:text-text-bright transition-colors leading-snug">
                         {u.title}
                       </span>
-                      <span className="block font-sans text-[11px] text-text-dim mt-0.5">
+                      <span className="block font-sans text-xs text-text-dim mt-0.5">
                         {u.source} · {u.date}
                       </span>
                     </a>
@@ -208,10 +208,10 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
                   key={stat.label}
                   className={`relative py-5 text-center ${i < 2 ? "border-r border-border" : ""}`}
                 >
-                  <div className="font-display text-[28px] text-text-bright tracking-wider leading-none mb-1.5">
+                  <div className="font-sans font-semibold text-xl text-text-bright tracking-normal leading-none mb-1.5">
                     {stat.value}
                   </div>
-                  <div className="font-sans text-[10px] font-medium text-text-dim uppercase tracking-widest">
+                  <div className="font-sans text-xs font-medium text-text-dim tracking-normal">
                     {stat.label}
                   </div>
                 </div>
@@ -225,7 +225,7 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
               href={crisis.actions.donate?.[0]?.url ?? `/crises/${crisis.slug}`}
               target={crisis.actions.donate?.[0]?.url ? "_blank" : undefined}
               rel="noopener noreferrer"
-              className="px-5 py-3 font-sans text-xs font-semibold tracking-[0.12em] uppercase text-bg-deep transition-opacity hover:opacity-90"
+              className="px-5 py-3 font-sans text-xs font-semibold tracking-normal text-white transition-opacity hover:opacity-90"
               style={{ background: color }}
             >
               Donate
@@ -245,14 +245,14 @@ export default function CrisisTakeoverModal({ crisis, onClose }: CrisisTakeoverM
                   );
                 }
               }}
-              className="px-5 py-3 font-sans text-xs font-semibold tracking-[0.12em] uppercase text-text-bright border border-border-hard hover:bg-bg-card-hover transition-colors"
+              className="px-5 py-3 font-sans text-xs font-semibold tracking-normal text-text-bright border border-border-hard hover:bg-bg-card-hover transition-colors"
             >
               Share
             </button>
             <button
               type="button"
               onClick={goToFullPage}
-              className="px-5 py-3 font-sans text-xs font-semibold tracking-[0.12em] uppercase text-text-bright border border-text-bright hover:bg-text-bright hover:text-bg-deep transition-colors"
+              className="px-5 py-3 font-sans text-xs font-semibold tracking-normal text-text-bright border border-text-bright hover:bg-gray-900 hover:text-white transition-colors"
             >
               Read full →
             </button>

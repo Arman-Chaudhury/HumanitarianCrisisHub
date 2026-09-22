@@ -1,36 +1,71 @@
 import Link from "next/link";
+import { Wordmark } from "./Navbar";
 
-const FOOTER_LINKS = [
-  { href: "/", label: "Crises" },
-  { href: "/take-action", label: "Take Action" },
-  { href: "/resources", label: "Resources" },
-  { href: "/about", label: "About" },
+const COLUMNS = [
+  {
+    heading: "Explore",
+    links: [
+      { href: "/", label: "All crises" },
+      { href: "/take-action", label: "Take action" },
+      { href: "/resources", label: "Resources" },
+    ],
+  },
+  {
+    heading: "About",
+    links: [
+      { href: "/about", label: "About Crisis Hub" },
+      { href: "/methodology", label: "Methodology and sources" },
+      { href: "/contact", label: "Contact and corrections" },
+    ],
+  },
+  {
+    heading: "Legal",
+    links: [
+      { href: "/privacy", label: "Privacy" },
+      { href: "https://github.com/Arman-Chaudhury/HumanitarianCrisisHub", label: "Source code (GitHub)" },
+    ],
+  },
 ];
 
 export default function Footer() {
+  const year = new Date().getFullYear();
   return (
-    <footer className="mt-16 pt-6 border-t-2 border-text-bright animate-fade-up-7">
-      <div className="flex justify-between items-center flex-wrap gap-4">
-        <Link href="/" className="font-serif text-lg text-text-dim">
-          <em className="text-crisis-red italic">Crisis</em> Hub
-        </Link>
-        <div className="flex gap-5">
-          {FOOTER_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="font-sans text-xs text-text-faint tracking-wider uppercase hover:text-text-muted transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
+    <footer className="mt-20 pt-10 border-t border-border-hard">
+      <div className="grid grid-cols-1 sm:grid-cols-[1.4fr_1fr_1fr_1fr] gap-8">
+        <div>
+          <Wordmark />
+          <p className="mt-3 font-sans text-sm text-text-muted leading-relaxed max-w-[300px]">
+            An independent, non-partisan reference on humanitarian crises and
+            how to help. Not affiliated with any government or political
+            organization.
+          </p>
         </div>
+        {COLUMNS.map((col) => (
+          <div key={col.heading}>
+            <h4 className="font-sans text-sm font-semibold text-text-bright mb-3">{col.heading}</h4>
+            <ul className="space-y-2">
+              {col.links.map((l) => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    className="font-sans text-sm text-text-muted hover:text-text-bright transition-colors"
+                  >
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-      <p className="mt-3 font-sans text-xs text-text-faint leading-relaxed">
-        Always verify organizations before donating. This is a student-built
-        resource hub, not a news outlet. The most powerful thing you can do is
-        start — and then keep going.
-      </p>
+      <div className="mt-10 pt-5 border-t border-border flex flex-wrap justify-between gap-2">
+        <p className="font-sans text-xs text-text-faint">
+          © {year} Crisis Hub. Content available for reuse with attribution.
+        </p>
+        <p className="font-sans text-xs text-text-faint">
+          Headlines and indicators refreshed nightly from UN OCHA sources.
+        </p>
+      </div>
     </footer>
   );
 }

@@ -38,16 +38,16 @@ export default function LiveIndicators({ slug, compactLayout = false }: LiveIndi
   if (rows.length === 0) return null;
 
   return (
-    <div className={compactLayout ? "mb-7" : "mt-10 animate-fade-up-4"}>
+    <div className={compactLayout ? "mb-7" : "mt-10"}>
       <h4
         className={
           compactLayout
-            ? "font-sans text-[11px] font-semibold tracking-[0.18em] uppercase text-text-dim mb-3"
-            : "font-display text-[22px] text-text-dim tracking-[0.1em] mb-3.5"
+            ? "font-sans text-xs font-semibold tracking-normal text-text-dim mb-3"
+            : "font-sans font-semibold text-lg text-text-dim tracking-normal mb-3.5"
         }
       >
-        {compactLayout ? "Live indicators" : "LIVE INDICATORS"}
-        <span className="ml-3 font-sans text-[10px] font-medium tracking-[0.14em] text-text-faint uppercase align-middle">
+        {compactLayout ? "Live indicators" : "Live indicators"}
+        <span className="ml-3 font-sans text-xs font-medium tracking-normal text-text-faint align-middle">
           auto-updated · UN OCHA HDX
         </span>
       </h4>
@@ -56,13 +56,13 @@ export default function LiveIndicators({ slug, compactLayout = false }: LiveIndi
           const ind = stats[r.key]!;
           return (
             <div key={r.key} className="border border-border rounded-sm px-3 py-3 bg-bg-card/60">
-              <dd className="font-display text-[26px] text-text-bright tracking-wider leading-none mb-1.5">
+              <dd className="font-sans font-semibold text-2xl text-text-bright tracking-normal leading-none mb-1.5">
                 {compact(ind.value)}
               </dd>
-              <dt className="font-sans text-[10px] font-medium text-text-dim uppercase tracking-widest leading-snug">
+              <dt className="font-sans text-xs font-medium text-text-dim tracking-normal leading-snug">
                 {r.label}
               </dt>
-              <p className="font-sans text-[10px] text-text-faint mt-1">{monthYear(ind.asOf)}</p>
+              <p className="font-sans text-xs text-text-faint mt-1">{monthYear(ind.asOf)}</p>
             </div>
           );
         })}
