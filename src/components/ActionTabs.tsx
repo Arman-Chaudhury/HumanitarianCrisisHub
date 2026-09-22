@@ -9,17 +9,17 @@ interface ActionTabsProps {
 
 type Tab = "donate" | "awareness" | "political";
 
-const TABS: { key: Tab; label: string; icon: string }[] = [
-  { key: "donate", label: "Donate", icon: "♥" },
-  { key: "awareness", label: "Awareness", icon: "◉" },
-  { key: "political", label: "Action", icon: "⚡" },
+const TABS: { key: Tab; label: string }[] = [
+  { key: "donate", label: "Organizations to support" },
+  { key: "awareness", label: "Raise awareness" },
+  { key: "political", label: "Press for change" },
 ];
 
 export default function ActionTabs({ actions }: ActionTabsProps) {
   const [active, setActive] = useState<Tab>("donate");
 
   return (
-    <div className="animate-fade-up-4">
+    <div className="">
       {/* Tab Buttons */}
       <div className="flex gap-0 mb-8" role="tablist">
         {TABS.map((tab, i) => (
@@ -28,22 +28,22 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
             role="tab"
             aria-selected={active === tab.key}
             onClick={() => setActive(tab.key)}
-            className={`py-3.5 px-5 sm:px-7 font-sans text-[13px] font-semibold tracking-wide transition-all duration-300 border border-border ${
+            className={`py-3 px-4 sm:px-6 font-sans text-sm font-semibold transition-colors border border-border-hard ${
               i < TABS.length - 1 ? "border-r-0" : ""
             } ${
               active === tab.key
-                ? "text-text-bright bg-crisis-red border-crisis-red"
-                : "text-text-dim bg-transparent hover:text-text-muted hover:bg-[rgba(255,255,255,0.02)]"
+                ? "text-white bg-crisis-red border-crisis-red"
+                : "text-text-dim bg-transparent hover:text-text-muted hover:bg-bg-card-hover"
             }`}
           >
-            {tab.icon} {tab.label}
+            {tab.label}
           </button>
         ))}
       </div>
 
       {/* Donate Panel */}
       {active === "donate" && (
-        <div className="flex flex-col gap-0 animate-fade-up" role="tabpanel">
+        <div className="flex flex-col gap-0" role="tabpanel">
           {actions.donate.map((org, i) => (
             <a
               key={org.name}
@@ -55,14 +55,14 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
               }`}
             >
               <div>
-                <h3 className="font-serif text-[22px] text-text-bright mb-1.5">
+                <h3 className="font-sans text-[22px] text-text-bright mb-1.5">
                   {org.name}
                 </h3>
                 <p className="font-sans text-sm text-text-muted leading-relaxed max-w-[520px]">
                   {org.description}
                 </p>
               </div>
-              <span className="mt-3 sm:mt-0 font-sans text-xs font-semibold text-crisis-red tracking-wider whitespace-nowrap py-2.5 px-5 border-[1.5px] border-crisis-red rounded transition-all duration-200 group-hover:bg-crisis-red group-hover:text-text-bright group-hover:shadow-[0_0_20px_rgba(230,57,70,0.09)]">
+              <span className="mt-3 sm:mt-0 font-sans text-xs font-semibold text-crisis-red tracking-normal whitespace-nowrap py-2.5 px-5 border-[1.5px] border-crisis-red rounded transition-all duration-200 group-hover:bg-crisis-red group-hover:text-white">
                 Donate →
               </span>
             </a>
@@ -72,7 +72,7 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
 
       {/* Awareness Panel */}
       {active === "awareness" && (
-        <div className="flex flex-col gap-0 animate-fade-up" role="tabpanel">
+        <div className="flex flex-col gap-0" role="tabpanel">
           {actions.awareness.map((item, i) => (
             <div
               key={i}
@@ -80,10 +80,10 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
                 i === 0 ? "border-t border-border" : ""
               }`}
             >
-              <div className="font-display text-[32px] text-crisis-red tracking-wide leading-none min-w-[36px] opacity-70">
+              <div className="font-sans font-semibold text-xl text-crisis-red tracking-normal leading-none min-w-[36px] opacity-70">
                 {String(i + 1).padStart(2, "0")}
               </div>
-              <p className="font-sans text-[15px] leading-[1.7] text-text-body">
+              <p className="font-sans text-base leading-[1.7] text-text-body">
                 {item}
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
 
       {/* Political Action Panel */}
       {active === "political" && (
-        <div className="flex flex-col gap-0 animate-fade-up" role="tabpanel">
+        <div className="flex flex-col gap-0" role="tabpanel">
           {actions.political.map((item, i) => (
             <div
               key={i}
@@ -101,10 +101,10 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
                 i === 0 ? "border-t border-border" : ""
               }`}
             >
-              <div className="font-display text-[32px] text-crisis-red tracking-wide leading-none min-w-[36px] opacity-70">
+              <div className="font-sans font-semibold text-xl text-crisis-red tracking-normal leading-none min-w-[36px] opacity-70">
                 {String(i + 1).padStart(2, "0")}
               </div>
-              <p className="font-sans text-[15px] leading-[1.7] text-text-body">
+              <p className="font-sans text-base leading-[1.7] text-text-body">
                 {item}
               </p>
             </div>

@@ -115,17 +115,17 @@ export default function Hotspot({
     if (glowRef.current) {
       glowRef.current.scale.setScalar(0.85 + pulse * 0.45);
       const m = glowRef.current.material as THREE.MeshBasicMaterial;
-      m.opacity = (selected ? 0.2 : 0.1) * stageAlpha;
+      m.opacity = (selected ? 0.12 : 0.04) * stageAlpha;
     }
 
     if (midRef.current) {
       const m = midRef.current.material as THREE.MeshBasicMaterial;
-      m.opacity = (selected ? 0.5 : 0.28) * stageAlpha;
+      m.opacity = (selected ? 0.35 : 0.14) * stageAlpha;
     }
 
     if (groundRef.current) {
       const m = groundRef.current.material as THREE.MeshBasicMaterial;
-      m.opacity = (0.18 + pulse * 0.18) * stageAlpha;
+      m.opacity = (0.08 + pulse * 0.06) * stageAlpha;
     }
 
     if (coreRef.current) {
@@ -233,7 +233,7 @@ export default function Hotspot({
             className="whitespace-nowrap px-2 py-[3px] cursor-pointer"
           >
             <span
-              className="font-sans text-[8.5px] font-medium tracking-wide"
+              className="font-sans text-[8.5px] font-medium tracking-normal"
               style={{
                 color: "#f0ece2",
                 textShadow:
@@ -261,7 +261,7 @@ export default function Hotspot({
               {crisis.name}
             </span>
             <span
-              className="ml-2 font-sans text-[10px] uppercase tracking-wider font-medium"
+              className="ml-2 font-sans text-xs tracking-normal font-medium"
               style={{ color: getStatusColor(crisis.status) }}
             >
               {crisis.status}

@@ -65,25 +65,18 @@ export default function MobileFallback({
   return (
     <div className={`${force ? "" : "md:hidden "}mb-10`}>
       <div className="relative w-full aspect-square max-w-[460px] mx-auto mb-3">
-        <div
-          className="absolute inset-[-8%] rounded-full pointer-events-none"
-          style={{
-            background:
-              "radial-gradient(circle, rgba(230,57,70,0.07) 0%, rgba(230,57,70,0.025) 40%, transparent 70%)",
-          }}
-        />
         {live ? (
           <MobileGlobe crises={crises} selectedSlug={selectedSlug} onSelectCrisis={onSelectCrisis} />
         ) : (
           <StaticEarth />
         )}
       </div>
-      <p className="text-center font-sans text-[10px] tracking-[0.3em] uppercase text-text-muted/80 mb-8">
+      <p className="text-center font-sans text-xs tracking-normal text-text-muted/80 mb-8">
         Tap a marker
       </p>
 
-      <h3 className="font-display text-2xl tracking-[0.1em] text-text-bright mb-4">
-        EXPLORE CRISES
+      <h3 className="font-sans font-semibold text-lg tracking-normal text-text-bright mb-4">
+        Explore crises
       </h3>
 
       <ul className="space-y-2">
@@ -99,11 +92,11 @@ export default function MobileFallback({
                   className="w-2.5 h-2.5 rounded-full flex-shrink-0"
                   style={{ background: color, boxShadow: `0 0 8px ${color}77` }}
                 />
-                <span className="font-display text-base tracking-wider text-text-bright flex-1">
-                  {c.name.toUpperCase()}
+                <span className="font-sans font-medium text-base tracking-normal text-text-bright flex-1">
+                  {c.name}
                 </span>
                 <span
-                  className="font-sans text-[10px] uppercase tracking-widest"
+                  className="font-sans text-xs tracking-normal"
                   style={{ color }}
                 >
                   {STATUS_LABELS[c.status] ?? c.status}

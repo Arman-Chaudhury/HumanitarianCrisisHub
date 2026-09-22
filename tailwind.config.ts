@@ -10,32 +10,32 @@ const config: Config = {
     extend: {
       colors: {
         bg: {
-          DEFAULT: "#161412",
-          deep: "#0e0d0b",
-          card: "rgba(255,255,255,0.025)",
-          "card-hover": "rgba(255,255,255,0.055)",
+          DEFAULT: "#ffffff",
+          deep: "#f3f4f6",
+          card: "#ffffff",
+          "card-hover": "#f9fafb",
         },
         text: {
-          bright: "#f0ece2",
-          body: "#c4bfb1",
-          muted: "#8a8474",
-          dim: "#5e584c",
-          faint: "#3d3830",
+          bright: "#111827",
+          body: "#374151",
+          muted: "#6b7280",
+          dim: "#6b7280",
+          faint: "#9ca3af",
         },
         border: {
-          DEFAULT: "rgba(255,255,255,0.07)",
-          hard: "rgba(255,255,255,0.14)",
+          DEFAULT: "#e5e7eb",
+          hard: "#d1d5db",
         },
         crisis: {
-          red: "#E63946",
-          "red-dim": "rgba(230,57,70,0.09)",
-          "red-glow": "rgba(230,57,70,0.25)",
+          red: "#b42318",
+          "red-dim": "rgba(180,35,24,0.07)",
+          "red-glow": "rgba(180,35,24,0.18)",
         },
       },
       fontFamily: {
-        serif: ["Instrument Serif", "Georgia", "serif"],
-        display: ["Bebas Neue", "Impact", "sans-serif"],
-        sans: ["DM Sans", "system-ui", "sans-serif"],
+        serif: ["Inter", "system-ui", "sans-serif"],
+        display: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       keyframes: {
         fadeUp: {

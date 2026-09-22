@@ -10,7 +10,7 @@
     "lng": 34.31
   },
   "summary": "Ongoing military operations have caused massive civilian casualties, displacement, and a humanitarian catastrophe in Gaza. Over 2 million people face severe food insecurity and lack access to adequate medical care.",
-  "context": "The current crisis in Gaza is the culmination of over 75 years of displacement, occupation, and blockade. Since 2007, Gaza has been under a land, air, and sea blockade that has restricted the movement of over 2 million people and devastated the local economy.\n\nThe escalation that began in October 2023 has resulted in unprecedented destruction of civilian infrastructure — hospitals, schools, refugee camps, and residential areas. International humanitarian organizations have described the situation as a catastrophe without parallel in recent history.\n\nThe United Nations has repeatedly called for unimpeded humanitarian access and the protection of civilians. Health facilities have been severely impacted, with the majority of hospitals either destroyed or only partially functional. The World Health Organization has warned of cascading health crises, including the spread of infectious diseases due to overcrowding and lack of sanitation.\n\nUnderstanding this context is essential. This is not a conflict that started on a single date — it is rooted in decades of policies that human rights organizations, including Amnesty International and Human Rights Watch, have documented extensively. The International Court of Justice has also weighed in on the legal dimensions of the situation.\n\nMillions of Palestinians in Gaza have been displaced multiple times, with nowhere safe to go. The humanitarian community continues to call for a ceasefire, the release of all hostages, and sustained humanitarian access to all affected populations.",
+  "context": "The current crisis in Gaza is the culmination of over 75 years of displacement, occupation, and blockade. Since 2007, Gaza has been under a land, air, and sea blockade that has restricted the movement of over 2 million people and devastated the local economy.\n\nThe escalation that began in October 2023 has resulted in unprecedented destruction of civilian infrastructure, hospitals, schools, refugee camps, and residential areas. International humanitarian organizations have described the situation as a catastrophe without parallel in recent history.\n\nThe United Nations has repeatedly called for unimpeded humanitarian access and the protection of civilians. Health facilities have been severely impacted, with the majority of hospitals either destroyed or only partially functional. The World Health Organization has warned of cascading health crises, including the spread of infectious diseases due to overcrowding and lack of sanitation.\n\nUnderstanding this context is essential. This is not a conflict that started on a single date, it is rooted in decades of policies that human rights organizations, including Amnesty International and Human Rights Watch, have documented extensively. The International Court of Justice has also weighed in on the legal dimensions of the situation.\n\nMillions of Palestinians in Gaza have been displaced multiple times, with nowhere safe to go. The humanitarian community continues to call for a ceasefire, the release of all hostages, and sustained humanitarian access to all affected populations.",
   "stats": [
     {
       "label": "Killed",
@@ -25,7 +25,7 @@
     {
       "label": "Displaced",
       "value": "2.1M",
-      "source": "UN OCHA — entire population, 2026"
+      "source": "UN OCHA, entire population, 2026"
     },
     {
       "label": "Infrastructure Destroyed",
@@ -38,7 +38,7 @@
       {
         "name": "UNRWA",
         "url": "https://www.unrwa.org/donate",
-        "description": "UN agency for Palestine refugees — food, shelter, healthcare, and education across Gaza and the West Bank."
+        "description": "UN agency for Palestine refugees, food, shelter, healthcare, and education across Gaza and the West Bank."
       },
       {
         "name": "Palestine Children's Relief Fund",
@@ -58,16 +58,16 @@
     ],
     "awareness": [
       "Share verified reporting from Al Jazeera, Middle East Eye, +972 Magazine, and The Electronic Intifada with your networks",
-      "Amplify Palestinian journalists and photographers on social media — they are the primary witnesses documenting events on the ground",
+      "Amplify Palestinian journalists and photographers on social media, they are the primary witnesses documenting events on the ground",
       "Organize or attend community vigils, teach-ins, and educational events at your campus or community center",
       "Create and distribute infographics about the historical timeline, the blockade, and the current humanitarian crisis",
-      "Counter misinformation by sharing verified facts — use resources from Visualizing Palestine and the Institute for Middle East Understanding"
+      "Counter misinformation by sharing verified facts, use resources from Visualizing Palestine and the Institute for Middle East Understanding"
     ],
     "political": [
       "Call your congressional representatives to demand a permanent ceasefire and an end to the siege on Gaza",
       "Write to your senators about conditioning U.S. military aid on compliance with international humanitarian law",
-      "Attend city council meetings to push for local ceasefire resolutions — over 100 U.S. cities have passed them",
-      "Support the BDS movement to apply economic pressure — learn more at BDSmovement.net",
+      "Attend city council meetings to push for local ceasefire resolutions, over 100 U.S. cities have passed them",
+      "Support the BDS movement to apply economic pressure, learn more at BDSmovement.net",
       "Join or donate to legal advocacy organizations like the Center for Constitutional Rights pushing for accountability"
     ]
   },
@@ -98,7 +98,7 @@
       "org": "Human Rights Watch"
     },
     {
-      "title": "Amnesty International — Gaza",
+      "title": "Amnesty International, Gaza",
       "url": "https://www.amnesty.org/en/location/middle-east-and-north-africa/israel-and-occupied-palestinian-territories/",
       "org": "Amnesty International"
     }

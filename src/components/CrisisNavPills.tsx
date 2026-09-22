@@ -52,7 +52,7 @@ export default function CrisisNavPills({ crises, currentSlug }: CrisisNavPillsPr
   };
 
   return (
-    <div className="relative mb-11 animate-fade-up-1">
+    <div className="relative mb-11">
       {/* Left fade + arrow */}
       <div
         className="absolute left-0 top-0 bottom-0 z-10 flex items-center transition-opacity duration-200"
@@ -60,7 +60,7 @@ export default function CrisisNavPills({ crises, currentSlug }: CrisisNavPillsPr
       >
         <div
           className="absolute left-0 top-0 bottom-0 w-14 pointer-events-none"
-          style={{ background: "linear-gradient(to right, #161412 40%, transparent)" }}
+          style={{ background: "linear-gradient(to right, #ffffff 40%, transparent)" }}
         />
         <button
           onClick={() => scroll("left")}
@@ -83,9 +83,9 @@ export default function CrisisNavPills({ crises, currentSlug }: CrisisNavPillsPr
             key={c.slug}
             href={`/crises/${c.slug}`}
             data-active={c.slug === currentSlug ? "true" : undefined}
-            className={`flex-none px-[18px] py-2 rounded font-sans text-[13px] font-medium tracking-tight border transition-all duration-300 ${
+            className={`flex-none px-[18px] py-2 rounded font-sans text-sm font-medium tracking-tight border transition-all duration-300 ${
               c.slug === currentSlug
-                ? "text-text-bright border-crisis-red bg-crisis-red-dim shadow-[0_0_16px_rgba(230,57,70,0.09)]"
+                ? "text-text-bright border-crisis-red bg-crisis-red-dim "
                 : "text-text-dim border-border hover:text-text-muted hover:border-border-hard"
             }`}
           >
@@ -101,7 +101,7 @@ export default function CrisisNavPills({ crises, currentSlug }: CrisisNavPillsPr
       >
         <div
           className="absolute right-0 top-0 bottom-0 w-14 pointer-events-none"
-          style={{ background: "linear-gradient(to left, #161412 40%, transparent)" }}
+          style={{ background: "linear-gradient(to left, #ffffff 40%, transparent)" }}
         />
         <button
           onClick={() => scroll("right")}

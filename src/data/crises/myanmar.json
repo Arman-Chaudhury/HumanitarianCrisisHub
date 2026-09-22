@@ -10,7 +10,7 @@
     "lng": 95.96
   },
   "summary": "Myanmar is engulfed in a multi-front civil war following the 2021 military coup. The Rohingya face ongoing persecution, and over 3 million people are displaced across the country as the military junta conducts airstrikes on civilian areas.",
-  "context": "Myanmar's crisis has deepened dramatically since the military coup of February 2021, which overthrew the democratically elected government. The junta, known as the Tatmadaw, has responded to widespread civilian resistance with brutal force — including airstrikes on villages, mass arbitrary detention, torture, and extrajudicial killings.\n\nA nationwide civil disobedience movement and dozens of armed resistance groups, including ethnic armed organizations and newly formed People's Defence Forces, are fighting the military regime. The conflict has spread across the country, with particularly intense fighting in Sagaing, Chin, Kayah, and Shan states.\n\nThe Rohingya, a Muslim minority group in Rakhine State, continue to face what the UN has called a genocide. The military's 2017 campaign of mass killings, sexual violence, and village burnings drove over 700,000 Rohingya to refugee camps in Bangladesh. Those who remain in Myanmar face severe restrictions on movement, denial of citizenship, and ongoing violence from both the military and the Arakan Army.\n\nThe humanitarian situation is dire. Over 18 million people — one-third of the population — need humanitarian assistance. The economy has collapsed, the healthcare system is in ruins, and access for international aid organizations is severely restricted by the junta.\n\nCyclone Mocha in 2023 devastated Rakhine State, compounding the suffering of Rohingya communities. The international response has been widely criticized as insufficient, with the UN humanitarian appeal for Myanmar consistently underfunded.",
+  "context": "Myanmar's crisis has deepened dramatically since the military coup of February 2021, which overthrew the democratically elected government. The junta, known as the Tatmadaw, has responded to widespread civilian resistance with brutal force, including airstrikes on villages, mass arbitrary detention, torture, and extrajudicial killings.\n\nA nationwide civil disobedience movement and dozens of armed resistance groups, including ethnic armed organizations and newly formed People's Defence Forces, are fighting the military regime. The conflict has spread across the country, with particularly intense fighting in Sagaing, Chin, Kayah, and Shan states.\n\nThe Rohingya, a Muslim minority group in Rakhine State, continue to face what the UN has called a genocide. The military's 2017 campaign of mass killings, sexual violence, and village burnings drove over 700,000 Rohingya to refugee camps in Bangladesh. Those who remain in Myanmar face severe restrictions on movement, denial of citizenship, and ongoing violence from both the military and the Arakan Army.\n\nThe humanitarian situation is dire. Over 18 million people, one-third of the population, need humanitarian assistance. The economy has collapsed, the healthcare system is in ruins, and access for international aid organizations is severely restricted by the junta.\n\nCyclone Mocha in 2023 devastated Rakhine State, compounding the suffering of Rohingya communities. The international response has been widely criticized as insufficient, with the UN humanitarian appeal for Myanmar consistently underfunded.",
   "stats": [
     {
       "label": "Displaced",
@@ -41,7 +41,7 @@
         "description": "Providing medical care across Myanmar and in Rohingya refugee camps in Bangladesh, including maternal health and trauma surgery."
       },
       {
-        "name": "UNHCR — Rohingya Emergency",
+        "name": "UNHCR, Rohingya Emergency",
         "url": "https://donate.unhcr.org/int/rohingya-emergency/",
         "description": "Supporting Rohingya refugees in Bangladesh and displaced communities inside Myanmar with shelter, protection, and essential services."
       },
@@ -57,10 +57,10 @@
       }
     ],
     "awareness": [
-      "Follow and share updates from Myanmar Now, The Irrawaddy, and Frontier Myanmar — independent outlets reporting from inside the country",
+      "Follow and share updates from Myanmar Now, The Irrawaddy, and Frontier Myanmar, independent outlets reporting from inside the country",
       "Amplify the voices of Rohingya activists and advocates, including those in refugee camps who are documenting their experience",
       "Share information about the civil disobedience movement and the democratic resistance against the military junta",
-      "Educate your community about the Rohingya genocide — many people are still unaware of its scale and ongoing nature",
+      "Educate your community about the Rohingya genocide, many people are still unaware of its scale and ongoing nature",
       "Challenge brands that continue to do business with Myanmar's military or its affiliated companies"
     ],
     "political": [

@@ -102,11 +102,11 @@ export default function HomeStats({ stats }: HomeStatsProps) {
           )}
           <div
             data-value={stat.value}
-            className="font-display text-[clamp(28px,4vw,42px)] text-text-bright tracking-wider leading-none mb-2"
+            className="font-sans font-semibold text-3xl text-text-bright tracking-normal leading-none mb-2"
           >
             0
           </div>
-          <div className="font-sans text-[11px] font-medium text-text-dim uppercase tracking-widest">
+          <div className="font-sans text-xs font-medium text-text-dim tracking-normal">
             {stat.label}
           </div>
         </div>

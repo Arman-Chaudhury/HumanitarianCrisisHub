@@ -1,7 +1,7 @@
 {
   "slug": "mali",
   "name": "Mali",
-  "region": "Nationwide — Kidal, Mopti, Ménaka, Ségou, Bamako",
+  "region": "Nationwide, Kidal, Mopti, Ménaka, Ségou, Bamako",
   "status": "escalating",
   "color": "#C4921C",
   "accent": "#E0B030",
@@ -9,8 +9,8 @@
     "lat": 17.57,
     "lng": -3.99
   },
-  "summary": "JNIM jihadists are expanding southward toward Mali's capital, imposing fuel blockades that paralyzed Bamako. The military junta expelled French forces and UN peacekeepers, creating security vacuums. 6.4 million people are in need, and the 2025 Humanitarian Response Plan was only 18% funded — the lowest in ten years.",
-  "context": "Mali has been in a state of crisis since the 2012 coup and subsequent jihadist takeover of the north. Despite years of French military intervention and UN peacekeeping, the security situation has deteriorated dramatically. Following the military junta's expulsion of French Barkhane forces in 2022 and the UN peacekeeping mission MINUSMA in 2023, jihadist groups — primarily JNIM (al-Qaeda affiliated) — have expanded into areas they previously could not reach.\n\nIn 2025, JNIM extended its operations southward into the previously stable south of Mali, approaching areas near the capital Bamako. Fuel blockades imposed by JNIM on roads from Côte d'Ivoire and Senegal caused severe fuel shortages in Bamako in mid-2025, demonstrating the group's ability to threaten the capital's functioning. This represents a qualitative escalation in the crisis.\n\nThe junta has aligned with Russian Wagner Group mercenaries, who have been documented committing atrocities against civilians in anti-jihadist operations. The replacement of French and UN forces with Wagner has not improved security — it has introduced a different set of civilian protection violations while failing to stem jihadist expansion.\n\nFor civilians in central and northern Mali, life under jihadist control means taxation, forced recruitment, restrictions on women's movement and dress, and brutal punishment for violations. Communities caught between JNIM, Wagner-backed military forces, and other armed groups face violence from all sides.\n\nThe 2025 HRP received only 18% of required funding — the lowest in a decade — meaning the response capacity for 6.4 million people in need is almost entirely absent. Mali is a catastrophe in slow motion that has barely registered in international consciousness.",
+  "summary": "JNIM jihadists are expanding southward toward Mali's capital, imposing fuel blockades that paralyzed Bamako. The military junta expelled French forces and UN peacekeepers, creating security vacuums. 6.4 million people are in need, and the 2025 Humanitarian Response Plan was only 18% funded, the lowest in ten years.",
+  "context": "Mali has been in a state of crisis since the 2012 coup and subsequent jihadist takeover of the north. Despite years of French military intervention and UN peacekeeping, the security situation has deteriorated dramatically. Following the military junta's expulsion of French Barkhane forces in 2022 and the UN peacekeeping mission MINUSMA in 2023, jihadist groups, primarily JNIM (al-Qaeda affiliated), have expanded into areas they previously could not reach.\n\nIn 2025, JNIM extended its operations southward into the previously stable south of Mali, approaching areas near the capital Bamako. Fuel blockades imposed by JNIM on roads from Côte d'Ivoire and Senegal caused severe fuel shortages in Bamako in mid-2025, demonstrating the group's ability to threaten the capital's functioning. This represents a qualitative escalation in the crisis.\n\nThe junta has aligned with Russian Wagner Group mercenaries, who have been documented committing atrocities against civilians in anti-jihadist operations. The replacement of French and UN forces with Wagner has not improved security, it has introduced a different set of civilian protection violations while failing to stem jihadist expansion.\n\nFor civilians in central and northern Mali, life under jihadist control means taxation, forced recruitment, restrictions on women's movement and dress, and brutal punishment for violations. Communities caught between JNIM, Wagner-backed military forces, and other armed groups face violence from all sides.\n\nThe 2025 HRP received only 18% of required funding, the lowest in a decade, meaning the response capacity for 6.4 million people in need is almost entirely absent. Mali is a catastrophe in slow motion that has barely registered in international consciousness.",
   "stats": [
     {
       "label": "In Need",
@@ -41,7 +41,7 @@
         "description": "Delivering legal aid, education in emergencies, shelter, and food assistance to displaced Malians in accessible areas."
       },
       {
-        "name": "WFP — Mali",
+        "name": "WFP, Mali",
         "url": "https://www.wfp.org/countries/mali",
         "description": "Providing emergency food assistance to millions of food-insecure Malians, including school feeding programs in areas where schools remain open."
       },
@@ -52,14 +52,14 @@
       }
     ],
     "awareness": [
-      "Share that JNIM has expanded to threaten Bamako itself — Mali's crisis has moved from a 'northern problem' to a national emergency",
-      "Highlight that the 2025 Mali HRP was only 18% funded — the lowest in 10 years — meaning the international response has effectively withdrawn",
+      "Share that JNIM has expanded to threaten Bamako itself, Mali's crisis has moved from a 'northern problem' to a national emergency",
+      "Highlight that the 2025 Mali HRP was only 18% funded, the lowest in 10 years, meaning the international response has effectively withdrawn",
       "Amplify Malian civil society voices and journalists working to document what is happening despite increasing access restrictions",
       "Raise awareness about the civilian costs of the junta-Wagner partnership: documented massacres, torture, and extrajudicial killings attributed to joint operations",
-      "Challenge the narrative that expelling peacekeepers and aid organizations is a sovereignty exercise — it is primarily leaving civilians with no protection"
+      "Challenge the narrative that expelling peacekeepers and aid organizations is a sovereignty exercise, it is primarily leaving civilians with no protection"
     ],
     "political": [
-      "Urge your government to increase funding for Mali's humanitarian response — 18% funding means the response does not exist in any meaningful sense",
+      "Urge your government to increase funding for Mali's humanitarian response, 18% funding means the response does not exist in any meaningful sense",
       "Advocate for independent investigations into documented Wagner Group massacres and push for targeted sanctions against individuals responsible",
       "Support regional ECOWAS and AU mechanisms for engaging with Mali's junta on civilian protection and humanitarian access",
       "Demand accountability for the junta's restrictions on humanitarian organizations and journalists in Mali",

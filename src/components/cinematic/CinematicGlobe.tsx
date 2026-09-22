@@ -6,8 +6,6 @@ import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 import type { Crisis } from "@/types/crisis";
 import EarthLayers from "./EarthLayers";
-import Aurora from "./Aurora";
-import Starfield from "./Starfield";
 import Hotspot from "./Hotspot";
 
 /* ── Camera waypoints ──────────────────────────────────────────────────────
@@ -297,8 +295,6 @@ export default function CinematicGlobe({
       <directionalLight position={[5, 3, 5]} intensity={1.6} />
       <directionalLight position={[-5, -2, -3]} intensity={0.35} />
 
-      <Aurora opacity={0.55} />
-      <Starfield />
 
       <Suspense fallback={null}>
         <RotatingScene

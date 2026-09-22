@@ -9,24 +9,24 @@ export const metadata: Metadata = {
 export default function TakeActionPage() {
   return (
     <>
-      <header className="mb-12 animate-fade-up">
-        <h1 className="font-display text-[clamp(48px,10vw,90px)] text-text-bright tracking-[0.05em] leading-[0.92] mb-3">
-          TAKE ACTION
+      <header className="mb-12">
+        <h1 className="font-sans font-bold text-[clamp(32px,5vw,44px)] text-text-bright tracking-normal leading-tight mb-3">
+          Take action
         </h1>
-        <p className="font-serif italic text-base text-text-muted">
+        <p className="font-sans text-base text-text-muted">
           Tools to turn your concern into political pressure
         </p>
       </header>
 
       {/* Find Your Reps */}
-      <section className="mb-12 animate-fade-up-1">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-5">
-          FIND YOUR REPRESENTATIVES
+      <section className="mb-12">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          Find your representatives
         </h2>
-        <p className="font-sans text-base font-light leading-[1.8] text-text-body max-w-[680px] mb-6">
+        <p className="font-sans text-base font-normal leading-[1.8] text-text-body max-w-[680px] mb-6">
           Your elected officials work for you. A single phone call to a
           congressional office takes 2 minutes and is one of the most effective
-          forms of political action. Offices track call volume — when enough
+          forms of political action. Offices track call volume: when enough
           people call about an issue, it gets attention.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
@@ -36,7 +36,7 @@ export default function TakeActionPage() {
             rel="noopener noreferrer"
             className="block p-5 border border-border rounded-lg bg-bg-card transition-all duration-300 hover:bg-bg-card-hover hover:border-border-hard"
           >
-            <h3 className="font-serif text-lg text-text-bright mb-1">
+            <h3 className="font-sans text-lg text-text-bright mb-1">
               Find Your House Rep
             </h3>
             <p className="font-sans text-sm text-text-muted leading-relaxed">
@@ -49,7 +49,7 @@ export default function TakeActionPage() {
             rel="noopener noreferrer"
             className="block p-5 border border-border rounded-lg bg-bg-card transition-all duration-300 hover:bg-bg-card-hover hover:border-border-hard"
           >
-            <h3 className="font-serif text-lg text-text-bright mb-1">
+            <h3 className="font-sans text-lg text-text-bright mb-1">
               Find Your Senators
             </h3>
             <p className="font-sans text-sm text-text-muted leading-relaxed">
@@ -60,16 +60,16 @@ export default function TakeActionPage() {
       </section>
 
       {/* Call Script Template */}
-      <section className="mb-12 pt-9 border-t-2 border-text-bright animate-fade-up-2">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-5">
-          CALL SCRIPT
+      <section className="mb-12 pt-9 border-t border-border-hard">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          Call script
         </h2>
         <p className="font-sans text-sm text-text-muted mb-4">
           Adapt this template for any crisis. Calls are more effective than
           emails.
         </p>
         <div className="p-6 border border-border-hard rounded-lg bg-bg-card max-w-[680px]">
-          <p className="font-sans text-[15px] leading-[1.8] text-text-body">
+          <p className="font-sans text-base leading-[1.8] text-text-body">
             &ldquo;Hi, my name is{" "}
             <span className="text-crisis-red font-medium">[Your Name]</span> and
             I&apos;m a constituent from{" "}
@@ -80,7 +80,7 @@ export default function TakeActionPage() {
             </span>{" "}
             to{" "}
             <span className="text-crisis-red font-medium">
-              [specific ask — e.g., support a ceasefire resolution, increase
+              [specific ask: e.g., support a ceasefire resolution, increase
               humanitarian funding, support sanctions]
             </span>
             . The humanitarian situation in{" "}
@@ -92,23 +92,23 @@ export default function TakeActionPage() {
       </section>
 
       {/* Letter Template */}
-      <section className="mb-12 animate-fade-up-3">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-5">
-          LETTER TEMPLATE
+      <section className="mb-12">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          Letter template
         </h2>
         <p className="font-sans text-sm text-text-muted mb-4">
           Send this to your senators and representatives via email or postal
           mail.
         </p>
         <div className="p-6 border border-border-hard rounded-lg bg-bg-card max-w-[680px] space-y-4">
-          <p className="font-sans text-[15px] leading-[1.8] text-text-body">
+          <p className="font-sans text-base leading-[1.8] text-text-body">
             Dear{" "}
             <span className="text-crisis-red font-medium">
               [Representative/Senator Name]
             </span>
             ,
           </p>
-          <p className="font-sans text-[15px] leading-[1.8] text-text-body">
+          <p className="font-sans text-base leading-[1.8] text-text-body">
             I am writing as your constituent to express my deep concern about the
             humanitarian crisis in{" "}
             <span className="text-crisis-red font-medium">[Region]</span>.{" "}
@@ -117,7 +117,7 @@ export default function TakeActionPage() {
             </span>
             .
           </p>
-          <p className="font-sans text-[15px] leading-[1.8] text-text-body">
+          <p className="font-sans text-base leading-[1.8] text-text-body">
             I urge you to{" "}
             <span className="text-crisis-red font-medium">
               [specific policy ask]
@@ -125,11 +125,11 @@ export default function TakeActionPage() {
             . The United States has both the influence and the moral obligation
             to act.
           </p>
-          <p className="font-sans text-[15px] leading-[1.8] text-text-body">
+          <p className="font-sans text-base leading-[1.8] text-text-body">
             Thank you for your attention to this matter. I look forward to your
             response.
           </p>
-          <p className="font-sans text-[15px] leading-[1.8] text-text-body">
+          <p className="font-sans text-base leading-[1.8] text-text-body">
             Sincerely,
             <br />
             <span className="text-crisis-red font-medium">[Your Name]</span>
@@ -142,18 +142,18 @@ export default function TakeActionPage() {
       </section>
 
       {/* Tips */}
-      <section className="mb-8 animate-fade-up-4">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-5">
-          TIPS FOR EFFECTIVE ADVOCACY
+      <section className="mb-8">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          Tips for effective advocacy
         </h2>
         <div className="max-w-[680px] space-y-0">
           {[
-            "Be specific — ask for a concrete policy action, not just 'do something'",
-            "Identify yourself as a constituent — offices prioritize calls from their district",
-            "Be concise and polite — the staffer answering is not your opponent",
-            "Follow up — one call is good, repeated contact over weeks is better",
-            "Bring friends — organize call-in days where multiple people contact the same office",
-            "Attend town halls — ask your question on the record, in public",
+            "Be specific: ask for a concrete policy action, not just 'do something'",
+            "Identify yourself as a constituent: offices prioritize calls from their district",
+            "Be concise and polite: the staffer answering is not your opponent",
+            "Follow up: one call is good, repeated contact over weeks is better",
+            "Bring friends: organize call-in days where multiple people contact the same office",
+            "Attend town halls: ask your question on the record, in public",
           ].map((tip, i) => (
             <div
               key={i}
@@ -161,10 +161,10 @@ export default function TakeActionPage() {
                 i === 0 ? "border-t border-border" : ""
               }`}
             >
-              <div className="font-display text-[28px] text-crisis-red tracking-wide leading-none min-w-[36px] opacity-70">
+              <div className="font-sans font-semibold text-xl text-crisis-red tracking-normal leading-none min-w-[36px] opacity-70">
                 {String(i + 1).padStart(2, "0")}
               </div>
-              <p className="font-sans text-[15px] leading-[1.7] text-text-body">
+              <p className="font-sans text-base leading-[1.7] text-text-body">
                 {tip}
               </p>
             </div>

@@ -175,7 +175,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
       tl.to(
         globeWrapRef.current,
         {
-          opacity: 0.28,
+          opacity: 0,
           ease: "power2.inOut",
           duration: 0.14,
         },
@@ -230,7 +230,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
       {enabled && (
         <div
           ref={globeWrapRef}
-          className="fixed inset-0 z-[2] hidden md:flex items-center justify-center"
+          className="fixed inset-0 z-[2] hidden md:flex items-center justify-center bg-[#0b1220]"
           style={{
             pointerEvents: interactive ? "auto" : "none",
             transformOrigin: "50% 50%",
@@ -259,26 +259,23 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
         >
           <h1
             ref={titleRef}
-            className="font-display text-[clamp(56px,13vw,140px)] text-text-bright tracking-[0.06em] leading-[0.9] mb-3 drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)]"
+            className="font-sans font-bold text-[clamp(36px,5vw,56px)] text-white tracking-tight leading-tight mb-4 drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)]"
           >
-            EVERY CRISIS.
+            52 humanitarian crises.
             <br />
-            <span className="text-crisis-red">REAL ACTION.</span>
+            What is happening, and how to help.
           </h1>
           <p
             ref={taglineRef}
-            className="font-sans text-base sm:text-lg text-text-body font-light max-w-[520px] mx-auto leading-relaxed drop-shadow-[0_1px_12px_rgba(0,0,0,0.5)]"
+            className="font-sans text-base sm:text-lg text-gray-200 font-normal max-w-[560px] mx-auto leading-relaxed drop-shadow-[0_1px_12px_rgba(0,0,0,0.5)]"
           >
-            One website documenting global humanitarian crises — three clear
-            paths to help:{" "}
-            <strong className="text-text-bright font-medium">donate</strong>,{" "}
-            <strong className="text-text-bright font-medium">amplify</strong>,
-            and{" "}
-            <strong className="text-text-bright font-medium">demand change</strong>.
+            Independent, sourced briefings on the world&apos;s humanitarian emergencies,
+            with vetted organizations to support and concrete ways to press for change.
+            Spin the globe and select a marker.
           </p>
           <div
             ref={cueRef}
-            className="mt-14 font-sans text-[10px] tracking-[0.36em] uppercase text-text-muted/80 animate-pulse"
+            className="mt-12 font-sans text-xs text-gray-400"
           >
             Scroll ↓
           </div>
@@ -289,13 +286,13 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
       {enabled && (
         <div
           ref={legendRef}
-          className="fixed top-24 left-1/2 -translate-x-1/2 z-[6] hidden md:flex gap-3 px-4 py-2 rounded-full bg-bg-deep/70 backdrop-blur-md border border-border"
+          className="fixed top-24 left-1/2 -translate-x-1/2 z-[6] hidden md:flex gap-4 px-4 py-2 rounded bg-white/95 border border-border-hard"
           style={{ pointerEvents: "none" }}
         >
           {LEGEND.map((l) => (
             <span
               key={l.status}
-              className="flex items-center gap-1.5 font-sans text-[10px] tracking-[0.18em] uppercase text-text-body"
+              className="flex items-center gap-1.5 font-sans text-xs text-gray-700"
             >
               <span
                 className="w-2 h-2 rounded-full"
@@ -317,7 +314,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
             onClick={() => {
               zoomTargetRef.current = Math.max(ZOOM_MIN, zoomTargetRef.current * ZOOM_STEP);
             }}
-            className="w-11 h-11 rounded-full bg-bg-deep/70 backdrop-blur-md border border-border text-text-bright text-xl leading-none hover:bg-bg-card-hover transition-colors"
+            className="w-11 h-11 rounded-full bg-white/95 border border-border-hard text-gray-900 text-xl leading-none hover:bg-gray-100 transition-colors"
           >
             +
           </button>
@@ -327,11 +324,11 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
             onClick={() => {
               zoomTargetRef.current = Math.min(ZOOM_MAX, zoomTargetRef.current / ZOOM_STEP);
             }}
-            className="w-11 h-11 rounded-full bg-bg-deep/70 backdrop-blur-md border border-border text-text-bright text-xl leading-none hover:bg-bg-card-hover transition-colors"
+            className="w-11 h-11 rounded-full bg-white/95 border border-border-hard text-gray-900 text-xl leading-none hover:bg-gray-100 transition-colors"
           >
             −
           </button>
-          <span className="mt-1 font-sans text-[9px] tracking-[0.28em] uppercase text-text-muted/80 select-none">
+          <span className="mt-1 font-sans text-xs tracking-normal text-text-muted/80 select-none">
             Zoom
           </span>
         </div>

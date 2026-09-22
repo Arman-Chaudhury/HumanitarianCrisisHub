@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const UNIVERSAL_ORGS = [
   {
-    name: "UNHCR — The UN Refugee Agency",
+    name: "UNHCR, the UN Refugee Agency",
     url: "https://www.unhcr.org",
     desc: "Protects refugees and displaced communities worldwide. Provides shelter, legal assistance, and resettlement support.",
   },
@@ -59,19 +59,19 @@ const VETTING_TOOLS = [
 export default function ResourcesPage() {
   return (
     <>
-      <header className="mb-12 animate-fade-up">
-        <h1 className="font-display text-[clamp(48px,10vw,90px)] text-text-bright tracking-[0.05em] leading-[0.92] mb-3">
-          RESOURCES
+      <header className="mb-12">
+        <h1 className="font-sans font-bold text-[clamp(32px,5vw,44px)] text-text-bright tracking-normal leading-tight mb-3">
+          Resources
         </h1>
-        <p className="font-serif italic text-base text-text-muted">
+        <p className="font-sans text-base text-text-muted">
           Tools and organizations that work across every crisis
         </p>
       </header>
 
       {/* Universal Organizations */}
-      <section className="mb-12 animate-fade-up-1">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-6">
-          UNIVERSAL ORGANIZATIONS
+      <section className="mb-12">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-6">
+          Universal organizations
         </h2>
         <div className="flex flex-col gap-0">
           {UNIVERSAL_ORGS.map((org, i) => (
@@ -80,17 +80,17 @@ export default function ResourcesPage() {
               href={org.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group flex flex-col sm:flex-row items-start sm:items-center justify-between py-6 px-1 text-inherit no-underline border-b border-border transition-all duration-300 hover:pl-4 hover:bg-gradient-to-r hover:from-[rgba(255,255,255,0.03)] hover:to-transparent ${
+              className={`group flex flex-col sm:flex-row items-start sm:items-center justify-between py-6 px-1 text-inherit no-underline border-b border-border transition-all duration-300 hover:pl-4 hover:bg-bg-card-hover ${
                 i === 0 ? "border-t border-border" : ""
               }`}
             >
               <div>
-                <h3 className="font-serif text-xl text-text-bright mb-1">{org.name}</h3>
+                <h3 className="font-sans text-xl text-text-bright mb-1">{org.name}</h3>
                 <p className="font-sans text-sm text-text-muted leading-relaxed max-w-[520px]">
                   {org.desc}
                 </p>
               </div>
-              <span className="mt-3 sm:mt-0 font-sans text-xs font-semibold text-crisis-red tracking-wider whitespace-nowrap py-2.5 px-5 border-[1.5px] border-crisis-red rounded transition-all duration-200 group-hover:bg-crisis-red group-hover:text-text-bright">
+              <span className="mt-3 sm:mt-0 font-sans text-xs font-semibold text-crisis-red tracking-normal whitespace-nowrap py-2.5 px-5 border-[1.5px] border-crisis-red rounded transition-all duration-200 group-hover:bg-crisis-red group-hover:text-white">
                 Visit →
               </span>
             </a>
@@ -99,12 +99,12 @@ export default function ResourcesPage() {
       </section>
 
       {/* How to Vet a Charity */}
-      <section className="mb-12 pt-9 border-t-2 border-text-bright animate-fade-up-2">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-5">
-          HOW TO VET A CHARITY
+      <section className="mb-12 pt-9 border-t border-border-hard">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          How to vet a charity
         </h2>
         <div className="max-w-[680px] space-y-4 mb-8">
-          <p className="font-sans text-base font-light leading-[1.8] text-text-body">
+          <p className="font-sans text-base font-normal leading-[1.8] text-text-body">
             Before donating to any organization, take a few minutes to verify
             it. Look for transparent financial reporting, a clear mission, and
             evidence of on-the-ground impact. Be cautious of organizations that
@@ -121,7 +121,7 @@ export default function ResourcesPage() {
               rel="noopener noreferrer"
               className="block p-5 border border-border rounded-lg bg-bg-card transition-all duration-300 hover:bg-bg-card-hover hover:border-border-hard"
             >
-              <h3 className="font-serif text-lg text-text-bright mb-1.5">{tool.name}</h3>
+              <h3 className="font-sans text-lg text-text-bright mb-1.5">{tool.name}</h3>
               <p className="font-sans text-sm text-text-muted leading-relaxed">{tool.desc}</p>
             </a>
           ))}
@@ -129,19 +129,19 @@ export default function ResourcesPage() {
       </section>
 
       {/* IHL Basics */}
-      <section className="mb-8 animate-fade-up-3">
-        <h2 className="font-display text-3xl text-text-muted tracking-[0.08em] mb-5">
-          INTERNATIONAL HUMANITARIAN LAW
+      <section className="mb-8">
+        <h2 className="font-sans font-semibold text-xl text-text-muted tracking-normal mb-5">
+          International humanitarian law
         </h2>
         <div className="max-w-[680px] space-y-4">
-          <p className="font-sans text-base font-light leading-[1.8] text-text-body">
+          <p className="font-sans text-base font-normal leading-[1.8] text-text-body">
             International Humanitarian Law (IHL), also known as the laws of war,
             is a set of rules that seeks to limit the effects of armed conflict.
             It protects people who are not participating in hostilities and
             restricts the means and methods of warfare. The Geneva Conventions of
             1949 and their Additional Protocols are the core treaties of IHL.
           </p>
-          <p className="font-sans text-base font-light leading-[1.8] text-text-body">
+          <p className="font-sans text-base font-normal leading-[1.8] text-text-body">
             Key principles include distinction (between civilians and
             combatants), proportionality (force must not be excessive relative to
             military advantage), precaution (all feasible steps to minimize
@@ -156,7 +156,7 @@ export default function ResourcesPage() {
               rel="noopener noreferrer"
               className="text-crisis-red hover:underline"
             >
-              ICRC — War and Law
+              ICRC: War and Law
             </a>
           </p>
         </div>
