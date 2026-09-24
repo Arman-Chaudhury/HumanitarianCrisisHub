@@ -71,8 +71,8 @@ export default function MobileFallback({
           <StaticEarth />
         )}
       </div>
-      <p className="text-center font-sans text-xs tracking-normal text-text-muted/80 mb-8">
-        Tap a marker
+      <p className="text-center font-sans text-xs text-text-muted/80 mb-8">
+        {live ? "Tap a marker" : "Interactive globe unavailable in this browser. Browse the list below."}
       </p>
 
       <h3 className="font-sans font-semibold text-lg tracking-normal text-text-bright mb-4">

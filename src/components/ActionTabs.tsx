@@ -20,6 +20,7 @@ export default function ActionTabs({ actions }: ActionTabsProps) {
 
   return (
     <div className="">
+      <h2 className="font-sans font-semibold text-xl text-text-bright mt-12 mb-4">How to help</h2>
       {/* Tab Buttons */}
       <div className="flex gap-0 mb-8" role="tablist">
         {TABS.map((tab, i) => (

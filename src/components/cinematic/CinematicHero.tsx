@@ -77,19 +77,33 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
   // the mobile layout.
   const [mode, setMode] = useState<"unknown" | "cinematic" | "mobile">("unknown");
 
+  // False when the browser cannot create a WebGL context (hardware
+  // acceleration off, locked-down corporate browsers, some VMs). We then show
+  // the static globe image and the crisis list instead of mounting a canvas
+  // that would throw and take the whole page down.
+  const [webgl, setWebgl] = useState(true);
+
   useEffect(() => {
     const isMobile =
       window.matchMedia("(max-width: 767px)").matches ||
       window.matchMedia("(pointer: coarse)").matches;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const on = !isMobile && !reduce;
+    let hasWebgl = false;
+    try {
+      const probe = document.createElement("canvas");
+      hasWebgl = !!(probe.getContext("webgl2") || probe.getContext("webgl"));
+    } catch {
+      hasWebgl = false;
+    }
+    setWebgl(hasWebgl);
+    const on = !isMobile && !reduce && hasWebgl;
     setEnabled(on);
     setMode(on ? "cinematic" : "mobile");
 
     // Warm the browser cache for the globe textures immediately — the WebGL
     // canvas mounts via dynamic import, and without this the big day map only
     // starts downloading after the whole Three.js bundle has loaded.
-    if (!isMobile) {
+    if (!isMobile && hasWebgl) {
       [
         "/textures/earth_day.jpg",
         "/textures/earth_night.jpg",
@@ -213,7 +227,7 @@ export default function CinematicHero({ crises }: CinematicHeroProps) {
         selectedSlug={selectedSlug}
         onSelectCrisis={onSelectCrisis}
         force={mode === "mobile"}
-        live={mode === "mobile"}
+        live={mode === "mobile" && webgl}
       />
 
       {/* Desktop scroll runway — empty section that just gives the page enough
