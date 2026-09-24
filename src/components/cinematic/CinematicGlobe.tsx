@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useRef, type MutableRefObject } from "react";
+import { Suspense, useEffect, useRef, type MutableRefObject } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
@@ -59,6 +59,8 @@ interface CinematicGlobeProps {
   showLabels?: boolean;
   /** Stop the render loop entirely (used once the user has scrolled past the globe). */
   paused?: boolean;
+  /** Automatically rotate only for the lightweight touch explorer. */
+  autoRotate?: boolean;
 }
 
 /**
@@ -166,24 +168,43 @@ function LabelPlanner({
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
 }) {
-  const { camera } = useThree();
+  const { camera, size } = useThree();
   const world = useRef(new THREE.Vector3());
   const camDir = useRef(new THREE.Vector3());
 
   useFrame(() => {
     const next = new Set<string>();
 
-    // All front-facing hotspots keep their labels at every zoom level; the
-    // back hemisphere is the only cull. (Screen-space collision culling was
-    // tried here and removed — restore from history if labels re-crowd.)
+    // Cull the back hemisphere and reserve screen rectangles for readable labels.
+    const occupied: Array<{ x: number; y: number; width: number }> = [];
     if (interactive) {
       camDir.current.copy(camera.position).normalize();
-      for (const c of crises) {
-        const node = nodesRef.current.get(c.slug);
+      for (const crisis of crises) {
+        const node = nodesRef.current.get(crisis.slug);
         if (!node) continue;
         node.getWorldPosition(world.current);
-        const facing = world.current.normalize().dot(camDir.current);
-        if (facing >= LABEL_MIN_FACING) next.add(c.slug);
+        const facing = world.current.clone().normalize().dot(camDir.current);
+        if (facing < LABEL_MIN_FACING) continue;
+        world.current.project(camera);
+        const x = ((world.current.x + 1) * size.width) / 2;
+        const y = ((1 - world.current.y) * size.height) / 2;
+        const width = Math.min(220, crisis.name.length * 7 + 20);
+        if (
+          x < width / 2 ||
+          x > size.width - width / 2 ||
+          y < 30 ||
+          y > size.height - 30
+        )
+          continue;
+        const overlaps = occupied.some(
+          (box) =>
+            Math.abs(box.y - y) < 34 &&
+            Math.abs(box.x - x) < (box.width + width) / 2 + 8,
+        );
+        if (!overlaps) {
+          occupied.push({ x, y, width });
+          next.add(crisis.slug);
+        }
       }
     }
 
@@ -200,9 +221,12 @@ function LabelPlanner({
   return null;
 }
 
-/** The rotating Earth + hotspots group. Auto-rotates when nothing is
- *  selected; eases the selected hotspot toward the camera otherwise. */
-interface RotatingSceneProps extends Omit<CinematicGlobeProps, "zoomTargetRef" | "allowDrag" | "showLabels"> {
+/** Shared Earth and markers. The explorer enables automatic rotation only on touch devices. */
+interface RotatingSceneProps
+  extends Omit<
+    CinematicGlobeProps,
+    "zoomTargetRef" | "allowDrag" | "showLabels"
+  > {
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
 }
@@ -216,34 +240,17 @@ function RotatingScene({
   labelSetRef,
   onSelectCrisis,
   lite = false,
+  autoRotate = true,
 }: RotatingSceneProps) {
   const groupRef = useRef<THREE.Group | null>(null);
 
-  const targetPositions = useRef<Record<string, THREE.Vector3>>({});
-  if (Object.keys(targetPositions.current).length === 0) {
-    crises.forEach((c) => {
-      const lat = c.coordinates.lat;
-      const lng = c.coordinates.lng;
-      const phi = (90 - lat) * (Math.PI / 180);
-      const theta = (lng + 180) * (Math.PI / 180);
-      targetPositions.current[c.slug] = new THREE.Vector3(
-        -Math.sin(phi) * Math.cos(theta),
-        Math.cos(phi),
-        Math.sin(phi) * Math.sin(theta),
-      );
-    });
-  }
+  useEffect(() => {
+    if (groupRef.current) groupRef.current.rotation.y = -Math.PI / 2;
+  }, []);
 
   useFrame((_state, delta) => {
     if (!groupRef.current) return;
-    if (selectedSlug && targetPositions.current[selectedSlug]) {
-      const p = targetPositions.current[selectedSlug];
-      const targetY = Math.atan2(-p.x, p.z);
-      let diff = targetY - groupRef.current.rotation.y;
-      while (diff > Math.PI) diff -= 2 * Math.PI;
-      while (diff < -Math.PI) diff += 2 * Math.PI;
-      groupRef.current.rotation.y += diff * 0.05;
-    } else {
+    if (autoRotate) {
       groupRef.current.rotation.y += delta * 0.045;
     }
   });
@@ -277,6 +284,7 @@ export default function CinematicGlobe({
   allowDrag = true,
   showLabels = true,
   paused = false,
+  autoRotate = true,
 }: CinematicGlobeProps) {
   // Registry of hotspot scene nodes (for world-position lookups) and the
   // planner-approved set of visible labels — both mutable, read every frame.
@@ -287,20 +295,29 @@ export default function CinematicGlobe({
     <Canvas
       camera={
         lite
-          ? { position: [ORBITAL_POS.x, ORBITAL_POS.y, ORBITAL_POS.z], fov: ORBITAL_FOV }
-          : { position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z], fov: HORIZON_FOV }
+          ? {
+              position: [ORBITAL_POS.x, ORBITAL_POS.y, ORBITAL_POS.z],
+              fov: ORBITAL_FOV,
+            }
+          : {
+              position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z],
+              fov: HORIZON_FOV,
+            }
       }
       style={{ background: "transparent", touchAction: "pan-y" }}
       // Cap device-pixel-ratio at 1.5: a full-viewport canvas at 2x on Retina
       // is 4x the pixels of 1x for no visible gain on a textured sphere.
       dpr={[1, 1.5]}
       frameloop={paused ? "never" : "always"}
-      gl={{ antialias: true, alpha: true, powerPreference: lite ? "low-power" : "high-performance" }}
+      gl={{
+        antialias: true,
+        alpha: true,
+        powerPreference: lite ? "low-power" : "high-performance",
+      }}
     >
       <ambientLight intensity={1.3} />
       <directionalLight position={[5, 3, 5]} intensity={1.6} />
       <directionalLight position={[-5, -2, -3]} intensity={0.35} />
-
 
       <Suspense fallback={null}>
         <RotatingScene
@@ -312,6 +329,7 @@ export default function CinematicGlobe({
           labelSetRef={labelSetRef}
           onSelectCrisis={onSelectCrisis}
           lite={lite}
+          autoRotate={autoRotate}
         />
       </Suspense>
 
