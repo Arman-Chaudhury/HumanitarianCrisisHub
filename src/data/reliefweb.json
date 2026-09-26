@@ -1,13 +1,7 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "crises": {
     "aboriginal-australians": [
-      {
-        "title": "First Nations workers missing out on $15,000 each year, report finds",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLThNWlEtdWc0ZnZod25BYWhnWnNCeXZnTFQySmJwVS05M0huX3MzS3ZuNVI1Nm5icUlVeHdZMnd6WXBpSzFvZ0huRUY0QVdjV2xHUldCcnVhRXEyUFdTWlJpS1BkM1dJbTJwZEs3MldPaXV6b1dFYVBvM1VVMXQ5NF9ZUFlKNV9wa2hQOHd6V2pnTF9QOWZtOWlidjBGVVNDTFRGWV8tWURzQzhqb0k4?oc=5",
-        "source": "SBS"
-      },
       {
         "title": "Brisbane Blacks Aboriginal activist reportedly kidnapped by Israeli forces",
         "date": "2026-05-20",
@@ -19,6 +13,12 @@
         "date": "2026-07-13",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUVUtY2pqNlpYVW9fMjF6RmRLLUoydlBSSG1xeVZrVy1lVEJxZnJVVmxqNTBKYWtDRVhiTUhVUldXZ3d4b0loSnk1anZxOFdxYmNNUWZsQ3VXbVNzVkJZckZPbzdEWXg3M1lvc0tBZUJ6S0hieFo4b0pjVnpQNDRWM0ZJbmdZT2N3RWVST0tSemJwbXo0RVdhbkttNGJOSUt0aW55OGlEeGRnV0FwNzV2QVgzbWluei1xZ2c?oc=5",
         "source": "National Indigenous Times"
+      },
+      {
+        "title": "COVID-19 and Indigenous Peoples",
+        "date": "2023-03-12",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcl9DaFB1aTgtYnlJMFVyOG1RSmV2bDhhQTNDTWllbWtWYUJMWTVkbERuZTNadkN5YmhjVjBiQVJfVHVlVTZYaDFLdVlKT2xWSWYwNDEtQVBMM2ZtenltVWJVMUpNM21tUVlKM1JjMUROR3pPazY0UWxjRm5lVXNmUUFNeV9WRE5LcVB2cA?oc=5",
+        "source": "Welcome to the United Nations"
       }
     ],
     "adivasi-india": [
@@ -26,7 +26,7 @@
         "title": "Rewind: Chenchu relocation from Amrabad Tiger Reserve — Conservation effort or Tribal displacement?",
         "date": "2026-05-16",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLW1fNHVDN2tSdXZPZ1c3N1lSSEs4T0haODZjR0xLMTh3dGxsUFhtYURIQV82WWp0WUMzdVkxV0pRb3hfeks3ckk2T3pkRzZPeF9jMWNiWGdubUpmbGlKMFVzNnd5bUE5RlNKSE9vNkRzS2ZZSWM2bWJFQ3NfZlgzalF2a2hhWHUzQkE2SW51TUI1NGxNclo0V1lXeE0yM0dfVmw3NGRhZ1VxZGRVZUNfVEtzYjZ5ZHJEQW9IajAyQQ?oc=5",
-        "source": "Telangana Today"
+        "source": "telanganatoday.com"
       },
       {
         "title": "‘It’s all our burden’: Poorest women hardest hit by heatwaves in India",
@@ -51,14 +51,14 @@
       {
         "title": "Afghanistan: Humanitarian Access Severity Overview (June 2026)",
         "date": "2026-09-23",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb1MtOWxnNmlsWXJJOEVfck9HM0FJTXZQRDJXUjRNTW1IQmpzdG5ORjJrcXFQYlBOWXlaRUtkS296cE5mZk1VOFhtTDRWU2J6Y296bkUyZFZhdGpiY3RrMzhDczV1TjBEdWpnYll0WDlmSWFOc0ZBUlU1Mm9ta0VqZWh4cU5LaXhsem5kT0NRaEd3c18zZGlyMXdNOG9weElDY3BBMTZWTHZ1RDR1MnRtaUlWWmU?oc=5",
-        "source": "OCHA"
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFJjU3E0SGlPN2ZqNkVNbmJOdHJ0M0UyOTNlNGVlTDJGOU05dkEzUS1nVXJDc1FWcmNoSnA0dU1mTkVJTFBxQXg0a21EUmt1UVZwZWdUdHI4eXYyZGRMV2FWMzk3ODBKTmVGVjhnQkJPQVNraGc5cTZicUdKNWViWEExTG5KWlpYN20wUHlPUldoTXhaeE5yUE9kLU5rcmxidGc?oc=5",
+        "source": "ReliefWeb"
       },
       {
-        "title": "Afghanistan: Humanitarian Access Snapshot (August 2026)",
-        "date": "2026-09-23",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLXVQMmdxbGM2dGdMUDJlTFNrNV9yX3Y3S19zZzBuVVZCRWVuSld3ck5NQ3VHZHBEeTktNDJQb181eEtlUkFhc2hVSWx6Um83cVZ4akNQMkRleGZQeEtWeHJhVlVNRFFETHV6ak1TOFkwZ1FtWE1qVVBSREk5T1JaZWNxT051cGd6QVFqVDFSdXBteFBHSDNfNQ?oc=5",
-        "source": "ReliefWeb"
+        "title": "Afghanistan’s earthquake, 1 year on: rebuilding lives and protecting children",
+        "date": "2026-09-02",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUjRCTFNEbm54TDhQTjRBTU9BUUFnSE94NXFtRjQyU1dST2Y3OTl3dE5pNy0zZEVJRENPMnlwRl9JSmpZZEEzWGRJRzNSRzZFb2ctQXRNek1oZ2xWVUV4cS1Xd0FIYTRpWjlMZjRIajhMSVU1cU9JcGtmUmVpY2cyT0haUEhkYkU0SmlJSGZJWUhWcUstY3Q1d3BFUGlBR2lxQTVnb3JwdnFvTzlrMXV1OTVVNjVuZFVRamVEM29QME1oc0l3dUtINUpLNkVRdGlJWWdrVWwwZ1haSkVRblF3T2kzbDU?oc=5",
+        "source": "European Civil Protection and Humanitarian Aid Operations"
       }
     ],
     "amazon-indigenous": [
@@ -72,7 +72,7 @@
         "title": "EU humanitarian aid contributes US $ 19.9 million to UNICEF to strengthen preparedness, resilience, education in emergencies and protection for vulnerable children across Latin America and the Caribbean",
         "date": "2026-08-18",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOFdZRTFzT0lfUlJGLU5yeGtEZmxLUEplTVV2OVJ1alBTd2JqWkg1Szh1NXFzM0l3NzI1c2NxMnhfendxV3R4OGx3ancxVGRQdjhHLWZZS1lTWjVCU2oweWRuRXc0VDV2cG52cWxtR0llNVQ5ZlBwVWszS09tLUV1Wi1maU4zWFRJWVdiSWx6UFQ4R3FMNS14YWJmSElCQXpWTDRxMXlwclcyNEJ2cWxxcXJibkkyYWxLQ01paUt2UQ?oc=5",
-        "source": "Unicef"
+        "source": "UNICEF"
       },
       {
         "title": "The Amazon's Invisible Crisis: How Environmental Crime Is Reshaping Humanitarian Emergencies",
@@ -98,7 +98,7 @@
         "title": "Bugti honours Abdul Razzaq Khilji on his humanitarian courage",
         "date": "2026-08-17",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb2JqUF9JR0tOM0dYT3luMzVrMDE4b3ZSS21EaUY1TExVTzRKeTMwdUkyTi12VWs0eHdpNzlNZjZIRzVyejJudENIdF9VYV9wQXZMX2V1WUpMa1A5ZXc2Y3VUWE5WSEZUX010TVJ6QWVHVm5lVjZYd0ljaU1yMEhBS3VMcTl2amdXZkw2cF9iOV9wR2NaMVBuVFFQSTV5UGM?oc=5",
-        "source": "thenews.pk"
+        "source": "The News Pakistan"
       }
     ],
     "bangladesh-climate": [
@@ -126,7 +126,7 @@
         "title": "Effective Partnership for Children",
         "date": "2026-09-16",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IbDJ4R3ZHeDhXQXgwOFVfQkN0eU9xZE9PaXFSVmRQcjNtRG5zNVZpOEZpZlZ2OWVUN3dxN0RXMzE0TzVLQUF6STFGMFVKNjVtd3dEOHdxVWRfb1V3X2syVGZ1YW9DWnAzUElPdnV4WlFPdmtzMHBGSlM4M1I?oc=5",
-        "source": "Unicef"
+        "source": "UNICEF"
       },
       {
         "title": "Belarus to Send $ Humanitarian Aid Package to Quake-Hit Venezuela",
@@ -163,16 +163,16 @@
     ],
     "cameroon": [
       {
+        "title": "Cameroon: North-West & South-West (NWSW) Crisis - WASH Cluster: Humanitarian Response Dashboard -January - June 2026",
+        "date": "2026-09-20",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeW5WZTFJcFp2ZFF5V1B5UU1DNWZGeUNTZENqT3RtMmtBNE9UTGI2MEhFTkhVNDZkaEFWU0FfM3IxbTBfQ1VEaXhNMFpBUmNPSVM2dWhxczB0cWppN0YxRXhVU2ZvbzVLYkd4VjBKVUdvN2JjcmpYMWlxMjNkcU1oWDJfRVpON1phYjZicDFIZkJXMTRGSHZLc3J5MjdFLWNONmVoeUpjUWZZMDRkMlhtbDN3cFlwX2JHRWNpUmJORzhJeUZHV2t3VUZfNEtYcmFOckhZd1lIUm43VlE?oc=5",
+        "source": "ReliefWeb"
+      },
+      {
         "title": "The cost of inaction: Cameroon’s humanitarian response under strain",
         "date": "2026-07-19",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNUpQZnNRQ0kxN1ZVRGhkcEtkRlg1Qm4wUURXN2FSTWRZdVRHTUxhYWNLSGdkSlR4UExGRDhRM2Uydl9aeVdKMTlFOVNUdXdDZUZQREQxdTlwc2tVM0ZCaWUyVjVLMHZPVUFIMDJCVlBZTjVoTFdVNk53WXpIbThCMjJ4MDBtSm1JeXAxOENaTQ?oc=5",
         "source": "OCHA"
-      },
-      {
-        "title": "Cameroon Humanitarian Update - August 2026",
-        "date": "2026-08-23",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUzhKa0Z3di1oa2hWZW55NEpYMzVNM20yMnk1eFd0SzcxWmpyelZvNGFTeEZpSE1XMm9ic1lNV3BFUXpRTjczWFpuQnJ0bk8tSGVmTW5SdHBWaktYd091bHo2UlZEN1ViakFsUlhRNUJpZU05elc4bkVKT0F0bU5nLUhqSXE?oc=5",
-        "source": "ReliefWeb"
       },
       {
         "title": "Secretary-General appoints Njoya Tikum of Cameroon as the United Nations Resident and Humanitarian Coordinator in Burkina Faso",
@@ -183,16 +183,16 @@
     ],
     "central-african-republic": [
       {
-        "title": "Central African Republic: Humanitarian Dashboard - Inter-Sectoral Response (January - June 2026)",
-        "date": "2026-09-17",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTHdfZndMRUtPOWM3SUVsTjBzWW82cGtkX1JjbFY5dEt0UkNFdi05RkdEU1k1TmZmSVZEdUpUVjAzcDlYMVlNTjczQ1lZT1o0b0VKdDZVZm5CeDRWT016VXNaczFXdjU1V0x2THRZRjdlNk1SdzVpTFZUTzM3Y1lJSGVabDdZQktyUG5WanRSV251ZGx4YnNjdUpYVXhlUG1aU2E0ZGVYNVRTRGt0ajFtemQ5VFphT1lGTEVwbXc5elhtUHZsVGwwbXZ1c1pXLTV6TUNLYm9xTGhqa3M?oc=5",
+        "title": "Central African Republic: Situation Report No. 86, as of 22 September 2026",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOME9JRlFuMDBlbmU3OHlxMFRfeWl4RU41anhQYzF2LUVYSWZUa0R0SFEybjJ2T2stYlF3eFRTUWVsV1pGRnRhNDMxZlhIUmJiTlRZZjRvX21DeDNpaDZjZThUT1A5b0pic3ZYN0FWaHJFaUNvUDJ3ekRDUGExcnZYaURLb3VDOGVieVNLbzNMb2lsU1M0dzNyYTAweDNNNUc4QjV4enpVR1c0OGp0eDd6alRRVmppUjZyblh3?oc=5",
         "source": "ReliefWeb"
       },
       {
-        "title": "Central African Republic: Situation Report No. 85, as of 15 September 2026",
+        "title": "Central African Republic: Humanitarian Dashboard - Inter-Sectoral Response (January - June 2026)",
         "date": "2026-09-17",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcW5EdHlXNlc3LWZjdk5SelZfZkoyX1RmQzN0NklsaDNIdE5xRlVFM3NuUHZNUjNmVjdXVUlxcC1WX0I1T2JmdHZyUDluci1HOWM2T2F2bzF3TU1PZmg0QmZHaV9YeHV3WktaMTNwSVhLTEswVXB5Vm5hZkpEWFQ2aWdMOHEzNUl2YXAxeDQtUUtRbVVNYTBDdm0xcWlyR2U1WEx4Zm9NLTJzdWstbzZVMWRuMUVwN1RHMEg0?oc=5",
-        "source": "ReliefWeb"
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbkxqMXAwQm9QeTdLRWE4dzlhWXZVeEJjdXVVc08zYmJZYzVjQjMzdWZEbi1TaGRKVHl3dW9aYVhHc1gyWDdhMEp6U3NTeS1YbGtzQTZHT3c4bXk2N2Y4S3ozRjBJV1BYczhwcS1mcmxwTEtIMXVrR0djWFJQVmZzNm9oZ1pFeFc2S0Z4UnZwR0s5dV92eGxCZ0hTYzVvTDdZMVZOMldLVUZnTzNjTWdkY0J5aXZqMUY3dXhOT2RTX3NSckpQalJoeVRTUmY1RHZYVk43cElCLWcweFpFclJnSUJhMmNXWUkyYjMyOHZR?oc=5",
+        "source": "OCHA"
       },
       {
         "title": "Central African Republic: Funding cuts put humanitarian support at risk",
@@ -235,29 +235,29 @@
         "source": "nrc.no"
       },
       {
-        "title": "Colombian Government Seeks Adventist Expertise in Spiritual Care Training",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVVJkdGw2T05YMEN3eVNmQ0thT0VBLUswRFhMcDY1b05sZC1TamFqYUQtLVBTcjZJSWNITHZuLWczWWZQLUxKM1h0VHpvT3haM1BZdmpKY2pvUmpQSVBwc3E2aVdPcWtQYTVlVGJEaWtRMlB4SG9Ld1F2a0dUVDZuLXN1UWRLa2M5MFJaa1pLSEVyT1JTbzhmcWVKNXo1enBZSjNpcFViX0lNX1k?oc=5",
-        "source": "Adventist Review"
+        "title": "Strengthening state presence in Colombia’s conflict-affected territories",
+        "date": "2026-09-02",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVTNNYzJjS1JGS0JnS0ZjcHBJZHNGU09lV0tFdTUxV3VHWTl4WEtZbHVkV1c4YTdZYjh4aVBDRWdYQ01hZ3hla1NGWnNrRU5IY0UwT1FNOGxjN0hEQmo4LUhua29yM2dHMGxMU0NWUEJLbE9IaVFYT1pDeXlGX1V6QTZBcm8tZG9RQUxpN1R3bjRjdjljcm9tQkNsZmhycE9XQ0J3Z3ZRY0R2ejZ2bEs2cy1fWDRYTERTdjg4MWIyME53dXhfRkhwTU5MdDZnODhTZFpzSVliUmxUZw?oc=5",
+        "source": "Atlantic Council"
       }
     ],
     "congo": [
       {
-        "title": "UNICEF Democratic Republic of the Congo Humanitarian Situation Report No. 3 – Ebola Outbreak (Bundibugyo Virus), 31 August",
-        "date": "2026-09-25",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRk1fSVpMaFQtVVU2SXJGTmo1cDFhb2wxbFNOVmMxaVZwSEVQV2dKcFBIc2JaV1VDVWw5Vk56Wm5kd1BEell2TGE0NkNObE9rU2JrbUNtdGxoTkFiNkxVbERWRC12U3RhRTZUb25rWDRhNF9kSlQxUXBUVThmTHhaUkpFdkdxTjdhNGc3cWgtOVVibjZBbVBCN3liSGt5blozaHFyWXQ0WElTc2tDeUQtWEpkclFKR0RaRlItXzJRWlFJUnlUZzU0ZDhJX2xRMkluelFuZXhFYXNoX19tX1NydnpES3FfcEdrVllNODF5N1YyN2JuNWtz?oc=5",
-        "source": "ReliefWeb"
-      },
-      {
-        "title": "Today's top news: Democratic Republic of the Congo, Occupied Palestinian Territory, Lebanon, Somalia",
-        "date": "2026-09-23",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZVRTZS0xckhnay14aHV2ZEEyLWxCUVJ4SFk5UzJyc2xmbXdFS2dTNkZqYWI4bUZHU1BVQmdBWFQ1QWN1eFB4Z180RkRuQk5CU1JzeTYwcW9HYjNScFN5R1NITU5lYm4yVUNmUWotTGtPSk4tUnZyeTRSVHVaRVJXMGpYLUlEZ3N6YVdCZGRtYmtOU0JMdXBjN3FBbW9wWTlZeko5ZHY0NVhNVERia1ViMk1uUzVmTUU?oc=5",
-        "source": "OCHA"
-      },
-      {
         "title": "DR Congo: Humanitarian Key Figures (as of 31 August 2026)",
         "date": "2026-09-21",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSlVVbjktY0lyZmxTdFhNU2FKYkNmalJuWHBfOVo4UDAxUUhLbHpWNFV5eVZ1Mm9nc2Y4YWNEbkFOemVCYnVfZ014R1Exb1RPNTh4RVZvX0VEaGg4MEJxYURwM1hFc0ZQVkRGdjEyTl91MmR5cVExcjRuTGJQbnphMTk2WVpmZVpQYVVOMjFLSWRKcjQydmpWVTNJbVl4X1VudUFMQ1dR?oc=5",
+        "source": "ReliefWeb"
+      },
+      {
+        "title": "Today's top news: Ethiopia, Democratic Republic of the Congo, Yemen, Occupied Palestinian Territory, Haiti",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbEVWVnZsQ2FfbjdEOTZZWXQ3SktxM2MxcjJyaFNqazhFMUV5RGU5WklCYUpuSGJGb05vVXp1ckVjWkNJMVZ1RmFfSDRUb20zclpOb3pqandGSlp4aXdDMW16eWVVTVBlVzNoTXZ5cElTa19peUs1dGE0d0MzM0NJNF8zb01UVVk1SjZOSmlhMXRxVHFWVTdZNTB3UVNHMkhKSnh4UUdOdDA1U241dnZCVy1WTzdQeFBiVmhCajBn?oc=5",
+        "source": "OCHA"
+      },
+      {
+        "title": "UNICEF Democratic Republic of the Congo Humanitarian Situation Report No. 3 – Ebola Outbreak (Bundibugyo Virus), 31 August",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRk1fSVpMaFQtVVU2SXJGTmo1cDFhb2wxbFNOVmMxaVZwSEVQV2dKcFBIc2JaV1VDVWw5Vk56Wm5kd1BEell2TGE0NkNObE9rU2JrbUNtdGxoTkFiNkxVbERWRC12U3RhRTZUb25rWDRhNF9kSlQxUXBUVThmTHhaUkpFdkdxTjdhNGc3cWgtOVVibjZBbVBCN3liSGt5blozaHFyWXQ0WElTc2tDeUQtWEpkclFKR0RaRlItXzJRWlFJUnlUZzU0ZDhJX2xRMkluelFuZXhFYXNoX19tX1NydnpES3FfcEdrVllNODF5N1YyN2JuNWtz?oc=5",
         "source": "ReliefWeb"
       }
     ],
@@ -266,7 +266,7 @@
         "title": "Category",
         "date": "2026-06-20",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeFVEQVhzNFRYdXViOWxUOHZHVVFSMFRPQ0JINm15Sy1mdzR6YWtZb0dJbXZTeW5rTXljeUZnWjNFVDBDaUUyd0tibkpfVHRNVTBpem0wcm4zQWc3c0k1ZXl3eDlhaUkwSVJuUUZMQkUtUDZHSDJ2X21MX0Z0TUVwRnhFWFRXS1dLNjQ5enFwY1FGSzBVZnFCeVlxb1B1V2I5dlp4bEtwSGF6N2pnOWVHRUIyOUY1eHRBWDM4M0hhUjllU3IwWlNrTVpaM1d6T1lPSHBNZlkzU3Ztb2I2eUNDUUlzck5hWm5RYks0TnZGd1Vfdw?oc=5",
-        "source": "Africa.com"
+        "source": "africa.com"
       },
       {
         "title": "Eritrea",
@@ -283,21 +283,21 @@
     ],
     "ethiopia": [
       {
-        "title": "Ethiopia: A powerful guide for those who carry weapons",
-        "date": "2026-09-22",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaHQ3ajZQal9FdEVFbVEtYm0tdXE1ZVR1enRmc3VicFlObVJDZkZzbWwzTlFZZDZQbUtsVE9XazRSdU9hTVJ1OEp0bXJJbmQzYjJHby1CWGpid3oxWGtxdkxUTTZmYmdlRzFiMmIxeGdyUXVOV2w3c3JRbmVZanFiOER2RjFXUQ?oc=5",
-        "source": "ICRC"
+        "title": "Ethiopia civil war fears, UNGA highlights, and Yemen safeguarding failures: The Cheat Sheet",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT09XbEFMMU5ERHlweVlJaHV1NS1SSkpRTF82OUV6czV6RnFyRnJKWXI1Z0c5cFlaU2NET0RBX0pScU5GMndkUEthQTVOXzZjUEFlazlQcjRraTVOX2h1aTgwMWRRbDYtNk00VXlQOXlGdlVhRUtWa0x1Wk9tSlZqMU1pU2tsbEV1WDBFV05SM0paaS1GUFp4dVdvcUdMeVlDc1JfZ29XVlN6dTdlM0NJQ1NCakJQdzU1OHIyZw?oc=5",
+        "source": "The New Humanitarian"
       },
       {
-        "title": "Republic of Korea and WFP deliver critical food assistance to 100,000 refugees and host communities in Ethiopia",
-        "date": "2026-08-27",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR0dsWGN4cEdVemtSTkJXcGl1YlJYVzNic2pyRF9mUF96dFZjT2xuMzlxc19yYjIwOEVqRTZqZ2lNTjRKb3g1OGlZZDg2MzBHWWF3UmM1YVVWQ0FFOVpUb1lmMXZUSTNmdkNGTzZONnBObzBEZWphWWYtNURBUU81NUtLbGZiVHBGV3hjSE02SWFnSW1Ld2h4WHpVbl9tSkxoX0JaUC1GY1ZDX1RKc1ZrejIzSl80NmVC?oc=5",
-        "source": "UN World Food Programme (WFP)"
+        "title": "UN voices grave concern as fighting spreads across northern Ethiopia",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40SWdDbFVtaF95UDgyNjBoZXY3YkxaQkFLRXNFb21XSFF5dXAwbHdmRzh3RHZDanNCS3BycEhVMzV5MHZOWUZ0OVQ1T19ydjdvdDJvc0p3cw?oc=5",
+        "source": "UN News"
       },
       {
-        "title": "Ethiopia Humanitarian Fund Annual Report 2025",
-        "date": "2026-06-23",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdlNfU0pOS3AzblZZSE1kNE5QMHN2cTRaaE1VZlN5OFloV19nb0VSRzFVQUtLd1F1S19vV3BzVzJNZ1NNcl9Yc0JvSmpIdUY4eWNZYXJfYVJ4U2xpSGRHQ21zU0tXUXQ2blhhWDdhWmxEWjR6RU9qVmY4SU55b0RYY0N1aGdZbTl3bFlBWWptNWw1U2daQW5fSzNabjkwZw?oc=5",
+        "title": "Today's top news: Ethiopia, Democratic Republic of the Congo, Yemen, Occupied Palestinian Territory, Haiti",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbEVWVnZsQ2FfbjdEOTZZWXQ3SktxM2MxcjJyaFNqazhFMUV5RGU5WklCYUpuSGJGb05vVXp1ckVjWkNJMVZ1RmFfSDRUb20zclpOb3pqandGSlp4aXdDMW16eWVVTVBlVzNoTXZ5cElTa19peUs1dGE0d0MzM0NJNF8zb01UVVk1SjZOSmlhMXRxVHFWVTdZNTB3UVNHMkhKSnh4UUdOdDA1U241dnZCVy1WTzdQeFBiVmhCajBn?oc=5",
         "source": "OCHA"
       }
     ],
@@ -309,16 +309,16 @@
         "source": "OCHA"
       },
       {
+        "title": "Haiti Protection Analysis Update - September 2026",
+        "date": "2026-09-24",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc1d3cVNycnpMLW9TN0tHQXNGS2FsTE9QMXV3UnJ3Zkd6VG9Ibkp6anZvVFAyMDVvelRhMnlqWFlqM2FfT0FrTWFaQUVZdDZIbmJLNlRTcTgxc1A3bVNxeWh4RFA3MzZfTDVPa2c1Yk91Q0pteEZDTzNWd0pYOUhlbjZvSjlQajRUcmc?oc=5",
+        "source": "ReliefWeb"
+      },
+      {
         "title": "Haiti's gang violence crisis: What to know and how to help",
         "date": "2026-09-09",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOamZ0c3N4SEhMQTVFRkdYZDhNeVZiVnVoWWxuRnhOb0FUSV9XTnJZc2ttNThEYnZfemg2ZU1yTVNJSGZERmd2SDQtWkVFUzJERGgyakVHdnQ2ZHJaLVZyaXh6alJIU2FuaDl3RmgtZk5TTk5UVkRiWS1rc0hZeW1ja25sN1ItRkk1?oc=5",
         "source": "International Rescue Committee"
-      },
-      {
-        "title": "US deportation flights to Haiti put lives at risk amid worsening humanitarian crisis, HRW warns",
-        "date": "2026-09-21",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZENLSkRDVU04aUpOcHN2UndFZTFmSWNIaUdnYkJHRDVfbl9UMXVNOUdFNFo0cHZlYkN0Z0JkUVBSWWxqSEFmcjcwYlBKZVgxVVV6WC1xcVhVNFFqNkVzQTBLbnJJY0tDWEJsSlg4Rm5MQ1hKX2JrRmhCQ2ZjXzk4ZHBxRFowamM4bWlicUx5ZXlPZWFKSkhfUW9zakRHV2R4b0xQel82VklnZ0gzcTByN2VwcnFLMTNhRXUycE5NMHVDcWtzUlBoalVMWnI?oc=5",
-        "source": "Jurist.org"
       }
     ],
     "horn-of-africa-drought": [
@@ -332,7 +332,7 @@
         "title": "Qatar Affirms Continuation of Humanitarian Support for Horn of Africa",
         "date": "2026-05-28",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQkhtelczdWI0U28tTnpMVFpWMVZHek5VdVBTT3BtRnNZSzFpM0ZLOENvYmp0djMtWjBMaFJ4V0xMR1BVU2RYZ2tXZ1RwZXZ3cl9CQ09JMVVaWjJtc3IyRTRyR0g0dlNFWE8tNVBSMU5YbjhnU3loZ0JfbnNSV2hLQXZpN3F3cDhER1BfZU90QmFIRE43NUlwRE1GdkxzVGxrNWVKdDhiYThVdnhycHhseWVWZjJ1azJ5VzFoTWhlNVVXV0xJcDc1SE9RbWhPLXhqOHpVVS1PVFpYWEpycmc?oc=5",
-        "source": "وزارة الخارجية القطرية"
+        "source": "mofa.gov.qa"
       },
       {
         "title": "A country-by-country guide to worsening drought in the Horn of Africa",
@@ -344,61 +344,61 @@
     "iran": [
       {
         "title": "Houthi gains in Yemen fuel displacement as humanitarian crisis worsens",
-        "date": "2026-09-24",
+        "date": "2026-09-25",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3o3d0U0azBSVi1WallzRGJSYkxZaVJOZ1pqajdFbkZHSVROYktXekRoT0poVkMzNDlvUjJXX2F2bHR4ZmxZMjdLWm4xU1U4Q0FPVEZxVGxjT1FyaWFFaVUwNEhFU0FwUDFWVjdVRU16TGRyX2t2TFlTMUhfdGJudVZPbUpTZklCekNiVkJiUmdzQm1ray04NEE2eWdBV3R1bGZ5a3RB0gGmAUFVX3lxTE5veU9vZ3d5UDEzRjY4RG1Jcl9SbHRDdUdRakdJRDlCMmtrUFJTUnV4bFFTb2tRaUY3WmZTQmRfLUNIN204dS0xeU9sUXBXN1JFMkNEd3VDak96bjM1S1V3cTVReDFDRzJJeDl4UkF4cEFkeW92d2dLSEZMM2NpUDFYVkkxNnQwMU9wRTBxUWt5eFB5VndXM0NKcmV2LVppM0tkX0lPYXc?oc=5",
         "source": "DW.com"
       },
       {
-        "title": "Turkish Aid Worker Sentenced to 10 Years in Iran",
-        "date": "2026-09-23",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZFdHa1NPS015eXZ6M1dDQ1NLMzlJNWM4OVRUdjN6ZU96MzVOYzYtLUJaVzB6Zld3eWJJQkIzamxpa0FQdVk0aGlqS3B5NWFkb0hZdDFaN09LdlZiUjU4LVItWnJRbWVFclhIQ08xUDRaamFTYXZmTGFpMTN3R2JkeXBfckl1OGVmY2QxcF93?oc=5",
-        "source": "IranWire"
+        "title": "Iraq says it’s seeking exemption from US ban on Iranian airlines ‘for humanitarian reasons’",
+        "date": "2026-09-26",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeEREazdMMEtJYjdsajBYb095TGJNLU1kTGgzNVM4UTZFNDBKMERMUzBsYlpyaktvRmVvSUFqRXItQUhjNHpNRHpVazA0XzFOcTZVZDZUVTdsaHBJVkxweWdDdk9wN0tBTHh5bl95MVBMakxCbFVReXdFbTBfZnhDcmFUQndJYXBBWUZoMFVHUE1YTGRNUnotN3Q2Rm13VmhxOU9PZ2pOTjk0bHJ6QlNtRzJmM0RMWTJXODhvOGxObWZ4Q3ZUTFNfS1NubDhYYzg?oc=5",
+        "source": "The Times of Israel"
       },
       {
-        "title": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
-        "date": "2026-09-08",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?oc=5",
-        "source": "Amnesty International"
+        "title": "As Houthis capitalize on U.S.-led war with Iran, fighting engulfs Yemen",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUXpOY3FQOE1hUExaWjY3VUs2SElyT1Vvb0x3eWJWQmhwbnZ3T1NOc0hyWG1TU1h5THFqTmtvUERBNUhfWmVkWTNTa19JMUxzcE9jZnFENlBxcDg0bUlQWTBrTGFBNWV4TGI5MWNfQjEzRkw3VlFWdElQTG51UXNielZ2aElNdFI3aFpuQlVGTWRneE01eWdpQzhtRFI4QUdNWTRKdmx3Y1A4VXlKa1JuTw?oc=5",
+        "source": "washingtonpost.com"
       }
     ],
     "iraq": [
       {
-        "title": "Kyrgyz Families Plead For Return Of Islamic State Fighters' Wives, Relatives From Iraqi Prisons",
-        "date": "2026-09-19",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOenRvUm1OUGZqMlM0RlZBRnQ2WmRDMFNDNTFfSy1zS2ZzaGlvdEkzSnpuQjhkVkxsd201UFlSMDFKV0EzbHk3S05NamZjRnZMX21iMXhqS0h0WWRhWHQxbHh5bnVTNS01dUhOdzVUemRvNTVvdWhORzVQSzBod3pqQmswaUwyWGtnb2E2dmhRTmtnRFl30gGXAUFVX3lxTFB0WXhlUVo1aWRRQnlZNV95UDFvOFpKN3YtUm9IamRyR3FPS19HMGpteklGaW1QakotYWZlVWYyZnpldFdkU2RvZEhlQXE5WWFpcUNVM04zNFdBcHhENFoxUW5YOUx4dkUyYXo5Y3M4bzc0SUdFUVdGbU9qakFRbXRzRjB4UWtnMHV3QVYwUVJfTVdId19vN3c?oc=5",
-        "source": "Radio Free Europe/Radio Liberty"
+        "title": "Iraq says it’s seeking exemption from US ban on Iranian airlines ‘for humanitarian reasons’",
+        "date": "2026-09-26",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeEREazdMMEtJYjdsajBYb095TGJNLU1kTGgzNVM4UTZFNDBKMERMUzBsYlpyaktvRmVvSUFqRXItQUhjNHpNRHpVazA0XzFOcTZVZDZUVTdsaHBJVkxweWdDdk9wN0tBTHh5bl95MVBMakxCbFVReXdFbTBfZnhDcmFUQndJYXBBWUZoMFVHUE1YTGRNUnotN3Q2Rm13VmhxOU9PZ2pOTjk0bHJ6QlNtRzJmM0RMWTJXODhvOGxObWZ4Q3ZUTFNfS1NubDhYYzg?oc=5",
+        "source": "The Times of Israel"
       },
       {
-        "title": "“A presence with meaning’. Caritas Iraq received the new Papal Nuncio in Baghdad",
-        "date": "2026-06-09",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTTZ2ekU5eU1EQ2JYd21TdVo3dE1xNW42S0NsTmxjLWZoNXdTTmd2d3d1MGhVbElTbW1BZk5WLXplUjlSNGM5bzNkNHRjTEJEeElDaW5VRXJKeE15bkR3amMzeG9LaWxXZVBLRnFzTjZSckdHNTRTcEUtYUgyajhEaVdhbk9oOGNlUUdjWnJVSE9pMWdMUVFVNVZQZHpYUmljTXc0UW5jWkVVU3AtSFoxbDR2UlZuVXV6cVl4dEVScHBlZDZVblE?oc=5",
-        "source": "caritas.org"
+        "title": "Iraq seeks exemption from US ban on Iran airlines",
+        "date": "2026-09-26",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbWN2OXRhWUdaMk44cjlhcTA3YTVEWkRXbnQ3UlpBaE5wS0N2ODRFN2MzcHNsanR1UnExdWJXRW1jdHZmQUU2aXV1My1wRG9ZX3BFZXRBbU51Z29XRXlpN3NNVWhWZFRrazhpZUd6R0pRTVBRbXRYLXFFY2RwTHRqbGVqcmpCOWp3cXVjQWUyZzVRZmlvTmlKamtVaDhBWW9nU3dpTXA5YXlSR19xbFpiMXhpaTRDTWt3SlJSWVRaTUVLMk04UHV0Rk9va0Jjd9IB0wFBVV95cUxQZnRIMHBDTzY2ZXZnZHUxN3NGblRTRUhGX1RjVkNueGlTY2RoVHZNdlV6VlJOaUQ1VnRGVGFoR1E2VS00MzB4SE80Y1JSYll1eEI1cHdyT0Z0RkZaZXp1b0xGb0dYVE5idm5hTmQ5ejNFZzVRNktGUHh1NTlINFFmdTJSVVJ2dUQ3YWlNdG9uVEhUVW9TaGE4bUNrcUlfc1VEbzRpU0hQMzcxMENGbmxKbU5yQ3lwQVdpSjZZb1BxanZaSEdtNzYyZmRhcW43MElueDVj?oc=5",
+        "source": "The Economic Times"
       },
       {
-        "title": "Iraq: ICRC president to meet senior officials, discuss humanitarian engagement on two-day visit",
-        "date": "2026-05-10",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGZkWDNJcHFINkhnT0hZTC03aWc0TEZVamZwdXdoN3lhc25vdmtrVFp0NkVNSGFvSlQzemZkOEcwVDF3QkFwSXpUdC1MR1hOVDNGVXhQV1YyNW0xc0w0U0xWZDFYcUlWOTBJb192cENXWmwtUzFKcmJ3cDJDaVhZbHRKMmZ4T1JWRW9oR3IwUmRLNVpFZlZmUWgwSzlfX3FfbXRGRzZKWWd0TkJOS1NSWjZQWnFIVzg?oc=5",
-        "source": "ICRC"
+        "title": "Iraq seeks humanitarian and religious exemptions from US sanctions on Iranian aviation",
+        "date": "2026-09-26",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNVUydFZKR2lERmhCVFhYa0Y2dl9DX3dxY3FOM3hELUM1ZFB4dG9aVXVhOEpXaHZjZ3dtMU0xM2FiRW45UjRyc21RYVZVaUJqNFQ5aEFRbWxMOXpQa3Y4RVpwZ0dzVzlyNlRVaVZFb3FTcVZHRUFHRXlvU2dQOERLOV9tVlZTUWNoa3RhQ194NUFuSEVFdnpCMXh4QTRCYnNxN1lmajZlcTFJSU1tbHpISkJoZ2E2RFY1TkZuTndjM1NkQVJ2bkpNSGQ5eEZRaFFZeVFvZ0pyWV9XUQ?oc=5",
+        "source": "صوت الإمارات"
       }
     ],
     "kashmir": [
+      {
+        "title": "Mirza Asif Jarral champions Kashmir advocacy, humanitarian Relief",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMHA0VkJUYWRnSUxVNVNPeDdnbk81MzNiaXQwSkJIUUlENXVPMzJMVTZ1NWZHTmgxdUxQYmgwOXR2cUJnWDRPUDE2Y1V5a3VycFhfMnhoREJzd2huT3VVWHRTS3ZNaEk0MHlNeEdTTEYzOE5TWk04NTlLY09PZDVLU2JvTkZTY05aTXFiUXNOSDFaRWJBMHd4UHNNa093QQ?oc=5",
+        "source": "| Associated Press Of Pakistan"
+      },
+      {
+        "title": "US provides over $3.6 million in humanitarian aid to Nepal; toll crosses 900",
+        "date": "2026-08-31",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOODhXTmdBbnNheGpmSndlV3E4aXpNTVRUYlNnX19UZDlTQ202LWJPN0tLQ21KTXlKakI2YnhaM0pOczdNc09jYkg3SHdqT3pwMjVRQ1hrMzdxQk5CelV6ZkNRdXpSWGlsTEtsYmVUS01NU0YyOF91c0pWSmNkRTIzbGRKc09xb2RHTmRISjIyTTJTc29XME5rc2ZYanVLUUNKZVYxNFJDRHB3UF83dWF3VW14cHFMMFHSAbwBQVVfeXFMUHRWTWVxSXJ2MEJWNWxYdXZsVkoyTTZRRk9NSHZFVGdjX3E0RkFvTXZiZ193MmQ5WFVjemV4b0N5MkJQSHRmaVhEQ0cxUmpLTzNzMjJ5ZXQtUnFoWWRnVzB3NHBzVWc4N21LbC1EQ1ZJTFRZZEt2VzlRTEloeWdsZXh1YVZEajktd3lub01sNXdxc2p4TkpwRlBieGhRMzR4OGNpRHZsQm5VaTZBR21VeTUwTnJCSk9QMVpsQkw?oc=5",
+        "source": "Free Press Kashmir"
+      },
       {
         "title": "Urgent Call for Humanitarian Monitoring in Pakistan-administered Kashmir",
         "date": "2026-08-07",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFZvc2NqblBmQ1l6QlRXcGpMMWpLU0NDS3ZlM2tDc2hhQ01WRVl2NXQ5bWhxRkMtNlNIaEtmaDNuczhVV0RtMXVYX21HTnFFT015bHNuS3VCMXRtckZmczlULWVLbFAxdjdqdVV6dDhuSHByNnU4cTRoZ2lzV1N0T3hXV056Y2FKOFFaVjN0WTlDQmxieUp5SzFaSk5pNzdDdXBMTlZndTZlNTA?oc=5",
         "source": "Just Peace Advocates"
-      },
-      {
-        "title": "Kashmiri diaspora rallies in Washington, seeks global action over PoK humanitarian crisis",
-        "date": "2026-07-13",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxON0xfcHY3OURVaDV1MVlxd0FveHBrZ3FEMmtkWTBXYUo3REpOY29vOVBBX3VENC1rVEFJaU9jZm5BZWJHX21aSnR6S2NYTksyQlNLV3VnMF9GVlFVdlFpVDM1eW5TRGVBSHlMV3NmQjBlTm0xdndVaFhrcldOaWwwOUtTT1FmMGEzc0dDXzRaalM2R0I1TDUxNWpPZURRT2ZhWjJFeXc5ZjNub2JmTUtadzg0Q0xMalU0bnd5Z2FBaWlSRnFGQVlaSDN1cXhhRVXSAdQBQVVfeXFMTUt0dFVkNk1sdnJ1QWVzRFo2X2dibEdQSUowXzlNT1FKSkVDdnFsVVJiempQMXVac3VVa09zQjFJNVYxM2JHYUpUSXJ0cUlmUEhkU3NMaVNrcHZfNXVVV2tEcTZhbVRGb0pGV1BZOVdHOFRhMUdielUwcjBQbWtBQkxsMjUweU94MWZWeVFfYVJ4UmpJYkhLTVFkOXViOEswNGRNSjBmeUh5M0J0cjlLLVpQOElFSjVQSFkxSk1tT3U3SUk2bWpjRlhKdGNhVkU1amQwWXM?oc=5",
-        "source": "Firstpost"
-      },
-      {
-        "title": "Turkish Songwriter Turgay Evren Releases Humanitarian Song 'Tell Me Azad Kashmir'",
-        "date": "2026-08-06",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaldYWnk0UXBNOWhyZ0VqWWZySUE0LWJpSzhNd2lNYkltNnFnM3RsNk96d2Y0QVRhQV9jUWpTUFM4MzNETnpfajJSM2k1QnRIMHdEM1dRWGY1RHMxd3c3a3hYckJBMTBheTl6SEtqMXp1QzVZaW5XVllIdEMtMGs4X1p6MEc3TnpSOGZmVk96WmlCMG5idk5oaVpsMWt3Z3YtSUhHZmNvWnEyOVMyQkHSAbsBQVVfeXFMTUl4NldDNWs2UENONzlHWDNsRGtvZnd6cHRCX2FpQ1Q4QXVzWWMxQVYzMVhkcllHQkVjaHdjMmlKYWJuWGRxNVlxWUt3Z2VPb0RBQ1dUYUgyNjRiUzc5TGZlU2V3WENBVldqUlVOQVozV3lPanZLSm5TeS0yUmR0RmdzMUoyak03WmdmeE5odUlHWkdlZEEzRWpYdktjV3ZuV1ZITkMyRVp1NGlqVHItQmR6WURVUEx3cTBlZw?oc=5",
-        "source": "Kashmir Times"
       }
     ],
     "lake-chad": [
@@ -509,16 +509,16 @@
         "source": "ReliefWeb"
       },
       {
-        "title": "UNICEF Mozambique Humanitarian Situation Report No. 6 (Mid-Year), 30 June 2026",
-        "date": "2026-09-21",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOHZnY0U5NkdxRkM4Wk1JdmJGOWdhTFNUc20yRHZSd2hCVDd5bHgwU3pESmxsS3RxWjNXNHJDa0JFQWlNc2RjUC1aOURyZjZ2a2FYYVp4Vi1vR056bExkblJnTFBrbnd6RWppX0tMUmdXR3cwNGdsRC02TWVxNGJyci13aFRSTkFpeHpzS1pWNW1TczlIbmRBRTlPQlJDeVBEU3NJWDhHUl9WcExlTnhlcXpCSEQ?oc=5",
-        "source": "ReliefWeb"
-      },
-      {
         "title": "Mozambique: Humanitarian Snapshot, as of August 2026",
         "date": "2026-09-04",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaTdzenlUY1ZIRnpobE1YcmZrNWVzMFJRQy1BTEVFTHJQb2tGUlVHRHRURUdiN1BFZEZaZ3FXZlFEbXA5dXJoSlFFbzNNcFZYZndIWWoyeDJxQnRoRkVVWUdsVlY5YlRmLUV2ZC1VYm0xQl9uWldwX3BnUldPd3lBTk9qbnBUVkVzQjY5cllmb2pkYjVkc3owUktWaHc0TDg?oc=5",
         "source": "OCHA"
+      },
+      {
+        "title": "UNICEF Mozambique Humanitarian Situation Report No. 6 (Mid-Year), 30 June 2026",
+        "date": "2026-09-21",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOHZnY0U5NkdxRkM4Wk1JdmJGOWdhTFNUc20yRHZSd2hCVDd5bHgwU3pESmxsS3RxWjNXNHJDa0JFQWlNc2RjUC1aOURyZjZ2a2FYYVp4Vi1vR056bExkblJnTFBrbnd6RWppX0tMUmdXR3cwNGdsRC02TWVxNGJyci13aFRSTkFpeHpzS1pWNW1TczlIbmRBRTlPQlJDeVBEU3NJWDhHUl9WcExlTnhlcXpCSEQ?oc=5",
+        "source": "ReliefWeb"
       }
     ],
     "myanmar": [
@@ -535,10 +535,10 @@
         "source": "European Civil Protection and Humanitarian Aid Operations"
       },
       {
-        "title": "Floods, Hunger and Disease Pile on Myanmar’s Civil War Misery",
-        "date": "2026-09-23",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVzR3b0tZOFZvbndZdVdQUV9qcGZZUlpETmZ2NzNrdm1CdFozMjhSQ2VpZUJabUd4bklBbk9WdExNWXg2WmluQVNaZFV4QkVEak05UDdHNkpMdFNEZnAzeFRzbEwyWEtwdFFINTdQajdNSnhyZkNDdFZYRlFsSVVyWDNUY1pPY0VGMkMyWXNTdlJ6bHpGcC00?oc=5",
-        "source": "ipsnews.net"
+        "title": "Myanmar Humanitarian Access Snapshot - August 2026",
+        "date": "2026-09-18",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNkRpMlVtSGNSZ3dvSEQ0Nlp3eDJ1c0hfMnppaW9KQ2NlcjVWWG55MzF0a0F1c2NhUGpoZ056R0FwWktBREEzQ3lQQ0JFQWkxNUdSRG1PUnpoUjNtQmprSEhZVWNlZS03blNJYW5vZ1RCTkpfQjFwdVRRY2oxcHJiVS10TEt0OElqZnhTTHFn?oc=5",
+        "source": "ReliefWeb"
       }
     ],
     "nagorno-karabakh": [
@@ -558,7 +558,7 @@
         "title": "Responding to the Humanitarian Catastrophe in Nagorno-Karabakh",
         "date": "2023-09-29",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeGhwZEZYRUFjSTFJWlg1Y29ESGxQWFVONzd1dlNJcjhPd3Vlb2RrcVZjak82WksxQ0YzQ0lkVldnWEkxbkxwdmNGNEhoaW1mM09mT3FYMGxLa25feXQyeXQ0RHN5WXhPemxIcDRmLW9nWUd2MkNWRzJCR0VmNUZjVWV4RENCbE1sbElINkV0amxmM3liWUJTN2xDYmx6dmwwWUF5LWZfQWRFeXRqdFZDWFYzdHpWMy1CaFdmN3o2bk9xQlJPckgxdFB3?oc=5",
-        "source": "International Crisis Group"
+        "source": "crisisgroup.org"
       }
     ],
     "niger": [
@@ -569,16 +569,16 @@
         "source": "ReliefWeb"
       },
       {
-        "title": "Nigeria",
-        "date": "2026-09-14",
-        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE82a19icXZOckNfaTFlejJxcVA0cDBCeWY0NTdUb1NMTFNoc3Y3NnNzTjVwc3Y5SDNGb2xzbXM0X2twZF83?oc=5",
+        "title": "Burkina Faso, Mali and Western Niger - Humanitarian Overview (As of 29 April 2026)",
+        "date": "2026-05-06",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ0pfMXl0U2FuLWJXc2xjcUVPcjJ0U2JfYkoyVGl2LW5hZklKRzMyOFVUMWJoOTRSOU5GQUZVcktXb1A3d2hfcm4tVnZmSGMxdzRfSllLbmVTMWpKU004Q1ZFbTVnSVRockhJRm9MUVVaeHZmTTBuOWRNeUp4NmRwbnNaeG41b2F0aHdmR1hfQ0cySnBTWGlWODI2cmhuYUxGTWlKeW83ZkVOemwzWXY5bFhiZElhVldabTZ3alRjREJOcUZNc1E?oc=5",
         "source": "OCHA"
       },
       {
-        "title": "GiveDirectly’s AI experiment left vulnerable flood victims behind in Nigeria",
-        "date": "2026-08-31",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSl9fOTFxNDhHNGJqQWFtanFlMGZzbUZ3bTMwcWZDaU5JMnJaMDNqWmtFRTlOVE44Y05GQXVkWFhOZ2ZTTFhkSDRIX2ltZXBRclFpWTdXWmk4UEtqUXpKX1dTVTNPX0x6eGI1X2t3WUZJXy16UXA3T3NtRjhvY0U5OER5Ql9pd1YyRVdFN1JxenkzZk84TTFUNEpzOE1GYTZqc1pKZUs5RmQwNUdxd2RPV3h1eFhlc04yS1U1bm5UMA?oc=5",
-        "source": "The New Humanitarian"
+        "title": "Mobile clinics save lives among Niger's intensifying humanitarian crisis | The IRC in the EU",
+        "date": "2026-03-02",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRDRENXpqOTFRZWxBM3h5R2x5NTFSeGtDNmN5T3BFWmttQ3VHYktCaFRxbThKSXl1NmRsenhMYl9vVjk0MEtrUlNpSnBobVNiUWFIYmx4WW92bDZobWlmQWZoNWVjZ2xqeURHOWpNdmdGVm0wMGUwNC11bDEwRHJYb2xRVzZzUlQxcGxfTm1wLU5zRnE1RHN1bnV2V3Vxb0FFSFVZQVlZY18?oc=5",
+        "source": "International Rescue Committee"
       }
     ],
     "nigeria": [
@@ -612,27 +612,27 @@
         "title": "Engaging North Korea On the Ground",
         "date": "2026-08-21",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRZ0dHUVVkY3V1SFYzX004ZmUxN2VSMS1rY1ZoWHo5dGk4RFRveVUwWVB5elJETDh2SlBjTHlOLTk5RlN6S3FYZkxLbVpnWUxrX3dxWEc1dUFubzVyV0EtRTl2MUlTZjR6ZnN0aVp6QmpOVk0?oc=5",
-        "source": "stimson.org"
+        "source": "Stimson Center"
       },
       {
         "title": "North Korea Continues to Face Hunger Crisis Amid Ongoing Isolation and Drought",
         "date": "2026-05-22",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcW1aNmpJN1B6QnRBQ3E1UEZ1ZjZmaUJIQXo1UjNtaWppRWFVckREdk4tTFlwWFltYXhncVIySWVHNlhMMHJFR1Ayd0w0NnY5Tm9YMU00eDlRY0NEQi1ROHVheHNtQVBKMHEyVWlaZ2YtZU0yc1RLam5iUndhVzZjMmVMZUQ2STVEOGFtWUxuMUlBekhNMU5QX0JtNzdRRWk4alAzeENxSGJuUmVzODM1NkRBaDQ1cG96Q1VN?oc=5",
-        "source": "humanrightsresearch.org"
+        "source": "Human Rights Research Center | HRRC"
       }
     ],
     "pacific-islands": [
-      {
-        "title": "LIVE: World leaders tackle sea level rise, a stark marker of climate change",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uMWV3Rm0wNzF1TFhGenA5NEFVNXZUdm9MRUhRdWpTeVUwLVJBR0hVSFNKSHJVWXVQTUFJZ283enJnVldpSFV3VUd4RFhRU2NlZmVQZlpVWk5saTNtMy1yYWhDc1nSAWRBVV95cUxObjFld0ZtMDcxdUxYRnpwOTRBVTV2VHZvTEVIUXVqU3lVMC1SQUdIVUhTSkhyVVl1UE1BSWdvN3pyZ1ZXaUhVd1VHeERYUVNjZWZlUGZaVVpObGkzbTMtcmFoQ3NZ?oc=5",
-        "source": "Global Issues.Org"
-      },
       {
         "title": "When a country goes underwater: Island States fight for their future",
         "date": "2026-09-23",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaOENENWlYenJrc0U3elNDaFZVbnJDYmtjSUJlejM1RUxOVVBXdk9SOTQzSk5zNXZEY2lrU3pncV9SeDJRRmJHLWxGZnhmSEZPQXNqUl9JNA?oc=5",
         "source": "UN News"
+      },
+      {
+        "title": "LIVE: World leaders tackle sea level rise, a stark marker of climate change",
+        "date": "2026-09-24",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uMWV3Rm0wNzF1TFhGenA5NEFVNXZUdm9MRUhRdWpTeVUwLVJBR0hVSFNKSHJVWXVQTUFJZ283enJnVldpSFV3VUd4RFhRU2NlZmVQZlpVWk5saTNtMy1yYWhDc1nSAWRBVV95cUxObjFld0ZtMDcxdUxYRnpwOTRBVTV2VHZvTEVIUXVqU3lVMC1SQUdIVUhTSkhyVVl1UE1BSWdvN3pyZ1ZXaUhVd1VHeERYUVNjZWZlUGZaVVpObGkzbTMtcmFoQ3NZ?oc=5",
+        "source": "Global Issues.Org"
       },
       {
         "title": "Amplifying Pacific voices: the region’s crucial role in advancing IHL",
@@ -646,13 +646,13 @@
         "title": "Pakistan dispatches humanitarian aid to Nepal after deadly floods, landslides",
         "date": "2026-09-06",
         "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrRTFVZk9PdUR4d21KQjRfY1RpTDdUYTV1RzRPQ2p4U1kyZ3c0NTZEdjE1QlhLNUNOZlBLT09PZ25qcGJ6Y1R6RNIBTkFVX3lxTE5MNThwZWpPMmdfU0R6WG9EODNVTmN4VjZkOGZqd3A0eFJNeFNQYkVqQlZWX2ZCSGhMNVZ1Y01TUTV1cklhN3RMZWdCT1JmUQ?oc=5",
-        "source": "Dawn"
+        "source": "dawn.com"
       },
       {
         "title": "Nepal floods: What's happening in Nepal after deadly floods?",
         "date": "2026-09-14",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGxVNVZPd1dKSnNFSF9iYlFnTi1lT2ZKYklKSE14NHF2R1lYVWxmbnJ3SHVpQy1LVTRpMEtCZjN6eEZMM3hkcVZ6SGdpVGdIMnR1aXVHbWMtQV9TeENGWGs2bUhQUWFYZHpEZ095aVZTWTdjOVNMZlZZN3BVNjVoOTZnVU8yTXo1UGRIczdPNUxBTUxraFE?oc=5",
-        "source": "British Red Cross"
+        "source": "redcross.org.uk"
       },
       {
         "title": "Pakistan’s 100-ton relief consignment arrives in Nepal after floods kill over 1,300",
@@ -663,15 +663,15 @@
     ],
     "palestine": [
       {
-        "title": "Today's top news: Yemen, Occupied Palestinian Territory, Ukraine",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT3VVTlhNZ1RodjVzbk1TLXA2b2RmQXBQQ0xDM1BQSEc0bEdQQmFUdnRXSDREbVRzSl9mbDhCNUtlR2JvTzlVMUdTQnBLd3hKWXpsTmpfak00cVVPU1c2UGxObWZCSk1WYzkxcUtpRzNqd01kNTBwMlV6R25kUkVDNmZ5SU83aDkzSWx3dFRFcC1PZw?oc=5",
+        "title": "Today's top news: Ethiopia, Democratic Republic of the Congo, Yemen, Occupied Palestinian Territory, Haiti",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbEVWVnZsQ2FfbjdEOTZZWXQ3SktxM2MxcjJyaFNqazhFMUV5RGU5WklCYUpuSGJGb05vVXp1ckVjWkNJMVZ1RmFfSDRUb20zclpOb3pqandGSlp4aXdDMW16eWVVTVBlVzNoTXZ5cElTa19peUs1dGE0d0MzM0NJNF8zb01UVVk1SjZOSmlhMXRxVHFWVTdZNTB3UVNHMkhKSnh4UUdOdDA1U241dnZCVy1WTzdQeFBiVmhCajBn?oc=5",
         "source": "OCHA"
       },
       {
-        "title": "UK announces major package of support for humanitarian relief and early recovery in Gaza [EN/AR]",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa3NlbXJnY2ZKWk1TT204d2EyQmJuQThWeHlQSEtlOHhtMm9SREhjcC1XcExWRG9Td1o3c3RxN19BaTAzUm1OZ2R2SXFxQ2ZGNGJMaXUtNE90QXB1RTlnSnRkdHc1X29aTGJINGFaVVp5eFNDVTkzNTltSTJVZElwSUlGdUpRUDZSOXBLWVhrTVdjVmdPSVI5dDJXQnpwREZCcXZNMTJmcmJUa1FzamlvbVJfNDRCZTFQM3JMY2lUcEFSaHBGR2REN1E1Y04wcHlDUnp3eTQ0UWNUdmM?oc=5",
+        "title": "Humanitarian Access Snapshot 14: Palestinian Communities at Risk of Erasure Amid Escalating Settler Violence and Access Restrictions across the West Bank (23 September 2026)",
+        "date": "2026-09-23",
+        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPRlZoQXYyWFM4TnBDMUg3dVdiSFIxbm5JRG5fdkFoVWpyc3pKaUlmRkFlaGpoZmtPUTNDT0VhQXk3cDNBdnVoT0xENUM3YkMyaHI4OFY2UnJtYVAtcHpWV0psX19UeHNValB2T1h1dFVqRzdOUDlRdEZYMVdTU3JhTkhlbXhCQmxwU01VSUVJV2twMGFSYzZDbWJPWC1HdGpFdmVvR2psNmpiTHVxNjQzNXdtYkZabnJpLTR2QnQ3ZEZzanZWcFowTEx5VUhkSkNPU1NDRWFTSkhPY0s1bF9PMFBxSzdwNVRoQWRMMUdaVFRhX1FXbGlwQUxxZVlMV0lucGZJZW1xVGNBaXhiM2swVFhmbnRUMWtaVVBYZEM3MVhVYlo2UEsycTZxaFRYNXVBZVVzRlJtbFpLSHVWV2hzb3Y5YVA?oc=5",
         "source": "ReliefWeb"
       },
       {
@@ -709,10 +709,10 @@
         "source": "OSV News"
       },
       {
-        "title": "Ukrainian Council of Churches and Religious Organizations, WCC appeal for end to humanitarian catastrophe in Oleshky",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ1BBWnIteXdSWHpndUE2LTlJaVFvaXdrMTJ3cnZTems0T29JMG5qQmRmbzZ1SkZxRDF0MjZNVlJlRmVnS3NYM2xHdFJpOERuQjJ3aHhkQW5BeEVId3dXQzJuMHRYMi1tcU9KMHptWU53LWdUb1JneWZzWXMtQV92U3l5MXJrOF9oRGF5aUxoMUFMamxfTUV6Z3htZXk5bWRYVXRUaVo2MHBZb2JOTWs1TGk2azZUbE5ZbWVQSElQRm9NLXI5d0xMTFF3RnR3MzluWWZYRnc5WXExS1I2VEFN?oc=5",
-        "source": "World Council of Churches"
+        "title": "Council of Europe warns of critical humanitarian situation in Russian-occupied Oleshky",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLRUVUUW8yVkpsUVloVnMyaFBSaktkbGJ2QzV4TXRPSDRvUlpuOElsSGQ4eFFOUkhrT2IxeFRmRERLallaUUFzMzJiS1BfeXBZS0cxcENTVWpQWUY4ZlA5ZWVJdmbSAXBBVV95cUxQd3pRQmc3eklOZ2FNODJON0gxS2JSNlN4cWhxck1yMU5CN0M1ejRoLTJrVVdXU1B4ejdiY3A5aFh4R3NWLWRqZ3ZLNk8wQ0pBNXZibEF5a0gwdkJEOGFrczBpMXFmVnBYY1EzeXk5bG10?oc=5",
+        "source": "Українська правда"
       },
       {
         "title": "Russia Cut Off 1,000s of Ukrainian Civilians and Lets Them Starve, Kyiv Charges.",
@@ -743,22 +743,22 @@
     ],
     "sahrawi-refugees": [
       {
-        "title": "Boulos Reaffirms US Support for Lasting Political Solution to Western Sahara Dispute",
-        "date": "2026-09-13",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbE03Q3hwZjI0ZG1jX08xNnp4MnE0TjBYdWxBM3YxeG1fRmVSSENYLWRKMkR5eDRraXdtWDVmZjlraUhmUUU1ZHlEX1ZGYkRIb0s3ZnNaYUstaEJuQlNKN0RJdE56b3NKRG96Qzd2dXNFVHQ0TmttU3QwaktLdjRscjExUU1kSEJ5dUxGeXNWTWlfNkNxS3J6ay1xZnA4aUNuS1AzaVJ1amNtRnB3MnhHamsyemlnWnVkRUVtdmlyZXZ2a0poMkV1SEdqUGVuQQ?oc=5",
-        "source": "Morocco World News"
+        "title": "UN refugees chief warns conditions in W.Sahara 'deteriorating'",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN0JGclZQekI4MndPM2ZxclBnWE84aklsdEFkVThJZGFhb3NVZldTS0RocFcxMDhkMVBHOEk2RDUyU2lDYmRINklteEJ2Rjd3S01rTlI0VGJCekdGdjRMTWY0VDM3RHlnb09FeFVqZXB6TnFZQlpDVEdhN1hkUjRmekVXM3NVQkVaeUFJVGktbHNfNGNUVUVka2R1NUVRSzNYTGxvbW9fdndpdzY5eDh3?oc=5",
+        "source": "RFI"
       },
       {
-        "title": "WFP Algeria Country Brief, May 2026",
-        "date": "2026-05-20",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fUmZyb21TcW41LUZFb05QWEZ0TU0xaWNkS1NieDRSZ0l2TVJUSUtPYkdGZjc2VUhuMUlCSjQ4R3B2RTBSclFSWVd1VFNBUFYyQUdoYjc1SERRQTdkUW10cUYtTE9WeVVTTEdDU3NySk1pOFVUZTVDUVZBOA?oc=5",
-        "source": "ReliefWeb"
+        "title": "UN refugees chief warns conditions in Western Sahara 'deteriorating'",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0xPUzJEd1o5RGc4b3BRdUxmMlhRTm9HbVcyVlhtSVQ4T2d2dEZDaGZvck9QWGJnbzRKVkxhTmJoWWFOM1AxMkl0TGliaUVWMlRTY0VNSGFNelB5aFc3YURnaXlnc3NLTG1lSVFQemptODd6Tk5LdnBIQ2JZRTZaUjJJUG9iX2FoS1NsWTh1NHNhbDdyS1JBeTB4M3pkelRSdU9nejhDRk9TczRl0gGyAUFVX3lxTE5qZXBvcHZ3S3p1M2Q5MkZ1QW1hbzJ6R0trNkJXRFpVaWg1dzRmVkFOVHRFVTl6eE9xSzBKeE9jWVVpRmxMRmN6OFN2RF9NVkVPVGFxSUU2aTJnZHRxTzhBNFg3eTgzaFRaZURQclBHT0VEUGoxZm5acXQyR1RWNk5tNV96Y2FLZVltWnhBbWRiVGlGZ3BTTHRZZ1lha01jZ013MGxkOEpUUGxKV2FReUp6elE?oc=5",
+        "source": "A News"
       },
       {
-        "title": "Birdsongs and Pools: Discussion With Liz Loh-Taylor on Western Sahara",
-        "date": "2026-08-19",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMUhzMTZIVzhiaXFXUlJ5YnBVSlhsaHZ4Q25oekFzanlaSDJQeG5odlh0SnBjUGNkRm9mNUNQLWpELXZkc3dGS2tNRDB2Y1ItMVp4OFdMV3U3LUswSFYtV3FFS05aTDJPZ21WSHY1U3BCdld2cFN5bGN3TzFXZlluZWVFZVFhbWctY0RhQk0xR0JHT1F0d0FUaVZoVFFXZ2hja0x6ZDVn?oc=5",
-        "source": "Green Left"
+        "title": "United Nations warns of funding crisis for Western Sahara di",
+        "date": "2026-09-26",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTVhUQlctc3Y2b1pwMjgyaE1IM2FzcXpYR09SVGdkYmtzZjZxeGQzYjRlcjNPb21yUWtMLU9KN1FGRTVmTndTc09PU0gtcExwbU9XME03bnpJYm15cnpidVRCUi16WFFzMUJNemZmQnYxVzN0R0ExX0RRX0ppc3paeEY3WnJ3LUNyMnRmRHlTb0xFWVZ6UHdMZzJfNEd1dnBGUlFjVDVHb1Q5QQ?oc=5",
+        "source": "جريدة القدس"
       }
     ],
     "san-bushmen": [
@@ -798,7 +798,7 @@
         "title": "Saudi Arabia’s increasing fees on foreign residents causing humanitarian crisis among Yemenis",
         "date": "2020-07-03",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaXRXUkptQ1JyZnNzVlNFVmVNankzbF9YazU0U2lqN2NCb3EzeUJQRjlOUGI4cmlQM2xMR2NZei00SEZvcWVKQWRxdURqVkdSNTdnay1KUTN6WVdGMDFQYzNnTzZjaUQ0Q2RZSmVEOTJrMk9XS1F5ck9lSjg0LUpueU9XSFdSSFI4TENUNHlXS0tpRnFDak5TdVMySmNCTzJMVjVvLWpST0c2ZGFRTkNSWmNzdXlmcjZ0eWw2aHVTVm1tMjRLVXh4d2ZmUmh4Z0FUeHpzSlVOX1hhYmNM?oc=5",
-        "source": "euromedmonitor.org"
+        "source": "Euro-Med Human Rights Monitor"
       }
     ],
     "somalia": [
@@ -806,7 +806,7 @@
         "title": "Pope Leo prays for end to humanitarian crisis in Somalia",
         "date": "2026-09-20",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcngyWU1hNGxPOHYxVHhxcXV1bEdIOGNwOWhTNDZrN28yaVVZV2EtUE9qQkhiWFQ2RHBrQ3JoM08tQ0J3enFQbENSeW1lbWl6OUlyNmlQOV83c1pfQkNKeEJvQXg2emdPX2l3MFM0bmNTeTFQTkk5cHVRTVlMSU41aThBOUhEdFBQQUFBQkx1TkNaSUpmejlJbkFzQm1HVi1odFBMWm8xZkxkN1phU2c?oc=5",
-        "source": "Vatican News"
+        "source": "vaticannews.va"
       },
       {
         "title": "Climate Shocks and Aid Cuts Deepen Somalia's Hunger Crisis",
@@ -815,24 +815,24 @@
         "source": "unicef usa"
       },
       {
-        "title": "\"I can go out at night without fear.\" How solar lights are changing life for women in a Somali displacement camp",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR3JUdW1feXVtb0VQenh4TkV4NWNwNEZaWkNPS19TR25uVW84b2J6Q3F2VkszQ0hmV1I1cWltUnRHT3pyZ2FUQkZpb2Qway1OUk5MUlFWUmprRExENGhXR3JKR3BUcW0xWDlIeFRtTS1iR1Fla21aNzJVRVJ0VkdTSXVR?oc=5",
+        "title": "Somalia's women and girls face a risk of famine as hunger deepens and El Niño nears",
+        "date": "2026-09-23",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRFc2MkpYTkhWSHZ2Rm9vU1hYWG4zU2VyeTJ5WXdwUENqbHZoaW1jb0tndHg4ckxGYTM0V0F5VEk4UGVrMGYxX2x6YnZ6N0xaNkFsOV9NX1RFeGtEdHl6NGFTRTQzVHpMVUNDaE84THBNbERzY2JYckFjdk9ZSkpta0M1UXFobmVwQ1c3cHBZVFVOY1ZtZGVVN1BEVE10WlJScURTRXYwOURndng2cXBlV1BSbHVpc1NFSkxRRA?oc=5",
         "source": "care.org"
       }
     ],
     "south-sudan": [
       {
-        "title": "As Needs Surge and Funding Collapses, South Sudan Faces Its Most Dangerous Humanitarian Moment in Years",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5aSGd5eTdEWllFUUVOQ2IzRXo2a1VLbkFKOXhDZlVod2otZ3o3SGRHcGdIN3lzQ0NvSHExYXBweVdVa282NTI0Ym1GYzd1dWt3eW1tWXVwMUR6WmhJbE1EcTEyZmtyU3QxZjdLZjBaQWN4aW5XdlZKVU1XNlY?oc=5",
-        "source": "World Food Program USA"
+        "title": "The UN and the crisis in Sudan (Jan-Jun 2026)",
+        "date": "2026-09-23",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwaEFlNTNhTk5jcnlfcWgtUG9zdVViUzdvNmc1YTBYOE93SDBzTnBvak11MXMtMTVYUEd1SDktOXZrSHJQRlAxSUNDb3pqYzhxWEdnaWtLVGVHazN4ZXMzUXBXQWZuUFZ0dGFtcWhkUDR4ZVk?oc=5",
+        "source": "Unric"
       },
       {
-        "title": "South Sudan’s Green Book law brings harsh justice, but little lasting peace",
-        "date": "2026-09-22",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYmZqM2RLdmNoSGF1S2M0SktiVzY3RUFBcTRJQnoxWDVwRXlSd2lwYXl5WUVHRkJ2N1o2d2xaUUo3WFZ5UVRTR3RXUERiZ0o4V0JEODFxUk9haTRXbllJNE1kUWtJTDQ4YXk5Y2xXUzlldm13VjBUQ2lIOUZkTGRvMGpONF9aRjF1MG90VUVfREl3ZUg2YnA0WTZaT1RuTF9qeUgxYThackF1cDN4ZkpUNG9ONmFyMlRMMFl4R21WRHgtQQ?oc=5",
-        "source": "The New Humanitarian"
+        "title": "Human cost of violence in South Sudan ‘continues to grow’",
+        "date": "2026-09-10",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55STZSZVkwZkJtaHUxZlFmWGdRTDNLbUo0b3BCdnNRTXdBNTJtWmVndmtleXlkNXZXMW43SV9jU01VUjF4WEZPYTdQTTJ5a1RxX3dfWjZ5aw?oc=5",
+        "source": "UN News"
       },
       {
         "title": "Why do Sudan’s humanitarian truces keep failing and who is to blame?",
@@ -855,13 +855,19 @@
         "source": "Al Jazeera"
       },
       {
-        "title": "UN agencies warn humanitarian system in Sudan ‘could collapse’",
-        "date": "2026-09-14",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pQ09jRDFKQ1lXYmRVTmRiZjNBS0tiUTlERXFmTHY5bXZsLWZlUnFpZVUwcTE0LVNGLWhYUi1yZ2IyODRVOVJiR0ltalFMZzhUWGowQUt1cw?oc=5",
-        "source": "UN News"
+        "title": "Sudan Is Still Possible: A UN General Assembly Opportunity to Turn Mediation into Action",
+        "date": "2026-09-23",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94QjFsMnlPSXJEcjQtRkdYS25OUC1HVE1ONlN6STZBaWhVWEk0ZmxPNU9zSGFUMEJtanZadXlQbEl1amdCbXh3bXF6TFpkbE1OdWM3a1paRmF3UGhKN0Juag?oc=5",
+        "source": "Amani Africa"
       }
     ],
     "syria": [
+      {
+        "title": "Amanpour and Company | Yemen to Syria to Gaza, These Are the Humanitarian Crises Facing the World | Season 2026",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNmJnbDlNUUhPZ2gtN215cnB5UVI5bDk5bGNsY0lHbGJBblRCZlllbHJfYnZfVHZwUjA3WnltRVhveHVMVWdkRm4wNzJlejJUMmo5Q2JMdFlKa08yMnBOWjdGaGlNTG9zakszTmdld1JLS0cxZ3dpWHVwdFdhSFgxWERJc2JORC1aVVhQcWRWRThiUUFXeUFtcjdXZTlnT2UwX1ZNZkZveHhzbXM?oc=5",
+        "source": "PBS"
+      },
       {
         "title": "Remarks at a UN Security Council Briefing on the Political and Humanitarian Situations in Syria",
         "date": "2026-09-17",
@@ -869,16 +875,10 @@
         "source": "United States Mission to the United Nations (.gov)"
       },
       {
-        "title": "Security Council, 10225th Meeting (AM) Syria",
+        "title": "Mr. Tom Fletcher, Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator – Briefing to the Security Council on the humanitarian situation in Syria, 17 September 2026",
         "date": "2026-09-17",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAzLXlheXBOVVV4d2NDalUyZjlta1NWUWtPTFlYcG1IcXF5UjZoRjZWdk96YWsxNEhYUWlOVU9abnZZZUtHM3BsRk56WlQ?oc=5",
-        "source": "UN Meetings Coverage and Press Releases"
-      },
-      {
-        "title": "Restoring safe water for families and children in Dar'a",
-        "date": "2026-09-22",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNVljcGw4c0xGQ1VmTm5uQkswWWF0TVZrRXFPeWozblpQVTRzbWxnMjlUQkxkTnNDdUF5SGpDZjdwTGhfZm12ZDZVanF0VXpJelBjNWczc2VPQ2JzNjIxeW9WUGJhSmYxYXBZZXZfVFpERUdGNmM2LWo1TnZMaFJUeWczY19MREh5dW1uXw?oc=5",
-        "source": "Unicef"
+        "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQNFJVakRnOVdnZWMxb19qemdyLWtzSm1NVV9LQlRwamhFaldtX0tPOFZ6Q0dxajFETjJITlBiNFh5YnB2NmdyQWxEQWd4OVRJYkJxVE9GVUQ3bWFrT203WEsxbEZEaFd2WFc3bnFpUndXbm9HTmZiNnp6Snc1djhwOU9MQjV3R0dfX2JZMV9yOWZidjJqXzVQV1hyVU9seVUySE1jYzNwWHdkY1p1OGMtTGVDckVCQWt2elpyRFY5ZVB0SWRLVEVqZWtUUUY2d1U3bWQycXpGQVhOOFZRVGVrOThHWnI4ZmpINFVmRy1UMDc1QjRpUmFFSGU1cnpXZ0ZJcnpRY1dhRWFtSkhPS0thREtHRTlkQzFSUlp3SmRTU0V6clp2R0xWckcyTjhTZ3ZZU3M4dkhaRktjNWFs?oc=5",
+        "source": "ReliefWeb"
       }
     ],
     "tamils-sri-lanka": [
@@ -898,7 +898,7 @@
         "title": "Understanding the Muttur massacre",
         "date": "2026-06-03",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2R6dkZGS0xzTVlEbUctTEdOLVN4OHFMUXRnMjV5SHFoVTVlZ28wYzJWUDF0MHBHX2JFR0lTbEZ3dldaZUQ2cGhQd2ZQR3liR0RSSWVBN09EeXl1QUE5YURFTnl0clpjT1dYcTdjdkdRYi1fOVBQRDRuWktDYmY2dG5GX1locFFQR2JldDR6QQ?oc=5",
-        "source": "actioncontrelafaim.org"
+        "source": "Action contre la Faim"
       }
     ],
     "tibet": [
@@ -909,19 +909,25 @@
         "source": "France 24"
       },
       {
-        "title": "Tibetan researchers, activists demand transparency from China over Kyirong flash floods",
-        "date": "2026-09-01",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmJhdlRieUdYZmtDQXRMTGRCMTVLVDdUMXp3X3k2NEhVM1JlUnBfQlltdHMtNkxmX3pabm52aGlrb1VlX19seE5IdkFLREc2enZxcEljU0hkX2I4R3gySWZtOVAyOTRqb1d6YmszWVY4ZWxTY2pQaFVjRTRmSU5VX1VYMkZGYzBDWE1oY0RwR0JiUTdwTHFlZUtodjBXaUhTY1c5YksxOFdTUQ?oc=5",
-        "source": "phayul.com"
-      },
-      {
         "title": "Deadly floods cause widespread destruction in China, Nepal",
         "date": "2026-08-26",
         "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhYk5aNUZvcU5INURPMFlxV3YzVTRoN1ppN21KLU42UzBoV0locnZUdXlPVUJTdVpSVWVIRVdXSDMtakwtMzRNWnZkU0laYWYyMVEtZ0hFUQ?oc=5",
         "source": "UN News"
+      },
+      {
+        "title": "Tibetan researchers, activists demand transparency from China over Kyirong flash floods",
+        "date": "2026-09-01",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmJhdlRieUdYZmtDQXRMTGRCMTVLVDdUMXp3X3k2NEhVM1JlUnBfQlltdHMtNkxmX3pabm52aGlrb1VlX19seE5IdkFLREc2enZxcEljU0hkX2I4R3gySWZtOVAyOTRqb1d6YmszWVY4ZWxTY2pQaFVjRTRmSU5VX1VYMkZGYzBDWE1oY0RwR0JiUTdwTHFlZUtodjBXaUhTY1c5YksxOFdTUQ?oc=5",
+        "source": "Phayul"
       }
     ],
     "turkmenistan": [
+      {
+        "title": "Turkmenistan sent humanitarian aid to the people of Palestine",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNckZYT2tXRHM2NXNFMmVEOU1UcnpmTXYxSzh6SHNvS0hBQlYxQ0NGM2s3Sm9zeG9LTk8wZTlZczdSeUVxSVByTi1la1VTSk9DRTNBbm0yWU41OXZ4WG9ORFY1R1pabHZmUVlMSGpjV0N1Y2twOUhnVHdHUVU4Zm1GR0Vqa1E4TGFRTVlZY1BRNjNBUUZQd0hCRUl6Q1JVMmR1bG1ncmoyNFg4Z3pTQ2RpLTZheHJQN1VOUmtiS2t5SHVOSlRMRXRwSGowTmpncVJHQzM4Zm4zUUltUG9uejFzajctZnlfSXNZUUlGenplcWdyRnc1S1dv?oc=5",
+        "source": "Turkmenportal.com"
+      },
       {
         "title": "Turkmenistan and Armenia strengthen cultural and humanitarian cooperation",
         "date": "2026-09-22",
@@ -929,19 +935,19 @@
         "source": "Arzuw news"
       },
       {
-        "title": "Turkmenistan has developed a draft two-year humanitarian assistance program for Afghanistan",
-        "date": "2026-09-21",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORGZFd1hoQ1QzM3BsakNjMFZ5MWpSMEJkaEVoejZMUzhmRWJlVjRYN040TVluZUN0cEdGQmxiNXh5SFNaTkZoRGVSbmFRWkowTktrMXZvUXpLMjZrVkticERlM2JRRU5hb2dmQUJSeVlfZjItVXhRUlAwMEw5VEl6S0o2bEVXVThwaFd4VV9pQnlaUkVpTW13MUZRelpMMWdvQXVsbFFQb29GY2hsclFzdkQwYU5ZR0RqTC1MWEIweUZNOTc5V2gzanJMWTBMYXJLd0t4Wlg5ckd0Ukc5?oc=5",
-        "source": "Turkmenportal.com"
-      },
-      {
-        "title": "The Head of Turkmenistan highlighted the role of the Humanitarian Association of Turkmen Worldwide",
-        "date": "2026-09-19",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc2ZTWTdCVW9QNktkVTFrVU9iczhQVkJyRnB3a01Famt6UHBnbHhaYTNqYlhiMkk2QmV3QWRMZWVlQ0N4aldETDZlQUh6RVFvZEpvbjZnVVlZZEVUX09VUTVVenhxUDFWU0dMSXU1cVlZdW9FM3JGODJqRUo2OVVuZmZhZUpQR3k4VFYxN1JrTkJlMVhaTUZ5aU53d3A1Z09Ldzdsa1FrQTNFTzl3UEdoZVZWenlIVlk?oc=5",
-        "source": "vestiabad.ru"
+        "title": "Days of Culture of Turkmenistan Open in the Republic of Korea",
+        "date": "2026-09-16",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUWNsdUZRcGh3WmcwS3BxZkhscTl1SjBfU3g5NHI0Slo4TVg3eEdVa1hLYnl2ZDVTeTQ1WXp3bWZicDJjbE9FRGJkQndNcVdpZUd4SUVkZW9iTnluby14ZkV0V0pvblJORDdMYmd6SmJvTElNWTVNTWFNSzQxMnQzR0NDWlFaZWF2X0dFZlpiMk1jTkMwY2Rz?oc=5",
+        "source": "turkmenistan.gov.tm"
       }
     ],
     "ukraine": [
+      {
+        "title": "Ukraine - Humanitarian Situation Monitoring in Government-Controlled areas: overview of humanitarian needs in Q2 2026",
+        "date": "2026-09-24",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTFhiNDZReG9sVkw1Z1Bua1ZON0VLX2tjRF9LS1owWG5Ta282OWp1dkc3UHpJM1FENnhNQlJlRWgzS1JQanpGTko2WkhBRTZvTmwyV0wyRFNiVUtQMWxWaVY1WWstU19fVC1QMVpSY241bFBxbzJWbFVqc2tuR3FGRVlZMXR1UlNHVHRtN2pzVUpxdUZZTERVQTktd3FOMVd6c29MeE5za1VXdnZLUGNfdUlIV0l3OHpGS2xFaHl3dzJzcUMyLTdhNFlpYUZJVzl1LW1Ld3J4el9GUQ?oc=5",
+        "source": "ReliefWeb"
+      },
       {
         "title": "Humanitarian Aid for Ukraine Tops $2.5 Billion",
         "date": "2026-09-22",
@@ -949,16 +955,10 @@
         "source": "Direct Relief"
       },
       {
-        "title": "Ukraine: Humanitarian Response and Funding Snapshot (August 2026) [EN/UK]",
-        "date": "2026-09-22",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUxDb1ozb3VGbDVoRUNmR19XVjV4c1EwYVdPM0ktNWlFU2w5NWp6M0taTTFuMWNIUDJfODlOcmZMaE5OajdwaWRmTUVjSWkySjhsWTE0LTBKcFFiMXBfcmJ0Zm5YLXRJR0hpa2JOdGFJWG9hRGFMZlpyeHViWHJmWjdRTlZpTWlTd1p2MUJ0TnVyMTVYNHVycS10UkZYRkg0dFZGRlc1dw?oc=5",
-        "source": "ReliefWeb"
-      },
-      {
-        "title": "Ukrainian Council of Churches and Religious Organizations, WCC appeal for end to humanitarian catastrophe in Oleshky",
-        "date": "2026-09-24",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ1BBWnIteXdSWHpndUE2LTlJaVFvaXdrMTJ3cnZTems0T29JMG5qQmRmbzZ1SkZxRDF0MjZNVlJlRmVnS3NYM2xHdFJpOERuQjJ3aHhkQW5BeEVId3dXQzJuMHRYMi1tcU9KMHptWU53LWdUb1JneWZzWXMtQV92U3l5MXJrOF9oRGF5aUxoMUFMamxfTUV6Z3htZXk5bWRYVXRUaVo2MHBZb2JOTWs1TGk2azZUbE5ZbWVQSElQRm9NLXI5d0xMTFF3RnR3MzluWWZYRnc5WXExS1I2VEFN?oc=5",
-        "source": "World Council of Churches"
+        "title": "Ukraine: The rapidly deteriorating humanitarian crisis in Oleshky demands attention and action",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMEpHUEMwd0hOLUgzZXFfX2lsUXJmU2ZMQW1PTnNuNVhDcTkwdGpvQjFtZy03OU5rN0ZfdUtxQVNpYWY1UjJTUW1sVUxpMjJHQmxBTlQ0RjRoNkdjVUlHbmRxNHJtNXRqWmlfeUI3Yi1XTnNlQVRCaUgtd0FMdjFwcll2MGg1ODk5MGFuSGs5QmNKYmpsUVdDRlZlZVJnNlh0MmtiSFhsbko5MlpIRFNicUp0clJhdVc5LW05MUV0VjNOLS13LVdySHVneUtLby1p?oc=5",
+        "source": "coe.int"
       }
     ],
     "uyghurs": [
@@ -1003,12 +1003,6 @@
     ],
     "west-papua": [
       {
-        "title": "West Papua: The Geopolitical Silence Surrounding an Indigenous People (Indonesia)",
-        "date": "2026-09-13",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcDZmemZ5ejYybzRmZEJDOFlIWmYwNmVZT1p1Qm1MZTJJbWZxYUlVNlBCRm1OQ1JNOHBVVm5Gb2dyUzcxS3hYZk1lSHptMlhZTW1aV3c3cDU5LUFtcllEeTNfLUdneGVYc3BnWGZCb1VveFlKak1oSG1VZGJFV0t4Y1hfTWNfZWhpYnVpV1ZwUXgtYVZDM1dRSEdiX3Jya2dCdm1FazRBQlduMk8w?oc=5",
-        "source": "moderntokyotimes.com"
-      },
-      {
         "title": "Amnesty International demands an end to killings in West Papua",
         "date": "2026-09-21",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQm83SV9MZmpOMHotUkpJVDhxTXRwZEZxc0hzVG9Fa1dnU3Z0bkF3cE5jYUVCVExKajJtcGFFWnJnTVhFX2pkNW1FcE1ETXIxZHl0dlhCY0xraFRtb0t4WVU4a1RlS29OR1ZWcmszT0JjTGhNWFFQa0ZSemhER1VPTnp1ejdxNVRyNWl5T3JnUzJCYVA3bm05aHdMLUczOTJRTVBGZQ?oc=5",
@@ -1018,27 +1012,33 @@
         "title": "Launch of external report on the classification of the situation in Papua under IHL",
         "date": "2026-08-05",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTEtkNUN6aVJVeDZ2MTJmSktvdlpnZ1ZnTGQ3OW9TS3RrSHZCSERVWE5MbFJILXdVMWhwc2Y5eXBrN09VZGNkbTA1S0FyeUM4eHAxQVk5bFlhdHlHNVpCWWliV0RTSzhUQTRYS1hneEtDX3VKSFNkdk5KZlE5c1BGY2t0ZHpNQnV6TXZITkRHU2NZdUgwZldWdG93X2J3cWZEYTlZWTVQTW45cXZzQ0xMMVZzbllKSW9R?oc=5",
-        "source": "Diakonia"
+        "source": "diakonia.se"
+      },
+      {
+        "title": "IDP Update August’26: Central Govt notes presence of about 122.000 persons internally displaced by armed conflict in West Papua",
+        "date": "2026-09-07",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZExNbUJxbTdHbTNwYUc3dU5sSjkxUGZhc0pGOVUxZkVlbXlnajRyc3Y5MzhPWnRBcnQyUTQyY2pTYWpaN29ROXprRkNfMnM5SDhtOHd5MlpybE5lS29tQ2s4OS1xdkhobkU0VVRhMXFVdkJnVHIyYmVJc2ppV21YeUlGUU9DeU1ZeC1RTGI0VjlLY2R0amZxb05OM1hOcm1Fb3hvS0M0aTNXYjhJbEZkXzZsM3NqZ3JUX1RxMGVDUDJoNTlKNUdWSEJ5ZHhYWTBITEpRZDFybGJadnhXdmVvb1J6V2QwNHpOUEMxOUpEQlNGeDFFdmxIRWY5ajZhQQ?oc=5",
+        "source": "Human Rights Monitor"
       }
     ],
     "yemen": [
       {
+        "title": "As Houthis capitalize on U.S.-led war with Iran, fighting engulfs Yemen",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUXpOY3FQOE1hUExaWjY3VUs2SElyT1Vvb0x3eWJWQmhwbnZ3T1NOc0hyWG1TU1h5THFqTmtvUERBNUhfWmVkWTNTa19JMUxzcE9jZnFENlBxcDg0bUlQWTBrTGFBNWV4TGI5MWNfQjEzRkw3VlFWdElQTG51UXNielZ2aElNdFI3aFpuQlVGTWRneE01eWdpQzhtRFI4QUdNWTRKdmx3Y1A4VXlKa1JuTw?oc=5",
+        "source": "washingtonpost.com"
+      },
+      {
+        "title": "Yemen fighting displaces 71,000 children, worsens malnutrition: UNICEF",
+        "date": "2026-09-25",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVEpXUXF3dk5ZN0s1TWFWa3RVQVZHTXU3d0QwNkFzUTJFTXZDeW00SHY2YklyeFUzRnN1ZWpMR29qVmF3SXVoUDBIazU5MXh1TDVJcHNISmY0UTVQNnQxU3RjVGYtYmhYaXZMOEh2LTgxdTdDY2lRT2UzN2lIVDVQVTFtWTh2V0p1cXJ0b3JYbWhzOTBMdHFfN3Z4TVlhdUxPbkNWMzh6TC1yTXEt0gGyAUFVX3lxTE01Y0Z1RkdWT1NwS2RBOVBONjN2OTg1TnZLMjdRLWR3WnBFRC00N2JmeUNyUzlQZk4wTDIzSndxWWZyRWp5VjJLUVl1Z1A1cDU5MGZ2Ynkzdy1WVGt0aU4wRFFkN3VTNUY3bVk3U3VpLWVDUlVkd1ZSak1JSjJpall1cC1lakJPQTk4TTROMjVXS3AwdjY4d25Lb2RzTjZOcGVDNjRCcnpvZl9YVDdrSjFOeGc?oc=5",
+        "source": "Al Jazeera"
+      },
+      {
         "title": "Houthi gains in Yemen fuel displacement as humanitarian crisis worsens",
-        "date": "2026-09-24",
+        "date": "2026-09-25",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3o3d0U0azBSVi1WallzRGJSYkxZaVJOZ1pqajdFbkZHSVROYktXekRoT0poVkMzNDlvUjJXX2F2bHR4ZmxZMjdLWm4xU1U4Q0FPVEZxVGxjT1FyaWFFaVUwNEhFU0FwUDFWVjdVRU16TGRyX2t2TFlTMUhfdGJudVZPbUpTZklCekNiVkJiUmdzQm1ray04NEE2eWdBV3R1bGZ5a3RB0gGmAUFVX3lxTE5veU9vZ3d5UDEzRjY4RG1Jcl9SbHRDdUdRakdJRDlCMmtrUFJTUnV4bFFTb2tRaUY3WmZTQmRfLUNIN204dS0xeU9sUXBXN1JFMkNEd3VDak96bjM1S1V3cTVReDFDRzJJeDl4UkF4cEFkeW92d2dLSEZMM2NpUDFYVkkxNnQwMU9wRTBxUWt5eFB5VndXM0NKcmV2LVppM0tkX0lPYXc?oc=5",
         "source": "DW.com"
-      },
-      {
-        "title": "Escalating conflict in Yemen could fuel more displacement, refugee movement",
-        "date": "2026-09-22",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVlZUbE1KcmJ2bnJSUnlWMTBLX2ZWN085eUJkYmU3elAxaW5jcWk4YVV5SHUtbFdGRDB6eUlWcjJrd3ZLUTh6Z3ZvcWVkUjdDNFdscUFJTDlxX2hDSm1KSHV6eTVNdENEODVjcWZGSVR4UGI0VHhjZ0p1Rm83LW1OMVVZLUR6LUhzWExNcDlrTGllaWRnNm1tTkp3RDFzejdHT1o0VFBfZE1KVVozek9HMFBHaw?oc=5",
-        "source": "UNHCR - The UN Refugee Agency"
-      },
-      {
-        "title": "Yemen’s humanitarian crisis growing by the hour amid spike in displacement",
-        "date": "2026-09-18",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5waEo1d0N6S01tZ04tZ0pWVTM3U3FqaTlRdVJvaVJHaGNOR2t1YnlYaGtpVUFmUy1KZXV0dFZWT1A2VURTcmg1Yzl3cUdrb1J2VWw5S0E0MA?oc=5",
-        "source": "UN News"
       }
     ]
   }
