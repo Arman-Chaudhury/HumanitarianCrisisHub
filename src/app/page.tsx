@@ -1,28 +1,31 @@
 import { getAllCrises } from "@/lib/crises";
-import CinematicHero from "@/components/cinematic/CinematicHero";
+import Explorer from "@/components/explorer/Explorer";
 import CrisisGrid from "@/components/CrisisGrid";
-import HomeStats from "@/components/HomeStats";
-
-const HEADLINE_STATS = [
-  { value: "52", label: "Crises documented" },
-  { value: "32", label: "With live UN indicators" },
-  { value: "156", label: "Sourced photographs" },
-  { value: "24h", label: "Data refresh cycle" },
-];
 
 export default function HomePage() {
   const crises = getAllCrises();
 
   return (
     <>
-      {/* Interactive globe: scroll-driven on desktop, static-orbit on touch devices */}
-      <CinematicHero crises={crises} />
-
-      <section id="impact" className="relative z-10">
-        <HomeStats stats={HEADLINE_STATS} />
-      </section>
-
-      <section id="crises" className="relative z-10">
+      <header className="mb-8 grid gap-5 lg:grid-cols-[2fr_1fr] lg:items-end">
+        <div>
+          <p className="mb-3 text-sm text-gray-600">
+            Independent humanitarian reference
+          </p>
+          <h1 className="text-3xl font-semibold leading-tight tracking-tight text-gray-900 sm:text-4xl lg:text-[44px]">
+            {crises.length} humanitarian crises.
+            <span className="block font-normal">
+              What is happening, and how to help.
+            </span>
+          </h1>
+        </div>
+        <p className="max-w-md text-base leading-relaxed text-gray-600">
+          Explore sourced briefings and find organizations working with people
+          affected by humanitarian emergencies.
+        </p>
+      </header>
+      <Explorer crises={crises} />
+      <section id="crises" className="scroll-mt-24 pt-12">
         <CrisisGrid crises={crises} />
       </section>
     </>

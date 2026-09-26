@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 
 export const metadata: Metadata = {
   title: {
@@ -61,14 +60,19 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen">
-        <SmoothScrollProvider />
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-white focus:p-4"
+        >
+          Skip to content
+        </a>
         <header className="sticky top-0 z-[50] bg-white/95 border-b border-border-hard">
-          <div className="max-w-[960px] mx-auto px-5 sm:px-7">
+          <div className="max-w-[1280px] mx-auto px-5 sm:px-7">
             <Navbar />
           </div>
         </header>
-        <div className="relative z-10 max-w-[960px] mx-auto px-5 sm:px-7 pt-8 pb-16">
-          <main>{children}</main>
+        <div className="relative z-10 max-w-[1280px] mx-auto px-5 sm:px-7 pt-8 pb-16">
+          <main id="main">{children}</main>
           <Footer />
         </div>
       </body>
