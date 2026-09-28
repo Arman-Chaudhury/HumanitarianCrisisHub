@@ -1,9 +1,10 @@
+import { institutionColors } from "../../tailwind.config";
 import type { CrisisStatus } from "@/types/crisis";
 
 export const STATUS_COLORS: Record<CrisisStatus, string> = {
-  escalating: "#A44136",
-  active: "#8A681F",
-  underreported: "#526D7C",
+  escalating: institutionColors.escalating,
+  active: institutionColors.active,
+  underreported: institutionColors.underreported,
 };
 
 export const STATUS_LABELS: Record<CrisisStatus, string> = {
@@ -13,9 +14,9 @@ export const STATUS_LABELS: Record<CrisisStatus, string> = {
 };
 
 export const STATUS_CLASSES: Record<CrisisStatus, string> = {
-  escalating: "text-[#A44136]",
-  active: "text-[#8A681F]",
-  underreported: "text-[#526D7C]",
+  escalating: "text-institution-escalating",
+  active: "text-institution-active",
+  underreported: "text-institution-underreported",
 };
 
 export function getStatusColor(status: CrisisStatus): string {

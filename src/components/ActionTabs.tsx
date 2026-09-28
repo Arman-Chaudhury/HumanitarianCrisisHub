@@ -49,7 +49,7 @@ export default function ActionTabs({ actions }: { actions: CrisisActions }) {
               setActive(next);
               buttons.current[next]?.focus();
             }}
-            className={`min-h-12 shrink-0 border-b-2 px-4 py-3 text-sm font-medium ${active === index ? "border-[#A44136] text-[#A44136]" : "border-transparent text-gray-600 hover:text-gray-900"}`}
+            className={`min-h-12 shrink-0 border-b-2 px-4 py-3 text-sm font-medium ${active === index ? "border-institution-accent text-institution-accent" : "border-transparent text-gray-600 hover:text-gray-900"}`}
           >
             {tab.label}
           </button>
@@ -77,7 +77,7 @@ export default function ActionTabs({ actions }: { actions: CrisisActions }) {
                 <p className="my-4 text-base leading-relaxed text-gray-600">
                   {organization.description}
                 </p>
-                <span className="mt-auto text-sm font-medium text-[#A44136]">
+                <span className="mt-auto text-sm font-medium text-institution-accent">
                   Visit organization ↗
                 </span>
               </a>

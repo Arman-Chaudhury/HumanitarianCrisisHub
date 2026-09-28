@@ -69,7 +69,7 @@ export default function ExplorerGlobe({
   return (
     <div
       ref={containerRef}
-      className="relative min-w-0 border-b border-gray-200 bg-[#F2F4F3] lg:border-b-0 lg:border-r"
+      className="relative min-w-0 border-b border-gray-200 bg-institution-canvas lg:border-b-0 lg:border-r"
       aria-label="Interactive crisis globe"
     >
       <div className="absolute left-5 top-5 z-10 pointer-events-none">

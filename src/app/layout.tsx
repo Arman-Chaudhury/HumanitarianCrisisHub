@@ -66,7 +66,10 @@ export default function RootLayout({
         >
           Skip to content
         </a>
-        <header className="sticky top-0 z-[50] bg-white/95 border-b border-border-hard">
+        <header
+          data-site-header
+          className="sticky top-0 z-[50] bg-white/95 border-b border-border-hard"
+        >
           <div className="max-w-[1280px] mx-auto px-5 sm:px-7">
             <Navbar />
           </div>

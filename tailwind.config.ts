@@ -1,5 +1,16 @@
 import type { Config } from "tailwindcss";
 
+export const institutionColors = {
+  accent: "#A44136",
+  "accent-hover": "#87362D",
+  escalating: "#A44136",
+  active: "#8A681F",
+  underreported: "#526D7C",
+  canvas: "#F2F4F3",
+  ocean: "#213B49",
+  paper: "#FFFFFF",
+};
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,6 +20,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        institution: institutionColors,
         bg: {
           DEFAULT: "#ffffff",
           deep: "#f3f4f6",

@@ -14,12 +14,18 @@ const NAV_LINKS = [
 /** Typographic wordmark: a small mark plus the name in the body typeface. */
 export function Wordmark({ muted = false }: { muted?: boolean }) {
   return (
-    <Link href="/" className="inline-flex items-center gap-2.5" aria-label="Crisis Hub home">
+    <Link
+      href="/"
+      className="inline-flex items-center gap-2.5"
+      aria-label="Crisis Hub home"
+    >
       <svg width="22" height="22" viewBox="0 0 64 64" aria-hidden="true">
-        <circle cx="32" cy="32" r="30" fill="#111827" />
-        <circle cx="41" cy="24" r="8" fill="#b42318" />
+        <circle cx="32" cy="32" r="30" className="fill-text-bright" />
+        <circle cx="41" cy="24" r="8" className="fill-institution-accent" />
       </svg>
-      <span className={`font-sans font-bold text-[17px] tracking-tight whitespace-nowrap ${muted ? "text-text-muted" : "text-text-bright"}`}>
+      <span
+        className={`font-sans font-bold text-[17px] tracking-tight whitespace-nowrap ${muted ? "text-text-muted" : "text-text-bright"}`}
+      >
         Crisis Hub
       </span>
     </Link>
@@ -30,9 +36,9 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex items-center justify-between gap-4 py-3">
+    <nav className="flex flex-col items-start justify-between gap-3 py-3 sm:flex-row sm:items-center sm:gap-4">
       <Wordmark />
-      <div className="flex flex-wrap justify-end gap-x-4 gap-y-1 sm:gap-x-6 min-w-0">
+      <div className="flex flex-wrap justify-start sm:justify-end gap-x-4 gap-y-1 sm:gap-x-6 min-w-0">
         {NAV_LINKS.map((link) => {
           const isActive =
             link.href === "/"

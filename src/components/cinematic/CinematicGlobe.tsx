@@ -61,6 +61,8 @@ interface CinematicGlobeProps {
   paused?: boolean;
   /** Automatically rotate only for the lightweight touch explorer. */
   autoRotate?: boolean;
+  /** Compositor scale, used to keep projected label spacing legible. */
+  labelScaleRef?: MutableRefObject<number>;
 }
 
 /**
@@ -152,17 +154,18 @@ function CameraRig({
 
 /**
  * LabelPlanner — decides each frame which hotspot labels are visible using
- * screen-space collision: candidates (front-facing, zoomed in) are sorted by
- * how directly they face the camera, then greedily placed; any label whose
- * estimated rect overlaps an already-placed one is dropped. Already-visible
- * labels get a priority bonus so the set doesn't flicker as the globe drifts.
+ * screen-space collision. Front-facing candidates are visited in stable data
+ * order and greedily placed. Labels whose estimated rectangles overlap are
+ * omitted; inverse scale compensation keeps text legible during transition.
  */
 function LabelPlanner({
+  labelScaleRef,
   crises,
   interactive,
   nodesRef,
   labelSetRef,
 }: {
+  labelScaleRef?: MutableRefObject<number>;
   crises: Crisis[];
   interactive: boolean;
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
@@ -188,7 +191,8 @@ function LabelPlanner({
         world.current.project(camera);
         const x = ((world.current.x + 1) * size.width) / 2;
         const y = ((1 - world.current.y) * size.height) / 2;
-        const width = Math.min(220, crisis.name.length * 7 + 20);
+        const scale = labelScaleRef?.current ?? 1;
+        const width = Math.min(220, crisis.name.length * 7 + 20) / scale;
         if (
           x < width / 2 ||
           x > size.width - width / 2 ||
@@ -198,7 +202,7 @@ function LabelPlanner({
           continue;
         const overlaps = occupied.some(
           (box) =>
-            Math.abs(box.y - y) < 34 &&
+            Math.abs(box.y - y) < 34 / scale &&
             Math.abs(box.x - x) < (box.width + width) / 2 + 8,
         );
         if (!overlaps) {
@@ -221,7 +225,7 @@ function LabelPlanner({
   return null;
 }
 
-/** Shared Earth and markers. The explorer enables automatic rotation only on touch devices. */
+/** Shared Earth and markers; automatic rotation is controlled by the caller. */
 interface RotatingSceneProps
   extends Omit<
     CinematicGlobeProps,
@@ -285,6 +289,7 @@ export default function CinematicGlobe({
   showLabels = true,
   paused = false,
   autoRotate = true,
+  labelScaleRef,
 }: CinematicGlobeProps) {
   // Registry of hotspot scene nodes (for world-position lookups) and the
   // planner-approved set of visible labels — both mutable, read every frame.
@@ -293,6 +298,7 @@ export default function CinematicGlobe({
 
   return (
     <Canvas
+      resize={{ scroll: false, offsetSize: true }}
       camera={
         lite
           ? {
@@ -334,6 +340,7 @@ export default function CinematicGlobe({
       </Suspense>
 
       <LabelPlanner
+        labelScaleRef={labelScaleRef}
         crises={crises}
         interactive={interactive && showLabels}
         nodesRef={nodesRef}

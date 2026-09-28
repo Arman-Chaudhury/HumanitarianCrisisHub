@@ -8,21 +8,13 @@ import { getStatusColor } from "@/lib/statusColors";
 /** Static Earth shown during SSR and while the WebGL bundle loads. */
 function StaticEarth() {
   return (
-    <div
-      className="absolute inset-0 rounded-full overflow-hidden"
-      style={{
-        background:
-          "radial-gradient(circle at 35% 35%, #1a5c8a 0%, #091d36 60%, #050b14 100%)",
-        boxShadow: "inset -10px -16px 50px rgba(0,0,0,0.55), 0 0 60px rgba(108,184,255,0.12)",
-      }}
-    >
+    <div className="absolute inset-0 overflow-hidden rounded-full bg-institution-ocean">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/textures/earth_day.jpg"
         alt=""
         aria-hidden
-        className="absolute inset-0 w-full h-full object-cover opacity-90"
-        style={{ objectPosition: "40% 42%" }}
+        className="absolute inset-0 h-full w-full object-cover object-center"
       />
     </div>
   );
@@ -66,13 +58,19 @@ export default function MobileFallback({
     <div className={`${force ? "" : "md:hidden "}mb-10`}>
       <div className="relative w-full aspect-square max-w-[460px] mx-auto mb-3">
         {live ? (
-          <MobileGlobe crises={crises} selectedSlug={selectedSlug} onSelectCrisis={onSelectCrisis} />
+          <MobileGlobe
+            crises={crises}
+            selectedSlug={selectedSlug}
+            onSelectCrisis={onSelectCrisis}
+          />
         ) : (
           <StaticEarth />
         )}
       </div>
       <p className="text-center font-sans text-xs text-text-muted/80 mb-8">
-        {live ? "Tap a marker" : "Interactive globe unavailable in this browser. Browse the list below."}
+        {live
+          ? "Tap a marker"
+          : "Interactive globe unavailable in this browser. Browse the list below."}
       </p>
 
       <h3 className="font-sans font-semibold text-lg tracking-normal text-text-bright mb-4">
@@ -90,7 +88,7 @@ export default function MobileFallback({
               >
                 <span
                   className="w-2.5 h-2.5 rounded-full flex-shrink-0"
-                  style={{ background: color, boxShadow: `0 0 8px ${color}77` }}
+                  style={{ background: color }}
                 />
                 <span className="font-sans font-medium text-base tracking-normal text-text-bright flex-1">
                   {c.name}

@@ -87,7 +87,7 @@ export default function Hotspot({
             type="button"
             aria-pressed={selected}
             onClick={() => onClick(crisis.slug)}
-            className={`max-w-[220px] truncate whitespace-nowrap border bg-white px-2 py-1 text-xs font-medium text-gray-900 ${selected ? "border-gray-900" : "border-gray-300"}`}
+            className={`max-w-[220px] truncate whitespace-nowrap border bg-white px-2 py-1 text-[length:var(--globe-label-size,12px)] font-medium text-gray-900 ${selected ? "border-gray-900" : "border-gray-300"}`}
           >
             {crisis.name}
           </button>
