@@ -51,7 +51,7 @@ interface CinematicGlobeProps {
   /** Target camera distance while interactive — driven by the zoom buttons. */
   zoomTargetRef: MutableRefObject<number>;
   onSelectCrisis: (slug: string) => void;
-  /** Mobile profile: day-map only, lower DPR, camera starts orbital. */
+  /** Mobile profile: day-map only, low-power renderer, orbital camera. */
   lite?: boolean;
   /** Mount OrbitControls while interactive (off on touch so pages still scroll). */
   allowDrag?: boolean;
@@ -300,7 +300,7 @@ export default function CinematicGlobe({
     <Canvas
       resize={{ scroll: false, offsetSize: true }}
       camera={
-        lite
+        lite || interactive
           ? {
               position: [ORBITAL_POS.x, ORBITAL_POS.y, ORBITAL_POS.z],
               fov: ORBITAL_FOV,

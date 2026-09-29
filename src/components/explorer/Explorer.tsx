@@ -231,7 +231,7 @@ export default function Explorer({ crises }: { crises: Crisis[] }) {
                 selectedSlug={selected.slug}
                 onSelectCrisis={selectCrisis}
                 interactive
-                lite
+                lite={mode.touch}
                 allowDrag={!mode.touch}
                 showLabels
                 autoRotate={false}
