@@ -1,34 +1,19 @@
 import type { CrisisStat } from "@/types/crisis";
 
-interface StatsBarProps {
-  stats: CrisisStat[];
-}
-
-export default function StatsBar({ stats }: StatsBarProps) {
+export default function StatsBar({ stats }: { stats: CrisisStat[] }) {
   return (
-    <div
-      className="grid gap-0 mb-11"
-      style={{
-        gridTemplateColumns: `repeat(${Math.min(stats.length, 4)}, 1fr)`,
-      }}
-    >
-      {stats.map((stat, i) => (
-        <div
-          key={stat.label}
-          className="relative py-[26px] text-center border-t border-b border-border-hard"
-        >
-          {/* Vertical divider */}
-          {i < stats.length - 1 && (
-            <div className="absolute right-0 top-[18%] h-[64%] w-px bg-border hidden sm:block" />
-          )}
-          <div className="font-sans font-semibold text-3xl text-text-bright tracking-normal leading-none mb-1.5">
+    <dl className="grid gap-6 border-y border-gray-200 py-6 sm:grid-cols-2 lg:grid-cols-4">
+      {stats.map((stat) => (
+        <div key={stat.label}>
+          <dt className="text-sm text-gray-600">{stat.label}</dt>
+          <dd className="mt-2 text-3xl font-semibold tracking-tight text-gray-900">
             {stat.value}
-          </div>
-          <div className="font-sans text-xs font-medium text-text-dim tracking-normal">
-            {stat.label}
-          </div>
+          </dd>
+          <dd className="mt-3 text-xs leading-relaxed text-gray-600">
+            {stat.source}
+          </dd>
         </div>
       ))}
-    </div>
+    </dl>
   );
 }

@@ -27,7 +27,7 @@ function useOptionalTexture(url: string | null): THREE.Texture | null {
       (t) => {
         if (cancelled) return;
         t.colorSpace = THREE.SRGBColorSpace;
-        t.anisotropy = 8;
+        t.anisotropy = 16;
         setTex(t);
       },
       undefined,
@@ -53,6 +53,7 @@ interface EarthLayersProps {
 
 export default function EarthLayers({ groupRef, children, lite = false }: EarthLayersProps) {
   const dayMap = useOptionalTexture(TEXTURE_PATHS.day);
+  const dayHdMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.dayHd);
   const specularMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.specular);
   const cloudsMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.clouds);
   const nightMap = useOptionalTexture(lite ? null : TEXTURE_PATHS.night);
@@ -123,6 +124,14 @@ export default function EarthLayers({ groupRef, children, lite = false }: EarthL
     });
   }, [dayMap, nightMap, specularMap]);
 
+  // Swap in the large day map once it arrives. Changing a uniform's value
+  // does not rebuild the shader, so this is free.
+  useEffect(() => {
+    if (surfaceMaterial && dayHdMap) {
+      surfaceMaterial.uniforms.uDay.value = dayHdMap;
+    }
+  }, [surfaceMaterial, dayHdMap]);
+
   useFrame((_state, delta) => {
     // Ease the surface and clouds in once their textures have resolved.
     if (surfaceMaterial) {
@@ -142,8 +151,10 @@ export default function EarthLayers({ groupRef, children, lite = false }: EarthL
       <group ref={groupRef}>
         {/* Dark ocean base sphere — keeps a believable silhouette before the
             surface shader has resolved or when only the fallback map is up. */}
+        {/* Kept well inside the surface: a coarse sphere this close to a finer
+            one pokes through it at the vertices and shows as dark specks. */}
         <mesh>
-          <sphereGeometry args={[1.998, 40, 40]} />
+          <sphereGeometry args={[1.97, 40, 40]} />
           <meshBasicMaterial color="#0a1d36" />
         </mesh>
 

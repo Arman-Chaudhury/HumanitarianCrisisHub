@@ -1,28 +1,35 @@
 "use client";
 
-import { Suspense, useRef, type MutableRefObject } from "react";
+import { Suspense, useEffect, useRef, type MutableRefObject } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 import type { Crisis } from "@/types/crisis";
 import EarthLayers from "./EarthLayers";
 import Hotspot from "./Hotspot";
+import {
+  ORBITAL_DISTANCE,
+  ORBITAL_FOV,
+  ZOOM_MAX,
+  ZOOM_MIN,
+  type LabelBounds,
+  type ViewShift,
+} from "./constants";
 
 /* ── Camera waypoints ──────────────────────────────────────────────────────
- * Stage A (horizon): camera close, looking up — Earth fills the bottom of
- * the frame as a curved horizon. Aurora and stars sit above.
- * Stage B (orbital): camera pulled back and centered — full sphere visible,
- * hotspots make sense, OrbitControls take over.
- * The CSS layer in CinematicHero handles the Stage C corner shrink; the
- * camera stays put at orbital from progress 0.5 onward.
+ * Horizon: camera close and looking up, so the Earth fills the bottom of the
+ * frame as a curved horizon. Orbital: camera pulled back and centred, the
+ * whole sphere visible, markers readable, OrbitControls active.
+ * CinematicExplorer drives the move between them from scroll position.
  */
+// Looking further up pushes the horizon down the screen, leaving room for
+// the headline on the page background above it.
 const HORIZON_POS = new THREE.Vector3(0, -0.45, 3.3);
-const HORIZON_LOOK = new THREE.Vector3(0, 1.2, 0);
+const HORIZON_LOOK = new THREE.Vector3(0, 2.7, 0);
 const HORIZON_FOV = 52;
 
-const ORBITAL_POS = new THREE.Vector3(0, 0, 8.4);
+const ORBITAL_POS = new THREE.Vector3(0, 0, ORBITAL_DISTANCE);
 const ORBITAL_LOOK = new THREE.Vector3(0, 0, 0);
-const ORBITAL_FOV = 38;
 
 /** Progress range over which the horizon → orbital camera move plays.
  *  Ends early so the globe is ready to interact as soon as the title clears. */
@@ -30,9 +37,8 @@ const TRANSITION_START = 0.12;
 const TRANSITION_END = 0.3;
 
 /** Camera-distance bounds for the interactive zoom buttons. */
-export const ZOOM_MIN = 5;
-export const ZOOM_MAX = 10.5;
-export const ZOOM_DEFAULT = ORBITAL_POS.z;
+export { ZOOM_MIN, ZOOM_MAX };
+export const ZOOM_DEFAULT = ORBITAL_DISTANCE;
 
 /** Minimum facing-dot so only front-hemisphere spots get labels. */
 const LABEL_MIN_FACING = 0.3;
@@ -59,6 +65,44 @@ interface CinematicGlobeProps {
   showLabels?: boolean;
   /** Stop the render loop entirely (used once the user has scrolled past the globe). */
   paused?: boolean;
+  /** Automatically rotate only for the lightweight touch explorer. */
+  autoRotate?: boolean;
+  /** Moves the globe off-centre without resizing the canvas. */
+  viewShiftRef?: MutableRefObject<ViewShift>;
+  /** Restricts hotspot labels to part of the canvas. */
+  labelBoundsRef?: MutableRefObject<LabelBounds | null>;
+}
+
+/**
+ * ViewShiftRig slides the rendered image sideways by offsetting the camera's
+ * projection. The canvas keeps its size, so nothing is reallocated while the
+ * globe travels from the centre of the screen into the explorer frame.
+ */
+function ViewShiftRig({
+  viewShiftRef,
+}: {
+  viewShiftRef: MutableRefObject<ViewShift>;
+}) {
+  const { camera, size } = useThree();
+
+  useFrame(() => {
+    const perspective = camera as THREE.PerspectiveCamera;
+    const { x, y } = viewShiftRef.current;
+    if (Math.abs(x) < 0.5 && Math.abs(y) < 0.5) {
+      if (perspective.view?.enabled) perspective.clearViewOffset();
+      return;
+    }
+    perspective.setViewOffset(
+      size.width,
+      size.height,
+      x,
+      y,
+      size.width,
+      size.height,
+    );
+  });
+
+  return null;
 }
 
 /**
@@ -160,30 +204,57 @@ function LabelPlanner({
   interactive,
   nodesRef,
   labelSetRef,
+  labelBoundsRef,
 }: {
   crises: Crisis[];
   interactive: boolean;
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
+  labelBoundsRef?: MutableRefObject<LabelBounds | null>;
 }) {
-  const { camera } = useThree();
+  const { camera, size } = useThree();
   const world = useRef(new THREE.Vector3());
   const camDir = useRef(new THREE.Vector3());
 
   useFrame(() => {
     const next = new Set<string>();
 
-    // All front-facing hotspots keep their labels at every zoom level; the
-    // back hemisphere is the only cull. (Screen-space collision culling was
-    // tried here and removed — restore from history if labels re-crowd.)
+    // Cull the back hemisphere and reserve screen rectangles for readable labels.
+    const occupied: Array<{ x: number; y: number; width: number }> = [];
     if (interactive) {
       camDir.current.copy(camera.position).normalize();
-      for (const c of crises) {
-        const node = nodesRef.current.get(c.slug);
+      for (const crisis of crises) {
+        const node = nodesRef.current.get(crisis.slug);
         if (!node) continue;
         node.getWorldPosition(world.current);
-        const facing = world.current.normalize().dot(camDir.current);
-        if (facing >= LABEL_MIN_FACING) next.add(c.slug);
+        const facing = world.current.clone().normalize().dot(camDir.current);
+        if (facing < LABEL_MIN_FACING) continue;
+        world.current.project(camera);
+        const x = ((world.current.x + 1) * size.width) / 2;
+        const y = ((1 - world.current.y) * size.height) / 2;
+        const width = Math.min(220, crisis.name.length * 7 + 20);
+        const bounds = labelBoundsRef?.current ?? {
+          left: 0,
+          right: size.width,
+          top: 0,
+          bottom: size.height,
+        };
+        if (
+          x < bounds.left + width / 2 ||
+          x > bounds.right - width / 2 ||
+          y < bounds.top + 30 ||
+          y > bounds.bottom - 30
+        )
+          continue;
+        const overlaps = occupied.some(
+          (box) =>
+            Math.abs(box.y - y) < 34 &&
+            Math.abs(box.x - x) < (box.width + width) / 2 + 8,
+        );
+        if (!overlaps) {
+          occupied.push({ x, y, width });
+          next.add(crisis.slug);
+        }
       }
     }
 
@@ -200,9 +271,16 @@ function LabelPlanner({
   return null;
 }
 
-/** The rotating Earth + hotspots group. Auto-rotates when nothing is
- *  selected; eases the selected hotspot toward the camera otherwise. */
-interface RotatingSceneProps extends Omit<CinematicGlobeProps, "zoomTargetRef" | "allowDrag" | "showLabels"> {
+/** Shared Earth and markers. The explorer enables automatic rotation only on touch devices. */
+interface RotatingSceneProps
+  extends Omit<
+    CinematicGlobeProps,
+    | "zoomTargetRef"
+    | "allowDrag"
+    | "showLabels"
+    | "viewShiftRef"
+    | "labelBoundsRef"
+  > {
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
 }
@@ -216,34 +294,17 @@ function RotatingScene({
   labelSetRef,
   onSelectCrisis,
   lite = false,
+  autoRotate = true,
 }: RotatingSceneProps) {
   const groupRef = useRef<THREE.Group | null>(null);
 
-  const targetPositions = useRef<Record<string, THREE.Vector3>>({});
-  if (Object.keys(targetPositions.current).length === 0) {
-    crises.forEach((c) => {
-      const lat = c.coordinates.lat;
-      const lng = c.coordinates.lng;
-      const phi = (90 - lat) * (Math.PI / 180);
-      const theta = (lng + 180) * (Math.PI / 180);
-      targetPositions.current[c.slug] = new THREE.Vector3(
-        -Math.sin(phi) * Math.cos(theta),
-        Math.cos(phi),
-        Math.sin(phi) * Math.sin(theta),
-      );
-    });
-  }
+  useEffect(() => {
+    if (groupRef.current) groupRef.current.rotation.y = -Math.PI / 2;
+  }, []);
 
   useFrame((_state, delta) => {
     if (!groupRef.current) return;
-    if (selectedSlug && targetPositions.current[selectedSlug]) {
-      const p = targetPositions.current[selectedSlug];
-      const targetY = Math.atan2(-p.x, p.z);
-      let diff = targetY - groupRef.current.rotation.y;
-      while (diff > Math.PI) diff -= 2 * Math.PI;
-      while (diff < -Math.PI) diff += 2 * Math.PI;
-      groupRef.current.rotation.y += diff * 0.05;
-    } else {
+    if (autoRotate) {
       groupRef.current.rotation.y += delta * 0.045;
     }
   });
@@ -277,6 +338,9 @@ export default function CinematicGlobe({
   allowDrag = true,
   showLabels = true,
   paused = false,
+  autoRotate = true,
+  viewShiftRef,
+  labelBoundsRef,
 }: CinematicGlobeProps) {
   // Registry of hotspot scene nodes (for world-position lookups) and the
   // planner-approved set of visible labels — both mutable, read every frame.
@@ -287,20 +351,29 @@ export default function CinematicGlobe({
     <Canvas
       camera={
         lite
-          ? { position: [ORBITAL_POS.x, ORBITAL_POS.y, ORBITAL_POS.z], fov: ORBITAL_FOV }
-          : { position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z], fov: HORIZON_FOV }
+          ? {
+              position: [ORBITAL_POS.x, ORBITAL_POS.y, ORBITAL_POS.z],
+              fov: ORBITAL_FOV,
+            }
+          : {
+              position: [HORIZON_POS.x, HORIZON_POS.y, HORIZON_POS.z],
+              fov: HORIZON_FOV,
+            }
       }
       style={{ background: "transparent", touchAction: "pan-y" }}
       // Cap device-pixel-ratio at 1.5: a full-viewport canvas at 2x on Retina
       // is 4x the pixels of 1x for no visible gain on a textured sphere.
       dpr={[1, 1.5]}
       frameloop={paused ? "never" : "always"}
-      gl={{ antialias: true, alpha: true, powerPreference: lite ? "low-power" : "high-performance" }}
+      gl={{
+        antialias: true,
+        alpha: true,
+        powerPreference: lite ? "low-power" : "high-performance",
+      }}
     >
       <ambientLight intensity={1.3} />
       <directionalLight position={[5, 3, 5]} intensity={1.6} />
       <directionalLight position={[-5, -2, -3]} intensity={0.35} />
-
 
       <Suspense fallback={null}>
         <RotatingScene
@@ -312,6 +385,7 @@ export default function CinematicGlobe({
           labelSetRef={labelSetRef}
           onSelectCrisis={onSelectCrisis}
           lite={lite}
+          autoRotate={autoRotate}
         />
       </Suspense>
 
@@ -320,10 +394,12 @@ export default function CinematicGlobe({
         interactive={interactive && showLabels}
         nodesRef={nodesRef}
         labelSetRef={labelSetRef}
+        labelBoundsRef={labelBoundsRef}
       />
 
       <CameraRig progressRef={progressRef} interactive={interactive} />
       <ZoomRig zoomTargetRef={zoomTargetRef} interactive={interactive} />
+      {viewShiftRef && <ViewShiftRig viewShiftRef={viewShiftRef} />}
 
       {interactive && allowDrag && (
         <OrbitControls
