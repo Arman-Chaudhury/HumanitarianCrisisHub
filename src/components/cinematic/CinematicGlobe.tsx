@@ -7,6 +7,14 @@ import * as THREE from "three";
 import type { Crisis } from "@/types/crisis";
 import EarthLayers from "./EarthLayers";
 import Hotspot from "./Hotspot";
+import {
+  ORBITAL_DISTANCE,
+  ORBITAL_FOV,
+  ZOOM_MAX,
+  ZOOM_MIN,
+  type LabelBounds,
+  type ViewShift,
+} from "./constants";
 
 /* ── Camera waypoints ──────────────────────────────────────────────────────
  * Stage A (horizon): camera close, looking up — Earth fills the bottom of
@@ -20,9 +28,8 @@ const HORIZON_POS = new THREE.Vector3(0, -0.45, 3.3);
 const HORIZON_LOOK = new THREE.Vector3(0, 1.2, 0);
 const HORIZON_FOV = 52;
 
-const ORBITAL_POS = new THREE.Vector3(0, 0, 8.4);
+const ORBITAL_POS = new THREE.Vector3(0, 0, ORBITAL_DISTANCE);
 const ORBITAL_LOOK = new THREE.Vector3(0, 0, 0);
-const ORBITAL_FOV = 38;
 
 /** Progress range over which the horizon → orbital camera move plays.
  *  Ends early so the globe is ready to interact as soon as the title clears. */
@@ -30,9 +37,8 @@ const TRANSITION_START = 0.12;
 const TRANSITION_END = 0.3;
 
 /** Camera-distance bounds for the interactive zoom buttons. */
-export const ZOOM_MIN = 5;
-export const ZOOM_MAX = 10.5;
-export const ZOOM_DEFAULT = ORBITAL_POS.z;
+export { ZOOM_MIN, ZOOM_MAX };
+export const ZOOM_DEFAULT = ORBITAL_DISTANCE;
 
 /** Minimum facing-dot so only front-hemisphere spots get labels. */
 const LABEL_MIN_FACING = 0.3;
@@ -61,6 +67,42 @@ interface CinematicGlobeProps {
   paused?: boolean;
   /** Automatically rotate only for the lightweight touch explorer. */
   autoRotate?: boolean;
+  /** Moves the globe off-centre without resizing the canvas. */
+  viewShiftRef?: MutableRefObject<ViewShift>;
+  /** Restricts hotspot labels to part of the canvas. */
+  labelBoundsRef?: MutableRefObject<LabelBounds | null>;
+}
+
+/**
+ * ViewShiftRig slides the rendered image sideways by offsetting the camera's
+ * projection. The canvas keeps its size, so nothing is reallocated while the
+ * globe travels from the centre of the screen into the explorer frame.
+ */
+function ViewShiftRig({
+  viewShiftRef,
+}: {
+  viewShiftRef: MutableRefObject<ViewShift>;
+}) {
+  const { camera, size } = useThree();
+
+  useFrame(() => {
+    const perspective = camera as THREE.PerspectiveCamera;
+    const { x, y } = viewShiftRef.current;
+    if (Math.abs(x) < 0.5 && Math.abs(y) < 0.5) {
+      if (perspective.view?.enabled) perspective.clearViewOffset();
+      return;
+    }
+    perspective.setViewOffset(
+      size.width,
+      size.height,
+      x,
+      y,
+      size.width,
+      size.height,
+    );
+  });
+
+  return null;
 }
 
 /**
@@ -162,11 +204,13 @@ function LabelPlanner({
   interactive,
   nodesRef,
   labelSetRef,
+  labelBoundsRef,
 }: {
   crises: Crisis[];
   interactive: boolean;
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
+  labelBoundsRef?: MutableRefObject<LabelBounds | null>;
 }) {
   const { camera, size } = useThree();
   const world = useRef(new THREE.Vector3());
@@ -189,11 +233,17 @@ function LabelPlanner({
         const x = ((world.current.x + 1) * size.width) / 2;
         const y = ((1 - world.current.y) * size.height) / 2;
         const width = Math.min(220, crisis.name.length * 7 + 20);
+        const bounds = labelBoundsRef?.current ?? {
+          left: 0,
+          right: size.width,
+          top: 0,
+          bottom: size.height,
+        };
         if (
-          x < width / 2 ||
-          x > size.width - width / 2 ||
-          y < 30 ||
-          y > size.height - 30
+          x < bounds.left + width / 2 ||
+          x > bounds.right - width / 2 ||
+          y < bounds.top + 30 ||
+          y > bounds.bottom - 30
         )
           continue;
         const overlaps = occupied.some(
@@ -225,7 +275,11 @@ function LabelPlanner({
 interface RotatingSceneProps
   extends Omit<
     CinematicGlobeProps,
-    "zoomTargetRef" | "allowDrag" | "showLabels"
+    | "zoomTargetRef"
+    | "allowDrag"
+    | "showLabels"
+    | "viewShiftRef"
+    | "labelBoundsRef"
   > {
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
@@ -285,6 +339,8 @@ export default function CinematicGlobe({
   showLabels = true,
   paused = false,
   autoRotate = true,
+  viewShiftRef,
+  labelBoundsRef,
 }: CinematicGlobeProps) {
   // Registry of hotspot scene nodes (for world-position lookups) and the
   // planner-approved set of visible labels — both mutable, read every frame.
@@ -338,10 +394,12 @@ export default function CinematicGlobe({
         interactive={interactive && showLabels}
         nodesRef={nodesRef}
         labelSetRef={labelSetRef}
+        labelBoundsRef={labelBoundsRef}
       />
 
       <CameraRig progressRef={progressRef} interactive={interactive} />
       <ZoomRig zoomTargetRef={zoomTargetRef} interactive={interactive} />
+      {viewShiftRef && <ViewShiftRig viewShiftRef={viewShiftRef} />}
 
       {interactive && allowDrag && (
         <OrbitControls

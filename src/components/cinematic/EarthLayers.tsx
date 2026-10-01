@@ -142,8 +142,10 @@ export default function EarthLayers({ groupRef, children, lite = false }: EarthL
       <group ref={groupRef}>
         {/* Dark ocean base sphere — keeps a believable silhouette before the
             surface shader has resolved or when only the fallback map is up. */}
+        {/* Kept well inside the surface: a coarse sphere this close to a finer
+            one pokes through it at the vertices and shows as dark specks. */}
         <mesh>
-          <sphereGeometry args={[1.998, 40, 40]} />
+          <sphereGeometry args={[1.97, 40, 40]} />
           <meshBasicMaterial color="#0a1d36" />
         </mesh>
 

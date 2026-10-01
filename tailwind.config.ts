@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        // Desktop-class pointer, enough width, and motion allowed.
+        cinematic: {
+          raw: "(min-width: 1024px) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
+        },
+      },
       colors: {
         bg: {
           DEFAULT: "#ffffff",
@@ -25,6 +31,14 @@ const config: Config = {
         border: {
           DEFAULT: "#e5e7eb",
           hard: "#d1d5db",
+        },
+        accent: {
+          DEFAULT: "#A44136",
+          dark: "#87362D",
+        },
+        globe: {
+          day: "#F2F4F3",
+          night: "#0B1220",
         },
         crisis: {
           red: "#b42318",
