@@ -38,7 +38,7 @@ const config: Config = {
         },
         globe: {
           day: "#F2F4F3",
-          night: "#0B1220",
+          night: "#ffffff",
         },
         crisis: {
           red: "#b42318",

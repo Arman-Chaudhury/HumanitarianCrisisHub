@@ -417,27 +417,24 @@ export default function CinematicExplorer({
 
         <div
           ref={headlineRef}
-          className="pointer-events-none absolute inset-0 z-20 flex flex-col items-center justify-center px-6 text-center"
+          className="pointer-events-none absolute inset-0 z-20 flex flex-col items-center justify-start px-6 pt-12 text-center"
         >
-          <p className="mb-4 text-sm text-gray-300">
-            Independent humanitarian reference
-          </p>
-          <h1 className="text-4xl font-semibold leading-tight tracking-tight text-white xl:text-[56px]">
-            {crises.length} humanitarian crises.
+          <h1 className="text-4xl font-semibold leading-tight tracking-tight text-gray-900 xl:text-[52px]">
+            {crises.length} Humanitarian Crises
             <span className="block font-normal">
               What is happening, and how to help.
             </span>
           </h1>
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-gray-200">
+          <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-700">
             Sourced briefings on humanitarian emergencies, with organizations
             working alongside the people affected.
           </p>
-          <p className="mt-10 text-sm text-gray-400">Scroll to explore</p>
+          <p className="mt-4 text-sm text-gray-500">Scroll to explore</p>
         </div>
 
         <p
           ref={hintRef}
-          className="pointer-events-none absolute inset-x-0 bottom-8 z-20 text-center text-sm text-gray-300 opacity-0"
+          className="pointer-events-none absolute inset-x-0 bottom-8 z-20 text-center text-sm text-gray-600 opacity-0"
         >
           Drag to rotate. Select a marker, or keep scrolling.
         </p>

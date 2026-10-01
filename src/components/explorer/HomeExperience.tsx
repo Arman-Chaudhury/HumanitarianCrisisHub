@@ -31,11 +31,8 @@ function PlainHome({ crises }: { crises: Crisis[] }) {
     <>
       <header className="mb-8 grid gap-5 lg:grid-cols-[2fr_1fr] lg:items-end">
         <div>
-          <p className="mb-3 text-sm text-gray-600">
-            Independent humanitarian reference
-          </p>
           <h1 className="text-3xl font-semibold leading-tight tracking-tight text-gray-900 sm:text-4xl lg:text-[44px]">
-            {crises.length} humanitarian crises.
+            {crises.length} Humanitarian Crises
             <span className="block font-normal">
               What is happening, and how to help.
             </span>

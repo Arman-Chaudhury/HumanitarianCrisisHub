@@ -24,8 +24,10 @@ import {
  * The CSS layer in CinematicHero handles the Stage C corner shrink; the
  * camera stays put at orbital from progress 0.5 onward.
  */
+// Looking further up pushes the horizon down the screen, leaving room for
+// the headline on the page background above it.
 const HORIZON_POS = new THREE.Vector3(0, -0.45, 3.3);
-const HORIZON_LOOK = new THREE.Vector3(0, 1.2, 0);
+const HORIZON_LOOK = new THREE.Vector3(0, 2.7, 0);
 const HORIZON_FOV = 52;
 
 const ORBITAL_POS = new THREE.Vector3(0, 0, ORBITAL_DISTANCE);

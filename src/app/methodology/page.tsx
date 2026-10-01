@@ -87,6 +87,9 @@ export default function MethodologyPage() {
           under open licenses, and every image carries its photographer and
           license credit where it appears.
         </p>
+        <p className="font-sans text-base leading-[1.8] text-text-body mb-4">
+          The globe uses NASA Blue Marble satellite imagery.
+        </p>
       </section>
 
       <section className="mb-8 pt-8 border-t border-border-hard">

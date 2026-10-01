@@ -15,6 +15,8 @@ import * as THREE from "three";
  */
 export const TEXTURE_PATHS = {
   day: "/textures/earth_day.jpg",
+  /** Larger NASA map, loaded after the first paint on desktop only. */
+  dayHd: "/textures/earth_day_hd.jpg",
   normal: "/textures/earth_normal.jpg",
   specular: "/textures/earth_specular.jpg",
   clouds: "/textures/earth_clouds.png",
