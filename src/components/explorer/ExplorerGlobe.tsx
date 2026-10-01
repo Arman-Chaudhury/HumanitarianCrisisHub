@@ -89,14 +89,12 @@ export default function ExplorerGlobe({
         {webgl === false && (
           <div
             className="h-full overflow-y-auto px-5 pb-6 pt-20"
-            data-lenis-prevent
           >
             <MobileFallback
               crises={crises}
               selectedSlug={selectedSlug}
               onSelectCrisis={onSelectCrisis}
               force
-              live={false}
             />
           </div>
         )}

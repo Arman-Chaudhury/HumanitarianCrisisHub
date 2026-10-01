@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import type { Crisis } from "@/types/crisis";
 import { getStatusColor } from "@/lib/statusColors";
 
-/** Static Earth shown during SSR and while the WebGL bundle loads. */
+/** Static Earth image for browsers that cannot run WebGL. */
 function StaticEarth() {
   return (
     <div
@@ -28,20 +27,12 @@ function StaticEarth() {
   );
 }
 
-const MobileGlobe = dynamic(() => import("./MobileGlobe"), {
-  ssr: false,
-  loading: () => <StaticEarth />,
-});
-
 interface MobileFallbackProps {
   crises: Crisis[];
   selectedSlug: string | null;
   onSelectCrisis: (slug: string) => void;
-  /** Show regardless of breakpoint (touch devices in landscape, reduced motion). */
+  /** Show regardless of breakpoint. */
   force?: boolean;
-  /** Mount the WebGL globe (only once we know this is the active experience —
-   *  avoids a second hidden GL context on desktop). */
-  live?: boolean;
 }
 
 const STATUS_LABELS: Record<string, string> = {
@@ -51,28 +42,22 @@ const STATUS_LABELS: Record<string, string> = {
 };
 
 /**
- * Touch-device / reduced-motion replacement for the scroll-choreographed
- * scene: a lighter live WebGL globe (auto-rotating, hotspots tappable) plus
- * a scrollable list of crisis cards.
+ * Shown when WebGL is unavailable: a static Earth image plus a list of
+ * crisis links, so every crisis stays reachable without the globe.
  */
 export default function MobileFallback({
   crises,
   selectedSlug,
   onSelectCrisis,
   force = false,
-  live = false,
 }: MobileFallbackProps) {
   return (
     <div className={`${force ? "" : "md:hidden "}mb-10`}>
       <div className="relative w-full aspect-square max-w-[460px] mx-auto mb-3">
-        {live ? (
-          <MobileGlobe crises={crises} selectedSlug={selectedSlug} onSelectCrisis={onSelectCrisis} />
-        ) : (
-          <StaticEarth />
-        )}
+        <StaticEarth />
       </div>
       <p className="text-center font-sans text-xs text-text-muted/80 mb-8">
-        {live ? "Tap a marker" : "Interactive globe unavailable in this browser. Browse the list below."}
+        Interactive globe unavailable in this browser. Browse the list below.
       </p>
 
       <h3 className="font-sans font-semibold text-lg tracking-normal text-text-bright mb-4">

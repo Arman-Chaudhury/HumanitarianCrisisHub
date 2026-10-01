@@ -17,12 +17,10 @@ import {
 } from "./constants";
 
 /* ── Camera waypoints ──────────────────────────────────────────────────────
- * Stage A (horizon): camera close, looking up — Earth fills the bottom of
- * the frame as a curved horizon. Aurora and stars sit above.
- * Stage B (orbital): camera pulled back and centered — full sphere visible,
- * hotspots make sense, OrbitControls take over.
- * The CSS layer in CinematicHero handles the Stage C corner shrink; the
- * camera stays put at orbital from progress 0.5 onward.
+ * Horizon: camera close and looking up, so the Earth fills the bottom of the
+ * frame as a curved horizon. Orbital: camera pulled back and centred, the
+ * whole sphere visible, markers readable, OrbitControls active.
+ * CinematicExplorer drives the move between them from scroll position.
  */
 // Looking further up pushes the horizon down the screen, leaving room for
 // the headline on the page background above it.
