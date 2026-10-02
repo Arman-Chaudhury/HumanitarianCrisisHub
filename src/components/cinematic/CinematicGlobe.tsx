@@ -1,12 +1,22 @@
 "use client";
 
-import { Suspense, useEffect, useRef, type MutableRefObject } from "react";
+import {
+  Suspense,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type MutableRefObject,
+} from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 import type { Crisis } from "@/types/crisis";
 import EarthLayers from "./EarthLayers";
 import Hotspot from "./Hotspot";
+import CrisisOutline from "./CrisisOutline";
+import { fitDistance, loadOutlines, type Outlines } from "./outlines";
+import { getStatusColor } from "@/lib/statusColors";
 import {
   ORBITAL_DISTANCE,
   ORBITAL_FOV,
@@ -40,6 +50,10 @@ const TRANSITION_END = 0.3;
 export { ZOOM_MIN, ZOOM_MAX };
 export const ZOOM_DEFAULT = ORBITAL_DISTANCE;
 
+/** OrbitControls' polar limits. Focusing on a marker respects them too. */
+const MIN_POLAR = Math.PI * 0.2;
+const MAX_POLAR = Math.PI * 0.8;
+
 /** Minimum facing-dot so only front-hemisphere spots get labels. */
 const LABEL_MIN_FACING = 0.3;
 
@@ -57,6 +71,12 @@ interface CinematicGlobeProps {
   /** Target camera distance while interactive — driven by the zoom buttons. */
   zoomTargetRef: MutableRefObject<number>;
   onSelectCrisis: (slug: string) => void;
+  /**
+   * Called with the angular extent (degrees) of a clicked crisis so the host
+   * can choose a camera distance for its frame. When omitted, the globe
+   * writes fitDistance(extent) to zoomTargetRef itself.
+   */
+  onFocusExtent?: (extent: number) => void;
   /** Mobile profile: day-map only, lower DPR, camera starts orbital. */
   lite?: boolean;
   /** Mount OrbitControls while interactive (off on touch so pages still scroll). */
@@ -193,6 +213,55 @@ function CameraRig({
 }
 
 /**
+ * FocusRig — when the selection changes, swings the camera around the globe
+ * until the selected marker faces the viewer, then stops so the marker stays
+ * centred. Keeps the current distance so it composes with ZoomRig, and clamps
+ * to the OrbitControls polar range so far-north markers settle as close as
+ * the controls allow. Dragging clears focusSlugRef, cancelling the move.
+ */
+function FocusRig({
+  interactive,
+  nodesRef,
+  focusSlugRef,
+}: {
+  interactive: boolean;
+  nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
+  focusSlugRef: MutableRefObject<string | null>;
+}) {
+  const { camera } = useThree();
+  const target = useRef(new THREE.Vector3());
+  const spherical = useRef(new THREE.Spherical());
+
+  useFrame((_state, delta) => {
+    const slug = focusSlugRef.current;
+    if (!interactive || !slug) return;
+    const node = nodesRef.current.get(slug);
+    if (!node) return;
+
+    const distance = camera.position.length();
+    node.getWorldPosition(target.current);
+    spherical.current.setFromVector3(target.current);
+    spherical.current.phi = THREE.MathUtils.clamp(
+      spherical.current.phi,
+      MIN_POLAR,
+      MAX_POLAR,
+    );
+    spherical.current.radius = distance;
+    target.current.setFromSpherical(spherical.current);
+
+    const k = 1 - Math.pow(0.002, delta);
+    camera.position.lerp(target.current, k).setLength(distance);
+    camera.lookAt(0, 0, 0);
+
+    if (camera.position.angleTo(target.current) < 0.002) {
+      focusSlugRef.current = null;
+    }
+  });
+
+  return null;
+}
+
+/**
  * LabelPlanner — decides each frame which hotspot labels are visible using
  * screen-space collision: candidates (front-facing, zoomed in) are sorted by
  * how directly they face the camera, then greedily placed; any label whose
@@ -276,6 +345,7 @@ interface RotatingSceneProps
   extends Omit<
     CinematicGlobeProps,
     | "zoomTargetRef"
+    | "onFocusExtent"
     | "allowDrag"
     | "showLabels"
     | "viewShiftRef"
@@ -283,6 +353,9 @@ interface RotatingSceneProps
   > {
   nodesRef: MutableRefObject<Map<string, THREE.Object3D>>;
   labelSetRef: MutableRefObject<Set<string>>;
+  /** Set once the viewer picks a marker; automatic rotation stops for good. */
+  holdRef: MutableRefObject<boolean>;
+  outlines: Outlines | null;
 }
 
 function RotatingScene({
@@ -292,6 +365,8 @@ function RotatingScene({
   interactive,
   nodesRef,
   labelSetRef,
+  holdRef,
+  outlines,
   onSelectCrisis,
   lite = false,
   autoRotate = true,
@@ -304,13 +379,23 @@ function RotatingScene({
 
   useFrame((_state, delta) => {
     if (!groupRef.current) return;
-    if (autoRotate) {
+    if (autoRotate && !holdRef.current) {
       groupRef.current.rotation.y += delta * 0.045;
     }
   });
 
+  const selected = crises.find((c) => c.slug === selectedSlug);
+  const outline = selected && outlines?.[selected.slug];
+
   return (
     <EarthLayers groupRef={groupRef} lite={lite}>
+      {selected && outline && interactive && (
+        <CrisisOutline
+          key={selected.slug}
+          outline={outline}
+          color={getStatusColor(selected.status)}
+        />
+      )}
       {crises.map((c) => (
         <Hotspot
           key={c.slug}
@@ -334,6 +419,7 @@ export default function CinematicGlobe({
   interactive,
   zoomTargetRef,
   onSelectCrisis,
+  onFocusExtent,
   lite = false,
   allowDrag = true,
   showLabels = true,
@@ -346,6 +432,47 @@ export default function CinematicGlobe({
   // planner-approved set of visible labels — both mutable, read every frame.
   const nodesRef = useRef(new Map<string, THREE.Object3D>());
   const labelSetRef = useRef(new Set<string>());
+  const focusSlugRef = useRef<string | null>(null);
+  const holdRef = useRef(false);
+
+  // Boundaries arrive after first paint; a failed fetch just means no outline.
+  const [outlines, setOutlines] = useState<Outlines | null>(null);
+  const outlinesRef = useRef<Outlines | null>(null);
+  useEffect(() => {
+    let mounted = true;
+    loadOutlines()
+      .then((data) => {
+        if (!mounted) return;
+        outlinesRef.current = data;
+        setOutlines(data);
+      })
+      .catch(() => {});
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  // Scrolling out of the explorer cancels any focus move and lets the
+  // opening's automatic rotation resume.
+  useEffect(() => {
+    if (interactive) return;
+    focusSlugRef.current = null;
+    holdRef.current = false;
+  }, [interactive]);
+
+  // Centre whichever marker is clicked, including the one already selected,
+  // and close in until its outline fills about half the frame.
+  const selectAndFocus = useCallback(
+    (slug: string) => {
+      focusSlugRef.current = slug;
+      holdRef.current = true;
+      const extent = outlinesRef.current?.[slug]?.extent ?? 8;
+      if (onFocusExtent) onFocusExtent(extent);
+      else zoomTargetRef.current = fitDistance(extent);
+      onSelectCrisis(slug);
+    },
+    [onSelectCrisis, onFocusExtent, zoomTargetRef],
+  );
 
   return (
     <Canvas
@@ -383,7 +510,9 @@ export default function CinematicGlobe({
           interactive={interactive}
           nodesRef={nodesRef}
           labelSetRef={labelSetRef}
-          onSelectCrisis={onSelectCrisis}
+          holdRef={holdRef}
+          outlines={outlines}
+          onSelectCrisis={selectAndFocus}
           lite={lite}
           autoRotate={autoRotate}
         />
@@ -399,6 +528,11 @@ export default function CinematicGlobe({
 
       <CameraRig progressRef={progressRef} interactive={interactive} />
       <ZoomRig zoomTargetRef={zoomTargetRef} interactive={interactive} />
+      <FocusRig
+        interactive={interactive}
+        nodesRef={nodesRef}
+        focusSlugRef={focusSlugRef}
+      />
       {viewShiftRef && <ViewShiftRig viewShiftRef={viewShiftRef} />}
 
       {interactive && allowDrag && (
@@ -408,8 +542,11 @@ export default function CinematicGlobe({
           enableDamping
           dampingFactor={0.08}
           rotateSpeed={0.45}
-          minPolarAngle={Math.PI * 0.2}
-          maxPolarAngle={Math.PI * 0.8}
+          minPolarAngle={MIN_POLAR}
+          maxPolarAngle={MAX_POLAR}
+          onStart={() => {
+            focusSlugRef.current = null;
+          }}
         />
       )}
     </Canvas>

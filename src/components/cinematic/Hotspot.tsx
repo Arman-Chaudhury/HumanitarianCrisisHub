@@ -12,6 +12,7 @@ import { Html } from "@react-three/drei";
 import * as THREE from "three";
 import type { Crisis } from "@/types/crisis";
 import { getStatusColor } from "@/lib/statusColors";
+import { ORBITAL_DISTANCE } from "./constants";
 
 interface HotspotProps {
   crisis: Crisis;
@@ -33,6 +34,7 @@ export default function Hotspot({
   onClick,
 }: HotspotProps) {
   const groupRef = useRef<THREE.Group>(null);
+  const dotRef = useRef<THREE.Mesh>(null);
   const [showLabel, setShowLabel] = useState(false);
   const previousVisibility = useRef(false);
   const position = useMemo(() => {
@@ -53,7 +55,20 @@ export default function Hotspot({
     };
   }, [crisis.slug, nodesRef]);
 
-  useFrame(() => {
+  useFrame((state) => {
+    // Shrink the dot as the camera closes in. Unselected dots hold a constant
+    // screen size; the selected one keeps shrinking, since its outline takes
+    // over as the marker and small places like Palestine would otherwise
+    // vanish beneath it.
+    if (dotRef.current) {
+      const closeness = Math.min(
+        1,
+        state.camera.position.length() / ORBITAL_DISTANCE,
+      );
+      dotRef.current.scale.setScalar(
+        selected ? closeness * closeness * closeness : closeness,
+      );
+    }
     const visible =
       interactive &&
       progressRef.current >= 0.3 &&
@@ -69,6 +84,7 @@ export default function Hotspot({
   return (
     <group ref={groupRef} position={position}>
       <mesh
+        ref={dotRef}
         onClick={
           interactive
             ? (event) => {

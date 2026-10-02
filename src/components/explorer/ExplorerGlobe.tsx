@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 import MobileFallback from "@/components/cinematic/MobileFallback";
+import { ZOOM_MAX, ZOOM_MIN } from "@/components/cinematic/constants";
 import type { Crisis } from "@/types/crisis";
 
 const Globe = dynamic(() => import("@/components/cinematic/CinematicGlobe"), {
@@ -131,7 +132,7 @@ export default function ExplorerGlobe({
               aria-label="Zoom in"
               onClick={() => {
                 zoomTargetRef.current = Math.max(
-                  5,
+                  ZOOM_MIN,
                   zoomTargetRef.current * 0.82,
                 );
               }}
@@ -144,7 +145,7 @@ export default function ExplorerGlobe({
               aria-label="Zoom out"
               onClick={() => {
                 zoomTargetRef.current = Math.min(
-                  10.5,
+                  ZOOM_MAX,
                   zoomTargetRef.current / 0.82,
                 );
               }}

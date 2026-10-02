@@ -12,6 +12,7 @@ import {
   type LabelBounds,
   type ViewShift,
 } from "@/components/cinematic/constants";
+import { fitDistance } from "@/components/cinematic/outlines";
 import CrisisPanel from "./CrisisPanel";
 import ExplorerLegend from "./ExplorerLegend";
 
@@ -39,6 +40,9 @@ const SETTLE_END = 0.98;
 /** Share of the frame's smaller side that the globe's radius occupies. */
 const SETTLED_RADIUS_SHARE = 0.4;
 const ZOOM_STEP = 0.82;
+/** Zoom is a factor on the settled distance; the floor lets a click frame a small country. */
+const ZOOM_FACTOR_MIN = 0.28;
+const ZOOM_FACTOR_MAX = 1.3;
 
 interface Metrics {
   /** Scroll position at which the stage becomes pinned. */
@@ -51,6 +55,8 @@ interface Metrics {
   inset: { top: number; right: number; bottom: number; left: number };
   shift: ViewShift;
   settledDistance: number;
+  /** Slot height over stage height: how much of the canvas the frame shows. */
+  frameShare: number;
 }
 
 const clamp = (value: number, min: number, max: number) =>
@@ -158,6 +164,7 @@ export default function CinematicExplorer({
         ZOOM_MIN,
         ZOOM_MAX,
       ),
+      frameShare: slotBox.height / stageBox.height,
     };
 
     if (controlsRef.current) {
@@ -253,6 +260,9 @@ export default function CinematicExplorer({
     if (nextSettled !== settledRef.current) {
       settledRef.current = nextSettled;
       setSettled(nextSettled);
+      // Leaving the explorer drops any click-driven zoom, so scrolling back
+      // down lands on the standard view rather than a close-up.
+      if (!nextSettled) zoomFactorRef.current = 1;
     }
   }, []);
 
@@ -302,8 +312,25 @@ export default function CinematicExplorer({
     }
   }, []);
 
+  /* ── A clicked marker reports how big its outline is; pick the distance
+   * that frames it in the slot and store it as a factor so the per-frame
+   * zoom update and the buttons keep working from there. ── */
+  const focusExtent = useCallback((extent: number) => {
+    const metrics = metricsRef.current;
+    if (!metrics) return;
+    zoomFactorRef.current = clamp(
+      fitDistance(extent, metrics.frameShare) / metrics.settledDistance,
+      ZOOM_FACTOR_MIN,
+      ZOOM_FACTOR_MAX,
+    );
+  }, []);
+
   const zoom = (factor: number) => {
-    zoomFactorRef.current = clamp(zoomFactorRef.current * factor, 0.6, 1.3);
+    zoomFactorRef.current = clamp(
+      zoomFactorRef.current * factor,
+      ZOOM_FACTOR_MIN,
+      ZOOM_FACTOR_MAX,
+    );
   };
 
   if (!selected) return null;
@@ -364,6 +391,7 @@ export default function CinematicExplorer({
               labelBoundsRef={labelBoundsRef}
               selectedSlug={selected.slug}
               onSelectCrisis={selectCrisis}
+              onFocusExtent={focusExtent}
               interactive={interactive}
               autoRotate={!settled}
               paused={!inView}
