@@ -6,7 +6,7 @@
 export const GLOBE_RADIUS = 2;
 export const ORBITAL_DISTANCE = 8.4;
 export const ORBITAL_FOV = 38;
-export const ZOOM_MIN = 5;
+export const ZOOM_MIN = 3.1;
 export const ZOOM_MAX = 10.5;
 
 /** Pixel offset applied to the camera's view, so the globe can sit off-centre. */
