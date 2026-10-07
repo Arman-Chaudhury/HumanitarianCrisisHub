@@ -27,7 +27,7 @@ export default function Error({ reset }: { error: Error; reset: () => void }) {
           Try again
         </button>
         <Link
-          href="/#crises"
+          href="/crises"
           className="font-sans text-sm font-semibold text-text-bright border border-border-hard px-5 py-3 rounded hover:bg-bg-card-hover transition-colors"
         >
           Browse all crises

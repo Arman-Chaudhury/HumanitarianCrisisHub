@@ -56,7 +56,7 @@ export default function CrisisPage({ params }: CrisisPageProps) {
   return (
     <article>
       <nav aria-label="Breadcrumb" className="mb-8 text-sm text-gray-600">
-        <Link href="/#crises" className="underline underline-offset-4">
+        <Link href="/crises" className="underline underline-offset-4">
           All crises
         </Link>
         <span aria-hidden="true" className="mx-3">
