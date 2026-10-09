@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "crises": {
     "afghanistan": {
       "iso3": "AFG",
@@ -192,8 +192,8 @@
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
-        "value": 6030282,
-        "asOf": "2026-06-30",
+        "value": 5095741,
+        "asOf": "2026-09-30",
         "source": "IPC Phase 3+ via HDX HAPI"
       }
     },
@@ -366,8 +366,8 @@
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
-        "value": 6030282,
-        "asOf": "2026-06-30",
+        "value": 5095741,
+        "asOf": "2026-09-30",
         "source": "IPC Phase 3+ via HDX HAPI"
       }
     },
