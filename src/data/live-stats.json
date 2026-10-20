@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-20",
   "crises": {
     "afghanistan": {
       "iso3": "AFG",
@@ -169,8 +169,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 1466862,
-        "asOf": "2026-05-31",
+        "value": 1494456,
+        "asOf": "2026-07-31",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -265,8 +265,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 609243,
-        "asOf": "2025-03-31",
+        "value": 663769,
+        "asOf": "2026-06-30",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -397,8 +397,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 8622801,
-        "asOf": "2026-07-31",
+        "value": 8583274,
+        "asOf": "2026-08-31",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -415,8 +415,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 5769012,
-        "asOf": "2026-06-30",
+        "value": 5692804,
+        "asOf": "2026-08-31",
         "source": "IOM DTM via HDX HAPI"
       }
     },
