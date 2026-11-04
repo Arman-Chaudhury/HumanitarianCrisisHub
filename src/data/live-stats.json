@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "crises": {
     "afghanistan": {
       "iso3": "AFG",
@@ -89,8 +89,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 416247,
-        "asOf": "2025-11-30",
+        "value": 381483,
+        "asOf": "2026-08-31",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -107,8 +107,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 219595,
-        "asOf": "2025-10-30",
+        "value": 23332,
+        "asOf": "2025-12-31",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -138,8 +138,8 @@
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
-        "value": 24812776,
-        "asOf": "2025-12-31",
+        "value": 28840956,
+        "asOf": "2026-12-31",
         "source": "IPC Phase 3+ via HDX HAPI"
       }
     },
@@ -208,8 +208,8 @@
     "lebanon": {
       "iso3": "LBN",
       "idps": {
-        "value": 334353,
-        "asOf": "2026-08-26",
+        "value": 329686,
+        "asOf": "2026-09-29",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -291,8 +291,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 403643,
-        "asOf": "2025-09-30",
+        "value": 491302,
+        "asOf": "2026-04-30",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -309,8 +309,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 1378124,
-        "asOf": "2025-10-31",
+        "value": 2368731,
+        "asOf": "2026-03-31",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -379,7 +379,7 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 1992513,
+        "value": 3158542,
         "asOf": "2025-02-28",
         "source": "IOM DTM via HDX HAPI"
       },
@@ -436,8 +436,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 3468466,
-        "asOf": "2026-08-31",
+        "value": 3481336,
+        "asOf": "2026-09-30",
         "source": "IOM DTM via HDX HAPI"
       }
     },
