@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-07",
   "crises": {
     "afghanistan": {
       "iso3": "AFG",
@@ -213,8 +213,8 @@
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
-        "value": 873739,
-        "asOf": "2026-03-31",
+        "value": 1049566,
+        "asOf": "2027-02-28",
         "source": "IPC Phase 3+ via HDX HAPI"
       }
     },
