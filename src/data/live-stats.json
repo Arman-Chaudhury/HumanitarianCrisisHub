@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "crises": {
     "afghanistan": {
       "iso3": "AFG",
@@ -247,8 +247,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 375539,
-        "asOf": "2023-04-30",
+        "value": 414524,
+        "asOf": "2025-09-30",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
