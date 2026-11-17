@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "crises": {
     "afghanistan": {
       "iso3": "AFG",
@@ -208,8 +208,8 @@
     "lebanon": {
       "iso3": "LBN",
       "idps": {
-        "value": 329686,
-        "asOf": "2026-09-29",
+        "value": 304520,
+        "asOf": "2026-10-31",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
@@ -397,8 +397,8 @@
         "source": "OCHA HNO via HDX HAPI"
       },
       "idps": {
-        "value": 8583274,
-        "asOf": "2026-08-31",
+        "value": 8585611,
+        "asOf": "2026-09-30",
         "source": "IOM DTM via HDX HAPI"
       },
       "foodInsecure": {
