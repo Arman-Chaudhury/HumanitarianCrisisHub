@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "crises": {
     "aboriginal-australians": [
       {
@@ -43,22 +43,22 @@
     ],
     "afghanistan": [
       {
-        "title": "Afghanistan: Humanitarian Update, October 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/afghanistan/afghanistan-humanitarian-update-october-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
+        "title": "Quarter of a Million Landmines Removed from Zimbabwe - The HALO Trust has destroyed four mines per person in north-east Zimbabwe",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/zimbabwe/quarter-million-landmines-removed-zimbabwe-halo-trust-has-destroyed-four-mines-person-north-east-zimbabwe",
+        "source": "HALO Trust"
       },
       {
-        "title": "Afghanistan Development Update: Water for Recovery and Sustainability (November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/afghanistan/afghanistan-development-update-water-recovery-and-sustainability-november-2026",
-        "source": "World Bank"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "Children on the Move Research Study, Afghanistan",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/afghanistan/children-move-research-study-afghanistan",
-        "source": "Save the Children"
+        "title": "DTM North Macedonia: Migration Data and Routes Quarterly Report (July - September 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/republic-north-macedonia/dtm-north-macedonia-migration-data-and-routes-quarterly-report-july-september-2026",
+        "source": "International Organization for Migration"
       }
     ],
     "amazon-indigenous": [
@@ -103,6 +103,12 @@
     ],
     "bangladesh-climate": [
       {
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
         "title": "Vanuatu: Five Schools Designed to Keep Children Learning When Climate Disasters Strike",
         "date": "2026-11-17",
         "url": "https://reliefweb.int/report/vanuatu/five-schools-designed-keep-children-learning-when-climate-disasters-strike",
@@ -113,12 +119,6 @@
         "date": "2026-11-13",
         "url": "https://reliefweb.int/report/world/cop31-leaders-back-long-term-future-early-warnings-all",
         "source": "UN Office for Disaster Risk Reduction"
-      },
-      {
-        "title": "World: COP31: Drought is climate disaster doing most harm to girls",
-        "date": "2026-11-09",
-        "url": "https://reliefweb.int/report/world/cop31-drought-climate-disaster-doing-most-harm-girls",
-        "source": "Plan International"
       }
     ],
     "belarus": [
@@ -163,165 +163,171 @@
     ],
     "cameroon": [
       {
-        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 30 septembre 2026)",
-        "date": "2026-11-16",
-        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-30-septembre-2026",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 16th November 2026)",
-        "date": "2026-11-16",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-16th-november-2026",
+        "title": "Cameroon: North-West and South-West Situation Report No.87, July to September 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/cameroon/cameroon-north-west-and-south-west-situation-report-no87-july-september-2026",
         "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "World: Statement of the Forty-sixth Meeting of the Polio IHR Emergency Committee (13 November 2026)",
-        "date": "2026-11-16",
-        "url": "https://reliefweb.int/report/world/statement-forty-sixth-meeting-polio-ihr-emergency-committee-13-november-2026",
-        "source": "World Health Organization"
+        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 31 octobre 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-31-octobre-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Central African Republic: Overview of population movements (August 2026)",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-overview-population-movements-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "central-african-republic": [
       {
-        "title": "CAR: Vakaga: Authorities and Residents Welcome the Renewal of MINUSCA’s Mandate",
+        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 31 octobre 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-31-octobre-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Central African Republic BVD Readiness - DREF Operational Update (MDRCF034), 18 November 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-bvd-readiness-dref-operational-update-mdrcf034-18-november-2026",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
+        "title": "Central African Republic: Overview of population movements (August 2026)",
         "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/central-african-republic/vakaga-authorities-and-residents-welcome-renewal-minuscas-mandate",
-        "source": "UN Multidimensional Integrated Stabilization Mission in the Central African Republic"
-      },
-      {
-        "title": "DR Congo: République Démocratique du Congo - Détermination du Statut de Réfugié (DSR) au 31 octobre 2026",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-determination-du-statut-de-refugie-dsr-au-31-octobre-2026",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Democratic Republic of the Congo - Voluntary Repatriation from/to DRC (31 October 2026)",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-voluntary-repatriation-fromto-drc-31-october-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-overview-population-movements-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "chad": [
       {
-        "title": "Tchad : Présence opérationnelle des partenaires à l'Est _ Novembre 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/chad/tchad-presence-operationnelle-des-partenaires-lest-novembre-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
+        "title": "Cluster santé Tchad : veille informationnelle des activités-S36-39",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/chad/cluster-sante-tchad-veille-informationnelle-des-activites-s36-39",
+        "source": "Health Cluster"
       },
       {
-        "title": "Tchad : Présence physique des partenaires à l'Est (Qui a un bureau où?) Novembre 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/chad/tchad-presence-physique-des-partenaires-lest-qui-un-bureau-ou-novembre-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
+        "title": "Cluster santé Tchad : veille informationnelle des activités-S41-44",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/chad/cluster-sante-tchad-veille-informationnelle-des-activites-s41-44",
+        "source": "Health Cluster"
       },
       {
-        "title": "HCR Tchad | Rapport opérationnel hebdomadaire du 15 novembre 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/chad/hcr-tchad-rapport-operationnel-hebdomadaire-du-15-novembre-2026",
+        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 31 octobre 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-31-octobre-2026",
         "source": "UN High Commissioner for Refugees"
       }
     ],
     "colombia": [
       {
-        "title": "World: Governments make over 230 new pledges to prevent violence against children",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/governments-make-over-230-new-pledges-prevent-violence-against-children",
-        "source": "World Health Organization"
+        "title": "Quarter of a Million Landmines Removed from Zimbabwe - The HALO Trust has destroyed four mines per person in north-east Zimbabwe",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/zimbabwe/quarter-million-landmines-removed-zimbabwe-halo-trust-has-destroyed-four-mines-person-north-east-zimbabwe",
+        "source": "HALO Trust"
       },
       {
-        "title": "Reconstruyendo juntos: cómo está respondiendo Cáritas Colombiana al terremoto",
-        "date": "2026-11-16",
-        "url": "https://reliefweb.int/report/colombia/reconstruyendo-juntos-como-esta-respondiendo-caritas-colombiana-al-terremoto",
-        "source": "Caritas"
+        "title": "Venezuela: Nuevas rutas migratorias cobran fuerza en América del Sur mientras los cruces por el Darién caen un 90 %, según la OIM",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/nuevas-rutas-migratorias-cobran-fuerza-en-america-del-sur-mientras-los-cruces-por-el-darien-caen-un-90-segun-la-oim",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "Brazil: Dengue Epidemiological Situation in the Region of the Americas - Epidemiological Week 42, 2026",
-        "date": "2026-11-14",
-        "url": "https://reliefweb.int/report/brazil/dengue-epidemiological-situation-region-americas-epidemiological-week-42-2026",
-        "source": "Pan American Health Organization"
+        "title": "Venezuela: New South American Migration Routes Gain Ground as Darién Crossings Plunge 90%, IOM Reports",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/new-south-american-migration-routes-gain-ground-darien-crossings-plunge-90-iom-reports",
+        "source": "International Organization for Migration"
       }
     ],
     "congo": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 31 octobre 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-31-octobre-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "DR Congo: Compte rendu de la réunion mensuelle du mois d'octobre 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/compte-rendu-de-la-reunion-mensuelle-du-mois-doctobre-2026",
-        "source": "Nutrition Cluster"
+        "title": "DR Congo: Ebola response cannot succeed without broader humanitarian effort | NRC",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/dr-congo-ebola-response-cannot-succeed-without-broader-humanitarian-effort-nrc",
+        "source": "Norwegian Refugee Council"
       },
       {
-        "title": "DR Congo: Cluster Protection RDC : Aperçu des violations et abus des droits humains dans la province du Sud-Kivu, octobre 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-apercu-des-violations-et-abus-des-droits-humains-dans-la-province-du-sud-kivu-octobre-2026",
-        "source": "Protection Cluster"
+        "title": "Gender Dimensions Of Ebola Preparedness And Response In Uganda",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/uganda/gender-dimensions-ebola-preparedness-and-response-uganda",
+        "source": "UN Women"
       }
     ],
     "eritrea": [
       {
-        "title": "Somalia: FSNWG Special Report - El Niño 2026 - 2027 Sense-Making Session Brief (16 November 2026)",
+        "title": "Bangladesh: Estudios de ACNUR y la Universidad de Oxford advierten que el recorte de fondos aumenta el riesgo de que los refugiados sean víctimas de trata y explotación infantil",
         "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/somalia/fsnwg-special-report-el-nino-2026-2027-sense-making-session-brief-16-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "UNHCR Rwanda - Population Statistics Dashboard - 31 October 2026",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-statistics-dashboard-31-october-2026",
+        "url": "https://reliefweb.int/report/bangladesh/estudios-de-acnur-y-la-universidad-de-oxford-advierten-que-el-recorte-de-fondos-aumenta-el-riesgo-de-que-los-refugiados-sean-victimas-de-trata-y-explotacion-infantil",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "UNHCR Rwanda - Total Forcibly Displaced Population Figures - 31 October 2026",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-total-forcibly-displaced-population-figures-31-october-2026",
+        "title": "Atrocity Alert No. 503: Israel and the Occupied Palestinian Territory, Ethiopia and Afghanistan",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/atrocity-alert-no-503-israel-and-occupied-palestinian-territory-ethiopia-and-afghanistan",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
+      {
+        "title": "UNHCR Multi-Country Office for Italy, The Holy See, Malta and San Marino Quarterly Update (July - September 2026)",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/italy/unhcr-multi-country-office-italy-holy-see-malta-and-san-marino-quarterly-update-july-september-2026",
         "source": "UN High Commissioner for Refugees"
       }
     ],
     "ethiopia": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "World: MSF calls for stronger AMR response to protect people affected by conflict",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/msf-calls-stronger-amr-response-protect-people-affected-conflict",
-        "source": "Médecins Sans Frontières"
+        "title": "Ethiopia: Helping those caught in the middle of the conflict in Oromia",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/ethiopia/ethiopia-helping-those-caught-middle-conflict-oromia",
+        "source": "International Committee of the Red Cross"
       },
       {
-        "title": "Somalia: FSNWG Special Report - El Niño 2026 - 2027 Sense-Making Session Brief (16 November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/somalia/fsnwg-special-report-el-nino-2026-2027-sense-making-session-brief-16-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "title": "Ethiopia — Flow Monitoring Snapshot Report (1 - 30 June 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/ethiopia/ethiopia-flow-monitoring-snapshot-report-1-30-june-2026",
+        "source": "International Organization for Migration"
       }
     ],
     "haiti": [
       {
-        "title": "Haiti: Rapport de situation octobre 2026",
+        "title": "Venezuela: Nuevas rutas migratorias cobran fuerza en América del Sur mientras los cruces por el Darién caen un 90 %, según la OIM",
         "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/haiti/haiti-rapport-de-situation-octobre-2026",
+        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/nuevas-rutas-migratorias-cobran-fuerza-en-america-del-sur-mientras-los-cruces-por-el-darien-caen-un-90-segun-la-oim",
         "source": "International Organization for Migration"
       },
       {
-        "title": "Haiti: Hait Situation Report October 2026",
+        "title": "Venezuela: New South American Migration Routes Gain Ground as Darién Crossings Plunge 90%, IOM Reports",
         "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/haiti/hait-situation-report-october-2026",
+        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/new-south-american-migration-routes-gain-ground-darien-crossings-plunge-90-iom-reports",
         "source": "International Organization for Migration"
       },
       {
-        "title": "Haiti: Haïti - Suivi des Urgences (ETT) 115 - Résumé des déplacements suite aux violences armées dans la commune de Saint-Marc (Département de l’Artibonite) (9 - 5 novembre 2026)",
+        "title": "Venezuela: De nouvelles routes migratoires se consolident en Amérique du Sud alors que les traversées du Darién diminuent de 90 %, selon l’OIM",
         "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/haiti/haiti-suivi-des-urgences-ett-115-resume-des-deplacements-suite-aux-violences-armees-dans-la-commune-de-saint-marc-departement-de-lartibonite-9-5-novembre-2026",
+        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/de-nouvelles-routes-migratoires-se-consolident-en-amerique-du-sud-alors-que-les-traversees-du-darien-diminuent-de-90-selon-loim",
         "source": "International Organization for Migration"
       }
     ],
     "horn-of-africa-drought": [
+      {
+        "title": "World: Global Weather Hazards Summary, November 19, 2026 - November 25, 2026",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-19-2026-november-25-2026",
+        "source": "Famine Early Warning System Network"
+      },
       {
         "title": "South Sudan: Remarks by Anita Kiki Gbeho, Special Representative of the Secretary-General & Head of UNMISS, to the UN Security Council (10 November 2026)",
         "date": "2026-11-11",
@@ -333,15 +339,15 @@
         "date": "2026-11-09",
         "url": "https://reliefweb.int/report/kenya/urgent-action-needed-cop31-deliver-funding-commitments-concern-worldwide",
         "source": "Concern Worldwide"
-      },
-      {
-        "title": "At COP31, World Food Programme urges use of innovative finance to prevent climate shocks from becoming hunger emergencies",
-        "date": "2026-11-09",
-        "url": "https://reliefweb.int/report/world/cop31-world-food-programme-urges-use-innovative-finance-prevent-climate-shocks-becoming-hunger-emergencies",
-        "source": "World Food Programme"
       }
     ],
     "iran": [
+      {
+        "title": "MPM Türkiye Overview of Migrant Situation: Migrant Presence Monitoring Quarterly Report Q3 - July, August, September 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/turkiye/mpm-turkiye-overview-migrant-situation-migrant-presence-monitoring-quarterly-report-q3-july-august-september-2026",
+        "source": "International Organization for Migration"
+      },
       {
         "title": "History of UNHCR in Türkiye 1960 to 2026",
         "date": "2026-11-18",
@@ -353,32 +359,26 @@
         "date": "2026-11-18",
         "url": "https://reliefweb.int/report/afghanistan/afghanistan-development-update-water-recovery-and-sustainability-november-2026",
         "source": "World Bank"
-      },
-      {
-        "title": "Children on the Move Research Study, Afghanistan",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/afghanistan/children-move-research-study-afghanistan",
-        "source": "Save the Children"
       }
     ],
     "iraq": [
+      {
+        "title": "MPM Türkiye Overview of Migrant Situation: Migrant Presence Monitoring Quarterly Report Q3 - July, August, September 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/turkiye/mpm-turkiye-overview-migrant-situation-migrant-presence-monitoring-quarterly-report-q3-july-august-september-2026",
+        "source": "International Organization for Migration"
+      },
+      {
+        "title": "Atrocity Alert No. 503: Israel and the Occupied Palestinian Territory, Ethiopia and Afghanistan",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/atrocity-alert-no-503-israel-and-occupied-palestinian-territory-ethiopia-and-afghanistan",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
       {
         "title": "History of UNHCR in Türkiye 1960 to 2026",
         "date": "2026-11-18",
         "url": "https://reliefweb.int/report/turkiye/history-unhcr-turkiye-1960-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "World Vision Iraq: Climate Resilience Capacity Statement",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/iraq/world-vision-iraq-climate-resilience-capacity-statement",
-        "source": "World Vision"
-      },
-      {
-        "title": "Climate Resilience in Iraq: World Vision's Approach and Impact",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/iraq/climate-resilience-iraq-world-visions-approach-and-impact",
-        "source": "World Vision"
       }
     ],
     "kashmir": [
@@ -409,16 +409,16 @@
         "source": "World Health Organization"
       },
       {
+        "title": "Standard Operating Procedures for Prevention of and Response to Gender-Based Violence in Borno State, Nigeria",
+        "date": "2026-11-12",
+        "url": "https://reliefweb.int/report/nigeria/standard-operating-procedures-prevention-and-response-gender-based-violence-borno-state-nigeria",
+        "source": "Gender Based Violence Area of Responsibility"
+      },
+      {
         "title": "UNHCR Niger Factsheet, January - September 2026",
         "date": "2026-11-10",
         "url": "https://reliefweb.int/report/niger/unhcr-niger-factsheet-january-september-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "A world away from COP31, here’s how Lake Chad farmers are fighting for food security",
-        "date": "2026-11-06",
-        "url": "https://reliefweb.int/report/world/world-away-cop31-heres-how-lake-chad-farmers-are-fighting-food-security",
-        "source": "Canadian Lutheran World Relief"
       }
     ],
     "lebanon": [
@@ -443,6 +443,12 @@
     ],
     "libya": [
       {
+        "title": "UNHCR Multi-Country Office for Italy, The Holy See, Malta and San Marino Quarterly Update (July - September 2026)",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/italy/unhcr-multi-country-office-italy-holy-see-malta-and-san-marino-quarterly-update-july-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
         "title": "2025 Annual Report: Libya: Division Entrenches Violations and Undermines Accountability [EN/AR]",
         "date": "2026-11-18",
         "url": "https://reliefweb.int/report/libya/2025-annual-report-libya-division-entrenches-violations-and-undermines-accountability-enar",
@@ -453,15 +459,15 @@
         "date": "2026-11-18",
         "url": "https://reliefweb.int/report/libya/cost-eu-libya-migration-cooperation-egregious-human-rights-violations-against-migrants-refugees-and-asylum-seekers-enar",
         "source": "Libya Crimes Watch"
-      },
-      {
-        "title": "World: Civil society call for support for the resolution on human rights defenders at the 81st session of the UN General Assembly",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/civil-society-call-support-resolution-human-rights-defenders-81st-session-un-general-assembly",
-        "source": "Amnesty International"
       }
     ],
     "madagascar": [
+      {
+        "title": "World: Global Weather Hazards Summary, November 19, 2026 - November 25, 2026",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-19-2026-november-25-2026",
+        "source": "Famine Early Warning System Network"
+      },
       {
         "title": "World: Civil society call for support for the resolution on human rights defenders at the 81st session of the UN General Assembly",
         "date": "2026-11-17",
@@ -473,72 +479,66 @@
         "date": "2026-11-17",
         "url": "https://reliefweb.int/report/world/food-assistance-outlook-brief-november-2026",
         "source": "Famine Early Warning System Network"
-      },
-      {
-        "title": "Botswana: Southern Africa and Indian Ocean (SAIO) region | 2026-2027 tropical cyclone season multi-model forecast - DG ECHO Daily Map | 16/11/2026",
-        "date": "2026-11-16",
-        "url": "https://reliefweb.int/map/botswana/southern-africa-and-indian-ocean-saio-region-2026-2027-tropical-cyclone-season-multi-model-forecast-dg-echo-daily-map-16112026",
-        "source": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations"
       }
     ],
     "mali": [
       {
-        "title": "GIEWS Country Brief: Côte d'Ivoire, 16-November-2026",
+        "title": "World: EU and UNDP Expand Partnership to Strengthen Local Conflict Prevention and Peacebuilding",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/eu-and-undp-expand-partnership-strengthen-local-conflict-prevention-and-peacebuilding",
+        "source": "UN Development Programme"
+      },
+      {
+        "title": "UNHCR Mauritania - Refugee Population Overview - As of 31 October 2026",
         "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/cote-divoire/giews-country-brief-cote-divoire-16-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "url": "https://reliefweb.int/report/mauritania/unhcr-mauritania-refugee-population-overview-31-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "World: Civil society call for support for the resolution on human rights defenders at the 81st session of the UN General Assembly",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/civil-society-call-support-resolution-human-rights-defenders-81st-session-un-general-assembly",
-        "source": "Amnesty International"
-      },
-      {
-        "title": "World: COP31 : près de 90 millions de personnes déplacées sont exposées à de graves risques climatiques, alerte le HCR",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/cop31-pres-de-90-millions-de-personnes-deplacees-sont-exposees-de-graves-risques-climatiques-alerte-le-hcr",
+        "title": "UNHCR Tunisia: Continuous Registration and Identity Management (as of 31 October 2026)",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/tunisia/unhcr-tunisia-continuous-registration-and-identity-management-31-october-2026",
         "source": "UN High Commissioner for Refugees"
       }
     ],
     "mozambique": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "Quarter of a Million Landmines Removed from Zimbabwe - The HALO Trust has destroyed four mines per person in north-east Zimbabwe",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/zimbabwe/quarter-million-landmines-removed-zimbabwe-halo-trust-has-destroyed-four-mines-person-north-east-zimbabwe",
+        "source": "HALO Trust"
       },
       {
-        "title": "MSF MOZAMBIQUE: Teams bring healthcare closer to communities as barriers to care persist",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/mozambique/msf-mozambique-teams-bring-healthcare-closer-communities-barriers-care-persist",
-        "source": "Médecins Sans Frontières"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "World: Food Assistance Outlook Brief, November 2026",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/food-assistance-outlook-brief-november-2026",
+        "title": "World: Global Weather Hazards Summary, November 19, 2026 - November 25, 2026",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-19-2026-november-25-2026",
         "source": "Famine Early Warning System Network"
       }
     ],
     "myanmar": [
       {
-        "title": "Myanmar Situation Analysis: (Period: 26/10/2026 - 1/11/2026)",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/myanmar/myanmar-situation-analysis-period-26102026-1112026",
-        "source": "Data Friendly Space"
-      },
-      {
-        "title": "Bangladesh: Les coupes budgétaires accroissent les risques de traite et d’exploitation pour les réfugiés, en particulier les enfants, alertent le HCR et l’Université d’Oxford",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/bangladesh/les-coupes-budgetaires-accroissent-les-risques-de-traite-et-dexploitation-pour-les-refugies-en-particulier-les-enfants-alertent-le-hcr-et-luniversite-doxford",
+        "title": "Bangladesh: Estudios de ACNUR y la Universidad de Oxford advierten que el recorte de fondos aumenta el riesgo de que los refugiados sean víctimas de trata y explotación infantil",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/bangladesh/estudios-de-acnur-y-la-universidad-de-oxford-advierten-que-el-recorte-de-fondos-aumenta-el-riesgo-de-que-los-refugiados-sean-victimas-de-trata-y-explotacion-infantil",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Vanuatu: Five Schools Designed to Keep Children Learning When Climate Disasters Strike",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/vanuatu/five-schools-designed-keep-children-learning-when-climate-disasters-strike",
-        "source": "Save the Children"
+        "title": "Atrocity Alert No. 503: Israel and the Occupied Palestinian Territory, Ethiopia and Afghanistan",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/atrocity-alert-no-503-israel-and-occupied-palestinian-territory-ethiopia-and-afghanistan",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
+      {
+        "title": "MSF statement on ICJ judgment in The Gambia vs Myanmar",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/myanmar/msf-statement-icj-judgment-gambia-vs-myanmar",
+        "source": "Médecins Sans Frontières"
       }
     ],
     "nagorno-karabakh": [
@@ -583,22 +583,22 @@
     ],
     "nigeria": [
       {
-        "title": "World: MSF calls for stronger AMR response to protect people affected by conflict",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/msf-calls-stronger-amr-response-protect-people-affected-conflict",
-        "source": "Médecins Sans Frontières"
+        "title": "October 2026 Northeast Nigeria Nutrition Sector Coordination Meeting Minutes",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/nigeria/october-2026-northeast-nigeria-nutrition-sector-coordination-meeting-minutes",
+        "source": "Action Against Hunger"
       },
       {
-        "title": "Nigeria: NCDC Lassa Fever Situation Report Epi Week 44: 26th October – 1st November 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/nigeria/ncdc-lassa-fever-situation-report-epi-week-44-26th-october-1st-november-2026",
-        "source": "Government of Nigeria"
+        "title": "WHO Weekly Situation Update on Ongoing Health Emergency Events in South Sudan - Week #46, Date: 9 – 15 Nov 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/south-sudan/who-weekly-situation-update-ongoing-health-emergency-events-south-sudan-week-46-date-9-15-nov-2026",
+        "source": "World Health Organization"
       },
       {
-        "title": "World: Civil society call for support for the resolution on human rights defenders at the 81st session of the UN General Assembly",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/civil-society-call-support-resolution-human-rights-defenders-81st-session-un-general-assembly",
-        "source": "Amnesty International"
+        "title": "Ebola Bundibugyo virus disease outbreak: Democratic Republic of the Congo | Kenya | Nigeria Weekly External Situation Report 27, Data as of 15 November 2026",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-kenya-nigeria-weekly-external-situation-report-27-data-15-november-2026",
+        "source": "World Health Organization"
       }
     ],
     "north-korea": [
@@ -643,6 +643,12 @@
     ],
     "pakistan-floods": [
       {
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
         "title": "Children on the Move Research Study, Afghanistan",
         "date": "2026-11-18",
         "url": "https://reliefweb.int/report/afghanistan/children-move-research-study-afghanistan",
@@ -653,75 +659,75 @@
         "date": "2026-11-17",
         "url": "https://reliefweb.int/report/vanuatu/five-schools-designed-keep-children-learning-when-climate-disasters-strike",
         "source": "Save the Children"
-      },
-      {
-        "title": "Afghanistan: Asia and the Pacific Regional Humanitarian Overview 2026 (As of 11 November 2026)",
-        "date": "2026-11-11",
-        "url": "https://reliefweb.int/report/afghanistan/asia-and-pacific-regional-humanitarian-overview-2026-11-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "palestine": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "oPt: West Bank Protection Cluster Snapshot | Protection Monitoring | Reporting Period 1 Aug – 30 Sept 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-protection-cluster-snapshot-protection-monitoring-reporting-period-1-aug-30-sept-2026",
+        "source": "Protection Cluster"
       },
       {
-        "title": "oPt: Gaza's Education Crisis: A System-Wide Collapse Threatening an Entire Generation",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/gazas-education-crisis-system-wide-collapse-threatening-entire-generation",
-        "source": "American Near East Refugee Aid"
+        "title": "oPt: One Year on, Gaza’s ‘Peace Plan’ has Failed, Delivering More Death, Displacement, Despair - Humanitarian Scorecard",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/one-year-gazas-peace-plan-has-failed-delivering-more-death-displacement-despair-humanitarian-scorecard",
+        "source": "Save the Children"
       },
       {
-        "title": "oPt Emergency Situation Update 176 - Issue 74 - 7 Oct 2023 - 31 Oct 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/opt-emergency-situation-update-176-issue-74-7-oct-2023-31-oct-2026",
-        "source": "World Health Organization"
+        "title": "oPt: Beyond Compliance: Strengthening Environmental, Social, Governance and Technical Assurance in Fragile Contexts for Accountable Delivery and Sustainable Impact (Project Insight Note #17)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/beyond-compliance-strengthening-environmental-social-governance-and-technical-assurance-fragile-contexts-accountable-delivery-and-sustainable-impact-project-insight-note-17",
+        "source": "International Water Management Institute"
       }
     ],
     "rohingya": [
       {
-        "title": "World: Amid alarming numbers of deaths at sea, UNHCR seeks urgent action to save lives and strengthen protection",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/amid-alarming-numbers-deaths-sea-unhcr-seeks-urgent-action-save-lives-and-strengthen-protection",
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
+        "title": "Bangladesh: Estudios de ACNUR y la Universidad de Oxford advierten que el recorte de fondos aumenta el riesgo de que los refugiados sean víctimas de trata y explotación infantil",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/bangladesh/estudios-de-acnur-y-la-universidad-de-oxford-advierten-que-el-recorte-de-fondos-aumenta-el-riesgo-de-que-los-refugiados-sean-victimas-de-trata-y-explotacion-infantil",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Bangladesh: Funding cuts put refugees at greater risk of trafficking and child exploitation, UNHCR-Oxford studies warn",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/bangladesh/funding-cuts-put-refugees-greater-risk-trafficking-and-child-exploitation-unhcr-oxford-studies-warn",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Vanuatu: Five Schools Designed to Keep Children Learning When Climate Disasters Strike",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/vanuatu/five-schools-designed-keep-children-learning-when-climate-disasters-strike",
-        "source": "Save the Children"
+        "title": "MSF statement on ICJ judgment in The Gambia vs Myanmar",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/myanmar/msf-statement-icj-judgment-gambia-vs-myanmar",
+        "source": "Médecins Sans Frontières"
       }
     ],
     "russia": [
       {
-        "title": "EU solidarity with Ukraine - Factsheet, November 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/ukraine/eu-solidarity-ukraine-factsheet-november-2026",
-        "source": "European Commission"
+        "title": "DTM Serbia: Migration Data and Routes Quarterly Report (July - September 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/serbia/dtm-serbia-migration-data-and-routes-quarterly-report-july-september-2026",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "Ukraine: Protection of Civilians in Armed Conflict - October 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/ukraine/ukraine-protection-civilians-armed-conflict-october-2026",
-        "source": "UN Office of the High Commissioner for Human Rights"
+        "title": "Serbia — Migracioni Podaci i Rute Q3 (Jul–Septembar 2026) [SR]",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/serbia/serbia-migracioni-podaci-i-rute-q3-jul-septembar-2026-sr",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "Russia's War on Ukraine | UCMP MEDEVA Operations - DG ECHO Daily Map | 17/11/2026",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/map/ukraine/russias-war-ukraine-ucmp-medeva-operations-dg-echo-daily-map-17112026",
-        "source": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations"
+        "title": "Ukraine war situation update | 31 October – 6 November 2026",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-31-october-6-november-2026",
+        "source": "Armed Conflict Location &amp; Event Data"
       }
     ],
     "sahel": [
+      {
+        "title": "World: Oxfam reaction to the inadequate pledges to the Adaptation Fund High-Level Contributor Dialogue",
+        "date": "2026-11-18",
+        "url": "https://reliefweb.int/report/world/oxfam-reaction-inadequate-pledges-adaptation-fund-high-level-contributor-dialogue",
+        "source": "Oxfam"
+      },
       {
         "title": "GIEWS Country Brief: Côte d'Ivoire, 16-November-2026",
         "date": "2026-11-18",
@@ -733,12 +739,6 @@
         "date": "2026-11-17",
         "url": "https://reliefweb.int/report/togo/wfp-togo-country-brief-november-2026",
         "source": "World Food Programme"
-      },
-      {
-        "title": "World: COP31 : près de 90 millions de personnes déplacées sont exposées à de graves risques climatiques, alerte le HCR",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/world/cop31-pres-de-90-millions-de-personnes-deplacees-sont-exposees-de-graves-risques-climatiques-alerte-le-hcr",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "sahrawi-refugees": [
@@ -803,82 +803,82 @@
     ],
     "somalia": [
       {
-        "title": "Somalia: FSNWG Special Report - El Niño 2026 - 2027 Sense-Making Session Brief (16 November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/somalia/fsnwg-special-report-el-nino-2026-2027-sense-making-session-brief-16-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "title": "UNICEF Somalia Humanitarian Situation Report No.3, 1 July - 30 September 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/somalia/unicef-somalia-humanitarian-situation-report-no3-1-july-30-september-2026",
+        "source": "UN Children's Fund"
       },
       {
-        "title": "Somalia - Emergency Trend Tracking (ETT) - 16 Districts assessed | Week 20 ( 07 - 11 November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-ett-16-districts-assessed-week-20-07-11-november-2026",
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
+      {
+        "title": "Ethiopia — Flow Monitoring Snapshot Report (1 - 30 June 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/ethiopia/ethiopia-flow-monitoring-snapshot-report-1-30-june-2026",
         "source": "International Organization for Migration"
-      },
-      {
-        "title": "DR Congo: République Démocratique du Congo - Détermination du Statut de Réfugié (DSR) au 31 octobre 2026",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-determination-du-statut-de-refugie-dsr-au-31-octobre-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "south-sudan": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 31 octobre 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-31-octobre-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "World: MSF calls for stronger AMR response to protect people affected by conflict",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/msf-calls-stronger-amr-response-protect-people-affected-conflict",
-        "source": "Médecins Sans Frontières"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "In South Sudan, New Lifelines for Mothers and Babies",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-new-lifelines-mothers-and-babies",
-        "source": "Direct Relief"
+        "title": "WHO Weekly Situation Update on Ongoing Health Emergency Events in South Sudan - Week #46, Date: 9 – 15 Nov 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/south-sudan/who-weekly-situation-update-ongoing-health-emergency-events-south-sudan-week-46-date-9-15-nov-2026",
+        "source": "World Health Organization"
       }
     ],
     "sudan": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "WFP Sudan Monthly Snapshot - October 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/sudan/wfp-sudan-monthly-snapshot-october-2026",
+        "source": "World Food Programme"
       },
       {
-        "title": "Drone strikes in Sudan leave children with nowhere to escape as conflict worsens",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/sudan/drone-strikes-sudan-leave-children-nowhere-escape-conflict-worsens",
-        "source": "World Vision"
+        "title": "WFP Sudan Country Brief - November 2026",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/sudan/wfp-sudan-country-brief-november-2026",
+        "source": "World Food Programme"
       },
       {
-        "title": "World: MSF calls for stronger AMR response to protect people affected by conflict",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/msf-calls-stronger-amr-response-protect-people-affected-conflict",
-        "source": "Médecins Sans Frontières"
+        "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 31 octobre 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-31-octobre-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "syria": [
       {
-        "title": "World: Start Fund Monthly Risk Bulletin (Issued: November 2026)",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/start-fund-monthly-risk-bulletin-issued-november-2026",
-        "source": "Start Network"
+        "title": "Quarter of a Million Landmines Removed from Zimbabwe - The HALO Trust has destroyed four mines per person in north-east Zimbabwe",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/zimbabwe/quarter-million-landmines-removed-zimbabwe-halo-trust-has-destroyed-four-mines-person-north-east-zimbabwe",
+        "source": "HALO Trust"
       },
       {
-        "title": "History of UNHCR in Türkiye 1960 to 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/turkiye/history-unhcr-turkiye-1960-2026",
-        "source": "UN High Commissioner for Refugees"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "EU advances Syrian recovery and reconstruction through Syria Partnership Coordination Forum in Damascus",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/syrian-arab-republic/eu-advances-syrian-recovery-and-reconstruction-through-syria-partnership-coordination-forum-damascus",
-        "source": "European Commission"
+        "title": "MPM Türkiye Overview of Migrant Situation: Migrant Presence Monitoring Quarterly Report Q3 - July, August, September 2026)",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/turkiye/mpm-turkiye-overview-migrant-situation-migrant-presence-monitoring-quarterly-report-q3-july-august-september-2026",
+        "source": "International Organization for Migration"
       }
     ],
     "tamils-sri-lanka": [
@@ -943,22 +943,22 @@
     ],
     "ukraine": [
       {
-        "title": "Ukraine Crisis Response Situation | September 2026 Fact Sheet",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/ukraine/ukraine-crisis-response-situation-september-2026-fact-sheet",
-        "source": "World Vision"
+        "title": "Quarter of a Million Landmines Removed from Zimbabwe - The HALO Trust has destroyed four mines per person in north-east Zimbabwe",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/zimbabwe/quarter-million-landmines-removed-zimbabwe-halo-trust-has-destroyed-four-mines-person-north-east-zimbabwe",
+        "source": "HALO Trust"
       },
       {
-        "title": "EU solidarity with Ukraine - Factsheet, November 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/ukraine/eu-solidarity-ukraine-factsheet-november-2026",
-        "source": "European Commission"
+        "title": "World: Children affected by armed conflict, 1990–2025",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/children-affected-armed-conflict-1990-2025",
+        "source": "Peace Research Institute Oslo"
       },
       {
-        "title": "Ukraine: Protection of Civilians in Armed Conflict - October 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/ukraine/ukraine-protection-civilians-armed-conflict-october-2026",
-        "source": "UN Office of the High Commissioner for Human Rights"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       }
     ],
     "uyghurs": [
@@ -1023,22 +1023,22 @@
     ],
     "yemen": [
       {
-        "title": "Yemen Dispatch Situation Overview September 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/yemen/yemen-dispatch-situation-overview-september-2026",
-        "source": "International Organization for Migration"
+        "title": "Yemen SLSC Situation Update - 17 November 2026 - DTM Displacement Data",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/yemen/yemen-slsc-situation-update-17-november-2026-dtm-displacement-data",
+        "source": "CCCM Cluster"
       },
       {
-        "title": "At least 64 children killed and 64 injured in Yemen as intensified hostilities approach three-month mark",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/yemen/least-64-children-killed-and-64-injured-yemen-intensified-hostilities-approach-three-month-mark",
-        "source": "UN Children's Fund"
+        "title": "Quarter of a Million Landmines Removed from Zimbabwe - The HALO Trust has destroyed four mines per person in north-east Zimbabwe",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/zimbabwe/quarter-million-landmines-removed-zimbabwe-halo-trust-has-destroyed-four-mines-person-north-east-zimbabwe",
+        "source": "HALO Trust"
       },
       {
-        "title": "Yemen - Alert: A prolonged, tightened siege would likely lead to Famine (IPC Phase 5) in Ta’izz City (November 17, 2026)",
-        "date": "2026-11-17",
-        "url": "https://reliefweb.int/report/yemen/yemen-alert-prolonged-tightened-siege-would-likely-lead-famine-ipc-phase-5-taizz-city-november-17-2026",
-        "source": "Famine Early Warning System Network"
+        "title": "World: Shelter Projects, 10th edition: Case studies of humanitarian shelter and settlement responses until 2024",
+        "date": "2026-11-19",
+        "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       }
     ]
   }
