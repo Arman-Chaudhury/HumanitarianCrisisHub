@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "crises": {
     "aboriginal-australians": [
       {
@@ -43,22 +43,22 @@
     ],
     "afghanistan": [
       {
+        "title": "Afghanistan’s assault on the rights of women and girls continues, as growing restrictions impact access to healthcare",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/afghanistan/afghanistans-assault-rights-women-and-girls-continues-growing-restrictions-impact-access-healthcare",
+        "source": "UN Women"
+      },
+      {
+        "title": "SRSG Rabab Fatima completes initial provincial visits across Afghanistan | United Nations Peace Operations",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/afghanistan/srsg-rabab-fatima-completes-initial-provincial-visits-across-afghanistan-united-nations-peace-operations",
+        "source": "UN Assistance Mission in Afghanistan"
+      },
+      {
         "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
         "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "Yemen: Escalation in the Middle East and Beyond — Mobility Report (03 to 16 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/yemen/escalation-middle-east-and-beyond-mobility-report-03-16-november-2026",
-        "source": "International Organization for Migration"
-      },
-      {
-        "title": "DTM Pakistan: Bi-Weekly Flow Monitoring of Afghan Nationals (16 – 31 October 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/pakistan/dtm-pakistan-bi-weekly-flow-monitoring-afghan-nationals-16-31-october-2026",
-        "source": "International Organization for Migration"
       }
     ],
     "amazon-indigenous": [
@@ -143,82 +143,82 @@
     ],
     "burkina-faso": [
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Bulletin de surveillance pastorale sur le Burkina Faso N°33 (août-septembre 2026)",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/burkina-faso/bulletin-de-surveillance-pastorale-sur-le-burkina-faso-ndeg33-aout-septembre-2026",
-        "source": "Action contre la Faim France"
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "Mali: HDP Nexus Programming in the Sahel: Partnering for Social Cohesion in a Changing Geopolitical and Aid Landscape",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/mali/hdp-nexus-programming-sahel-partnering-social-cohesion-changing-geopolitical-and-aid-landscape",
-        "source": "Stockholm International Peace Research Institute"
+        "title": "Burkina Faso : Aperçu du financement du Plan de réponse humanitaire (HNRP) 2026 (16 novembre 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-du-financement-du-plan-de-reponse-humanitaire-hnrp-2026-16-novembre-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "cameroon": [
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Anticipatory Action Plan (AAP) for Riverine Floods – Southwest Region Cameroon",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/cameroon/anticipatory-action-plan-aap-riverine-floods-southwest-region-cameroon",
-        "source": "Christian Blind Mission"
-      },
-      {
-        "title": "Cameroon: North-West and South-West Situation Report No.87, July to September 2026",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/cameroon/cameroon-north-west-and-south-west-situation-report-no87-july-september-2026",
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
         "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Operational Update - Central African Republic - July - September 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/central-african-republic/operational-update-central-african-republic-july-september-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "central-african-republic": [
       {
-        "title": "UNHCR CAR Operational Update September",
+        "title": "Central African Republic: Situation Report No. 94, as of 17 November 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/central-african-republic/unhcr-car-operational-update-september",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-94-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "CAR: HCR RCA Mise à jour opérationnelle septembre 2026",
+        "title": "CAR: République centrafricaine : Rapport de situation N° 94 au 17 novembre 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/central-african-republic/hcr-rca-mise-jour-operationnelle-septembre-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg-94-au-17-novembre-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "chad": [
       {
-        "title": "Chad : Humanitarian Situation in Lac Situation Report N° 02 (30 October 2026)",
+        "title": "Central African Republic: Situation Report No. 94, as of 17 November 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/chad/chad-humanitarian-situation-lac-situation-report-ndeg-02-30-october-2026",
-        "source": "CCCM Cluster"
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-94-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
         "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "colombia": [
@@ -243,25 +243,31 @@
     ],
     "congo": [
       {
-        "title": "South Sudan Situation: UNHCR External Update #14 - September 2026",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-14-september-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "South Sudan Situation: UNHCR External Update #13 - August 2026",
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-13-august-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "DR Congo: Cluster Protection RDC : Aperçu des violations et abus des droits humains dans la province du Nord-Kivu, octobre 2026",
+        "title": "DR Congo: The Bundibugyo Ebola Outbreak in Africa: Six-Month Situation and Response Report",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-apercu-des-violations-et-abus-des-droits-humains-dans-la-province-du-nord-kivu-octobre-2026",
-        "source": "Protection Cluster"
+        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-outbreak-africa-six-month-situation-and-response-report",
+        "source": "Africa Centres for Disease Control and Prevention"
       }
     ],
     "eritrea": [
+      {
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
       {
         "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
         "date": "2026-11-20",
@@ -273,52 +279,46 @@
         "date": "2026-11-19",
         "url": "https://reliefweb.int/report/sudan/climate-watch-advisory-evolving-dry-conditions-northern-parts-eastern-africa-issued-21-october-2026",
         "source": "Intergovernmental Authority on Development"
-      },
-      {
-        "title": "Bangladesh: Estudios de ACNUR y la Universidad de Oxford advierten que el recorte de fondos aumenta el riesgo de que los refugiados sean víctimas de trata y explotación infantil",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/bangladesh/estudios-de-acnur-y-la-universidad-de-oxford-advierten-que-el-recorte-de-fondos-aumenta-el-riesgo-de-que-los-refugiados-sean-victimas-de-trata-y-explotacion-infantil",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "ethiopia": [
+      {
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Sudan Population Movements from Sudan - 16 November 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/sudan/sudan-population-movements-sudan-16-november-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
       {
         "title": "South Sudan Situation: UNHCR External Update #14 - September 2026",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-14-september-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "South Sudan Situation: UNHCR External Update #13 - August 2026",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-13-august-2026",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
       }
     ],
     "haiti": [
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "Ecuador: Latin America & The Caribbean Weekly Situation Update as of 20 November 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "url": "https://reliefweb.int/report/ecuador/latin-america-caribbean-weekly-situation-update-20-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "Haiti: Kenscoff violence highlights continued risk of killing, abduction and other abuses against children by gangs – new research",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/haiti/haiti-kenscoff-violence-highlights-continued-risk-killing-abduction-and-other-abuses-against-children-gangs-new-research",
-        "source": "Amnesty International"
+        "title": "Ecuador: Latinoamérica y El Caribe Resumen de Situación Semanal al 20 de noviembre 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/ecuador/latinoamerica-y-el-caribe-resumen-de-situacion-semanal-al-20-de-noviembre-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "Venezuela: Nuevas rutas migratorias cobran fuerza en América del Sur mientras los cruces por el Darién caen un 90 %, según la OIM",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/nuevas-rutas-migratorias-cobran-fuerza-en-america-del-sur-mientras-los-cruces-por-el-darien-caen-un-90-segun-la-oim",
-        "source": "International Organization for Migration"
+        "title": "Haiti: Haïti : Cluster Abris, Terre et Coordination des Sites (SLSC) – Aperçu mensuel, octobre 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/haiti/haiti-cluster-abris-terre-et-coordination-des-sites-slsc-apercu-mensuel-octobre-2026",
+        "source": "CCCM Cluster"
       }
     ],
     "horn-of-africa-drought": [
@@ -343,6 +343,12 @@
     ],
     "iran": [
       {
+        "title": "Afghanistan’s assault on the rights of women and girls continues, as growing restrictions impact access to healthcare",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/afghanistan/afghanistans-assault-rights-women-and-girls-continues-growing-restrictions-impact-access-healthcare",
+        "source": "UN Women"
+      },
+      {
         "title": "Pakistan | Joint IOM and UNHCR border monitoring report on inflows from the Islamic Republic of Iran #27 (1 Mar - 19 Nov 2026)",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/pakistan/pakistan-joint-iom-and-unhcr-border-monitoring-report-inflows-islamic-republic-iran-27-1-mar-19-nov-2026",
@@ -353,12 +359,6 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/yemen/escalation-middle-east-and-beyond-mobility-report-03-16-november-2026",
         "source": "International Organization for Migration"
-      },
-      {
-        "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "iraq": [
@@ -403,6 +403,12 @@
     ],
     "lake-chad": [
       {
+        "title": "Central African Republic: Situation Report No. 94, as of 17 November 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-94-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
         "title": "World: Statement of the Forty-sixth Meeting of the Polio IHR Emergency Committee (13 November 2026)",
         "date": "2026-11-16",
         "url": "https://reliefweb.int/report/world/statement-forty-sixth-meeting-polio-ihr-emergency-committee-13-november-2026",
@@ -413,35 +419,35 @@
         "date": "2026-11-12",
         "url": "https://reliefweb.int/report/nigeria/standard-operating-procedures-prevention-and-response-gender-based-violence-borno-state-nigeria",
         "source": "Gender Based Violence Area of Responsibility"
-      },
-      {
-        "title": "UNHCR Niger Factsheet, January - September 2026",
-        "date": "2026-11-10",
-        "url": "https://reliefweb.int/report/niger/unhcr-niger-factsheet-january-september-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "lebanon": [
+      {
+        "title": "Lebanon: Inter-Agency Response Update - (15 November 2026)",
+        "date": "2026-11-21",
+        "url": "https://reliefweb.int/report/lebanon/lebanon-inter-agency-response-update-15-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Lebanon Situation Analysis: [2/11/2026] - [8/11/2026]",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/lebanon/lebanon-situation-analysis-2112026-8112026",
+        "source": "Data Friendly Space"
+      },
       {
         "title": "WFP Lebanon Country Brief, November 2026",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/lebanon/wfp-lebanon-country-brief-november-2026",
         "source": "World Food Programme"
-      },
-      {
-        "title": "Lebanon: RAIS Cumulative Assistance Summary – January to October 2026",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/lebanon/rais-cumulative-assistance-summary-january-october-2026",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Lebanon: Gender-Based Violence Information Management System (GBVIMS) - Midyear Report 2026",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/lebanon/gender-based-violence-information-management-system-gbvims-midyear-report-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "libya": [
+      {
+        "title": "Sudan Population Movements from Sudan - 16 November 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/sudan/sudan-population-movements-sudan-16-november-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
       {
         "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
         "date": "2026-11-20",
@@ -453,75 +459,75 @@
         "date": "2026-11-18",
         "url": "https://reliefweb.int/report/italy/unhcr-multi-country-office-italy-holy-see-malta-and-san-marino-quarterly-update-july-september-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "2025 Annual Report: Libya: Division Entrenches Violations and Undermines Accountability [EN/AR]",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/libya/2025-annual-report-libya-division-entrenches-violations-and-undermines-accountability-enar",
-        "source": "Libya Crimes Watch"
       }
     ],
     "madagascar": [
       {
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
         "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
         "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "Madagascar: Southern Africa: El Niño Status and Humanitarian Impacts (October 2026)",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/madagascar/southern-africa-el-nino-status-and-humanitarian-impacts-october-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "World: Global Weather Hazards Summary, November 19, 2026 - November 25, 2026",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-19-2026-november-25-2026",
-        "source": "Famine Early Warning System Network"
       }
     ],
     "mali": [
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "UNFPA Situation Report: Crisis in Mali - October 2026",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/mali/unfpa-situation-report-crisis-mali-october-2026",
-        "source": "United Nations Population Fund"
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Côte d'Ivoire: WFP Côte d’Ivoire Country Brief, September 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/cote-divoire/wfp-cote-divoire-country-brief-september-2026",
+        "source": "World Food Programme"
       }
     ],
     "mozambique": [
       {
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
         "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
         "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "Mozambique — Emergency Tracking Tool Report — Movement Alert #171 (17 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/mozambique/mozambique-emergency-tracking-tool-report-movement-alert-171-17-november-2026",
-        "source": "International Organization for Migration"
-      },
-      {
-        "title": "Madagascar: Southern Africa: El Niño Status and Humanitarian Impacts (October 2026)",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/madagascar/southern-africa-el-nino-status-and-humanitarian-impacts-october-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "myanmar": [
+      {
+        "title": "Myanmar Situation Analysis: 2/11/2026 - 8/11/2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/myanmar/myanmar-situation-analysis-2112026-8112026",
+        "source": "Data Friendly Space"
+      },
       {
         "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
         "date": "2026-11-20",
@@ -533,12 +539,6 @@
         "date": "2026-11-19",
         "url": "https://reliefweb.int/report/myanmar/un-special-representative-secretary-general-sexual-violence-conflict-pramila-patten-welcomes-landmark-judgment-international-court-justice-genocide-against-rohingya",
         "source": "UN Office of the SRSG on Sexual Violence in Conflict"
-      },
-      {
-        "title": "Myanmar: ICJ judgment marks historic step towards justice for the Rohingya [EN/MY]",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/myanmar/icj-judgment-marks-historic-step-towards-justice-rohingya-enmy",
-        "source": "UN Human Rights Council"
       }
     ],
     "nagorno-karabakh": [
@@ -563,42 +563,42 @@
     ],
     "niger": [
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Mali: HDP Nexus Programming in the Sahel: Partnering for Social Cohesion in a Changing Geopolitical and Aid Landscape",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/mali/hdp-nexus-programming-sahel-partnering-social-cohesion-changing-geopolitical-and-aid-landscape",
-        "source": "Stockholm International Peace Research Institute"
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Burkina Faso: Production de biomasse en 2026 - Analyses et perspectives pour 2027",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/burkina-faso/production-de-biomasse-en-2026-analyses-et-perspectives-pour-2027",
+        "source": "Action contre la Faim France"
       }
     ],
     "nigeria": [
       {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "October 2026 Northeast Nigeria Nutrition Sector Coordination Meeting Minutes",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/nigeria/october-2026-northeast-nigeria-nutrition-sector-coordination-meeting-minutes",
-        "source": "Action Against Hunger"
+        "title": "DR Congo: Africa: UN Agency Regional Offices Division (As of 17 November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "WHO Weekly Situation Update on Ongoing Health Emergency Events in South Sudan - Week #46, Date: 9 – 15 Nov 2026",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/south-sudan/who-weekly-situation-update-ongoing-health-emergency-events-south-sudan-week-46-date-9-15-nov-2026",
-        "source": "World Health Organization"
+        "title": "DR Congo: The Bundibugyo Ebola Outbreak in Africa: Six-Month Situation and Response Report",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-outbreak-africa-six-month-situation-and-response-report",
+        "source": "Africa Centres for Disease Control and Prevention"
       }
     ],
     "north-korea": [
@@ -663,22 +663,22 @@
     ],
     "palestine": [
       {
-        "title": "oPt: One Year On, Gaza’s ‘Peace Plan’ Has Failed, Delivering More Death, Displacement, Despair – Humanitarian Scorecard",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/one-year-gazas-peace-plan-has-failed-delivering-more-death-displacement-despair-humanitarian-scorecard-0",
-        "source": "Islamic Relief"
+        "title": "oPt: WFP Palestine External Situation Report, 21 November (Reporting Period: 1- 31 October 2026)",
+        "date": "2026-11-21",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/wfp-palestine-external-situation-report-21-november-reporting-period-1-31-october-2026",
+        "source": "World Food Programme"
       },
       {
-        "title": "oPt: West Bank Protection Cluster Snapshot | Protection Monitoring | Reporting Period 1 Aug – 30 Sept 2026",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-protection-cluster-snapshot-protection-monitoring-reporting-period-1-aug-30-sept-2026",
-        "source": "Protection Cluster"
+        "title": "oPt: Gaza Strip | Learning Spaces Assessment Report (November 2026)",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-strip-learning-spaces-assessment-report-november-2026",
+        "source": "Education Cluster"
       },
       {
-        "title": "oPt: The burden of occupation in the West Bank",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/burden-occupation-west-bank",
-        "source": "Médecins Sans Frontières"
+        "title": "occupied Palestinian territory (oPt) Situation Analysis: [2/11/2026] - [8/11/2026]",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-opt-situation-analysis-2112026-8112026",
+        "source": "Data Friendly Space"
       }
     ],
     "rohingya": [
@@ -803,6 +803,12 @@
     ],
     "somalia": [
       {
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
@@ -813,55 +819,55 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "Kenya: Around 700,000 displaced amid volatile conflict in southern Ethiopia, Islamic Relief says",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/kenya/around-700000-displaced-amid-volatile-conflict-southern-ethiopia-islamic-relief-says",
-        "source": "Islamic Relief"
       }
     ],
     "south-sudan": [
       {
-        "title": "South Sudan Situation: UNHCR External Update #14 - September 2026",
+        "title": "Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 25 May 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-14-september-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-25-may-2026",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "South Sudan Situation: UNHCR External Update #13 - August 2026",
+        "title": "Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 24 June 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-13-august-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-24-june-2026",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "UNHAS South Sudan - Concept of Operations",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/unhas-south-sudan-concept-operations",
-        "source": "World Food Programme"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "sudan": [
       {
-        "title": "UNHCR CAR Operational Update September",
+        "title": "Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 25 May 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/central-african-republic/unhcr-car-operational-update-september",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-25-may-2026",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "CAR: HCR RCA Mise à jour opérationnelle septembre 2026",
+        "title": "Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 24 June 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/central-african-republic/hcr-rca-mise-jour-operationnelle-septembre-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-24-june-2026",
+        "source": "International Organization for Migration"
       },
       {
-        "title": "South Sudan Situation: UNHCR External Update #14 - September 2026",
+        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-situation-unhcr-external-update-14-september-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "syria": [
+      {
+        "title": "Deputy Special Envoy of the Secretary-General for Syria Claudio Cordone Briefing to the Security Council (As Delivered) - 16 November 2026",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/deputy-special-envoy-secretary-general-syria-claudio-cordone-briefing-security-council-delivered-16-november-2026",
+        "source": "UN Office of the Special Envoy for Syria"
+      },
       {
         "title": "WFP Lebanon Country Brief, November 2026",
         "date": "2026-11-20",
@@ -872,12 +878,6 @@
         "title": "Syrian Arab Republic: Population Mobility and Baseline Assessment — Round 20 (01–30 September 2026)",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/syrian-arab-republic/syrian-arab-republic-population-mobility-and-baseline-assessment-round-20-01-30-september-2026",
-        "source": "International Organization for Migration"
-      },
-      {
-        "title": "Yemen: Escalation in the Middle East and Beyond — Mobility Report (03 to 16 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/yemen/escalation-middle-east-and-beyond-mobility-report-03-16-november-2026",
         "source": "International Organization for Migration"
       }
     ],
@@ -943,6 +943,12 @@
     ],
     "ukraine": [
       {
+        "title": "“When a home and even a kindergarten are not safe, where can a child feel safe?” Children in Ukraine face mounting casualties and relentless attacks",
+        "date": "2026-11-20",
+        "url": "https://reliefweb.int/report/ukraine/when-home-and-even-kindergarten-are-not-safe-where-can-child-feel-safe-children-ukraine-face-mounting-casualties-and-relentless-attacks",
+        "source": "UN Children's Fund"
+      },
+      {
         "title": "Ukraine Cash Working Group: Procedure for Screening and Deduplication via SPOT for Winter GCTs [EN/UK]",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/ukraine/ukraine-cash-working-group-procedure-screening-and-deduplication-spot-winter-gcts-enuk",
@@ -953,12 +959,6 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/ukraine/child-casualties-ukraine-reach-highest-level-almost-four-years-unicef",
         "source": "UN Children's Fund"
-      },
-      {
-        "title": "Ukraine: Гуманітарна ситуація в Україні: оновлення оперативного реагування УВКБ ООН. 18 листопада 2026 р.",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/ukraine/gumanitarna-situaciya-v-ukraini-onovlennya-operativnogo-reaguvannya-uvkb-oon-18-listopada-2026-r",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "uyghurs": [
