@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "crises": {
     "aboriginal-australians": [
       {
@@ -243,6 +243,12 @@
     ],
     "congo": [
       {
+        "title": "DR Congo: Evaluation conjointe des besoins en matière d’Education et Protection RDC-2026",
+        "date": "2026-11-21",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/evaluation-conjointe-des-besoins-en-matiere-deducation-et-protection-rdc-2026",
+        "source": "Education Cluster"
+      },
+      {
         "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
@@ -253,12 +259,6 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/democratic-republic-congo/africa-un-agency-regional-offices-division-17-november-2026",
         "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "DR Congo: The Bundibugyo Ebola Outbreak in Africa: Six-Month Situation and Response Report",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-outbreak-africa-six-month-situation-and-response-report",
-        "source": "Africa Centres for Disease Control and Prevention"
       }
     ],
     "eritrea": [
@@ -843,6 +843,12 @@
     ],
     "sudan": [
       {
+        "title": "Statement by the United Nations Resident and Humanitarian Coordinator in Sudan, Denise Brown, on drone strikes in Khartoum",
+        "date": "2026-11-22",
+        "url": "https://reliefweb.int/report/sudan/statement-united-nations-resident-and-humanitarian-coordinator-sudan-denise-brown-drone-strikes-khartoum",
+        "source": "UN Resident and Humanitarian Coordinator in Sudan"
+      },
+      {
         "title": "Accountability to Affected Populations (AAP) Working Group South Sudan Meeting Minutes - 25 May 2026",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-25-may-2026",
@@ -853,12 +859,6 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/south-sudan/accountability-affected-populations-aap-working-group-south-sudan-meeting-minutes-24-june-2026",
         "source": "International Organization for Migration"
-      },
-      {
-        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "syria": [
@@ -1023,6 +1023,12 @@
     ],
     "yemen": [
       {
+        "title": "Yemen Market and Trade Bulletin October 2026 - Issued on 21st November 2026",
+        "date": "2026-11-21",
+        "url": "https://reliefweb.int/report/yemen/yemen-market-and-trade-bulletin-october-2026-issued-21st-november-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "WFP Djibouti Country Brief November 2026",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/djibouti/wfp-djibouti-country-brief-november-2026",
@@ -1033,12 +1039,6 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/yemen/escalation-middle-east-and-beyond-mobility-report-03-16-november-2026",
         "source": "International Organization for Migration"
-      },
-      {
-        "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
       }
     ]
   }
