@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "crises": {
     "aboriginal-australians": [
       {
@@ -43,21 +43,21 @@
     ],
     "afghanistan": [
       {
-        "title": "Afghanistan: Disminuye el número de afganos registrados en las rutas hacia Europa, pero los viajes siguen siendo largos y costosos",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/disminuye-el-numero-de-afganos-registrados-en-las-rutas-hacia-europa-pero-los-viajes-siguen-siendo-largos-y-costosos",
-        "source": "International Organization for Migration"
+        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Afghanistan: Moins de ressortissants afghans recensés sur les routes migratoires vers l'Europe, mais des parcours qui restent longs et coûteux",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/moins-de-ressortissants-afghans-recenses-sur-les-routes-migratoires-vers-leurope-mais-des-parcours-qui-restent-longs-et-couteux",
-        "source": "International Organization for Migration"
+        "title": "Afghanistan: Impact of the Bans and Restrictions on Women Working for NGOs, INGOs and the UN - Round 16 (October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/afghanistan/afghanistan-impact-bans-and-restrictions-women-working-ngos-ingos-and-un-round-16-october-2026",
+        "source": "Asia Pacific Gender in Humanitarian Action Working Group"
       },
       {
-        "title": "Afghanistan: Fewer Afghans Recorded on Routes to Europe, but Journeys Remain Long and Costly",
+        "title": "Afghanistan: افغانستان - د خلکو د تګ او راتګ په اړه لنډ راپور (د نومبر ۸ څخه تر ۲۱ د نومبر ۲۰۲۶) [Dari/PS]",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/fewer-afghans-recorded-routes-europe-journeys-remain-long-and-costly",
+        "url": "https://reliefweb.int/report/afghanistan/afghanstan-d-khlkw-d-tk-aw-ratk-ph-arh-lnd-rapwr-d-nwmbr-8-hkhh-tr-21-d-nwmbr-2026-darips",
         "source": "International Organization for Migration"
       }
     ],
@@ -103,6 +103,12 @@
     ],
     "bangladesh-climate": [
       {
+        "title": "World: COP31: Are we truly moving from commitments to delivery?",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/world/cop31-are-we-truly-moving-commitments-delivery",
+        "source": "Concern Worldwide"
+      },
+      {
         "title": "COP 31: World leaders fail climate action",
         "date": "2026-11-23",
         "url": "https://reliefweb.int/report/world/cop-31-world-leaders-fail-climate-action",
@@ -113,12 +119,6 @@
         "date": "2026-11-23",
         "url": "https://reliefweb.int/report/world/cop31-ends-without-agreement-leaving-girls-facing-worsening-climate-impacts",
         "source": "Plan International"
-      },
-      {
-        "title": "World: Global Update | November 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/global-update-november-2026-inter-agency-report-global-enso-analysis-cell-el-nino-status-humanitarian-outlook",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
       }
     ],
     "belarus": [
@@ -143,6 +143,12 @@
     ],
     "burkina-faso": [
       {
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
         "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 24th November 2026)",
         "date": "2026-11-24",
         "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-24th-november-2026",
@@ -153,112 +159,106 @@
         "date": "2026-11-24",
         "url": "https://reliefweb.int/report/world/food-nutrition-security-update-november-2026",
         "source": "World Bank"
-      },
-      {
-        "title": "Pays côtiers Benin: Statistiques mensuelles (au 31 octobre 2026)",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/benin/pays-cotiers-benin-statistiques-mensuelles-au-31-octobre-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "cameroon": [
       {
-        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 24th November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-24th-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "Cameroon: Cameroun: Suivi des urgences - Mouvements de populations - Synthèse des déplacements dans le département du Logone-Et-Chari, Tableau de bord #147 (10-18 novembre 2026) | Date de publication : 19 novembre 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/cameroon/cameroun-suivi-des-urgences-mouvements-de-populations-synthese-des-deplacements-dans-le-departement-du-logone-et-chari-tableau-de-bord-147-10-18-novembre-2026-date-de-publication-19-novembre-2026",
-        "source": "International Organization for Migration"
-      },
-      {
-        "title": "Pays côtiers Benin: Statistiques mensuelles (au 31 octobre 2026)",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/benin/pays-cotiers-benin-statistiques-mensuelles-au-31-octobre-2026",
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
         "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
+        "source": "Famine Early Warning System Network"
+      },
+      {
+        "title": "Cameroon Cholera Outbreak: Situation Report #8 (November 25, 2026)",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/cameroon/cameroon-cholera-outbreak-situation-report-8-november-25-2026",
+        "source": "International Medical Corps"
       }
     ],
     "central-african-republic": [
       {
-        "title": "CAR: Vougba-Balifondo: Residents as Key Players in Sustainable Regional Development",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/central-african-republic/vougba-balifondo-residents-key-players-sustainable-regional-development",
-        "source": "Agency for Technical Cooperation and Development"
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "CAR: Mécanisme de réponse humanitaire : République centrafricaine, Bulletin bimestriel (01 septembre - 31 octobre 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/central-african-republic/mecanisme-de-reponse-humanitaire-republique-centrafricaine-bulletin-bimestriel-01-septembre-31-octobre-2026",
-        "source": "REACH Initiative"
+        "title": "CAR: République centrafricaine : Rapport de situation N° 95 au 24 novembre 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg-95-au-24-novembre-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "DR Congo: Afrique de l’Ouest et centrale : Derniers événements en bref (17–23 novembre 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/afrique-de-louest-et-centrale-derniers-evenements-en-bref-17-23-novembre-2026",
+        "title": "Central African Republic: Situation Report No. 95, as of 24 November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-95-24-november-2026",
         "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "chad": [
       {
-        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 24th November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-24th-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "World: Food & Nutrition Security Update (November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/food-nutrition-security-update-november-2026",
-        "source": "World Bank"
-      },
-      {
-        "title": "Pays côtiers Benin: Statistiques mensuelles (au 31 octobre 2026)",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/benin/pays-cotiers-benin-statistiques-mensuelles-au-31-octobre-2026",
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
         "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Tchad: Dashbord du suivi de la réponse du HNRP 2026 (au 30 septembre 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/chad/tchad-dashbord-du-suivi-de-la-reponse-du-hnrp-2026-au-30-septembre-2026",
+        "source": "CCCM Cluster"
+      },
+      {
+        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       }
     ],
     "colombia": [
       {
-        "title": "Humanitarian Action for Children 2026 - Colombia, Revision 1 (November 2026)",
+        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/colombia/humanitarian-action-children-2026-colombia-revision-1-november-2026",
-        "source": "UN Children's Fund"
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
+        "source": "Famine Early Warning System Network"
       },
       {
-        "title": "Argentina: Epidemiological Alert - Mpox in the Americas Region - 24 November 2026",
+        "title": "Pronunciamiento del Equipo Humanitario País sobre la protección de la población civil en Colombia - 25/11/2026",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/argentina/epidemiological-alert-mpox-americas-region-24-november-2026",
-        "source": "Pan American Health Organization"
+        "url": "https://reliefweb.int/report/colombia/pronunciamiento-del-equipo-humanitario-pais-sobre-la-proteccion-de-la-poblacion-civil-en-colombia-25112026",
+        "source": "El Equipo Humanitario País Colombia"
       },
       {
-        "title": "World: 5 ways the Red Cross is institutionalizing anticipatory action in the Americas in 2026",
+        "title": "ACNUR Ecuador: Informe Operacional No. 10 Octubre 2026",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/5-ways-red-cross-institutionalizing-anticipatory-action-americas-2026",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "url": "https://reliefweb.int/report/ecuador/acnur-ecuador-informe-operacional-no-10-octubre-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "congo": [
       {
-        "title": "DR Congo: République Démocratique du Congo - Épidémie de maladie à virus Ebola - Aperçu de la situation, semaine 47 - à la date du 22 novembre 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-epidemie-de-maladie-virus-ebola-apercu-de-la-situation-semaine-47-la-date-du-22-novembre-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "DR Congo: Bundibugyo Ebola virus | Continental preparedness and response plan: November 2026 - May 2027",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-virus-continental-preparedness-and-response-plan-november-2026-may-2027",
-        "source": "Africa Centres for Disease Control and Prevention"
+        "title": "DR Congo: Ituri: la MONUSCO renforce ses interventions pour protéger les civils face à la recrudescence des violences à Djugu",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/ituri-la-monusco-renforce-ses-interventions-pour-proteger-les-civils-face-la-recrudescence-des-violences-djugu",
+        "source": "UN Organization Stabilization Mission in the Democratic Republic of the Congo"
       },
       {
-        "title": "Burundi: Humanitarian Action for Children 2026 - Protecting children amid overlapping crises in the Great Lakes, Revision 1 (November 2026)",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/burundi/humanitarian-action-children-2026-protecting-children-amid-overlapping-crises-great-lakes-revision-1-november-2026",
-        "source": "UN Children's Fund"
+        "title": "DR Congo: Ituri: MONUSCO steps up interventions to protect civilians amid resurgence of violence in Djugu",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/ituri-monusco-steps-interventions-protect-civilians-amid-resurgence-violence-djugu",
+        "source": "UN Organization Stabilization Mission in the Democratic Republic of the Congo"
       }
     ],
     "eritrea": [
@@ -283,42 +283,42 @@
     ],
     "ethiopia": [
       {
-        "title": "DR Congo: Bundibugyo Ebola virus | Continental preparedness and response plan: November 2026 - May 2027",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-virus-continental-preparedness-and-response-plan-november-2026-may-2027",
-        "source": "Africa Centres for Disease Control and Prevention"
+        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "Ethiopia: Anticipatory action to mitigate drought impacts on vulnerable pastoral communities - October 2025",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ethiopia/ethiopia-anticipatory-action-mitigate-drought-impacts-vulnerable-pastoral-communities-october-2025",
+        "title": "Somalia Weekly Weather Forecast - Valid From 25 Nov - 01 Dec 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/somalia/somalia-weekly-weather-forecast-valid-25-nov-01-dec-2026",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "World: El Niño and Child Rights in Africa: Assessing Risks and Strengthening Child Centred Preparedness - November 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/el-nino-and-child-rights-africa-assessing-risks-and-strengthening-child-centred-preparedness-november-2026",
-        "source": "Terre des hommes"
+        "title": "From Rainfall Forecasts to Anticipatory Action: A Flood Digital Twin at Work in Dolo Ado, Ethiopia (November 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/ethiopia/rainfall-forecasts-anticipatory-action-flood-digital-twin-work-dolo-ado-ethiopia-november-2026",
+        "source": "CGIAR"
       }
     ],
     "haiti": [
       {
-        "title": "World: GEOGLAM Global Crop Monitor | No. 49 – November 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/geoglam-global-crop-monitor-no-49-november-2026",
-        "source": "GEOGLAM Crop Monitor"
+        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
+        "source": "Insecurity Insight"
       },
       {
-        "title": "World: 5 ways the Red Cross is institutionalizing anticipatory action in the Americas in 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/5-ways-red-cross-institutionalizing-anticipatory-action-americas-2026",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "title": "WHO Director-General's opening remarks at joint media briefing with the Ministry of Public Health, Haiti – 25 November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/haiti/who-director-generals-opening-remarks-joint-media-briefing-ministry-public-health-haiti-25-november-2026",
+        "source": "World Health Organization"
       },
       {
-        "title": "World: 5 formas en que la Cruz Roja está institucionalizando la acción anticipatoria en las Américas en 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/5-formas-en-que-la-cruz-roja-esta-institucionalizando-la-accion-anticipatoria-en-las-americas-en-2026",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "title": "Haiti: MSF teams treating alarming numbers of women for sexual violence in Port-au-Prince",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/haiti/msf-teams-treating-alarming-numbers-women-sexual-violence-port-au-prince",
+        "source": "Médecins Sans Frontières"
       }
     ],
     "horn-of-africa-drought": [
@@ -343,6 +343,12 @@
     ],
     "iran": [
       {
+        "title": "Afghanistan: افغانستان - د خلکو د تګ او راتګ په اړه لنډ راپور (د نومبر ۸ څخه تر ۲۱ د نومبر ۲۰۲۶) [Dari/PS]",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/afghanistan/afghanstan-d-khlkw-d-tk-aw-ratk-ph-arh-lnd-rapwr-d-nwmbr-8-hkhh-tr-21-d-nwmbr-2026-darips",
+        "source": "International Organization for Migration"
+      },
+      {
         "title": "Afghanistan: Disminuye el número de afganos registrados en las rutas hacia Europa, pero los viajes siguen siendo largos y costosos",
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/afghanistan/disminuye-el-numero-de-afganos-registrados-en-las-rutas-hacia-europa-pero-los-viajes-siguen-siendo-largos-y-costosos",
@@ -352,12 +358,6 @@
         "title": "Afghanistan: Moins de ressortissants afghans recensés sur les routes migratoires vers l'Europe, mais des parcours qui restent longs et coûteux",
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/afghanistan/moins-de-ressortissants-afghans-recenses-sur-les-routes-migratoires-vers-leurope-mais-des-parcours-qui-restent-longs-et-couteux",
-        "source": "International Organization for Migration"
-      },
-      {
-        "title": "Afghanistan: Fewer Afghans Recorded on Routes to Europe, but Journeys Remain Long and Costly",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/fewer-afghans-recorded-routes-europe-journeys-remain-long-and-costly",
         "source": "International Organization for Migration"
       }
     ],
@@ -423,25 +423,31 @@
     ],
     "lebanon": [
       {
-        "title": "UNHCR Lebanon- Operational Update (October 2026)",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/lebanon/unhcr-lebanon-operational-update-october-2026",
+        "title": "Lebanon: Minutes of Meeting - Inter-Sector Coordination Group Meeting- 12 November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/lebanon/lebanon-minutes-meeting-inter-sector-coordination-group-meeting-12-november-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "No one is spared: The impact of attacks on civilians and healthcare in southern Lebanon [EN/AR]",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/lebanon/no-one-spared-impact-attacks-civilians-and-healthcare-southern-lebanon-enar",
-        "source": "Médecins Sans Frontières"
+        "title": "Lebanon: Inter-Sector Coordination Group Meeting - 12 November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/lebanon/lebanon-inter-sector-coordination-group-meeting-12-november-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Violations of International Humanitarian Law in Lebanon: Harm Continues Despite Cessation-of-Hostilities Arrangements",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/lebanon/violations-international-humanitarian-law-lebanon-harm-continues-despite-cessation-hostilities-arrangements",
-        "source": "Lebanon Humanitarian INGO Forum"
+        "title": "Middle East and Europe - Food Security Outlook : Risk of Famine (IPC Phase 5) in Yemen’s Ta’izz City; Crisis outcomes persist regionwide, October 2026 - May 2027",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/yemen/middle-east-and-europe-food-security-outlook-risk-famine-ipc-phase-5-yemens-taizz-city-crisis-outcomes-persist-regionwide-october-2026-may-2027",
+        "source": "Famine Early Warning System Network"
       }
     ],
     "libya": [
+      {
+        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
+      },
       {
         "title": "Algeria: Strengthening disaster preparedness and inclusive crisis response across North Africa through regional cooperation and risk knowledge",
         "date": "2026-11-25",
@@ -453,15 +459,15 @@
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/egypt/egypt-refugee-and-resilience-response-plan-errrp-january-december-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "World: Food & Nutrition Security Update (November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/food-nutrition-security-update-november-2026",
-        "source": "World Bank"
       }
     ],
     "madagascar": [
+      {
+        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
+        "source": "Famine Early Warning System Network"
+      },
       {
         "title": "World: El Niño and Child Rights in Africa: Assessing Risks and Strengthening Child Centred Preparedness - November 2026",
         "date": "2026-11-24",
@@ -473,35 +479,35 @@
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "DR Congo: Africa: Key Partner Regional Offices Division (As of 17 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/africa-key-partner-regional-offices-division-17-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "mali": [
       {
-        "title": "Mali: Compte-Rendu Cluster Éducation, novembre 2026 [Meeting Minutes]",
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/mali/mali-compte-rendu-cluster-education-novembre-2026-meeting-minutes",
+        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
+      {
+        "title": "Cluster Éducation Mali - Situation des Écoles, octobre 2026",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/mali/cluster-education-mali-situation-des-ecoles-octobre-2026",
         "source": "Education Cluster"
-      },
-      {
-        "title": "DR Congo: Afrique de l’Ouest et centrale : Derniers événements en bref (17–23 novembre 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/afrique-de-louest-et-centrale-derniers-evenements-en-bref-17-23-novembre-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "DR Congo: West and Central Africa: Latest Events at a glance (17–23 November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-latest-events-glance-17-23-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "mozambique": [
+      {
+        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
+        "source": "Famine Early Warning System Network"
+      },
       {
         "title": "World: GEOGLAM Global Crop Monitor | No. 49 – November 2026",
         "date": "2026-11-25",
@@ -513,32 +519,26 @@
         "date": "2026-11-24",
         "url": "https://reliefweb.int/report/world/el-nino-and-child-rights-africa-assessing-risks-and-strengthening-child-centred-preparedness-november-2026",
         "source": "Terre des hommes"
-      },
-      {
-        "title": "World: UNAIDS Global AIDS Update 2026 - Ending AIDS starts with access",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/unaids-global-aids-update-2026-ending-aids-starts-access",
-        "source": "UNAIDS"
       }
     ],
     "myanmar": [
       {
-        "title": "Bangladesh: Situation Report: October 2026 WHO Cox’s Bazar: Rohingya Emergency Response",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/bangladesh/situation-report-october-2026-who-coxs-bazar-rohingya-emergency-response",
-        "source": "World Health Organization"
-      },
-      {
-        "title": "A Route-Based Snapshot: Data & Trends for Refugees from Myanmar (as of 30 October 2026)",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/myanmar/route-based-snapshot-data-trends-refugees-myanmar-30-october-2026",
+        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "UNHCR Bangladesh: Quarterly Protection & Solutions Report - Q3 2026 | July - September",
+        "title": "Myanmar: Humanitarian Needs and Response Plan 2026, Quarter 3 Dashboard (Jan - Sep 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/myanmar/myanmar-humanitarian-needs-and-response-plan-2026-quarter-3-dashboard-jan-sep-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/bangladesh/unhcr-bangladesh-quarterly-protection-solutions-report-q3-2026-july-september",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
+        "source": "Global Centre for the Responsibility to Protect"
       }
     ],
     "nagorno-karabakh": [
@@ -583,25 +583,31 @@
     ],
     "nigeria": [
       {
-        "title": "DR Congo: Bundibugyo Ebola virus | Continental preparedness and response plan: November 2026 - May 2027",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-virus-continental-preparedness-and-response-plan-november-2026-may-2027",
-        "source": "Africa Centres for Disease Control and Prevention"
+        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Nigeria - North Central: Multi-Sector Needs Assessment (MSNA) 2026 data collection coverage, 12 Aug - 25 Sep 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/map/nigeria/nigeria-north-central-multi-sector-needs-assessment-msna-2026-data-collection-coverage-12-aug-25-sep-2026",
-        "source": "IMPACT Initiatives"
+        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
+        "source": "Insecurity Insight"
       },
       {
-        "title": "Nigeria - North East: Multi-Sector Needs Assessment (MSNA) 2026 data collection coverage, 14 Aug - 15 Oct 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/map/nigeria/nigeria-north-east-multi-sector-needs-assessment-msna-2026-data-collection-coverage-14-aug-15-oct-2026",
-        "source": "IMPACT Initiatives"
+        "title": "Humanitarian Needs and Response Trends in Northeast Nigeria, 2022-2026: A Five-Year Retrospective Analysis (November 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/nigeria/humanitarian-needs-and-response-trends-northeast-nigeria-2022-2026-five-year-retrospective-analysis-november-2026",
+        "source": "Voices and Evidence Frontiers"
       }
     ],
     "north-korea": [
+      {
+        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
       {
         "title": "World: 2026 Global Hunger Index: No Security Without Food Security",
         "date": "2026-10-14",
@@ -613,12 +619,6 @@
         "date": "2026-09-08",
         "url": "https://reliefweb.int/report/democratic-peoples-republic-korea/giews-country-brief-democratic-peoples-republic-korea-04-september-2026",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "Myanmar: UNICEF East Asia and the Pacific Region Humanitarian Situation Report No. 1 (Mid-Year), 30 June 2026",
-        "date": "2026-08-05",
-        "url": "https://reliefweb.int/report/myanmar/unicef-east-asia-and-pacific-region-humanitarian-situation-report-no-1-mid-year-30-june-2026",
-        "source": "UN Children's Fund"
       }
     ],
     "pacific-islands": [
@@ -643,6 +643,12 @@
     ],
     "pakistan-floods": [
       {
+        "title": "World: COP31: Are we truly moving from commitments to delivery?",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/world/cop31-are-we-truly-moving-commitments-delivery",
+        "source": "Concern Worldwide"
+      },
+      {
         "title": "Pakistan: Inter-Agency Winterization Strategy 2026 - 2027",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/pakistan/pakistan-inter-agency-winterization-strategy-2026-2027",
@@ -653,35 +659,35 @@
         "date": "2026-11-19",
         "url": "https://reliefweb.int/report/world/shelter-projects-10th-edition-case-studies-humanitarian-shelter-and-settlement-responses-until-2024",
         "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "Children on the Move Research Study, Afghanistan",
-        "date": "2026-11-18",
-        "url": "https://reliefweb.int/report/afghanistan/children-move-research-study-afghanistan",
-        "source": "Save the Children"
       }
     ],
     "palestine": [
       {
-        "title": "oPt: Gaza: Basic winter survival items out of reach for families | NRC",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-basic-winter-survival-items-out-reach-families-nrc",
-        "source": "Norwegian Refugee Council"
+        "title": "oPt: Palestine - Meeting Minutes, Gaza, 10 November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-meeting-minutes-gaza-10-november-2026",
+        "source": "Logistics Cluster"
       },
       {
-        "title": "UNRWA Situation Report #239 on the Humanitarian Crisis in the Occupied Palestinian Territory (the Gaza Strip and the West Bank, including East Jerusalem) [EN/AR]",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/unrwa-situation-report-239-humanitarian-crisis-occupied-palestinian-territory-gaza-strip-and-west-bank-including-east-jerusalem-enar",
-        "source": "UN Relief and Works Agency for Palestine Refugees in the Near East"
+        "title": "oPt: West Bank and Gaza Strip: FAO Humanitarian response update, November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-and-gaza-strip-fao-humanitarian-response-update-november-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "oPt: No conditions for life: Women, girls and the gendered dimensions of Israel’s genocide against Palestinians in Gaza",
+        "title": "oPt: Palestine - Logistics Cluster Meeting Minutes, Jerusalem, 29 October 2026",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/no-conditions-life-women-girls-and-gendered-dimensions-israels-genocide-against-palestinians-gaza",
-        "source": "Amnesty International"
+        "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-logistics-cluster-meeting-minutes-jerusalem-29-october-2026",
+        "source": "Logistics Cluster"
       }
     ],
     "rohingya": [
+      {
+        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
+        "source": "Global Centre for the Responsibility to Protect"
+      },
       {
         "title": "Bangladesh: Forgotten but Not Over: Qatar Charity Keeps the Rohingya Crisis in Focus [EN/AR]",
         "date": "2026-11-25",
@@ -693,32 +699,26 @@
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/bangladesh/situation-report-october-2026-who-coxs-bazar-rohingya-emergency-response",
         "source": "World Health Organization"
-      },
-      {
-        "title": "UNHCR Bangladesh: Quarterly Protection & Solutions Report - Q3 2026 | July - September",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/bangladesh/unhcr-bangladesh-quarterly-protection-solutions-report-q3-2026-july-september",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "russia": [
       {
-        "title": "Ukraine war situation update | 7 – 13 November 2026",
+        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: COP31: Are we truly moving from commitments to delivery?",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-7-13-november-2026",
-        "source": "Armed Conflict Location &amp; Event Data"
+        "url": "https://reliefweb.int/report/world/cop31-are-we-truly-moving-commitments-delivery",
+        "source": "Concern Worldwide"
       },
       {
-        "title": "WFP Executive Director's briefing to the UN Security Council on Ukraine - Remarks as Delivered (23 November 2026)",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/ukraine/wfp-executive-directors-briefing-un-security-council-ukraine-remarks-delivered-23-november-2026",
-        "source": "World Food Programme"
-      },
-      {
-        "title": "DTM Serbia: Migration Data and Routes Quarterly Report (July - September 2026)",
-        "date": "2026-11-19",
-        "url": "https://reliefweb.int/report/serbia/dtm-serbia-migration-data-and-routes-quarterly-report-july-september-2026",
-        "source": "International Organization for Migration"
+        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
+        "date": "2026-11-25",
+        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
+        "source": "Global Centre for the Responsibility to Protect"
       }
     ],
     "sahel": [
@@ -803,82 +803,82 @@
     ],
     "somalia": [
       {
-        "title": "World: GEOGLAM Global Crop Monitor | No. 49 – November 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/geoglam-global-crop-monitor-no-49-november-2026",
-        "source": "GEOGLAM Crop Monitor"
+        "title": "UNHCR Regional Response to the Yemen Situation One Month Impact Report, October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/yemen/unhcr-regional-response-yemen-situation-one-month-impact-report-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Somalia: Results of the October 2026 Baidoa IDPs FollowUp Assessment and IPC Analyses - A Briefing Presentation to for All Stakeholders, 25 November 2026, Mogadishu",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/somalia/results-october-2026-baidoa-idps-followup-assessment-and-ipc-analyses-briefing-presentation-all-stakeholders-25-november-2026-mogadishu",
+        "title": "Somalia Weekly Weather Forecast - Valid From 25 Nov - 01 Dec 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/somalia/somalia-weekly-weather-forecast-valid-25-nov-01-dec-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Somalia - Estimated Malnutrition Situation (GAM) - Projection Update: October - December 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/somalia/somalia-estimated-malnutrition-situation-gam-projection-update-october-december-2026",
         "source": "Food Security and Nutrition Analysis Unit - Somalia"
-      },
-      {
-        "title": "Somalia: Health cluster partners operational presence map for Oct 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/map/somalia/health-cluster-partners-operational-presence-map-oct-2026",
-        "source": "Health Cluster"
       }
     ],
     "south-sudan": [
       {
-        "title": "DR Congo: Bundibugyo Ebola virus | Continental preparedness and response plan: November 2026 - May 2027",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-virus-continental-preparedness-and-response-plan-november-2026-may-2027",
-        "source": "Africa Centres for Disease Control and Prevention"
+        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       },
       {
-        "title": "Protection Cluster South Sudan - Guidance notes on HNRP indicators for 2027",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/south-sudan/protection-cluster-south-sudan-guidance-notes-hnrp-indicators-2027",
-        "source": "Protection Cluster"
+        "title": "Knowledge Management Series for Health 2026: Demographic Pressure and the Growing Demand for Health Services in South Sudan (November 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/south-sudan/knowledge-management-series-health-2026-demographic-pressure-and-growing-demand-health-services-south-sudan-november-2026",
+        "source": "World Health Organization"
       },
       {
-        "title": "South Sudan Protection Cluster Spotlight - November 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/south-sudan/south-sudan-protection-cluster-spotlight-november-2026",
-        "source": "Protection Cluster"
+        "title": "WHO Weekly Situation Update on Ongoing Health Emergency Events in South Sudan - Week #47, Date: 16 – 22 Nov 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/south-sudan/who-weekly-situation-update-ongoing-health-emergency-events-south-sudan-week-47-date-16-22-nov-2026",
+        "source": "World Health Organization"
       }
     ],
     "sudan": [
       {
-        "title": "World: GEOGLAM Global Crop Monitor | No. 49 – November 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/geoglam-global-crop-monitor-no-49-november-2026",
-        "source": "GEOGLAM Crop Monitor"
+        "title": "Sudan Situation Analysis: [9/11/2026] - [15/11/2026]",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-analysis-9112026-15112026",
+        "source": "Data Friendly Space"
       },
       {
-        "title": "Egypt Refugee and Resilience Response Plan (ERRRP) , January - December 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/egypt/egypt-refugee-and-resilience-response-plan-errrp-january-december-2026",
-        "source": "UN High Commissioner for Refugees"
+        "title": "Sudan: Site Profile - Tawila Camp: North Darfur Humanitarian Response (15 November, 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/sudan/site-profile-tawila-camp-north-darfur-humanitarian-response-15-november-2026",
+        "source": "Norwegian Refugee Council"
       },
       {
-        "title": "DR Congo: Bundibugyo Ebola virus | Continental preparedness and response plan: November 2026 - May 2027",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/bundibugyo-ebola-virus-continental-preparedness-and-response-plan-november-2026-may-2027",
-        "source": "Africa Centres for Disease Control and Prevention"
+        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
+        "source": "International Federation of Red Cross and Red Crescent Societies"
       }
     ],
     "syria": [
       {
-        "title": "Technical workshop in Syria advances disaster risk knowledge for inclusive multi-hazard early warning systems and anticipatory action",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/syrian-arab-republic/technical-workshop-syria-advances-disaster-risk-knowledge-inclusive-multi-hazard-early-warning-systems-and-anticipatory-action",
-        "source": "UN Office for Disaster Risk Reduction"
+        "title": "Syria: Explosive Ordnance Knowledge, Attitudes and Practices survey in Aleppo governorate - Analysis and recommendations for Risk Education",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/explosive-ordnance-knowledge-attitudes-and-practices-survey-aleppo-governorate-analysis-and-recommendations-risk-education",
+        "source": "HAMAP Humanitaire"
       },
       {
-        "title": "WFP Syria Country Brief, November 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/syrian-arab-republic/wfp-syria-country-brief-november-2026",
-        "source": "World Food Programme"
+        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
+        "source": "Insecurity Insight"
       },
       {
-        "title": "Report by the Director-General Progress in the elimination of the Syrian Chemical Weapons Programme (EC-114/DG.2), 24 November 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/syrian-arab-republic/report-director-general-progress-elimination-syrian-chemical-weapons-programme-ec-114dg2-24-november-2026",
-        "source": "Organisation for the Prohibition of Chemical Weapons"
+        "title": "Middle East and Europe - Food Security Outlook : Risk of Famine (IPC Phase 5) in Yemen’s Ta’izz City; Crisis outcomes persist regionwide, October 2026 - May 2027",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/yemen/middle-east-and-europe-food-security-outlook-risk-famine-ipc-phase-5-yemens-taizz-city-crisis-outcomes-persist-regionwide-october-2026-may-2027",
+        "source": "Famine Early Warning System Network"
       }
     ],
     "tamils-sri-lanka": [
@@ -923,6 +923,12 @@
     ],
     "turkmenistan": [
       {
+        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
         "title": "World: Quick facts on unplanned explosions at munitions sites (UEMS): November 2026 update",
         "date": "2026-11-09",
         "url": "https://reliefweb.int/report/world/quick-facts-unplanned-explosions-munitions-sites-uems-november-2026-update",
@@ -933,32 +939,26 @@
         "date": "2026-10-01",
         "url": "https://reliefweb.int/report/uzbekistan/factsheet-global-stockpile-termez-september-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "UNHCR Uzbekistan Factsheet, September 2026",
-        "date": "2026-10-01",
-        "url": "https://reliefweb.int/report/uzbekistan/unhcr-uzbekistan-factsheet-september-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "ukraine": [
       {
-        "title": "Ukraine: Пам’ятка для постраждалих від технологічно фасилітованого гендерно зумовленого насильства: що варто знати та як діяти [UK]",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ukraine/pamyatka-dlya-postrazhdalikh-vid-tekhnologichno-fasilitovanogo-genderno-zumovlenogo-nasilstva-shcho-varto-znati-ta-yak-diyati-uk",
-        "source": "International Rescue Committee"
+        "title": "Middle East and Europe - Food Security Outlook : Risk of Famine (IPC Phase 5) in Yemen’s Ta’izz City; Crisis outcomes persist regionwide, October 2026 - May 2027",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/yemen/middle-east-and-europe-food-security-outlook-risk-famine-ipc-phase-5-yemens-taizz-city-crisis-outcomes-persist-regionwide-october-2026-may-2027",
+        "source": "Famine Early Warning System Network"
       },
       {
-        "title": "Ukraine war situation update | 7 – 13 November 2026",
+        "title": "Ukraine Health Cluster: Partner Response to Evacuations (October 2026)",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ukraine/ukraine-war-situation-update-7-13-november-2026",
-        "source": "Armed Conflict Location &amp; Event Data"
+        "url": "https://reliefweb.int/report/ukraine/ukraine-health-cluster-partner-response-evacuations-october-2026",
+        "source": "Health Cluster"
       },
       {
-        "title": "Ukraine: Оперативне реагування в Україні. Локалізація. Інформаційний бюлетень, ІІІ квартал 2026 р.[UK]",
+        "title": "Ukraine: Intervención del Director Ejecutivo de WFP ante el Consejo de Seguridad de las Naciones Unidas sobre Ucrania (23 Noviembre 2026)",
         "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ukraine/operativne-reaguvannya-v-ukraini-lokalizaciya-informaciyniy-byuleten-iii-kvartal-2026-ruk",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/ukraine/intervencion-del-director-ejecutivo-de-wfp-ante-el-consejo-de-seguridad-de-las-naciones-unidas-sobre-ucrania-23-noviembre-2026",
+        "source": "World Food Programme"
       }
     ],
     "uyghurs": [
@@ -1023,22 +1023,22 @@
     ],
     "yemen": [
       {
-        "title": "Sharp spike in landmine casualties as renewed violence intensifies in Yemen",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/yemen/sharp-spike-landmine-casualties-renewed-violence-intensifies-yemen",
-        "source": "HALO Trust"
+        "title": "What we carried, what we left behind: Five accounts of displacement in Yemen",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/yemen/what-we-carried-what-we-left-behind-five-accounts-displacement-yemen",
+        "source": "Danish Refugee Council"
       },
       {
-        "title": "MSF Yemen: Delayed access to healthcare puts mothers and babies at risk in Mokha and surrounding areas",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/yemen/msf-yemen-delayed-access-healthcare-puts-mothers-and-babies-risk-mokha-and-surrounding-areas",
-        "source": "Médecins Sans Frontières"
+        "title": "UNHCR Regional Response to the Yemen Situation One Month Impact Report, October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/yemen/unhcr-regional-response-yemen-situation-one-month-impact-report-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "32 humanitarian organisations call for urgent action to protect civilians in Yemen",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/yemen/32-humanitarian-organisations-call-urgent-action-protect-civilians-yemen",
-        "source": "Accept International"
+        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
+        "source": "Insecurity Insight"
       }
     ]
   }
