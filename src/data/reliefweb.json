@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "crises": {
     "aboriginal-australians": [
       {
@@ -43,22 +43,22 @@
     ],
     "afghanistan": [
       {
-        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
-        "source": "UN High Commissioner for Refugees"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Afghanistan: Impact of the Bans and Restrictions on Women Working for NGOs, INGOs and the UN - Round 16 (October 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/afghanistan/afghanistan-impact-bans-and-restrictions-women-working-ngos-ingos-and-un-round-16-october-2026",
-        "source": "Asia Pacific Gender in Humanitarian Action Working Group"
-      },
-      {
-        "title": "Afghanistan: افغانستان - د خلکو د تګ او راتګ په اړه لنډ راپور (د نومبر ۸ څخه تر ۲۱ د نومبر ۲۰۲۶) [Dari/PS]",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/afghanstan-d-khlkw-d-tk-aw-ratk-ph-arh-lnd-rapwr-d-nwmbr-8-hkhh-tr-21-d-nwmbr-2026-darips",
+        "title": "UNHCR-IOM Pakistan Flash update # 121 on Arrest and Detention/Flow Monitoring, 15 Sep 2023 to 21 Nov 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/pakistan/unhcr-iom-pakistan-flash-update-121-arrest-and-detentionflow-monitoring-15-sep-2023-21-nov-2026",
         "source": "International Organization for Migration"
+      },
+      {
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "amazon-indigenous": [
@@ -83,242 +83,242 @@
     ],
     "balochistan": [
       {
+        "title": "UNHCR Afghanistan Situation Regional Update October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-situation-regional-update-october-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "COI Query Response - Pakistan: Security Situation in Balochistan Province (January 2026 to 22 November 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/pakistan/coi-query-response-pakistan-security-situation-balochistan-province-january-2026-22-november-2026",
+        "source": "European Union Agency for Asylum"
+      },
+      {
         "title": "Pakistan: Inter-Agency Winterization Strategy 2026 - 2027",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/pakistan/pakistan-inter-agency-winterization-strategy-2026-2027",
         "source": "International Organization for Migration"
-      },
-      {
-        "title": "World: Statement of the Forty-sixth Meeting of the Polio IHR Emergency Committee (13 November 2026)",
-        "date": "2026-11-16",
-        "url": "https://reliefweb.int/report/world/statement-forty-sixth-meeting-polio-ihr-emergency-committee-13-november-2026",
-        "source": "World Health Organization"
-      },
-      {
-        "title": "Afghanistan: EMR Polio Bulletin - Issue No. 1466, Week 44 (ending on 08/11/2026)",
-        "date": "2026-11-12",
-        "url": "https://reliefweb.int/report/afghanistan/emr-polio-bulletin-issue-no-1466-week-44-ending-08112026",
-        "source": "World Health Organization"
       }
     ],
     "bangladesh-climate": [
+      {
+        "title": "Nepal: Asia and the Pacific | DG ECHO Civil Protection and Humanitarian Aid Operations from January 2026 to November 2026 - DG ECHO Daily Map | 26/11/2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/nepal/asia-and-pacific-dg-echo-civil-protection-and-humanitarian-aid-operations-january-2026-november-2026-dg-echo-daily-map-26112026",
+        "source": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations"
+      },
+      {
+        "title": "Disaster Management Reference Handbook (November 2026) - Bangladesh",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/bangladesh/disaster-management-reference-handbook-november-2026-bangladesh",
+        "source": "Center for Excellence in Disaster Management and Humanitarian Assistance"
+      },
       {
         "title": "World: COP31: Are we truly moving from commitments to delivery?",
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/world/cop31-are-we-truly-moving-commitments-delivery",
         "source": "Concern Worldwide"
-      },
-      {
-        "title": "COP 31: World leaders fail climate action",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/world/cop-31-world-leaders-fail-climate-action",
-        "source": "CARE"
-      },
-      {
-        "title": "World: COP31 ends without agreement, leaving girls facing worsening climate impacts",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/world/cop31-ends-without-agreement-leaving-girls-facing-worsening-climate-impacts",
-        "source": "Plan International"
       }
     ],
     "belarus": [
+      {
+        "title": "UNHCR Latvia Factsheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/latvia/unhcr-latvia-factsheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "UNHCR Belarus Factsheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/belarus/unhcr-belarus-factsheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
       {
         "title": "Belarus: Europe: Judgments on ‘instrumentalization’ of migration a devastating blow to the absolute prohibition of torture",
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/belarus/europe-judgments-instrumentalization-migration-devastating-blow-absolute-prohibition-torture",
         "source": "Amnesty International"
-      },
-      {
-        "title": "The ICRC in Russia and Belarus: Facts and Figures, January-June 2026",
-        "date": "2026-11-03",
-        "url": "https://reliefweb.int/report/belarus/icrc-russia-and-belarus-facts-and-figures-january-june-2026",
-        "source": "International Committee of the Red Cross"
-      },
-      {
-        "title": "Myanmar Principled Action Monitor - Edition No. 05 (August 2026)",
-        "date": "2026-10-28",
-        "url": "https://reliefweb.int/report/myanmar/myanmar-principled-action-monitor-edition-no-05-august-2026",
-        "source": "Humanitarian Assistance And Disaster Relief Institute"
       }
     ],
     "burkina-faso": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
+        "source": "GAVI Alliance"
+      },
+      {
+        "title": "Niger - mise à jour opérationnelle trimestrielle - juillet à septembre 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/niger/niger-mise-jour-operationnelle-trimestrielle-juillet-septembre-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 24th November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-24th-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "World: Food & Nutrition Security Update (November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/food-nutrition-security-update-november-2026",
-        "source": "World Bank"
+        "title": "World: Mixed Migration Review 2026 - Migration in the age of polycrisis",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/mixed-migration-review-2026-migration-age-polycrisis",
+        "source": "Mixed Migration Centre"
       }
     ],
     "cameroon": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "title": "WFP Cameroon Country Brief, November 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/cameroon/wfp-cameroon-country-brief-november-2026",
+        "source": "World Food Programme"
+      },
+      {
+        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
+        "source": "GAVI Alliance"
+      },
+      {
+        "title": "UNHCR Cyprus Factsheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/cyprus/unhcr-cyprus-factsheet-september-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
-        "source": "Famine Early Warning System Network"
-      },
-      {
-        "title": "Cameroon Cholera Outbreak: Situation Report #8 (November 25, 2026)",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/cameroon/cameroon-cholera-outbreak-situation-report-8-november-25-2026",
-        "source": "International Medical Corps"
       }
     ],
     "central-african-republic": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "CAR: République centrafricaine : Rapport de situation N° 95 au 24 novembre 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg-95-au-24-novembre-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "Central African Republic: Situation Report No. 95, as of 24 November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-95-24-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
+        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
+        "source": "GAVI Alliance"
       }
     ],
     "chad": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Tchad: Dashbord du suivi de la réponse du HNRP 2026 (au 30 septembre 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/chad/tchad-dashbord-du-suivi-de-la-reponse-du-hnrp-2026-au-30-septembre-2026",
-        "source": "CCCM Cluster"
-      },
-      {
-        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "colombia": [
+      {
+        "title": "UNHCR Spain Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/spain/unhcr-spain-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: Mixed Migration Review 2026 - Migration in the age of polycrisis",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/mixed-migration-review-2026-migration-age-polycrisis",
+        "source": "Mixed Migration Centre"
+      },
       {
         "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
         "source": "Famine Early Warning System Network"
-      },
-      {
-        "title": "Pronunciamiento del Equipo Humanitario País sobre la protección de la población civil en Colombia - 25/11/2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/colombia/pronunciamiento-del-equipo-humanitario-pais-sobre-la-proteccion-de-la-poblacion-civil-en-colombia-25112026",
-        "source": "El Equipo Humanitario País Colombia"
-      },
-      {
-        "title": "ACNUR Ecuador: Informe Operacional No. 10 Octubre 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ecuador/acnur-ecuador-informe-operacional-no-10-octubre-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "congo": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
-        "source": "UN High Commissioner for Refugees"
+        "title": "DR Congo: RDC — Présence opérationnelle des partenaires de la riposte à Ebola au 15 novembre 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/map/democratic-republic-congo/rdc-presence-operationnelle-des-partenaires-de-la-riposte-ebola-au-15-novembre-2026",
+        "source": "Health Cluster"
       },
       {
-        "title": "DR Congo: Ituri: la MONUSCO renforce ses interventions pour protéger les civils face à la recrudescence des violences à Djugu",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/ituri-la-monusco-renforce-ses-interventions-pour-proteger-les-civils-face-la-recrudescence-des-violences-djugu",
-        "source": "UN Organization Stabilization Mission in the Democratic Republic of the Congo"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "DR Congo: Ituri: MONUSCO steps up interventions to protect civilians amid resurgence of violence in Djugu",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/ituri-monusco-steps-interventions-protect-civilians-amid-resurgence-violence-djugu",
-        "source": "UN Organization Stabilization Mission in the Democratic Republic of the Congo"
+        "title": "DR Congo: Cluster Protection RDC : Points saillants de la situation de protection en République démocratique du Congo du mois d'octobre 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-points-saillants-de-la-situation-de-protection-en-republique-democratique-du-congo-du-mois-doctobre-2026",
+        "source": "Protection Cluster"
       }
     ],
     "eritrea": [
       {
-        "title": "World: UNAIDS Global AIDS Update 2026 - Ending AIDS starts with access",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/unaids-global-aids-update-2026-ending-aids-starts-access",
-        "source": "UNAIDS"
-      },
-      {
-        "title": "UNHCR South Sudan Population Overview of Refugees and Asylum-seekers (As of 31 October 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/south-sudan/unhcr-south-sudan-population-overview-refugees-and-asylum-seekers-31-october-2026",
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Sudan Situation, Refugees and Asylum-seekers Movement and Presence (as of 31 October 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/sudan/sudan-situation-refugees-and-asylum-seekers-movement-and-presence-31-october-2026",
+        "title": "UNHCR Switzerland Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/switzerland/unhcr-switzerland-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "World: Routes Monitor Key Updates - November 2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/routes-monitor-key-updates-november-2026",
         "source": "UN High Commissioner for Refugees"
       }
     ],
     "ethiopia": [
       {
-        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Somalia Weekly Weather Forecast - Valid From 25 Nov - 01 Dec 2026",
+        "title": "World: Mixed Migration Review 2026 - Migration in the age of polycrisis",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/somalia/somalia-weekly-weather-forecast-valid-25-nov-01-dec-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "url": "https://reliefweb.int/report/world/mixed-migration-review-2026-migration-age-polycrisis",
+        "source": "Mixed Migration Centre"
       },
       {
-        "title": "From Rainfall Forecasts to Anticipatory Action: A Flood Digital Twin at Work in Dolo Ado, Ethiopia (November 2026)",
+        "title": "World: UNHCR Global Appeal 2027",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/ethiopia/rainfall-forecasts-anticipatory-action-flood-digital-twin-work-dolo-ado-ethiopia-november-2026",
-        "source": "CGIAR"
+        "url": "https://reliefweb.int/report/world/unhcr-global-appeal-2027",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "haiti": [
       {
-        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
-        "source": "Insecurity Insight"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "WHO Director-General's opening remarks at joint media briefing with the Ministry of Public Health, Haiti – 25 November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/haiti/who-director-generals-opening-remarks-joint-media-briefing-ministry-public-health-haiti-25-november-2026",
-        "source": "World Health Organization"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Haiti: MSF teams treating alarming numbers of women for sexual violence in Port-au-Prince",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/haiti/msf-teams-treating-alarming-numbers-women-sexual-violence-port-au-prince",
-        "source": "Médecins Sans Frontières"
+        "title": "Haiti | Cluster Nutrition | Présence opérationnelle des partenaires 2026 (octobre 2026)",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/haiti/haiti-cluster-nutrition-presence-operationnelle-des-partenaires-2026-octobre-2026",
+        "source": "Nutrition Cluster"
       }
     ],
     "horn-of-africa-drought": [
@@ -343,25 +343,31 @@
     ],
     "iran": [
       {
-        "title": "Afghanistan: افغانستان - د خلکو د تګ او راتګ په اړه لنډ راپور (د نومبر ۸ څخه تر ۲۱ د نومبر ۲۰۲۶) [Dari/PS]",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/afghanstan-d-khlkw-d-tk-aw-ratk-ph-arh-lnd-rapwr-d-nwmbr-8-hkhh-tr-21-d-nwmbr-2026-darips",
-        "source": "International Organization for Migration"
+        "title": "UNHCR Afghanistan Situation Regional Update October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/afghanistan/unhcr-afghanistan-situation-regional-update-october-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Afghanistan: Disminuye el número de afganos registrados en las rutas hacia Europa, pero los viajes siguen siendo largos y costosos",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/disminuye-el-numero-de-afganos-registrados-en-las-rutas-hacia-europa-pero-los-viajes-siguen-siendo-largos-y-costosos",
-        "source": "International Organization for Migration"
+        "title": "Nepal: Asia and the Pacific | DG ECHO Civil Protection and Humanitarian Aid Operations from January 2026 to November 2026 - DG ECHO Daily Map | 26/11/2026",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/nepal/asia-and-pacific-dg-echo-civil-protection-and-humanitarian-aid-operations-january-2026-november-2026-dg-echo-daily-map-26112026",
+        "source": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations"
       },
       {
-        "title": "Afghanistan: Moins de ressortissants afghans recensés sur les routes migratoires vers l'Europe, mais des parcours qui restent longs et coûteux",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/afghanistan/moins-de-ressortissants-afghans-recenses-sur-les-routes-migratoires-vers-leurope-mais-des-parcours-qui-restent-longs-et-couteux",
-        "source": "International Organization for Migration"
+        "title": "World: Mixed Migration Review 2026 - Migration in the age of polycrisis",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/mixed-migration-review-2026-migration-age-polycrisis",
+        "source": "Mixed Migration Centre"
       }
     ],
     "iraq": [
+      {
+        "title": "UNHCR Sweden Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sweden/unhcr-sweden-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
       {
         "title": "Syria: Protection and Reintegration Insights, Voices of returnees and host communities across Syria, July - September 2026",
         "date": "2026-11-24",
@@ -373,12 +379,6 @@
         "date": "2026-11-24",
         "url": "https://reliefweb.int/report/syrian-arab-republic/joint-unicef-who-ministry-health-situation-report-no-1-syria-polio-outbreak-response-22-november-2026",
         "source": "Government of the Syrian Arab Republic"
-      },
-      {
-        "title": "Syria: Comprehensive Overview of Refugee Returns Dashboard, 08 October 2026",
-        "date": "2026-11-23",
-        "url": "https://reliefweb.int/report/syrian-arab-republic/comprehensive-overview-refugee-returns-dashboard-08-october-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "kashmir": [
@@ -423,122 +423,122 @@
     ],
     "lebanon": [
       {
-        "title": "Lebanon: Minutes of Meeting - Inter-Sector Coordination Group Meeting- 12 November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/lebanon/lebanon-minutes-meeting-inter-sector-coordination-group-meeting-12-november-2026",
+        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Lebanon: Inter-Sector Coordination Group Meeting - 12 November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/lebanon/lebanon-inter-sector-coordination-group-meeting-12-november-2026",
-        "source": "UN High Commissioner for Refugees"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Middle East and Europe - Food Security Outlook : Risk of Famine (IPC Phase 5) in Yemen’s Ta’izz City; Crisis outcomes persist regionwide, October 2026 - May 2027",
+        "title": "World: Mixed Migration Review 2026 - Migration in the age of polycrisis",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/yemen/middle-east-and-europe-food-security-outlook-risk-famine-ipc-phase-5-yemens-taizz-city-crisis-outcomes-persist-regionwide-october-2026-may-2027",
-        "source": "Famine Early Warning System Network"
+        "url": "https://reliefweb.int/report/world/mixed-migration-review-2026-migration-age-polycrisis",
+        "source": "Mixed Migration Centre"
       }
     ],
     "libya": [
       {
-        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
-      },
-      {
-        "title": "Algeria: Strengthening disaster preparedness and inclusive crisis response across North Africa through regional cooperation and risk knowledge",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/algeria/strengthening-disaster-preparedness-and-inclusive-crisis-response-across-north-africa-through-regional-cooperation-and-risk-knowledge",
-        "source": "UN Office for Disaster Risk Reduction"
-      },
-      {
-        "title": "Egypt Refugee and Resilience Response Plan (ERRRP) , January - December 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/egypt/egypt-refugee-and-resilience-response-plan-errrp-january-december-2026",
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
         "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "UNHCR Italy Factsheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/italy/unhcr-italy-factsheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
+        "title": "GIEWS Country Brief: Libya 26-November-2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/libya/giews-country-brief-libya-26-november-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
     "madagascar": [
       {
-        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
-        "source": "Famine Early Warning System Network"
-      },
-      {
-        "title": "World: El Niño and Child Rights in Africa: Assessing Risks and Strengthening Child Centred Preparedness - November 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/el-nino-and-child-rights-africa-assessing-risks-and-strengthening-child-centred-preparedness-november-2026",
-        "source": "Terre des hommes"
-      },
-      {
-        "title": "World: Cereal supply and demand balances for sub-Saharan African countries, Situation as at October 2026",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/cereal-supply-and-demand-balances-sub-saharan-african-countries-situation-october-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "WFP Madagascar Country Brief, November 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/madagascar/wfp-madagascar-country-brief-november-2026",
+        "source": "World Food Programme"
       }
     ],
     "mali": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Niger - mise à jour opérationnelle trimestrielle - juillet à septembre 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/niger/niger-mise-jour-operationnelle-trimestrielle-juillet-septembre-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
-        "source": "Global Centre for the Responsibility to Protect"
-      },
-      {
-        "title": "Cluster Éducation Mali - Situation des Écoles, octobre 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/mali/cluster-education-mali-situation-des-ecoles-octobre-2026",
-        "source": "Education Cluster"
       }
     ],
     "mozambique": [
       {
-        "title": "World: Global Weather Hazards Summary, November 26, 2026 – December 2, 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-november-26-2026-december-2-2026",
-        "source": "Famine Early Warning System Network"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "World: GEOGLAM Global Crop Monitor | No. 49 – November 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/world/geoglam-global-crop-monitor-no-49-november-2026",
-        "source": "GEOGLAM Crop Monitor"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "World: El Niño and Child Rights in Africa: Assessing Risks and Strengthening Child Centred Preparedness - November 2026",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/el-nino-and-child-rights-africa-assessing-risks-and-strengthening-child-centred-preparedness-november-2026",
-        "source": "Terre des hommes"
+        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
+        "source": "GAVI Alliance"
       }
     ],
     "myanmar": [
       {
-        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "World: Routes Monitor Key Updates - November 2026",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "url": "https://reliefweb.int/report/world/routes-monitor-key-updates-november-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Myanmar: Humanitarian Needs and Response Plan 2026, Quarter 3 Dashboard (Jan - Sep 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/myanmar/myanmar-humanitarian-needs-and-response-plan-2026-quarter-3-dashboard-jan-sep-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
-      },
-      {
-        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
-        "source": "Global Centre for the Responsibility to Protect"
       }
     ],
     "nagorno-karabakh": [
@@ -563,49 +563,49 @@
     ],
     "niger": [
       {
-        "title": "Niger : Mécanisme de Réponse Rapide (RRM) - Aperçu octobre 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/niger/niger-mecanisme-de-reponse-rapide-rrm-apercu-octobre-2026",
-        "source": "Action contre la Faim France"
+        "title": "Nigeria: HCR : les coupes budgétaires exposent les femmes et les filles réfugiées à un risque accru de violences basées sur le genre | HCR",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/nigeria/hcr-les-coupes-budgetaires-exposent-les-femmes-et-les-filles-refugiees-un-risque-accru-de-violences-basees-sur-le-genre-hcr",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 24th November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-24th-november-2026",
-        "source": "UN Office for the Coordination of Humanitarian Affairs"
+        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
+        "source": "GAVI Alliance"
       },
       {
-        "title": "World: Food & Nutrition Security Update (November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/food-nutrition-security-update-november-2026",
-        "source": "World Bank"
+        "title": "Niger - mise à jour opérationnelle trimestrielle - juillet à septembre 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/niger/niger-mise-jour-operationnelle-trimestrielle-juillet-septembre-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "nigeria": [
       {
-        "title": "Cameroon: UNHCR RBWCA - Principal Refugees, IDPs and Stateless Persons - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/cameroon/unhcr-rbwca-principal-refugees-idps-and-stateless-persons-october-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Nigeria: HCR : les coupes budgétaires exposent les femmes et les filles réfugiées à un risque accru de violences basées sur le genre | HCR",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/nigeria/hcr-les-coupes-budgetaires-exposent-les-femmes-et-les-filles-refugiees-un-risque-accru-de-violences-basees-sur-le-genre-hcr",
         "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
-        "source": "Insecurity Insight"
-      },
-      {
-        "title": "Humanitarian Needs and Response Trends in Northeast Nigeria, 2022-2026: A Five-Year Retrospective Analysis (November 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/nigeria/humanitarian-needs-and-response-trends-northeast-nigeria-2022-2026-five-year-retrospective-analysis-november-2026",
-        "source": "Voices and Evidence Frontiers"
+        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "north-korea": [
       {
-        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "title": "World: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "url": "https://reliefweb.int/map/world/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
@@ -663,25 +663,31 @@
     ],
     "palestine": [
       {
-        "title": "oPt: Palestine - Meeting Minutes, Gaza, 10 November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-meeting-minutes-gaza-10-november-2026",
-        "source": "Logistics Cluster"
-      },
-      {
-        "title": "oPt: West Bank and Gaza Strip: FAO Humanitarian response update, November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-and-gaza-strip-fao-humanitarian-response-update-november-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "oPt: Palestine - Logistics Cluster Meeting Minutes, Jerusalem, 29 October 2026",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-logistics-cluster-meeting-minutes-jerusalem-29-october-2026",
-        "source": "Logistics Cluster"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "UNHCR Cyprus Factsheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/cyprus/unhcr-cyprus-factsheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "rohingya": [
+      {
+        "title": "WFP Bangladesh Country Brief, November 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/bangladesh/wfp-bangladesh-country-brief-november-2026",
+        "source": "World Food Programme"
+      },
       {
         "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
         "date": "2026-11-25",
@@ -693,19 +699,19 @@
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/bangladesh/forgotten-not-over-qatar-charity-keeps-rohingya-crisis-focus-enar",
         "source": "Qatar Charity"
-      },
-      {
-        "title": "Bangladesh: Situation Report: October 2026 WHO Cox’s Bazar: Rohingya Emergency Response",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/bangladesh/situation-report-october-2026-who-coxs-bazar-rohingya-emergency-response",
-        "source": "World Health Organization"
       }
     ],
     "russia": [
       {
-        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "title": "World: Mixed Migration Review 2026 - Migration in the age of polycrisis",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "url": "https://reliefweb.int/report/world/mixed-migration-review-2026-migration-age-polycrisis",
+        "source": "Mixed Migration Centre"
+      },
+      {
+        "title": "World: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/map/world/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
@@ -713,35 +719,35 @@
         "date": "2026-11-25",
         "url": "https://reliefweb.int/report/world/cop31-are-we-truly-moving-commitments-delivery",
         "source": "Concern Worldwide"
-      },
-      {
-        "title": "Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/myanmar/atrocity-alert-no-504-myanmar-burma-south-sudan-and-mali",
-        "source": "Global Centre for the Responsibility to Protect"
       }
     ],
     "sahel": [
       {
-        "title": "World: COP31: FAO calls for increased funding for agrifood systems as weather extremes intensify",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/cop31-fao-calls-increased-funding-agrifood-systems-weather-extremes-intensify",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "World: Food & Nutrition Security Update (November 2026)",
-        "date": "2026-11-24",
-        "url": "https://reliefweb.int/report/world/food-nutrition-security-update-november-2026",
-        "source": "World Bank"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
-        "date": "2026-11-20",
-        "url": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "title": "World: From forecasts to action: strengthening Africa's response to El Niño",
+        "date": "2026-11-26",
+        "url": "https://reliefweb.int/report/world/forecasts-action-strengthening-africas-response-el-nino",
+        "source": "Norwegian Refugee Council"
       }
     ],
     "sahrawi-refugees": [
+      {
+        "title": "The Desert Locust Outbreak Develops in Mauritania - 26 November 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/mauritania/desert-locust-outbreak-develops-mauritania-26-november-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
       {
         "title": "World: Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026)",
         "date": "2026-11-20",
@@ -753,12 +759,6 @@
         "date": "2026-11-09",
         "url": "https://reliefweb.int/report/algeria/desert-locust-bulletin-577-6-november-2026",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: Global Weather Hazards Summary, October 01, 2026 – October 07, 2026",
-        "date": "2026-09-30",
-        "url": "https://reliefweb.int/report/world/global-weather-hazards-summary-october-01-2026-october-07-2026",
-        "source": "Famine Early Warning System Network"
       }
     ],
     "san-bushmen": [
@@ -803,82 +803,82 @@
     ],
     "somalia": [
       {
-        "title": "UNHCR Regional Response to the Yemen Situation One Month Impact Report, October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/yemen/unhcr-regional-response-yemen-situation-one-month-impact-report-october-2026",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Somalia Weekly Weather Forecast - Valid From 25 Nov - 01 Dec 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/somalia/somalia-weekly-weather-forecast-valid-25-nov-01-dec-2026",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Somalia - Estimated Malnutrition Situation (GAM) - Projection Update: October - December 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/somalia/somalia-estimated-malnutrition-situation-gam-projection-update-october-december-2026",
-        "source": "Food Security and Nutrition Analysis Unit - Somalia"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
+        "title": "Flash floods cut families off from healthcare in Mudug, Somalia",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/somalia/flash-floods-cut-families-healthcare-mudug-somalia",
+        "source": "Médecins Sans Frontières"
       }
     ],
     "south-sudan": [
       {
-        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Knowledge Management Series for Health 2026: Demographic Pressure and the Growing Demand for Health Services in South Sudan (November 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/south-sudan/knowledge-management-series-health-2026-demographic-pressure-and-growing-demand-health-services-south-sudan-november-2026",
-        "source": "World Health Organization"
+        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "WHO Weekly Situation Update on Ongoing Health Emergency Events in South Sudan - Week #47, Date: 16 – 22 Nov 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/south-sudan/who-weekly-situation-update-ongoing-health-emergency-events-south-sudan-week-47-date-16-22-nov-2026",
-        "source": "World Health Organization"
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "sudan": [
       {
-        "title": "Sudan Situation Analysis: [9/11/2026] - [15/11/2026]",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/sudan/sudan-situation-analysis-9112026-15112026",
-        "source": "Data Friendly Space"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Sudan: Site Profile - Tawila Camp: North Darfur Humanitarian Response (15 November, 2026)",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/sudan/site-profile-tawila-camp-north-darfur-humanitarian-response-15-november-2026",
-        "source": "Norwegian Refugee Council"
+        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "At the border in Chad: A first step toward safety for people fleeing conflict in Sudan | IFRC",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/chad/border-chad-first-step-toward-safety-people-fleeing-conflict-sudan-ifrc",
-        "source": "International Federation of Red Cross and Red Crescent Societies"
+        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
+        "source": "UN High Commissioner for Refugees"
       }
     ],
     "syria": [
       {
-        "title": "Syria: Explosive Ordnance Knowledge, Attitudes and Practices survey in Aleppo governorate - Analysis and recommendations for Risk Education",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/syrian-arab-republic/explosive-ordnance-knowledge-attitudes-and-practices-survey-aleppo-governorate-analysis-and-recommendations-risk-education",
-        "source": "HAMAP Humanitaire"
+        "title": "Syria Humanitarian Fund (SHF): 2026 First Reserve Allocation Strategy (US Special Reserve Tranche I)",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/syria-humanitarian-fund-shf-2026-first-reserve-allocation-strategy-us-special-reserve-tranche-i",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
-        "source": "Insecurity Insight"
+        "title": "UNHCR Denmark Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/denmark/unhcr-denmark-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Middle East and Europe - Food Security Outlook : Risk of Famine (IPC Phase 5) in Yemen’s Ta’izz City; Crisis outcomes persist regionwide, October 2026 - May 2027",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/yemen/middle-east-and-europe-food-security-outlook-risk-famine-ipc-phase-5-yemens-taizz-city-crisis-outcomes-persist-regionwide-october-2026-may-2027",
-        "source": "Famine Early Warning System Network"
+        "title": "Syrian Arab Republic: Overview of humanitarian response (January - October 2026) [EN/AR]",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/syrian-arab-republic-overview-humanitarian-response-january-october-2026-enar",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       }
     ],
     "tamils-sri-lanka": [
@@ -923,9 +923,9 @@
     ],
     "turkmenistan": [
       {
-        "title": "Afghanistan: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
+        "title": "World: Statistical Inclusion of Forcibly Displaced and Stateless People in Asia & the Pacific (As of October 2026)",
         "date": "2026-11-26",
-        "url": "https://reliefweb.int/map/afghanistan/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
+        "url": "https://reliefweb.int/map/world/statistical-inclusion-forcibly-displaced-and-stateless-people-asia-pacific-october-2026",
         "source": "UN High Commissioner for Refugees"
       },
       {
@@ -943,22 +943,22 @@
     ],
     "ukraine": [
       {
-        "title": "Middle East and Europe - Food Security Outlook : Risk of Famine (IPC Phase 5) in Yemen’s Ta’izz City; Crisis outcomes persist regionwide, October 2026 - May 2027",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/yemen/middle-east-and-europe-food-security-outlook-risk-famine-ipc-phase-5-yemens-taizz-city-crisis-outcomes-persist-regionwide-october-2026-may-2027",
-        "source": "Famine Early Warning System Network"
+        "title": "UNHCR Poland Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/poland/unhcr-poland-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Ukraine Health Cluster: Partner Response to Evacuations (October 2026)",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ukraine/ukraine-health-cluster-partner-response-evacuations-october-2026",
-        "source": "Health Cluster"
+        "title": "UNHCR Denmark Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/denmark/unhcr-denmark-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
       },
       {
-        "title": "Ukraine: Intervención del Director Ejecutivo de WFP ante el Consejo de Seguridad de las Naciones Unidas sobre Ucrania (23 Noviembre 2026)",
-        "date": "2026-11-25",
-        "url": "https://reliefweb.int/report/ukraine/intervencion-del-director-ejecutivo-de-wfp-ante-el-consejo-de-seguridad-de-las-naciones-unidas-sobre-ucrania-23-noviembre-2026",
-        "source": "World Food Programme"
+        "title": "Safe, Dignified and Gender-Responsive Sanitation for Humanitarian Demining Operations in Ukraine",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/ukraine/safe-dignified-and-gender-responsive-sanitation-humanitarian-demining-operations-ukraine",
+        "source": "WeWorld"
       }
     ],
     "uyghurs": [
@@ -983,6 +983,12 @@
     ],
     "venezuela": [
       {
+        "title": "UNHCR Spain Fact Sheet, September 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/spain/unhcr-spain-fact-sheet-september-2026",
+        "source": "UN High Commissioner for Refugees"
+      },
+      {
         "title": "UNHCR chief highlights the power of opportunity for displaced people across Mexico, Peru and Venezuela",
         "date": "2026-10-05",
         "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/unhcr-chief-highlights-power-opportunity-displaced-people-across-mexico-peru-and-venezuela",
@@ -993,12 +999,6 @@
         "date": "2026-09-21",
         "url": "https://reliefweb.int/report/peru/unhcr-peru-protection-spaces-factsheet-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Colombia: Venezuelan Refugees and Migrants in the Region - August 2026",
-        "date": "2026-08-20",
-        "url": "https://reliefweb.int/report/colombia/venezuelan-refugees-and-migrants-region-august-2026",
-        "source": "R4V"
       }
     ],
     "west-papua": [
@@ -1023,22 +1023,22 @@
     ],
     "yemen": [
       {
-        "title": "What we carried, what we left behind: Five accounts of displacement in Yemen",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/yemen/what-we-carried-what-we-left-behind-five-accounts-displacement-yemen",
-        "source": "Danish Refugee Council"
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "UNHCR Regional Response to the Yemen Situation One Month Impact Report, October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/yemen/unhcr-regional-response-yemen-situation-one-month-impact-report-october-2026",
-        "source": "UN High Commissioner for Refugees"
+        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "World: Reporting Sexual Violence and Abuse in Conflict - October 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/world/reporting-sexual-violence-and-abuse-conflict-october-2026",
-        "source": "Insecurity Insight"
+        "title": "The Desert Locust Outbreak Develops in Mauritania - 26 November 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/mauritania/desert-locust-outbreak-develops-mauritania-26-november-2026",
+        "source": "Food and Agriculture Organization of the United Nations"
       }
     ]
   }
