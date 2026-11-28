@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "crises": {
     "aboriginal-australians": [
       {
@@ -183,6 +183,12 @@
     ],
     "central-african-republic": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
@@ -193,31 +199,25 @@
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
-        "source": "GAVI Alliance"
       }
     ],
     "chad": [
       {
-        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "title": "WFP Cameroon Country Brief, November 2026",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/cameroon/wfp-cameroon-country-brief-november-2026",
+        "source": "World Food Programme"
       },
       {
-        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
+        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
+        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
       }
     ],
@@ -243,22 +243,22 @@
     ],
     "congo": [
       {
-        "title": "DR Congo: RDC — Présence opérationnelle des partenaires de la riposte à Ebola au 15 novembre 2026",
+        "title": "DR Congo: Nord-Ubangi - Présence opérationnelle des partenaires de la riposte à Ebola Au 15 novembre 2026",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/map/democratic-republic-congo/rdc-presence-operationnelle-des-partenaires-de-la-riposte-ebola-au-15-novembre-2026",
+        "url": "https://reliefweb.int/map/democratic-republic-congo/nord-ubangi-presence-operationnelle-des-partenaires-de-la-riposte-ebola-au-15-novembre-2026",
         "source": "Health Cluster"
       },
       {
-        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "title": "DR Congo: Ituri — Présence opérationnelle des partenaires de la riposte à Ebola Au 15 novembre 2026",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "url": "https://reliefweb.int/map/democratic-republic-congo/ituri-presence-operationnelle-des-partenaires-de-la-riposte-ebola-au-15-novembre-2026",
+        "source": "Health Cluster"
       },
       {
-        "title": "DR Congo: Cluster Protection RDC : Points saillants de la situation de protection en République démocratique du Congo du mois d'octobre 2026",
+        "title": "DR Congo: Haut-Uélé | Présence opérationnelle des partenaires de la riposte à Ebola au 15 novembre 2026",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-protection-rdc-points-saillants-de-la-situation-de-protection-en-republique-democratique-du-congo-du-mois-doctobre-2026",
-        "source": "Protection Cluster"
+        "url": "https://reliefweb.int/map/democratic-republic-congo/haut-uele-presence-operationnelle-des-partenaires-de-la-riposte-ebola-au-15-novembre-2026",
+        "source": "Health Cluster"
       }
     ],
     "eritrea": [
@@ -303,6 +303,12 @@
     ],
     "haiti": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
@@ -313,12 +319,6 @@
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "Haiti | Cluster Nutrition | Présence opérationnelle des partenaires 2026 (octobre 2026)",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/haiti/haiti-cluster-nutrition-presence-operationnelle-des-partenaires-2026-octobre-2026",
-        "source": "Nutrition Cluster"
       }
     ],
     "horn-of-africa-drought": [
@@ -403,6 +403,12 @@
     ],
     "lake-chad": [
       {
+        "title": "WFP Cameroon Country Brief, November 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/cameroon/wfp-cameroon-country-brief-november-2026",
+        "source": "World Food Programme"
+      },
+      {
         "title": "Central African Republic: Situation Report No. 94, as of 17 November 2026",
         "date": "2026-11-20",
         "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-situation-report-no-94-17-november-2026",
@@ -413,12 +419,6 @@
         "date": "2026-11-16",
         "url": "https://reliefweb.int/report/world/statement-forty-sixth-meeting-polio-ihr-emergency-committee-13-november-2026",
         "source": "World Health Organization"
-      },
-      {
-        "title": "Standard Operating Procedures for Prevention of and Response to Gender-Based Violence in Borno State, Nigeria",
-        "date": "2026-11-12",
-        "url": "https://reliefweb.int/report/nigeria/standard-operating-procedures-prevention-and-response-gender-based-violence-borno-state-nigeria",
-        "source": "Gender Based Violence Area of Responsibility"
       }
     ],
     "lebanon": [
@@ -463,26 +463,32 @@
     ],
     "madagascar": [
       {
+        "title": "Angola: Southern Africa and Indian Ocean (SAIO) region | Food insecurity (October 2026 – May 2027) - DG ECHO Daily Map | 27/11/2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/map/angola/southern-africa-and-indian-ocean-saio-region-food-insecurity-october-2026-may-2027-dg-echo-daily-map-27112026",
+        "source": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations"
+      },
+      {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
-        "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "WFP Madagascar Country Brief, November 2026",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/madagascar/wfp-madagascar-country-brief-november-2026",
-        "source": "World Food Programme"
       }
     ],
     "mali": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
@@ -493,36 +499,36 @@
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "Niger - mise à jour opérationnelle trimestrielle - juillet à septembre 2026",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/niger/niger-mise-jour-operationnelle-trimestrielle-juillet-septembre-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "mozambique": [
       {
+        "title": "Angola: Southern Africa and Indian Ocean (SAIO) region | Food insecurity (October 2026 – May 2027) - DG ECHO Daily Map | 27/11/2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/map/angola/southern-africa-and-indian-ocean-saio-region-food-insecurity-october-2026-may-2027-dg-echo-daily-map-27112026",
+        "source": "European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations"
+      },
+      {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
-        "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: Major new funding announced for Gavi’s malaria vaccine programme",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/major-new-funding-announced-gavis-malaria-vaccine-programme",
-        "source": "GAVI Alliance"
       }
     ],
     "myanmar": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
@@ -533,12 +539,6 @@
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: Routes Monitor Key Updates - November 2026",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/world/routes-monitor-key-updates-november-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "nagorno-karabakh": [
@@ -563,9 +563,9 @@
     ],
     "niger": [
       {
-        "title": "Nigeria: HCR : les coupes budgétaires exposent les femmes et les filles réfugiées à un risque accru de violences basées sur le genre | HCR",
+        "title": "Nigeria: HCR : les coupes budgétaires exposent les femmes et les filles réfugiées à un risque accru de violences basées sur le genre",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/nigeria/hcr-les-coupes-budgetaires-exposent-les-femmes-et-les-filles-refugiees-un-risque-accru-de-violences-basees-sur-le-genre-hcr",
+        "url": "https://reliefweb.int/report/nigeria/hcr-les-coupes-budgetaires-exposent-les-femmes-et-les-filles-refugiees-un-risque-accru-de-violences-basees-sur-le-genre",
         "source": "UN High Commissioner for Refugees"
       },
       {
@@ -583,21 +583,21 @@
     ],
     "nigeria": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
       },
       {
-        "title": "Nigeria: HCR : les coupes budgétaires exposent les femmes et les filles réfugiées à un risque accru de violences basées sur le genre | HCR",
+        "title": "Nigeria: HCR : les coupes budgétaires exposent les femmes et les filles réfugiées à un risque accru de violences basées sur le genre",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/nigeria/hcr-les-coupes-budgetaires-exposent-les-femmes-et-les-filles-refugiees-un-risque-accru-de-violences-basees-sur-le-genre-hcr",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
+        "url": "https://reliefweb.int/report/nigeria/hcr-les-coupes-budgetaires-exposent-les-femmes-et-les-filles-refugiees-un-risque-accru-de-violences-basees-sur-le-genre",
         "source": "UN High Commissioner for Refugees"
       }
     ],
@@ -723,6 +723,12 @@
     ],
     "sahel": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
@@ -733,12 +739,6 @@
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: From forecasts to action: strengthening Africa's response to El Niño",
-        "date": "2026-11-26",
-        "url": "https://reliefweb.int/report/world/forecasts-action-strengthening-africas-response-el-nino",
-        "source": "Norwegian Refugee Council"
       }
     ],
     "sahrawi-refugees": [
@@ -803,62 +803,62 @@
     ],
     "somalia": [
       {
+        "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 27 Nov 2026",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-27-nov-2026",
+        "source": "Radio Ergo"
+      },
+      {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
-        "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "Flash floods cut families off from healthcare in Mudug, Somalia",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/somalia/flash-floods-cut-families-healthcare-mudug-somalia",
-        "source": "Médecins Sans Frontières"
       }
     ],
     "south-sudan": [
       {
+        "title": "South Sudan Humanitarian Fund: 2026 monitoring report (1 January to 31 August 2026)",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-fund-2026-monitoring-report-1-january-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
+      },
+      {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
         "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
-        "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
-        "source": "UN High Commissioner for Refugees"
       }
     ],
     "sudan": [
       {
-        "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
+        "title": "South Sudan Humanitarian Fund: 2026 monitoring report (1 January to 31 August 2026)",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
-        "source": "Food and Agriculture Organization of the United Nations"
+        "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-fund-2026-monitoring-report-1-january-31-august-2026",
+        "source": "UN Office for the Coordination of Humanitarian Affairs"
       },
       {
-        "title": "World: UNHCR warns funding cuts are leaving refugee women and girls at greater risk of gender-based violence",
+        "title": "Sudan FaSER - Alert Summary Report: Displacement Gubo Camp, Sharg aj Jabal, South Darfur (6 October 2026)",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/world/unhcr-warns-funding-cuts-are-leaving-refugee-women-and-girls-greater-risk-gender-based-violence",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/sudan/sudan-faser-alert-summary-report-displacement-gubo-camp-sharg-aj-jabal-south-darfur-6-october-2026",
+        "source": "Solidarités International"
       },
       {
-        "title": "Sudan Situation: UNHCR Monthly External Update #124 - October 2026",
+        "title": "Sudan FaSER - Alert Summary Report: Displacement - Gerieda, South Darfur (20 October 2026)",
         "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-124-october-2026",
-        "source": "UN High Commissioner for Refugees"
+        "url": "https://reliefweb.int/report/sudan/sudan-faser-alert-summary-report-displacement-gerieda-south-darfur-20-october-2026",
+        "source": "Solidarités International"
       }
     ],
     "syria": [
@@ -943,6 +943,12 @@
     ],
     "ukraine": [
       {
+        "title": "Ukraine: Meaning-Making Workshop Outcome Document: Cross-Cutting Demographic Realities for 2027 HNRP Planning",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/ukraine/meaning-making-workshop-outcome-document-cross-cutting-demographic-realities-2027-hnrp-planning",
+        "source": "CARE"
+      },
+      {
         "title": "UNHCR Poland Fact Sheet, September 2026",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/poland/unhcr-poland-fact-sheet-september-2026",
@@ -953,12 +959,6 @@
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/denmark/unhcr-denmark-fact-sheet-september-2026",
         "source": "UN High Commissioner for Refugees"
-      },
-      {
-        "title": "Safe, Dignified and Gender-Responsive Sanitation for Humanitarian Demining Operations in Ukraine",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/ukraine/safe-dignified-and-gender-responsive-sanitation-humanitarian-demining-operations-ukraine",
-        "source": "WeWorld"
       }
     ],
     "uyghurs": [
@@ -1023,6 +1023,12 @@
     ],
     "yemen": [
       {
+        "title": "Sudan: El Niño suma nuevos puntos críticos del hambre mientras los conflictos siguen aumentando el riesgo de hambruna, advierten la FAO y WFP",
+        "date": "2026-11-27",
+        "url": "https://reliefweb.int/report/sudan/el-nino-suma-nuevos-puntos-criticos-del-hambre-mientras-los-conflictos-siguen-aumentando-el-riesgo-de-hambruna-advierten-la-fao-y-wfp",
+        "source": "Food and Agriculture Organization of the United Nations"
+      },
+      {
         "title": "World: El Niño crée de nouveaux foyers de faim tandis que les conflits continuent d’alimenter le risque de famine, alertent la FAO et le PAM",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/el-nino-cree-de-nouveaux-foyers-de-faim-tandis-que-les-conflits-continuent-dalimenter-le-risque-de-famine-alertent-la-fao-et-le-pam",
@@ -1032,12 +1038,6 @@
         "title": "World: Hunger Hotspots FAO-WFP early warnings on acute food insecurity December 2026 to May 2027 outlook",
         "date": "2026-11-27",
         "url": "https://reliefweb.int/report/world/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-december-2026-may-2027-outlook",
-        "source": "Food and Agriculture Organization of the United Nations"
-      },
-      {
-        "title": "The Desert Locust Outbreak Develops in Mauritania - 26 November 2026",
-        "date": "2026-11-27",
-        "url": "https://reliefweb.int/report/mauritania/desert-locust-outbreak-develops-mauritania-26-november-2026",
         "source": "Food and Agriculture Organization of the United Nations"
       }
     ]
